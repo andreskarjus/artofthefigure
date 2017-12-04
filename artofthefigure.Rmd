@@ -6,6 +6,8 @@ output:
     toc: yes
 ---
 
+This is the University of Edinburgh PPLS Writing Centre workshop *The aRt of the figure: Visualising your data using R*. Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code: you will be guided through all the exercises in the workshop (except the bonus sections, which are meant as additional material to be explored on your own once you've learned the basics).
+
 ```{r, echo=F, eval=F}
 # These were the pre-workshop instructions. Feel free to click the downward triangle on the left side bar (the one with line numbers) to hide this section.
 
@@ -73,7 +75,7 @@ hist(xdata, breaks=20, main="Frequency of dice values") # plots a histogram (dis
 ## Note on plotting and generating artificial example data for plotting
 
 - The plot() command is a generic function that (often) automatically adopts to data type.
-- We will be using plot() and a few of its cousins, but their parameters (like `color`) usually all have the same names.
+- We will be using plot() and a few of its cousins, but their parameters (like `col` for color) usually all have the same names.
 - Arguments have names, but names can be omitted if using them in their intended order. You can always check the parameters of a function by executing help(functionname) or searching for the function by name in the Help tab on the right.
 
 ```{r}
@@ -106,24 +108,27 @@ summary(iris)  # produces an automatic summary of the columns
 iris$Petal.Length       # the $ is used for accessing (named) column of a dataframe
 iris[, "Petal.Length"]  # this is the other indexing notation
 plot(iris$Petal.Length) # two observations: there is quite a bit of variation, and it seems there are clusters in the data
-hist(iris$Petal.Length, breaks=25) # a histogram shows the distribution of values (breaks change resolution)
+hist(iris$Petal.Length, breaks=10) # a histogram shows the distribution of values (breaks change resolution)
 boxplot(iris$Petal.Length)         # a boxplot is like a visual summary()
-points(x=rep(1, nrow(iris)), y=iris$Petal.Length, col = rgb(0,0,0, alpha=0.2)) # could also add actual datapoints
+points(x=rep(1, nrow(iris)), y=iris$Petal.Length) # could also add actual datapoints
+
+# Here's something to try: the default color of the points is black. Change it to something else by adding the parameter col to the points command (remember, parameters are separated by commas, and they are given values using the = sign; color names must be in quotes, e.g., "red").
 
 # Plot boxplots, grouped by the Species variable:
 boxplot(iris$Petal.Length ~ iris$Species) # note the ~ notation
 grid() # why not add a grid for reference
 
 # A slightly nicer version:
-boxplot(iris$Petal.Length ~ iris$Species, ylab="petal length", border=c("purple", "darkblue", "lightblue"), boxwex=0.5, cex=0.4) 
-abline(h=1:7, col=rgb(0,0,0,0.1))  # add vertical lines instead of full grid
+boxplot(iris$Petal.Length ~ iris$Species, ylab="petal length", 
+        border=c("purple", "darkblue", "lightblue"), boxwex=0.5, cex=0.4) 
+abline(h=1:7, col=rgb(0,0,0,0.1))  # adds vertical lines instead of full grid
 
 ```
 
-A Note on the `rgb(red, green, blue, alpha)` function: this allows making custom colors; `alpha` controls transparency. Possible values range between 0 and 1 by default. Below is a piece of code that generates an example of how the color scheme works (don't worry if you don't understand the actual code, this is above the level of this workshop; just select the entire block and run it (or press CTRL+SHIFT+ENTER (CMD+SHIFT+ENTER on Mac) while the text cursor is inside the block).
-```{r, echo=F}
+A Note on the `rgb(red, green, blue, alpha)` function: this allows making custom colors; `alpha` controls transparency. Possible values range between 0 and 1 by default. Below is a piece of code that generates an example of how the color scheme works (don't worry if you don't understand the actual code, this is above the level of this workshop; just put the cursor in the code block and press CTRL+SHIFT+ENTER (CMD+SHIFT+ENTER on Mac).
 
-# select from here...
+```{r, echo=F}
+# An example of how RGB color mixing works.
 xpar=par(no.readonly = T)
 par(bg="black", mar=c(0,0,1,0), mfrow=c(2,1))
 plot(NA, ylim=c(-0.1,1.1), xlim=c(-0.1,1.1), type="n", xaxt="n", yaxt="n", main="")
@@ -145,7 +150,6 @@ for(r in seq(0,1,0.2) ){
   } 
 }
 par(xpar)
-# ...until here, and run the code.
 
 ```
 
@@ -157,7 +161,7 @@ This short workshop is not intended to cover statistical concepts like correlati
 plot(iris$Sepal.Length, iris$Sepal.Width) # no interaction?
 
 # Why not color-code by species. This method also makes use of the [ ] indexing.
-iriscolors= c("purple", "darkblue", "lightblue")
+iriscolors = c("purple", "darkblue", "lightblue")
 plot(iris$Sepal.Length, iris$Sepal.Width, 
      col=iriscolors[iris$Species], pch=20) # pch sets the point type
 legend("topleft", pch=20, legend = levels(iris$Species), col=iriscolors, cex=0.7, bty="n") # add legend
@@ -173,7 +177,7 @@ legend("topleft", pch=irispoints, legend = levels(iris$Species), col=iriscolors,
 plot(iris$Sepal.Length, iris$Sepal.Width, 
      col=iriscolors[iris$Species] , pch=irispoints[iris$Species],
      main="Iris sepals in three species", xlab="Sepal length", ylab="Sepal width")
-grid(col=rgb(0, 0, 0, 0.2))
+grid(col=rgb(0, 0, 0, 0.2)) # 0,0,0 results in black, 0.2 alpha makes it transparent (so, grey on a white background)
 legend("topleft", pch=irispoints, legend = levels(iris$Species), col=iriscolors, cex=0.7, bty="n")
 
 ```
@@ -188,7 +192,7 @@ grid(col=rgb(0,0,0,0.2), lty=1)
 
 # do the regression analysis:
 linmodel = lm(iris$Petal.Length ~ iris$Sepal.Length)
-abline(linmodel, col=rgb(0,0,0,0.3), lwd=4) # abline can handle the output of the lm (linear model) command
+abline(linmodel, col=rgb(0,0,0,0.3), lwd=4) # abline can handle the output of the lm (linear model) command; lwd sets line width.
 
 # *Of course we already recognized that the data is more complex as initially thought (consisting of three distinct groups), so a proper regression model should take that into account.
 ```
@@ -201,15 +205,15 @@ While a whole subject on its own, we will have a quick look at plotting time ser
 # "The following data are reaction times to stimuli of one individual, over 100 trials, in an experiment on..."
 retime = c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 )
 
-# Have a look at the raw data first
+# Have a look at the raw data first! (by now you already know how to do it)
 
 # Now let's plot it
-plot(retime, ylab="reaction time" )
+plot(retime, ylab="reaction time") # this plots points though
 ```
 
 What can you tell by the looks of the data?
 
-Exercise: improve this plot by adding the 'type' parameter and setting its value as "l" (which stands for line, which are more useful in this instance), and set the X axis label (xlab) to say "trials" instead of the default "Index".
+Exercise: improve this plot by adding the `type` parameter and setting its value as "l" (which stands for line, which are more useful in this instance), and set the X axis label (xlab) to say "trials" instead of the default "Index".
 
 ```{r, eval=F, echo=F}
 ## Bonus: plotting multiple (although still artificial) time series.
@@ -248,6 +252,7 @@ boubakiki = data.frame(
 
 # Now let's use the table() function to make sense of it:
 bktable = table(boubakiki)
+bktable
 mosaicplot(bktable, col=c("orange", "navy"))  # a simple mosaic plot, displays proportions
 barplot(bktable, ylab="big    small")         # a barplot, displays counts
 ```
@@ -289,7 +294,8 @@ axis(1, 1:length(sortedwords), names(sortedwords), las=2, cex.axis=0.5) # add th
 # Time to use the wordcloud package we installed earlier
 library("wordcloud") # load the package (needs to be done again when you start R again)
 wordfreqs = as.numeric(sortedwords) # get the frequencies from the table object
-wordcloud(words = names(sortedwords), freq=wordfreqs, min.freq = 0)
+
+wordcloud(words = names(sortedwords), freq=wordfreqs, min.freq = 0) # needs the wordcloud package to work
 
 # Note: if R gives you errors (saying word x could not fit), ignore them. Also, if plots look strange after using wordcloud, use the dev.off() command to reset graphics.
 
@@ -311,7 +317,7 @@ That's it for today!
 
 Do play around with these things later when you have time, and look into the bonus sections for more cool stuff. If you get stuck, Google is your friend; also, check out www.stackoverflow.com - this site is a goldmine of programming (including R) questions and solutions. If you get into making more plots, you might also want to look into the `ggplot2` package, which offers an alternative way of making plots, which some people find more intuitive than the basic R way.
 
-Also, if you get around analysing your own data and need help in terms of presenting and writing about the results of your analyses, choosing the right graph type, what to plot, and how to plot the things you want to plot - feel free to book a session with me through the PPLS Writing Centre.
+Also, if you get around analysing your own data and need help in terms of writing about the results of your analyses and presenting your data, choosing the right graph type, what to plot, and in general how to plot the things you want to plot - feel free to book a session with me through the PPLS Writing Centre: go to http://writingcentre.ppls.ed.ac.uk/appointments/ -> Book an appointment -> look for my name (Andres Karjus) in the list of tutors, in the 'Select staff' dropdown menu.
 
 ---
 
@@ -373,7 +379,7 @@ library("raster")
 uk = getData("GADM", country = "United Kingdom", level = 2) # download UK map (needs the raster package to be loaded)
 par(mar=c(0,0,0,0)) # change plot area for better visibility - mar defines the margins, which are usually used for the axes and labels (reset using dev.off() later)
 plot(uk, lwd=0.4) # plot the UK
-grid()            # add grid
+grid()            # adds grid
 points(-3.1833, 55.9533, pch=20, col="blue", cex=2) # your current location :)
 plot(uk, lwd=0.4, xlim=c(-4,-1), ylim=c(55.7,55.8)); points(-3.1833, 55.9533, pch=20, col="blue", cex=2) # zoom in
 
