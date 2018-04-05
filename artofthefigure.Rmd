@@ -311,9 +311,9 @@ wordcloud(names(sortedwords2), as.numeric(sortedwords2), min.freq = 0, col=terra
 ```
 
 
-# The end.
+# Almost there!
 
-That's it for today!
+That's it for today.
 
 Do play around with these things later when you have time, and look into the bonus sections for more cool stuff. If you get stuck, Google is your friend; also, check out www.stackoverflow.com - this site is a goldmine of programming (including R) questions and solutions. If you get into making more plots, you might also want to look into the `ggplot2` package, which offers an alternative way of making plots, which some people find more intuitive than the basic R way.
 
@@ -339,11 +339,12 @@ You might have also noticed the echo=F parameter - this just means the code itse
 ```{r, eval=F, echo=F}
 # This block is for installing a package, leave eval=F
 install.packages("igraph") # install a "package", a collection of functions to extend R's basic functionality; this needs to be done only once for each package.
+install.packages("visNetwork") # install this one as well
 ```
 
 ```{r, eval=F, echo=F}
 # Feel free to set eval=T to render the blocks herein when knitting to html.
-library("igraph")  # load the package; this needs to be done once after starting R/RStudio
+library("igraph", quietly = T, verbose = F)  # load the package; this needs to be done once after starting R/RStudio
 
 # Create an object with some Scottish people (could be a sample in a sociolinguistic study):
 scots=c("Angus","Archibald","Baldwin","Boyd","Cinead","Craig","Diarmid","Donald","Duncan","Eachann","Erskine","Ethan","Fergus","Fingal","Fraser","Hamilton","Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una") 
@@ -358,7 +359,7 @@ scotgraph = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) 
 # Let's modify the plotting parameters, and add M/F values for the sample
 mf = c(rep("m", nscots-9), rep("f", 9)) # create a vector of labels
 mfcolors = ifelse(mf=="m", yes="blue",no="tomato")
-
+par(mar=c(0,0,0,0)) # makes margins more suitable for igraph plotting
 plot(scotgraph, 
      vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA,   # vertex color and size
      vertex.label.cex=0.9, vertex.label.dist=0.1, vertex.label.font=2, # vertex labels
@@ -366,6 +367,23 @@ plot(scotgraph,
      edge.color=rgb(0,0,0,0.3))
 
 ```
+
+```{r, eval=F, echo=F}
+# Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
+library(visNetwork, quietly=T, verbose = F)
+scotgraph_v = toVisNetworkData(scotgraph) # converts the previous igraph object into a visNetwork object
+scotgraph_v$nodes$color = mfcolors # let's use the same node colors
+scotgraph_v$edges$color = "lightgray"
+# This would create the graph using default settings: visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges)
+#  but let's make it a bit nicer.
+# You may notice that in the visNetwork help files, the examples use the magrittr package's %>% pipe notation. The example below does not in order to keep things simple, but feel free to explore magrittr, it makes writing sequences such as the one below much more elegant.
+v = visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges, height = "500px")
+v = visNodes(v, size = 10,  shadow=T)
+v = visPhysics(v, enable=T, solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -10)) 
+v # calling the visNetwork object plots it. try clicking on the nodes, moving them, and zooming. Pretty neat, no?
+
+```
+
 
 ## X marks the spot: making maps in R
 
@@ -451,5 +469,25 @@ for (i in 1:12){            # this is a for-loop
 # save these as .png files instead (use png() ) and then convert the pngs into gif
 ```
 
-### Anything else
+## Anything else
 There are also packages to import (and manipulate) images, GIS map data (shapefiles), data from all sorts of other file formats (like XML, HTML) and many more. Just google a bit and you'll find what you need.
+
+# Final words on attributions, citing and references
+
+R and its packages are all free open-source software, meaning countless people have invested a lot of their own time into making this possible. If you use R, do cite it in your work (use the handy `citation()` command in R to get an up to date reference, both in plain text and BibTeX). To cite a package, use `citation("package name")`. You are also absolutely welcome to use any piece of code from this workshop, but in that case I would likewise appreciate if you would cite it:
+
+- Karjus, Andres (2018). The aRt of the Figure. GitHub repository, https://github.com/andreskarjus/artofthefigure
+- BibTeX: 
+```
+@misc{karjus_artofthefigure_2018, 
+  author = {Karjus, Andres}, 
+  title = {The aRt of the figure}, 
+  year = {2018}, 
+  publisher = {GitHub}, 
+  journal = {GitHub repository}, 
+  howpublished = {\url{https://github.com/andreskarjus/artofthefigure}} 
+} 
+```
+
+
+
