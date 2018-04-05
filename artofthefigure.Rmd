@@ -1,12 +1,12 @@
 ---
-title: "The aRt of the figure"
+title: "aRt of the Figure"
 author: Andres Karjus
 output: 
   html_document: 
     toc: yes
 ---
 
-This is the University of Edinburgh PPLS Writing Centre workshop *The aRt of the figure: Visualising your data using R*. Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code: you will be guided through all the exercises in the workshop (except the bonus sections, which are meant as additional material to be explored on your own once you've learned the basics).
+This is the University of Edinburgh PPLS Writing Centre workshop *aRt of the Figure: Visualising your data using R*. Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code: you will be guided through all the exercises in the workshop (except the bonus sections, which are meant as additional material to be explored on your own once you've learned the basics).
 
 ```{r, echo=F, eval=F}
 # These were the pre-workshop instructions. Feel free to click the downward triangle on the left side bar (the one with line numbers) to hide this section.
@@ -476,12 +476,12 @@ There are also packages to import (and manipulate) images, GIS map data (shapefi
 
 R and its packages are all free open-source software, meaning countless people have invested a lot of their own time into making this possible. If you use R, do cite it in your work (use the handy `citation()` command in R to get an up to date reference, both in plain text and BibTeX). To cite a package, use `citation("package name")`. You are also absolutely welcome to use any piece of code from this workshop, but in that case I would likewise appreciate if you would cite it:
 
-- Karjus, Andres (2018). The aRt of the Figure. GitHub repository, https://github.com/andreskarjus/artofthefigure
+- Karjus, Andres (2018). aRt of the Figure. GitHub repository, https://github.com/andreskarjus/artofthefigure
 - BibTeX: 
 ```
 @misc{karjus_artofthefigure_2018, 
   author = {Karjus, Andres}, 
-  title = {The aRt of the figure}, 
+  title = {aRt of the Figure}, 
   year = {2018}, 
   publisher = {GitHub}, 
   journal = {GitHub repository}, 
