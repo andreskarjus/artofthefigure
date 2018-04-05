@@ -12,6 +12,9 @@ This repository is being used in a number of workshops for various audiences on 
   year = {2018}, 
   publisher = {GitHub}, 
   journal = {GitHub repository}, 
-  howpublished = {\url{https://github.com/andreskarjus/artofthefigure}} 
+  howpublished = {\url{https://github.com/andreskarjus/artofthefigure}},
+  DOI = {10.5281/zenodo.1213335}
 } 
 ```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1213335.svg)](https://doi.org/10.5281/zenodo.1213335)
