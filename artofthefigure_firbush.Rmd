@@ -24,26 +24,29 @@ print("Hello! Put your text cursor on this line (click on the line). Anywhere on
 
 Also, if you've been scrolling left and right in the script window to read the code, turn on text wrapping ASAP: on the menu bar above, go to Tools -> Global Options -> Code (on the left) -> tick "Soft-wrap R source files".
 
-So, print() is a function. Most functions look something like this: 
+So, `print()` is a function. Most functions look something like this: 
 
 - `myfunction(inputs, parameters)`
 
-All the inputs to the function go inside the ( ) brackets. In the above case, the text is the input to the `print()` function. All text, or "strings", must be within quotes.
+All the inputs to the function go inside the ( ) brackets, separated by commas. In the above case, the text is the input to the `print()` function. All text, or "strings", must be within quotes. Note that commands may be nested; in this case, the innermost are evaluated first:
 
-Let's try another function, `sum()`:
+- `fun2( fun1(do, something), parameters ) # fun1 is evaluated first, and its output becomes the input for fun2.`
 
-```{r}
+Don't worry if that's all a bit confusing for now. Let's try another function, `sum()`:
+
+```{r, eval=F}
 sum(1,10) # cursor on the line, press CTRL+ENTER (or CMD+ENTER on Mac)
-# You should see the output (sum of 1 and 10) in the console. Note that you can also write commands directly in the console, and executing them with ENTER. Try some simple maths: write 2*3+1 in the console below, and press ENTER.
-
+# You should see the output (sum of 1 and 10) in the console. 
 # Important: you can always get help for a function and check its input parameters by executing 
 help(sum)  # put the name of any function in the brackets
 # ...or by searching for the function by name in the Help tab on the right.
 
+# Exercise. You can also write commands directly in the console, and executing them with ENTER. Try some more simple maths - math in R can also be written using regular math symbols (which are really also functions). Write 2*3+1 in the console below, and press ENTER.
+
 # Let's plot something. The command for plotting is, surprisingly, plot().
-plot(42, main = "Greatest plot in the world") # execute the command; a plot should appear on the right.
-# OK, this was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data (a vector of length one), and the second is 'main', which specifies the main title of the plot. 
-# Note that you can make to plot bigger by pressing the 'Zoom' button above the plot panel on the right.
+plot(42, main = "The greatest plot in the world") # execute the command; a plot should appear on the right.
+# OK, that was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data (a vector of length one), and the second is 'main', which specifies the main title of the plot. 
+# You can make to plot bigger by pressing the 'Zoom' button above the plot panel on the right.
 
 # Let's create some data to play with. We'll use the sample() command, which creates random numbers from a predifined sample. Basically it's like rolling a dice some n times, and recording the results.
 sample(x = 1:6, size = 50, replace = T) # execute this; its output is 50 numbers 
@@ -57,44 +60,38 @@ plot(dice)               # plots data as it is ordered in the object
 xmean = mean(dice)       # calculate the mean of the 50 dice throws
 abline(h = xmean, lwd=3) # plot the mean as a horizontal line
 
+# Exercise: compare this plot with your neighbor. Do they look the same? Why/why not?
+
 ```
 
 
-
-# Files, scripts and shortcuts
-
-- This in an R Markdown (.Rmd) file. It's basically a plain text file, but RStudio recognizes some special symbols, and colors the sections accordingly. 
-     - The sections with the grey background, starting with the three accents (```{r} ) are R script, so R syntax applies (the # is used for comments). Outside of that (like this text here) is just plain text (incidentally # stands markdown headings). 
-    - In the end of the workshop, we will "knit" (render) our scripts as HTML files - this is one of the many benefits of writing your code in an .Rmd document.
-    
-- Remember: execute commands from the script by placing the text cursor on the line on pressing CTRL+ENTER (on PC) or CMD+ENTER (on Mac). This will also move the cursor to the next line. Use ALT+ENTER to execute but keep the cursor on the same line. 
-- Also, a tip: if you mess up the plotting window somehow (e.g. by changing global options), use the dev.off() command to reset the graphics engine.
-
-- Finally, this file contains a lot of stuff that we will not cover in this short workshop due to time constraints. These sections are marked as "bonus" - you are more than welcome to explore and experiment with the commands in there on your own time to create nicer plots, better plots, and cool stuff like maps and networks. If you need help with presenting stats and figures in the future, feel free to book a session with me via the Writing Centre.
-
-
 # Numerical data
+
 Numerical values include things we can measure on a continuous scale (height, weight, reaction time), things that can be ordered ("rate this on a scale of 1-5"), and things that have been counted (number of participants in an experiment, number of words in a text).
 
 ## A single numeric variable
 We will use a built-in classic dataset called "iris" - it contains information about a bunch of flowers.
 ```{r}
 data("iris")  # load the data into the workspace (or "global environment").
-# In RStudio, you can have a look at the dataframe by clicking on the little "table" icon next to it in the Environment section (top right).
 
 # We can also inspect the data using R commands.
 head(iris)     # prints the first rows
 summary(iris)  # produces an automatic summary of the columns
+# In RStudio, you can also have a look at the dataframe by clicking on the little "table" icon next to it in the Environment section (top right).
 help(iris)     # built in datasets often have help files attached
 
 # Plotting time! Let's see for example how long the petals are in the dataset
 iris$Petal.Length       # the $ is used for accessing (named) column of a dataframe
-iris[, "Petal.Length"]  # this is the other indexing notation
+iris[, "Petal.Length"]  # this is the other indexing notation: [row, column]
 plot(iris$Petal.Length) # two observations: there is quite a bit of variation, and it seems there are clusters in the data
 hist(iris$Petal.Length, breaks=10) # a histogram shows the distribution of values ('breaks' change resolution)
 boxplot(iris$Petal.Length)         # a boxplot is like a visual summary()
 points(x=rep(1, nrow(iris)), y=iris$Petal.Length) # could also add actual datapoints
 
+# Bonus: an easy way to deal with overlapping points is to add noise in the dimension that is not informative anyway:
+# boxplot(iris$Petal.Length); points(x=jitter(rep(1, nrow(iris)),5), y=iris$Petal.Length) 
+       
+       
 # Here's something to try: the default color of the points is black. Change it to something else by adding the parameter col to the points command (remember, parameters are separated by commas, and they are given values using the = sign; color names must be in quotes, e.g., "red").
 
 # Plot boxplots, grouped by the Species variable:
@@ -103,10 +100,11 @@ grid() # why not add a grid for reference
 
 # A slightly nicer version:
 boxplot(iris$Petal.Length ~ iris$Species, ylab="petal length", 
-        border=c("purple", "darkblue", "lightblue"), boxwex=0.5, cex=0.4) 
+        border=c("plum3", "darkblue", "lightblue"), boxwex=0.7, cex=0.4) 
 abline(h=1:7, col=rgb(0,0,0,0.1))  # adds vertical lines instead of full grid
 
 ```
+
 
 A Note on the `rgb(red, green, blue, alpha)` function: this allows making custom colors; `alpha` controls transparency. Possible values range between 0 and 1 by default. Below is a piece of code that generates an example of how the color scheme works (don't worry if you don't understand the actual code, this is above the level of this workshop; just put the cursor in the code block and press CTRL+SHIFT+ENTER (CMD+SHIFT+ENTER on Mac).
 
@@ -144,21 +142,19 @@ par(xpar)
 
 plot(iris$Sepal.Length, iris$Sepal.Width) # no interaction?
 
-# Why not color-code by species. This method also makes use of the [ ] indexing.
+# Why not color-code by species. Here we make use of both styles of indexing.
 iriscolors= c(rgb(0.5,0,0.9, 0.6), rgb(0,0,0.6,0.6), rgb(0,0.7,1,0.6)) # c("purple", "darkblue", "lightblue") but with transparency
 irispoints = c(15,16,17)  # see help(points) for more
 plot(iris$Sepal.Length, iris$Sepal.Width, 
      col=iriscolors[iris$Species], pch=20)  # pch sets the point type
 grid(col=rgb(0,0,0,0.3), lty=3)
-legend("topleft", pch=20, legend = levels(iris$Species), col=iriscolors, cex=0.7, bty="n") # add legend
-# Whoa... This is suddenly a lot of code out of nowhere. If some of it looks overwhelming, worry not, everything will become clear once you get into R a bit more. 
+# This is suddenly a lot of code out of nowhere... If some of it looks overwhelming, worry not! Everything will become clear once you get into R a bit more.
 
 # Add some detail to make this legible to the colour-blind, and printable in black-and-white
-irispoints = c(15,16,17)  # see help(points) for more
-plot(iris$Sepal.Length, iris$Sepal.Width, 
-     col = iriscolors[iris$Species] , pch = irispoints[iris$Species])
+irispoints = c(15,20,17)  # see help(points) for more
+plot(iris$Sepal.Length, iris$Sepal.Width, col = iriscolors[iris$Species] , pch = irispoints[iris$Species])
 
-# Make this publication-ready by adding proper labels
+# Make this publication-ready by adding proper labels and a legend
 plot(iris$Sepal.Length, iris$Sepal.Width, 
      col=iriscolors[iris$Species] , pch=irispoints[iris$Species],
      main="Iris sepals in three species", xlab="Sepal length", ylab="Sepal width")
@@ -294,14 +290,173 @@ wordcloud(words = names(sortedwords), freq=wordfreqs, min.freq = 0) # needs the 
 
 ```{r, eval=F, echo=F}
 ## Bonus: further cleaning for nicer clouds
-# Ideally we would remove stopwords (the, and...) before plotting things like wordclouds. There are packages  (tm, text2vec, quanteda) that do that in various ways, or you could write some code to do it yourself (using clever math to give greater weight to "context" words, removing stopwords using lists or regular expressions, etc).
-# But a very simple trick is to just remove all short words:
+# install.packages("quanteda") # install this package to make the last example works
+# Ideally we would remove stopwords (the, and...) before plotting things like wordclouds. There are packages  (tm, text2vec, quanteda) that do that in various ways - or you could write some code to do it yourself (using clever math to give greater weight to "context" words, removing stopwords using lists or regular expressions, etc).
+# A very simple trick is to just remove all short words:
 sortedwords2 = sortedwords[which(nchar(names(sortedwords))>3 ) ] # look up the help files of the commands used here if you'd like to understand how this works exactly
 par(mar=c(0,0,0,0)) # set plot area parameters to remove margins
 wordcloud(names(sortedwords2), as.numeric(sortedwords2), min.freq = 0, col=terrain.colors(10), scale=c(3,0.3))
 # terrains.colors() is a "palette", a function that generates a number of colors from a predefined set
-# once you are done with wordcloud, execute this to clear the plotting area parameters:
+
+# Another way is to use quanteda for preprocessing and wordclouds:
+library("quanteda", quietly = T, warn.conflicts=F)
+parsed = dfm(sometext, remove = stopwords('english'), remove_punct = TRUE, stem = FALSE) # try setting stemming to TRUE and see how that changes the picture 
+parsed[1,1:10] # quick look at the new data structure
+textplot_wordcloud(parsed, min_count = 1, color=terrain.colors(100)) 
+# this actually just uses wordcloud() internally
+
+# once you are done with wordclouds, execute this to clear the plotting area parameters:
 dev.off()
+```
+
+
+# Graphs, networks, and a bit of corpus linguistics
+
+## Social networks
+
+The following example will look into plotting social networks based on who knows who.
+```{r, eval=F, echo=F}
+# This block is for installing packages, leave eval=F
+install.packages("igraph") # install a "package", a collection of functions to extend R's basic functionality; this needs to be done only once for each package.
+install.packages("visNetwork")
+install.packages("quanteda")
+install.packages("plotly")
+```
+
+```{r}
+# Feel free to set eval=T to render the blocks herein when knitting to html.
+library("igraph", quietly = T, warn.conflicts=F)  # load the package; this needs to be done once after starting R/RStudio
+
+# Create an object with some random Scottish people (this could be a sample from a sociolinguistic study or whatever)
+scots=c("Angus","Archibald","Baldwin","Boyd","Cinead","Craig","Diarmid","Donald","Duncan","Eachann","Erskine","Ethan","Fergus","Fingal","Fraser","Hamilton","Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una") 
+nscots = length(scots) # record the number of people in an object
+# call the nscots object to see how many there are
+
+mates = matrix(sample(0:1,nscots^2,T,prob=c(0.95,0.05)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)); diag(mates)=0 # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
+mates[1:10,1:10] # but have a look at it anyway; '1' means these two people know each other; this line prints the first 10 rows and 10 columns
+scotgraph = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) # creates a graph object; igraph needs to be loaded
+
+# Have a look at the scotgraph object (list of links/"edges"). 
+# The raw data in the graph object is not particularly easy to read. Plotting the graph will help though. 
+# Exercise: call plot on the scotgraph object.
+
+#
+
+# This action produced a network... but the defaults are not very nice looking.
+# Let's modify the plotting parameters, and add color coding.
+mf = c(rep("m", nscots-9), rep("f", 9)) # create a vector of labels (there happens to be 9 women in the dataset)
+mfcolors = ifelse(mf=="m", yes="blue",no="tomato")
+par(mar=c(0,0,0,0)) # makes plot margins more suitable for igraph plotting
+plot(scotgraph, 
+     vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA,   # vertex color and size
+     vertex.label.cex=0.9, vertex.label.dist=0.1, vertex.label.font=2, # vertex labels
+     vertex.label.color=mfcolors,   # label color
+     edge.color=rgb(0,0,0,0.3))
+sort(ecount(scotgraph))
+
+# Bonus: some graph statistics
+sort(degree(scotgraph), decreasing = T)[1:3] # top most popular people (vertex degree, i.e. how many edges/links a vertex/node has)
+distances(scotgraph, v = "Mungo", to = "Duncan") # how distant are those dudes in the network (least n edges)
+mean_distance(scotgraph, unconnected = T) # average distance between the vertices (people)
+
+```
+
+Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
+```{r}
+library(visNetwork, quietly=T, warn.conflicts=F)
+
+scotgraph_v = toVisNetworkData(scotgraph) # converts the previous igraph object into a visNetwork object
+# adjust some parameters:
+scotgraph_v$nodes$color = mfcolors # let's use the same node colors
+scotgraph_v$nodes$size = 10
+scotgraph_v$edges$color = "lightgray"
+# plot it:
+visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges)
+#Try clicking on the nodes, moving them, and zooming. Pretty neat, no? You can also modify the physics engine to adjust the gravitational pull between the nodes, or disable it.
+
+# Bonus: You may notice that in the visNetwork help files, the examples use the magrittr package's %>% pipe notation. The example here does not, in order to keep things simple, but feel free to explore magrittr, it makes writing sequences such as the one below much more elegant.
+
+```
+
+
+# Citation networks
+
+In the following examples, we'll employ some light corpus analysis tools to visualize the content of the inaugural speeches of US presidents. We'll start by looking into which presidents mention or address other presidents in their speeches.
+```{r}
+library("quanteda", quietly=T, warn.conflicts=F) # make sure this is installed and load it; this also includes a dataset
+library("igraph", quietly=T, warn.conflicts=F)
+library("visNetwork", quietly=T, warn.conflicts=F)
+
+speeches = data_corpus_inaugural$documents$texts # extract speeches data from the internal object
+speeches = gsub("Washington DC", "DC", speeches) # replace city name to avoid confusion with president Washington (hopefully)
+speechgivers = data_corpus_inaugural$documents$President # names of presidents giving the speech
+presidents = unique(data_corpus_inaugural$documents$President) # presidents (some were elected more than once)
+
+# Exercise: have a look at speech number 58, and check who's giving the speech. Hint: use the bracket [] notation
+
+
+# The following piece of code looks for names of presidents in the speeches using grep(). Just run this little block:
+mentions = matrix(0, ncol=length(presidents), nrow=length(presidents), dimnames=list(presidents, presidents))
+for(president in presidents){
+  foundmentions = grep(president, speeches)
+  mentions[speechgivers[foundmentions], president ] = 1
+}
+# Note: this is not perfect - the code above concatenates mentions of multiple speeches by the same re-elected president, "Bush" refers to two different people, and other presidents might share names with other people as well. You can check the context of keywords using quanteda's kwic() command:
+kwic(data_corpus_inaugural, "Monroe")
+#
+
+# Have a look at the data some basic stats:
+mentions[30:35, 30:35] # rows: one mentioning; columns: being mentioned
+counts = apply(mentions, 2, sum)
+barplot(counts, horiz = T, las=1) # number of mentions
+
+
+# Plotting time
+pgraph = graph_from_adjacency_matrix(mentions, mode="directed") # this uses igraph
+plot(pgraph, edge.arrow.size=0.4)  # basic igraph plot
+
+# this uses visNetwork:
+pgraph_v = toVisNetworkData(pgraph )
+v = visNetwork(nodes = pgraph_v$nodes, edges = pgraph_v$edges)
+v # check how it looks before we add all the fancy stuff
+v = visNodes(v, size = 10,  shadow=T, font=list(size = 30))
+v = visIgraphLayout(v, "layout_in_circle", smooth=T)
+v = visEdges(v, arrows = "to",  shadow=T, smooth=list(type="discrete"), selectionWidth=5)
+v = visOptions(v, highlightNearest = list(enabled = T, hover = T, degree=1, labelOnly=F, algorithm="hierarchical"), nodesIdSelection = T)
+v
+
+```
+
+## What else is in there?
+
+While we're at it, let's try to probe into the contents of the speeches and use some more interactive plotting tools to visualize it.
+```{r}
+library("quanteda", quietly = T, warn.conflicts=F) # this needs to be loaded
+library("plotly", quietly = T, warn.conflicts=F)   # this too
+
+# This block of code will extract the top terms (weighted by tfidf) from the most recent speeches and calculate the distance between the speeches based on word usage
+termmat = dfm_tfidf(dfm(corpus_subset(data_corpus_inaugural, Year>1990), tolower = T, stem=F,remove=stopwords(), remove_punct=T))
+topterms = lapply(topfeatures(termmat, n=10, groups=rownames(termmat)), names)
+distmat = dist(termmat) # calculate distances
+mds = as.data.frame(cmdscale(distmat,k = 2)) # multidimentsional scaling (reduces distance matrix to 2 dimensions)
+mds$tags = paste(names(topterms), sapply(topterms, paste, collapse="<br>"), sep="<br>")
+
+# The following makes use of the plotly package
+p = plot_ly(mds,x=~V1,y=~V2, type="scatter", mode = 'markers', hoverinfo = 'text', text = ~tags)
+p = add_annotations(p, text = ~rownames(mds), xanchor="left", showarrow = F)
+p  # closer points mark more similar speeches; hover to see key terms that distinguish the speeches
+
+
+# A look into the usage of some words across centuries
+termmat_all = dfm_weight(dfm(data_corpus_inaugural, tolower = T, stem=F,remove=stopwords(), remove_punct=T), "prop") # use normalized frequencies
+words = c("america", "states",  "dream", "hope",  "business", "peace", "war", "terror")
+
+p = plot_ly(x=words, y=rownames(termmat_all), z=round(as.matrix(termmat_all[,words]),5), type="heatmap", colors = colorRamp(c("white", "orange", "darkred")),showscale = F)
+p = layout(p, margin = list(l=130, b=50), paper_bgcolor=rgb(0.99, 0.98, 0.97))
+p
+
+# Exercise: choose some other words!
+
 ```
 
 
@@ -321,61 +476,31 @@ To knit, click the `Knit` button (with the little blue ball of yarn) above the s
 <br>
 <br>
 
+
 # Bonus: things to try out at home.
+
 Here are some more things you can try out at home later. 
 
 Small note: if you try knitting the RMarkdown file again later and would like to see output from the bonus sections, set eval=TRUE in these blocks, which will allow them to be rendered (all bonus blocks currently have the eval parameter set as FALSE). Do not set eval to TRUE in the small blocks with the install.packages() commands though. 
 You might have also noticed the echo=F parameter - this just means the code itself will not be rendered in the knit output (even when it is executed).
 
-## Plotting social networks
+## Interactive plots in 3D!
+A quick look at a package that creates interactive (clickable, rotatable, etc) plots, both in 2D and 3D - these also work in web pages (like the html file you could create by knitting this script file; R Markdown can also be used to create slides, meaning you could easily include interactive graphs in your next presentation).
 ```{r, eval=F, echo=F}
-# This block is for installing a package, leave eval=F
-install.packages("igraph") # install a "package", a collection of functions to extend R's basic functionality; this needs to be done only once for each package.
-install.packages("visNetwork") # install this one as well
+install.packages("plotly") # install the package
 ```
 
 ```{r, eval=F, echo=F}
-# Feel free to set eval=T to render the blocks herein when knitting to html.
-library("igraph", quietly = T, verbose = F)  # load the package; this needs to be done once after starting R/RStudio
+library(plotly, warn.conflicts=F)
+# another look at the iris data (note this uses magrittr's pipe %>% notation)
+plot_ly(x= iris$Petal.Length,y=iris$Sepal.Width, z=iris$Sepal.Length, type="scatter3d",mode="markers",color=iris$Species) %>% layout(scene = list(yaxis=list(title="Sepal width"),xaxis=list(title="Petal length"), zaxis=list(title="Sepal.Length")))
 
-# Create an object with some Scottish people (could be a sample in a sociolinguistic study):
-scots=c("Angus","Archibald","Baldwin","Boyd","Cinead","Craig","Diarmid","Donald","Duncan","Eachann","Erskine","Ethan","Fergus","Fingal","Fraser","Hamilton","Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una") 
-nscots = length(scots) # record the number of people in an object
-mates = matrix(sample(0:1,nscots^2,T,prob=c(0.95,0.05)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)); diag(mates)=0 # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
-mates[1:10,1:10] # but have a look at it anyway; '1' means these two people know each other; this line prints the first 10 rows and 10 columns
-scotgraph = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) # creates a graph object; igraph needs to be loaded
+# Remember the rgb color plots with the black background from earlier? Given there are 3 colors, they really would make more sense in 3D, no?
+red=runif(1000);green=runif(1000);blue=runif(1000)
+plot_ly(x=red,y=green, z=blue, type="scatter3d",mode="markers", color=I(apply(cbind(red, green, blue,0.5),1, function(x) rgb(x[1],x[2], x[3])))) %>% layout(paper_bgcolor='black', scene = list(xaxis=list(title="red"),yaxis=list(title="green"), zaxis=list(title="blue")))
 
-# Have a look at the scotgraph object (list of links/"edges"). Then plot the scotgraph object.
-
-# OK, this produces a network, but it's not very nice looking...
-# Let's modify the plotting parameters, and add M/F values for the sample
-mf = c(rep("m", nscots-9), rep("f", 9)) # create a vector of labels
-mfcolors = ifelse(mf=="m", yes="blue",no="tomato")
-par(mar=c(0,0,0,0)) # makes margins more suitable for igraph plotting
-plot(scotgraph, 
-     vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA,   # vertex color and size
-     vertex.label.cex=0.9, vertex.label.dist=0.1, vertex.label.font=2, # vertex labels
-     vertex.label.color=mfcolors,   # label color
-     edge.color=rgb(0,0,0,0.3))
-
+plot_ly(x=c(2, 1,1,1,3,3,3, ),y=c(2, 1,2,3,1,2,3), z=c(1, 5,5,5,5,5,5 ), type="scatter3d",mode="markers", color=I(apply(cbind(red, green, blue,0.5),1, function(x) rgb(x[1],x[2], x[3])))) %>% layout(paper_bgcolor='black', scene = list(xaxis=list(title="red"),yaxis=list(title="green"), zaxis=list(title="blue")))
 ```
-
-```{r, eval=F, echo=F}
-# Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
-library(visNetwork, quietly=T, verbose = F)
-scotgraph_v = toVisNetworkData(scotgraph) # converts the previous igraph object into a visNetwork object
-scotgraph_v$nodes$color = mfcolors # let's use the same node colors
-scotgraph_v$edges$color = "lightgray"
-# This would create the graph using default settings: visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges)
-#  but let's make it a bit nicer.
-# You may notice that in the visNetwork help files, the examples use the magrittr package's %>% pipe notation. The example below does not in order to keep things simple, but feel free to explore magrittr, it makes writing sequences such as the one below much more elegant.
-v = visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges, height = "500px")
-v = visNodes(v, size = 10,  shadow=T)
-v = visPhysics(v, enable=T, solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -10)) 
-v # calling the visNetwork object plots it. try clicking on the nodes, moving them, and zooming. Pretty neat, no?
-
-```
-
 
 ## R marks the spot
 
@@ -385,32 +510,14 @@ install.packages("raster") # install another package
 ```
 
 ```{r, eval=F, echo=F}
-library("raster")
-uk = getData("GADM", country = "United Kingdom", level = 2) # download UK map (needs the raster package to be loaded)
+library("raster", warn.conflicts=F)
+uk = getData("GADM", country = "United Kingdom", level = 2) # download UK map (needs the raster package to be loaded; need internet connection)
 par(mar=c(0,0,0,0)) # change plot area for better visibility - mar defines the margins, which are usually used for the axes and labels (reset using dev.off() later)
 plot(uk, lwd=0.4) # plot the UK
 grid()            # adds grid
-points(-3.1833, 55.9533, pch=20, col="blue", cex=2) # your current location :)
+points(-3.1833, 55.9533, pch=20, col="blue", cex=2) # hello :)
 plot(uk, lwd=0.4, xlim=c(-4,-1), ylim=c(55.7,55.8)); points(-3.1833, 55.9533, pch=20, col="blue", cex=2) # zoom in
 
-```
-
-## Interactive plots in 3D!
-A quick look at a package that creates interactive (clickable, rotatable, etc) plots, both in 2D and 3D - these also work in web pages (like the html file you could create by knitting this script file; R Markdown can also be used to create slides, meaning you could easily include interactive graphs in your next presentation).
-```{r, eval=F, echo=F}
-install.packages("plotly") # install the package
-```
-
-```{r, eval=F, echo=F}
-library(plotly)
-# another look at the iris data (note this uses magrittr's pipe %>% notation)
-plot_ly(x= iris$Petal.Length,y=iris$Sepal.Width, z=iris$Sepal.Length, type="scatter3d",mode="markers",color=iris$Species) %>% layout(scene = list(yaxis=list(title="Sepal width"),xaxis=list(title="Petal length"), zaxis=list(title="Sepal.Length")))
-
-# Remember the rgb color plots with the black background from earlier? Given there are 3 colors, they really would make more sense in 3D, no?
-red=runif(1000);green=runif(1000);blue=runif(1000)
-plot_ly(x=red,y=green, z=blue, type="scatter3d",mode="markers", color=I(apply(cbind(red, green, blue,0.5),1, function(x) rgb(x[1],x[2], x[3])))) %>% layout(paper_bgcolor='black', scene = list(xaxis=list(title="red"),yaxis=list(title="green"), zaxis=list(title="blue")))
-
-plot_ly(x=c(2, 1,1,1,3,3,3, ),y=c(2, 1,2,3,1,2,3), z=c(1, 5,5,5,5,5,5 ), type="scatter3d",mode="markers", color=I(apply(cbind(red, green, blue,0.5),1, function(x) rgb(x[1],x[2], x[3])))) %>% layout(paper_bgcolor='black', scene = list(xaxis=list(title="red"),yaxis=list(title="green"), zaxis=list(title="blue")))
 ```
 
 
@@ -468,7 +575,7 @@ There are also packages to import (and manipulate) images, GIS map data (shapefi
 
 # Final words on attributions, citing and references
 
-R and its packages are all free open-source software, meaning countless people have invested a lot of their own time into making this possible. If you use R, do cite it in your work (use the handy `citation()` command in R to get an up to date reference, both in plain text and BibTeX). To cite a package, use `citation("package name")`. You are also absolutely welcome to use any piece of code from this workshop, but in that case I would likewise appreciate if you would cite it:
+R and its packages are all free open-source software, meaning countless people have invested a lot of their own time into making this possible. If you use R, do cite it in your work (use the handy `citation()` command in R to get an up to date reference, both in plain text and BibTeX). To cite a package, use `citation("package name")`. You are also absolutely welcome to use any piece of code from this workshop, but in that case I would likewise appreciate a citation:
 
 - Karjus, Andres (2018). aRt of the Figure. GitHub repository, https://github.com/andreskarjus/artofthefigure
 - BibTeX: 
@@ -479,7 +586,8 @@ R and its packages are all free open-source software, meaning countless people h
   year = {2018}, 
   publisher = {GitHub}, 
   journal = {GitHub repository}, 
-  howpublished = {\url{https://github.com/andreskarjus/artofthefigure}} 
+  howpublished = {\url{https://github.com/andreskarjus/artofthefigure}},
+  DOI = {10.5281/zenodo.1213335}
 } 
 ```
 
