@@ -591,7 +591,7 @@ words2 = c("america$", "^nation", "^happ", "immigra", "arm[yi]", "^[0-9,.]*$")
 newmat = round(sapply(words2, function(x) rowSums(termmat_prop[, grep(x, colnames(termmat_prop))])),5)
 # You can check which column names would be matched with:
 grep("america", colnames(termmat_prop), value=T)
-# Then copy the plotly command from above and substitu the z parameter value with newmat.
+# Then copy the plotly command from above and substitute the z parameter value with newmat.
 
 ```
 
