@@ -2,7 +2,7 @@
 
 [*Andres Karjus*](https://andreskarjus.github.io/)
 
-This repository is being used in a number of workshops for various audiences on creating informative graphs and figures using R. Feel free to use any bits and pieces from it in your own work; to cite it, you can use:
+This repository is being used in a number of workshops for various audiences on creating informative graphs and figures using R. More info [here](https://andreskarjus.github.io/artofthefigure). Feel free to use any bits and pieces from it in your own work; to cite it, you can use:
 - Karjus, Andres (2018). aRt of the Figure. GitHub repository, https://github.com/andreskarjus/artofthefigure
 - BibTeX: 
 ```
