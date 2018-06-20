@@ -1,0 +1,49 @@
+---
+title: "Quotes by musicians about other musicians"
+output: html_document
+---
+(a completely unrepresentative toy dataset scraped from random places on the web)
+<br> (credit for coding the (dataset)[https://docs.google.com/spreadsheets/d/1y1SAzazs-2ANKihQ5f4bmxhlXnIBnzlLkcMdTQr9OwU/edit?usp=sharing] goes to participants of the participants of the [aRt of the Figure workshop at the SGSSS Summer School 2018](https://andreskarjus.github.io/artofthefigure/) )
+
+```{r, echo=F, eval=T,warning=F,message=F, out.width="90%"}
+library("visNetwork", quietly = T, warn.conflicts = F)
+library("igraph",quietly = T, warn.conflicts = F)
+load("/Users/pplsuser/Documents/GitHub/artofthefigure/musicianquotes.RData")
+
+vg = toVisNetworkData(graph_from_edgelist(as.matrix(quotes[,1:2]), directed=T) )
+vg$nodes$size = 10
+vg$edges$color = ifelse(quotes$sentiment == "pos", "darkgreen", "darkred") # conditional colors
+vg$edges$title = quotes$quote
+vg$nodes$title = vg$nodes$label
+vg$nodes$color = "lightgray"
+vg$edges$arrows = 'to'
+vg$edges$value = 3
+visNetwork(vg$nodes, vg$edges)
+
+```
+
+
+<br><br>
+Code
+```{r, echo=T, eval=F}
+library("visNetwork")
+library("igraph")
+download.file("https://github.com/andreskarjus/artofthefigure/blob/master/musicianquotes.RData?raw=true", "musicianquotes.RData", mode = "wb")
+load("musicianquotes.RData")
+
+vg = toVisNetworkData(graph_from_edgelist(as.matrix(quotes[,1:2]), directed=T) )
+vg$nodes$size = 10
+vg$edges$color = ifelse(quotes$sentiment == "pos", "darkgreen", "darkred") # conditional colors
+vg$edges$title = quotes$quote
+vg$nodes$title = vg$nodes$label
+vg$nodes$color = "lightgray"
+vg$edges$arrows = 'to'
+vg$edges$value = 3
+visNetwork(vg$nodes, vg$edges)
+
+```
+
+```{r, echo=F, eval=F}
+save(quotes, file="/Users/pplsuser/Documents/GitHub/artofthefigure/musicianquotes.RData")
+```
+
