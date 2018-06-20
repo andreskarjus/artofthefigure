@@ -3,7 +3,7 @@ title: "Quotes by musicians about other musicians"
 output: html_document
 ---
 (a completely unrepresentative toy dataset scraped from random places on the web)
-<br> (credit for coding the (dataset)[https://docs.google.com/spreadsheets/d/1y1SAzazs-2ANKihQ5f4bmxhlXnIBnzlLkcMdTQr9OwU/edit?usp=sharing] goes to participants of the participants of the [aRt of the Figure workshop at the SGSSS Summer School 2018](https://andreskarjus.github.io/artofthefigure/) )
+<br> (credit for coding the [dataset](https://docs.google.com/spreadsheets/d/1y1SAzazs-2ANKihQ5f4bmxhlXnIBnzlLkcMdTQr9OwU/edit?usp=sharing) goes to participants of the participants of the [aRt of the Figure workshop](https://andreskarjus.github.io/artofthefigure/) at the SGSSS Summer School 2018)
 
 ```{r, echo=F, eval=T,warning=F,message=F, out.width="90%"}
 library("visNetwork", quietly = T, warn.conflicts = F)
