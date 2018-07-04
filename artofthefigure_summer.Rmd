@@ -7,7 +7,7 @@ output:
     toc: yes
 ---
 
-Welcome to the aRt of the figure: visualising your data using R. This file contains a fairly large number of exercises and examples. We will only be using a subset of them in this 2-hour workshop. The choice of exercises will depend on the level of the participants. If you are completely new to R, worry not, there will be a short intro to R in the beginning to bring everyone up to speed. Of course you are welcome to work through the rest in your own time and make use of any example code for your own work.
+Welcome to the aRt of the figure: visualising your data using R. This file contains a fairly large number of exercises and examples. We will only be using a subset of them in this 2-hour workshop. The choice of exercises will depend on the level of the participants. If you are completely new to R, worry not, there will be a short intro to R in the beginning to bring everyone up to speed (there is also an introductory exercise for beginners in the preparation tutorial which I hope you completed). Of course you are welcome to work through the rest in your own time and make use of any example code for your own work.
 
 # Troubleshooting
 This section contains some basic FAQ and tips. It's here at the top so that if you get stuck or confused, you can easily find it.
