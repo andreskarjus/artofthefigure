@@ -94,7 +94,7 @@ If it downloads as intended, then you should be able to open it with RStudio. If
 
 Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code there: you will be guided through all the exercises in the workshop (except for the bonus sections, which are meant as additional material to be explored on your own, once you've learned the basics).
 
-# Optional pre-workshop exercise (mandatory if you are new to R)
+# Optional pre-workshop intro to R (mandatory if you are new to R)
 
 If you are completely new to R, then you should complete the little exercise below. This is not a test. It's just a quick introduction to how basic R syntax works, so that you would not be completely lost in the workshop). If you have used R but are not very confident, feel free to do it as well as a refresher. Below is a block of code. What you need to do is select and copy this block of code, and paste it into the RStudio script editor. First create a new script by clicking on the New icon in the top left corner of RStudio (or File->New File) and choose "R Script". 
 
