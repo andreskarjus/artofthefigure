@@ -9,15 +9,16 @@ output:
 
 This is a sort of a cover page for all the *aRt of the Figure* workshops. So far, each iteration has had a slightly different structure and length, and various amounts of preparatory exercises. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registred.
 
-Click [here](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsss.html) for the most recent (SGSSS Summer School 2018) version of the preparation file. It will guide you through the installation of R, RStudio, and the required packages.
+Click [here](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html) for the most recent (PPLS Writing Centre summer workshops) version of the preparation file. It will guide you through the installation of R, RStudio, the required packages, basically everything you'll need.
 
 Here are the links to the various versions of the workshop script files.
 
+- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_summer.Rmd">PPLS Writing Centre summer quantitative workshops</a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsss.Rmd">SGSSS Summer School 2018 </a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush.Rmd">PPLS LEL Spring Retreat 2018 </a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure.Rmd">PPLS Writing Centre short workshops 2017-2018</a>
 
-Note that if the script opens as a plain text file in your browser, you'll need to right-click it and choose "Save as..."; and make sure the saved file has the `.Rmd` extension, not a `.txt` extension. 
+Note that if the script opens as a plain text file in your browser, you'll need to right-click it and choose "Save as..."; and make sure the saved file has the `.Rmd` extension, not a `.txt` extension (fix it if needed). 
 
 ---
 
@@ -84,6 +85,18 @@ wordcloud(names(sortedwords2), exp(as.numeric(sortedwords2)), min.freq = 0, col=
 
 
 
+```
+
+```{r, echo=F, message=F, warning=F, out.width = '90%', out.height=2.3, fig.height=2.3}
+library("ggplot2", quietly = T)
+library("cowplot",quietly = T, warn.conflicts = F)
+# Scatterplot of two numeric variables
+iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species))  + theme_dark() +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
+
+iris2 <- ggplot(iris, aes(x = Petal.Length, fill = Species)) +
+  geom_density(alpha = 0.7) +  theme_dark() + scale_fill_brewer(palette = "Pastel2") + labs(x="",y="") + theme(legend.position="none")
+
+plot_grid(iris1, iris2, labels = "")
 ```
 
 ```{r, echo=F, message=F, warning=F, out.width = '90%'}
@@ -163,7 +176,7 @@ p3 = plot_geo(eur, color = ~value, colors = c("navy", "goldenrod3")) %>% add_tra
   layout(geo = list(scope="europe",lonaxis = list(range = c(-10, 28)),lataxis = list(range = c(30, 73)) ), margin=list(l=0,r=0,b=0,t=0))  %>%  
   colorbar(title = "", thickness=5);p3
 
-p3
+p3 
 
 ```
 
