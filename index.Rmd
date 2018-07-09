@@ -9,11 +9,11 @@ output:
 
 This is a sort of a cover page for all the *aRt of the Figure* workshops. So far, each iteration has had a slightly different structure and length, and various amounts of preparatory exercises. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registred.
 
-Click [here](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html) for the most recent (PPLS Writing Centre summer workshops) version of the preparation file. It will guide you through the installation of R, RStudio, the required packages, basically everything you'll need.
+Click [here](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html) for the most recent (PPLS Writing Centre summer workshops) version of the preparation file. It will guide you through the installation of R, RStudio, the required packages, and the script file; basically everything you'll need.
 
-Here are the links to the various versions of the workshop script files.
+Below are links to the various versions of the workshop script files. The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/artofthefigure_slides.html). The entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
 
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_summer.Rmd">PPLS Writing Centre summer quantitative workshops</a>
+- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_summer.Rmd">PPLS Writing Centre summer quantitative workshops series</a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsss.Rmd">SGSSS Summer School 2018 </a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush.Rmd">PPLS LEL Spring Retreat 2018 </a>
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure.Rmd">PPLS Writing Centre short workshops 2017-2018</a>
@@ -22,7 +22,7 @@ Note that if the script opens as a plain text file in your browser, you'll need 
 
 ---
 
-Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from very simple base graphics plots to networks, interactive plots and zoomable maps. Check [my website](https://andreskarjus.github.io/) for more details on consulting and workshops.
+Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from very simple base graphics plots to networks, interactive plots and zoomable maps. Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and workshops.
 
 
 ```{r, echo=F, message=F, warning=F, out.width = '90%'}
@@ -168,8 +168,13 @@ p1 = plot_ly(df, y=~d, x=rep(seq(-1,1,length.out = 100),3), color=~R2, colors=c(
 p1
 })
 
-subplot(p4, p2) %>% layout(scene = list(domain = list(x = c(0.5, 1), y = c(0,1))))
+subplot(p4, p2) %>% layout(scene = list(domain = list(x = c(0.6, 1.2), y = c(0,1))))
 
+```
+
+(also, this website, as well as my [personal website](https://andreskarjus.github.io/), is created using R Markdown)
+
+```{r, echo=F,message=F, warning=F}
 eur = data.frame(country = c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR", "NOR", "ISL"), value = sample(seq(0,5,0.1),30)) # create some data
 
 p3 = plot_geo(eur, color = ~value, colors = c("navy", "goldenrod3")) %>% add_trace(z = ~value, locations = ~country, color = ~value) %>% 
@@ -177,7 +182,4 @@ p3 = plot_geo(eur, color = ~value, colors = c("navy", "goldenrod3")) %>% add_tra
   colorbar(title = "", thickness=5);p3
 
 p3 
-
 ```
-
-
