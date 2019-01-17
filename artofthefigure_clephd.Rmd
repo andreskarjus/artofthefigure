@@ -1,0 +1,363 @@
+---
+title: "The aRt of the figure: data visualisation using R"
+subtitle: "CLE PhD retreat, January 2019"
+author: Andres Karjus
+output: 
+  html_document: 
+    toc: yes
+---
+
+
+# Troubleshooting
+This section contains some basic FAQ and tips. 
+
+- Help files. You can always check the parameters of a function by executing `help(functionname)` or searching for the function by name in the Help tab on the right. Arguments have names, but names can be omitted if using them in their intended order.
+- See the line of text between this window and the console, with a little yellow square icon? Click this to see the table of contents and jump between sections quickly. You can also use CTRL+F (CMD+F) to search.
+
+## Shortcuts for running code
+
+- CTRL+ENTER (PC) or CMD+ENTER (Mac) runs a line and puts the cursor on the next line. ALT+ENTER runs the line but does not advance the cursor.
+- To run a line, the cursor has to be on the line, but it does not have to be in the beginning of the end.
+- You can always copy-paste or write commands to the console and run them separately from a larger code block (or drag-select a command and press ALT+ENTER).
+
+## Plots appear in the script window instead of the Plots panel on the right, help!
+Tools -> Global Options -> R Markdown -> untick "Show plots inline..."
+
+## My plotting panel suddently looks weird or axes are hidden
+Run the `dev.off()` command to reset your global plotting parameters.
+
+## Error in somefunction(someparameters) : could not find function "somefunction"
+This indicates the package is not loaded. Use the relevant `library()` command to load the package that includes the missing function. There are `library("package")` calls in the beginning of each section that requires them. 
+
+## Error in library("...") : there is no package called '...'
+You should have installed the necessary packages before the start of the workshop. If you did not (indicating by `library()` giving you a package not found error), then here are the relevant installation commands.
+```{r}
+# Do not run these unless you are missing the packages! Also if you do, run only the one you need, not all (which might take a while depending on internet speed).
+install.packages("plotly")      # for the interactive plots; plot_ly, plot_geo
+install.packages("igraph")      # constructing and plotting networks
+install.packages("visNetwork")  # plotting interactive networks
+install.packages("quanteda")    # corpus management and text analysis
+install.packages("rmarkdown")   # for rendering R Markdown documents
+install.packages("viridisLite") # colors
+install.packages("RColorBrewer") # more colors
+# Note that these in turn have dependencies, 50-something packages in total amongst them, which will also be installed.
+```
+
+---
+
+# The plotly package
+
+```{r}
+# load packages
+library("plotly")
+library("viridisLite")
+library("RColorBrewer")
+```
+
+
+We'll use the iris dataset as an example.
+```{r}
+head(iris)
+# core command:
+plot_ly()
+# add data:
+plot_ly(data = iris, x=~Petal.Width, y=~Petal.Length)
+# this generates a plot, some parameters are guessed
+plot_ly(data = iris, x=~SPetal.Width, y=~Petal.Length, type = 'scatter', mode = 'markers')
+
+# Exercise: add the color argument to the following command, and use "Species" as the variable to color by. Don't forget the ~ tilde.
+plot_ly(data = iris, x=~Petal.Width, y=~Petal.Length, type = 'scatter', mode = 'markers')
+
+# Now add the colors argument, and specify a vector of 3 colors (combining them with c, e.g. c("red", ...) )
+# Feel free to use either manually specified, viridis or RColorBrewer colors
+
+# Opacity is easy to add by specifying marker=list(opacity=0.5)
+
+# You could also specify symbol the same way you specified colors (could also specify the symbols using the symbols argument)
+
+```
+
+
+```{r}
+# C'est une pipe: %>% (from the magrittr package)
+# This is how it works:
+c(1,2,3) %>% mean()
+
+# Plotly works great with pipes. You can do
+p=plot_ly(data = iris, x=~Petal.Width, y=~Petal.Length)
+p=layout(p, xaxis=list(title="Sepal length", titlefont=list( size=10)))
+# - or -
+iris %>% 
+  plot_ly( x=~Petal.Width, y=~Petal.Length) %>%
+  layout( xaxis=list(title="Sepal length", titlefont=list( size=10)))
+
+
+# Ok now to make it all cool & edgy:
+
+# Copy your customized plotly command from above, with the colors
+# now add the following layout to it with a pipe
+
+  layout(paper_bgcolor="black", plot_bgcolor="black",
+         xaxis=list(gridcolor=rgb(1,1,1,0.1), showline=T),
+         yaxis=list(gridcolor=rgb(1,1,1,0.1), showline=T)
+         ) %>% config(displayModeBar = F) 
+
+```
+
+
+# Do you use ggplot2 by chance?
+
+```{r}
+{ ggplot(iris, aes(x=Petal.Width, y=Petal.Length)) + 
+    geom_point(aes(col=Species), size=0.7)  + 
+    theme_dark() +  
+    scale_colour_brewer(palette = "Pastel2") + 
+    geom_smooth(method="lm", size=0.5,  aes(col=Species)) 
+  } %>%
+  ggplotly()   # converts ggplots into interactive ggplotlies.
+
+```
+
+
+
+# Interactive plots in 3deee!
+
+```{r}
+
+iris %>%
+plot_ly(x=~Petal.Width*2,
+        y=~Petal.Length, 
+        z=~Sepal.Length, 
+        type="scatter3d", mode="markers",color=~Species, colors=brewer.pal(3,"RdBu"), marker=list(opacity=0.7)) %>% 
+  layout( paper_bgcolor="black", plot_bgcolor="black",
+          scene = list(xaxis=list(title="Petal width", showline=T),
+                      yaxis=list(title="Petal length", showline=T), 
+                      zaxis=list(title="Sepal length", showline=T))) %>%
+  config(displayModeBar = F) 
+
+# Maybe a bit too dark? Change the paper_bgcolor and plot_bgcolor arguments.
+
+
+# Something useless but nice, RGB colorspace visualized:
+red=runif(1000);green=runif(1000);blue=runif(1000);plot_ly(x=red,y=green, z=blue, type="scatter3d",mode="markers", color=I(apply(cbind(red, green, blue,0.5),1, function(x) rgb(x[1],x[2], x[3])))) %>% layout(paper_bgcolor='black', scene = list(xaxis=list(title="red"),yaxis=list(title="green"), zaxis=list(title="blue")))
+
+
+```
+
+
+```{r plotly_timeseries}
+# Let's create an interactive time series plot.
+retimes = data.frame(cbind(subj1=c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 ), subj2=sort(rnorm(100, 1,0.3))*runif(100,0.4,0.8), subj3=sort(rnorm(100, 1,0.3))*runif(100,0.9,1.1) )) # data from another bonus exercise above.
+
+plot_ly(type="scatter", data = retimes, mode="none")  %>% 
+  add_trace(y=~subj1, mode="lines", name="Subject 1") %>% 
+  add_trace(y=~subj2, mode="lines", name="Subject 2") %>% 
+  add_trace(y=~subj3, mode="lines", name="Subject 3") %>%
+  layout(yaxis=list(title="Reaction time"), xaxis=list(title="Experiment progress"))
+
+```
+
+
+
+# Graphs, networks and such
+
+## Social networks
+
+The following example will look into plotting social networks of who knows who.
+```{r igraph_networks}
+library("igraph") 
+library("visNetwork")
+
+# Create an object with some random Scottish people (this could be a sample from a sociolinguistic study or experiment or whatever)
+scots=c("Angus","Archibald","Baldwin","Boyd","Cinead","Craig","Diarmid","Donald","Duncan","Eachann","Erskine","Ethan","Fergus","Fingal","Fraser","Hamilton","Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall","Fiona", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una") 
+nscots=length(scots)
+cols = c(rep("blue", nscots-10), rep("red", 10)) # 
+buddies = matrix(sample(0:1,nscots^2,T,prob=c(0.95,0.05)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)); diag(buddies)=0 # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
+scotgraph = graph_from_adjacency_matrix(buddies, mode = "undirected", diag=FALSE) # creates a graph object; igraph needs to be loaded
+
+# Exercise: call plot on the scotgraph object
+
+scotgraph_v = toVisNetworkData(scotgraph) # converts the previous igraph object into a visNetwork object
+# plot it:
+visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges)
+# Try clicking on the nodes, moving them, and zooming. Pretty neat, no? You can also modify the physics engine to adjust the gravitational pull between the nodes, or disable it.
+
+# Exercise: modify the scotgraph_v plot.
+# Setting conditional colors is easier by modifying the object directly
+scotgraph_v$nodes$color = cols
+
+# Other options can be set using visNetwork's layout commands, using piping just like in plotly. 
+# visNodes(shadow=T)
+# visNodes(shadow=T, size=10) 
+# visEdges(color="lightgray")
+
+```
+
+
+
+# Citation networks
+
+In the following examples, we'll employ some light corpus analysis tools to visualize the content of the inaugural speeches of US presidents. We'll start by looking into which presidents mention or address other presidents in their speeches. This is similar to the last exercise, but this time we'll extract the mentions programmatically rather than hand-coding them.
+```{r presidential_mentions_network}
+library("quanteda") 
+library("igraph")
+library("visNetwork")
+
+speeches = data_corpus_inaugural$documents$texts # extract speeches data from the internal object
+speeches = gsub("Washington DC", "DC", speeches) # replace city name to avoid confusion with president Washington (hopefully)
+speechgivers = data_corpus_inaugural$documents$President # names of presidents giving the speech
+presidents = unique(data_corpus_inaugural$documents$President) # presidents (some were elected more than once)
+
+# Exercise: have a look at speech number 58, and check who's giving the speech. Hint: use the bracket [ ] notation
+
+
+# The following piece of code looks for names of presidents in the speeches using grep(). Just run this little block:
+mentions = matrix(0, ncol=length(presidents), nrow=length(presidents), dimnames=list(presidents, presidents))
+for(president in presidents){
+  foundmentions = grep(president, speeches)
+  mentions[speechgivers[foundmentions], president ] = 1
+}
+# Note: this is not perfect - the code above concatenates mentions of multiple speeches by the same re-elected president, "Bush" refers to two different people, and other presidents might share names with other people as well. You can check the context of keywords using quanteda's kwic() command:
+kwic(data_corpus_inaugural, "Monroe")
+#
+
+# Have a look at the data some basic stats:
+mentions[30:35, 30:35] # rows: one mentioning; columns: being mentioned
+counts = apply(mentions, 2, sum)
+barplot(counts, horiz = T, las=1) # number of mentions
+
+
+# Plotting time
+pgraph = graph_from_adjacency_matrix(mentions, mode="directed") # this uses igraph
+plot(pgraph, edge.arrow.size=0.4)  # basic igraph plot
+
+# this uses visNetwork:
+pgraph_v = toVisNetworkData(pgraph )
+# check how it looks before we add all the fancy stuff:
+visNetwork(nodes = pgraph_v$nodes, edges = pgraph_v$edges) 
+
+## Exercise: add the following layout options using piping
+# visNodes(v, size = 10,  shadow=T, font=list(size = 30))
+# visIgraphLayout(v, "layout_in_circle", smooth=T)
+# visEdges(v, arrows = "to",  shadow=T, smooth=list(type="discrete"), selectionWidth=5)
+# visOptions(v, highlightNearest = list(enabled = T, hover = T, degree=1, labelOnly=F, algorithm="hierarchical"), nodesIdSelection = T)
+
+```
+
+## What else is in there?
+
+While we're at it, let's try to probe into the contents of the speeches and use some more interactive plotting tools to visualize it.
+```{r keywords_heatmap}
+library("quanteda") # this needs to be loaded
+library("plotly")   # this too
+
+# This block of code will extract the top terms (weighted by TF-IDF) from the most recent speeches and calculate the distance between the speeches based on word usage
+termmat = dfm_tfidf(dfm(corpus_subset(data_corpus_inaugural, Year>1990), tolower = T, stem=F,remove=stopwords(), remove_punct=T))
+topterms = lapply(topfeatures(termmat, n=10, groups=rownames(termmat)), names)
+distmat = dist(termmat) # calculate distances
+mds = as.data.frame(cmdscale(distmat,k = 2)) # multidimentsional scaling (reduces distance matrix to 2 dimensions)
+mds$tags = paste(names(topterms), sapply(topterms, paste, collapse="<br>"), sep="<br>")
+
+# The following makes use of the plotly package
+p = plot_ly(mds,x=~V1,y=~V2, type="scatter", mode = 'markers', hoverinfo = 'text', text = ~tags)
+p = add_annotations(p, text = ~rownames(mds), xanchor="left", showarrow = F)
+p  # closer points mark more similar speeches; hover to see key terms that distinguish the speeches
+
+
+# A look into the usage of some words across centuries
+termmat_prop = dfm_weight(dfm(data_corpus_inaugural, tolower = T, stem=F,remove=stopwords(), remove_punct=T), "prop") # use normalized frequencies
+words = c("america", "states",  "dream", "hope",  "business", "peace", "war", "terror")
+
+plot_ly(x=words, y=rownames(termmat_prop), z=round(as.matrix(termmat_prop[,words]),5), type="heatmap", colors = colorRamp(c("white", "orange", "darkred")),showscale = F) %>% layout(p, margin = list(l=130, b=50), paper_bgcolor=rgb(0.99, 0.98, 0.97))
+
+
+# Exercise (easy). Choose some other words! Also try changing the color palette.
+
+# Exercise (a bit harder). We could get a better picture of what has been said by the presidents if we expanded our word search with regular expressions. If you don't know regular expressions:
+# 1. Make learning regular expressions your next life goal. Like, seriously.
+# 2. For now, just know that ^ stands for the beginning of a string and $ for the end, and . stands for any character. So ^white$ would match "white" but not "whites", and l.rd would match "lord" but also "lard" etc. Define some new search terms; below are some ideas. 
+words2 = c("america$", "^nation", "^happ", "immigra", "arm[yi]", "^[0-9,.]*$")
+# The bit of code below uses grep() to match column names, so unless word boundaries are defined using ^$, any column name that *contains* the search string is also matched ("nation" would match "international"). For each search term, it will find and sum all matching rows. 
+newmat = round(sapply(words2, function(x) rowSums(termmat_prop[, grep(x, colnames(termmat_prop))])),5)
+# You can check which column names would be matched with:
+grep("america", colnames(termmat_prop), value=T)
+# Then copy the plotly command from above and substitute the z parameter value with newmat.
+
+```
+
+
+# Interactive maps
+
+```{r maps}
+# Let's do Europe.
+eur = data.frame(country = c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR", "NOR", "ISL", "RUS", "UKR", "BLR"), value = sample(seq(0,5,0.1),33)) # create some data
+
+# Note this uses plot_geo() instead of plot_ly(); it uses the world map by default, but we'll limit the scope. 
+plot_geo(eur) %>% add_trace(locations = ~country, mode="none") %>% layout(geo = list(scope="europe")) # zoomable map
+
+plot_geo(eur) %>% 
+  add_trace(z = ~value, locations = ~country, color = ~value, colors = c("darkred", "lightgreen")) %>%
+  colorbar(title = "", thickness=10) %>% 
+  layout(geo = list(scope="europe"), title="EurSoc Survey Q233: how manly is the Scottish kilt?", margin=list(l=0,r=0,b=0,t=30)) %>% 
+  add_annotations(x= 1.04, y= 1, text = "like totally", showarrow = F) %>% add_annotations(x= 1.04, y= 0.52, text = "so about that..", showarrow = F)
+
+
+```
+
+
+
+# Animation
+
+```{r animation_movement}
+# This bit will generate some random data, just run it:
+{
+  n=100 # number of iterations
+  m1=data.frame(x=rep(1,n), y=rep(1,n))
+  m2=data.frame(x=rep(1,n), y=rep(1,n))
+  for(i in 2:n){
+    s=seq(m1$x[i-1]-3,m1$x[i-1]+3, 0.5); s=s[s>0]
+    m1$x[i]=sample(s,1, prob=abs(s))
+    s=seq(m1$y[i-1]-3,m1$y[i-1]+3, 0.5); s=s[s>0]
+    m1$y[i]=sample(s,1,  prob=abs(s))
+    s=seq(m2$x[i-1]-2,m2$x[i-1]+2, 0.5); s=s[s>0]
+    m2$x[i]=sample(s,1, prob=rev(abs(s-m1$x[i])) )
+    s=seq(m2$y[i-1]-2,m2$y[i-1]+2, 0.5); s=s[s>0]
+    m2$y[i]=sample(s,1, prob=rev(abs(s-m1$y[i])) )
+  }
+  m=cbind(rbind(m1,m2), step=c(1:n,1:n), agent=rep(c("a", "b"), each=n))
+}
+
+# Plot the movements:
+plot_ly(m, x=~x, y=~y, type = 'scatter', mode = 'markers', 
+        frame=~step, color=~agent, marker=list(size=20), colors=c(rgb(0,0,0.5,0.8), rgb(0.5,0,0,0.8))) %>% 
+  layout(showlegend = FALSE) %>% 
+  animation_opts(frame = 200) %>% 
+  config(displayModeBar = F) 
+
+# Exercise: change frame and transition speed parameters to something different.
+```
+
+
+```{r datasaurus}
+library(datasauRus) # datasets where the summary statistics and correlation between x and y is almost identical, despite great differences in how they look.
+
+plot_ly(datasaurus_dozen, x=~x, y=~y, type = 'scatter', mode = 'markers', frame=~dataset) %>% layout(showlegend = FALSE) %>% animation_opts(frame = 1000, transition = 500)
+
+# The only difference is the frame argument
+# Multiple traces can be animated as well.
+```
+
+
+# Words!
+
+```{r wordclouds}
+library(quanteda)
+# Let's create an object with a bunch of text:
+sometext = "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort. It had a perfectly round door like a porthole, painted green, with a shiny yellow brass knob in the exact middle. The door opened on to a tube-shaped hall like a tunnel: a very comfortable tunnel without smoke, with panelled walls, and floors tiled and carpeted, provided with polished chairs, and lots and lots of pegs for hats and coats—the hobbit was fond of visitors. The tunnel wound on and on, going fairly but not quite straight into the side of the hill — The Hill, as all the people for many miles round called it — and many little round doors opened out of it, first on one side and then on another. No going upstairs for the hobbit: bedrooms, bathrooms, cellars, pantries (lots of these), wardrobes (he had whole rooms devoted to clothes), kitchens, dining-rooms, all were on the same floor, and indeed on the same passage. The best rooms were all on the left-hand side (going in), for these were the only ones to have windows, deep-set round windows looking over his garden, and meadows beyond, sloping down to the river."
+
+parsed = dfm(tolower(sometext), remove = stopwords('english'), remove_punct = TRUE, stem = FALSE) # try setting stemming to TRUE and see how that changes the picture 
+parsed[1,1:10] # quick look at the new data structure
+textplot_wordcloud(parsed, min_count = 1, color=terrain.colors(100)) 
+
+```
+
