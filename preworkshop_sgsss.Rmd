@@ -19,7 +19,7 @@ This document contains:
 
 - instructions on installing the necessary software for participation in the `aRt of the figure: visualising your data using R` workshop and configuring it a bit
 - instructions to get some packages and make sure R Markdown works (very easy, step by step)
-- finally, a link to the .Rmd script file we will be using in the workshop and which you should also download ahead of time, since internet might be scarce at Firbush.
+- finally, a link to the .Rmd script file we will be using in the workshop and which you should also download ahead of time.
 
 Importantly, if something went wrong and you could not install the software, please find me before the workshop so we can try to troubleshoot. We cannot afford to waste any time on issues like installation during the workshop.
 
