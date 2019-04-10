@@ -7,10 +7,14 @@ output:
     theme: spacelab
 ---
 
-This is a sort of a cover page for all the *aRt of the Figure* workshops. So far, each iteration has had a slightly different structure and length, and various amounts of preparatory exercises. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registred.
+<div style="text-align: justify"> 
 
-Below are links to the various versions of the workshop script files.
+This functions as a cover page for all the *aRt of the Figure* workshops. So far, each iteration has had a slightly different structure and length, and various amounts of preparatory exercises. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registred.
 
+Below are links to the various versions of the workshop, with installation instructions and script files.
+
+- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) | If you registred but haven't received an email, please get in touch
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 (more info soon!)
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">Centre for Language Evolution PhD Retreat, January 2019</a> | [Installation Instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html)
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_summer.Rmd">PPLS Writing Centre summer quantitative workshops series 2018</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html)
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsss.Rmd">SGSSS Summer School 2018 </a>
@@ -18,33 +22,42 @@ Below are links to the various versions of the workshop script files.
 - <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure.Rmd">PPLS Writing Centre short workshops for 2017-2018</a> (will continue in 2018-2019)
 
 Note that if the script opens as a plain text file in your browser, you'll need to right-click it and choose "Save as..."; and make sure the saved file has the `.Rmd` extension, not a `.txt` extension (fix it if needed). 
-<br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/artofthefigure_slides.html). The entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
+<br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). The entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
 
 
 
 ---
 
-Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from very simple base graphics plots to complex networks, interactive plots and zoomable maps. Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and past workshops. If you like the materials and would like to invite me to come and teach you and/or your students how to do all this (in an easy-to-learn, efficient and reproducible manner), feel free to get in touch and discuss options.
+Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from very simple base graphics plots to complex networks, interactive plots and zoomable maps (content depending on the length and focus of a given workshop. <br> Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and past workshops. If you like the materials and would like to invite me to come and teach you and/or your students how to do all this (in an easy-to-learn, efficient and reproducible manner), feel free to get in touch to discuss options.
 
+</div> 
 
-```{r, echo=F, message=F, warning=F, out.width = '90%'}
-par(cex.axis=0.5, mar=c(2,2,1,1), mfrow=c(2,2))
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=6}
+library(RColorBrewer)
+library(scales)
+library(magrittr)
+library(igraph, quietly = T)
+library(raster)
+library("wordcloud", quietly = T) 
 
-boxplot.matrix(matrix(runif(1000),10,10), boxwex=0.5, cex=0.4, xaxt="n", lwd=0.5) 
-axis(2, tck=0.02)
-axis(4, tck=0.02, labels=F)
+par(cex.axis=0.5, mar=c(2,2,1,1), mfrow=c(3,3), mgp=c(3, .4, 0), fg="gray")
 
-
-iriscolors= c(rgb(0.3,0,0.3, 0.5), rgb(0,0,0.6,0.5), rgb(0,0.5,0.8,0.6)) # transparent colors
+#iriscolors= c(rgb(0.3,0,0.3, 0.5), rgb(0,0,0.6,0.5), rgb(0,0.5,0.8,0.6)) # transparent colors
+iriscolors = c(gray.colors(2, start=0.4, end = 0.6, alpha=0.7), rgb(0.7,0,0,0.6))# %>% alpha(alpha=0.6)
 irispoints = c(15,16,17)  # see help(points) for more
 plot(iris$Sepal.Length, iris$Sepal.Width, 
      col=iriscolors[iris$Species] , pch=irispoints[iris$Species],
       xlab="", ylab="")
-grid(col=rgb(0,0,0,0.3), lty=3, lwd=0.5)
+grid(col=rgb(0,0,0,0.2), lty=3, lwd=0.5)
 
-# another iris plot
+boxplot.matrix(matrix(runif(1000),10,10), boxwex=0.5, cex=0.4, xaxt="n", lwd=0.5, lty=1, border=c(rep("black", 6),"darkred",rep("black", 6)) , yaxt="n") 
+axis(2, tck=0.02)
+axis(4, tck=0.02, labels=F)
+
+
 x=rnorm(100); y=x+runif(100,-1,1)
-plot(x~y, pch=20, ylab="", xlab="")
+plot(x~y, pch=20, ylab="", xlab="", col="black")
+points(1, x[which.max(y)], col="darkred", pch=20)
 grid(col=rgb(0,0,0,0.2), lty=1)
 # do the regression analysis:
 linmodel = lm(x~y)
@@ -53,87 +66,119 @@ abline(linmodel, col=rgb(0,0,0,0.3), lwd=4) # abline can handle the output of th
 
 retime = c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 )
 retimes = rbind(subj1=retime, subj2=sort(rnorm(100, 1,0.3))*runif(100,0.4,0.8), subj3=sort(rnorm(100, 1,0.3))*runif(100,0.9,1.1) ) # rows are subjects, columns are trials
-plot(NA, ylim=c(0,3), xlim=c(0,100), ylab="", xlab=""); grid(lty=3)
+plot(NA, ylim=c(0,3), xlim=c(0,100), ylab="", xlab=""); grid(lty=3,col=rgb(0,0,0,0.1))
 # create an empty plot beforehand, then add a line per subject ( [1,] indexes the first row, etc)
+cols=brewer.pal(11,"Spectral")[c(5,9,11)]
 lines(retimes[1, ], col="darkred")
-lines(retimes[2, ], col="darkblue")
-lines(retimes[3, ], col="darkgreen")
+lines(retimes[2, ], col="gray70")
+lines(retimes[3, ], col="gray60")
+
+
+# boubakiki = data.frame(meanings=c(sample(c("big", "small", "medium"),20,T, prob=c(0.8,0.2,0.1)), sample(c("big", "small", "medium"),20,T, prob=c(0.3,0.7,0.2))), words=c(rep("bouba",20), rep("kiki",20)) )
+# bktable = table(boubakiki)
+# mosaicplot(bktable, main="",ylab="", xlab="", col=brewer.pal(11,"Spectral")[c(5,10)])                    # a simple mosaic plot
 
 
 
-boubakiki = data.frame(meanings=c(sample(c("big", "small"),20,T, prob=c(0.8,0.2)), sample(c("big", "small"),20,T, prob=c(0.3,0.7))), words=c(rep("bouba",20), rep("kiki",20)) )
-bktable = table(boubakiki)
-mosaicplot(bktable, main="",ylab="", xlab="", col=c("orange", "navy"))                    # a simple mosaic plot
+# x=matrix(rnorm(100*100,mean = 0.2, 0.2),100,100)
+# y=c( rep(0,10), seq(0,0.9, length.out = 10), seq(0.9,0, length.out = 10), rep(0,70)  )
+# x=x+y
+# x=(t(x)+y)
+# 
+# r <- raster(ncols=100, nrows=100, xmn=0)
+# r[] <- runif(ncell(r), min=500, max=1500)  
+# GaussianKernel <- function(sigma=s, n=d) {
+#           m <- matrix(nc=n, nr=n)
+#             col <- rep(1:n, n)
+#             row <- rep(1:n, each=n)
+#           x <- col - ceiling(n/2)
+#           y <- row - ceiling(n/2)
+#          m[cbind(row, col)] <- 1/(2*pi*sigma^2) * exp(-(x^2+y^2)/(2*sigma^2))
+#         m / sum(m)
+#        }
+# # Create autocorrelated raster using 9x9 Gaussian Kernel with a sigma of 1
+# x<- focal(r, w=GaussianKernel(sigma=1, n=9))
+# image(x, col=colorRampPalette(c("darkred","gray90", "gray70"))(100) ); grid(col=rgb(0,0,0,0.3), lty=1, lwd=1)
 
-x=matrix(rnorm(100*10),100,100)
-x=x*(c(1:50,50:1)*runif(100,0.8,1.2) )
-x=t(x)*(c(1:50,50:1)*runif(100,0.8,1.2) )
-image(x)
+mosaicplot(matrix(sample(1:25,25), 5,5), col = gray.colors(5,0.7,0.9), main="")
 
-library("corrplot", quietly = T)
-corrplot(cor(iris[,1:4]) ,tl.pos="n")
+# library("corrplot", quietly = T)
+# x=matrix(sample(c(0,0.01,0.1,0,-0.2,0.6),4*4, replace = T), 4,4)
+# corrplot(x ,tl.pos="n",diag = F,type = "upper",  col = 
+#            colorRampPalette(c( rgb(0.7,0.7,0.8),"gray95",rgb(0.8,0.7,0.7)))(200))
 
-sometext = "One final thing and we're done. We need to make sure your RStudio and a certain package get along. During this process, RStudio might need to download a few things - make sure you have internet access. Click on New File  (either in the menu, or the arrow next to the white button in the top left corner), and choose A window will appear. Just click A new script file should appear in the script panel Now click on the little icon (with the blue ball of yarn) on top of the script panel A new window with a webpage looking file should appear. If this worked, great! If not, come to the workshop 10 minutes early so we can fix this. Well done! This is the end of the pre-workshop tutorial. Congratulations, you have successfully installed R and RStudio, and have now learned the basics of programming (functions, assignement, parameters, input-output) - and as such could get a job in IT that would pay way better than whatever you might have planned as a career. Just kidding.
-# (mostly) You have also learned how to use the basic plot() command in R. This will form the basis of the workshop, where we will learn how to recognize ways to plot different kinds of data (not just random dice rolls!), and how to modify the plotting parameters in order to create informative but also visually more pleasing graphs (beyond the plain black-and-white examples like the above). Best of all, all the code is reusable in the sense that you can easily use the very same commands that we will be working with to plot your own data later on, just by changing the inputs. Also, the side of things will not get any more complicated than what you did in the last 10 minutes. That is literally all you need - but we will explore how to use these basic skills in various different ways."
+
+library(rworldmap)
+newmap <- getMap( resolution = "low")
+par(mar=c(2,2,1,1), pty = "m", fg="black")
+plot(newmap, xlim = c(-6, 29), ylim = c(50, 65),  asp = 1, lwd=0.2)
+
+par(mar=c(2,2,1,1), pty = "s", fg="gray")
+
+sometext = "this wordcloud that consisting of words in text it gives an idea of what the text all about wordcloud this is a wordcloud wordcloud words words words words word word word meaning meaning meaning topic topic topic text text texts sentence sentence sentences cloud somewhere here is something said theme color colors idea idea ideas thoughts secrets"
 clean = gsub("[[:punct:]]", "", sometext) # remove punctuation (that weird thing inside the gsub (R's find-and-replace command) is a regular expression; don't ask, it just works)
 cleanlow = tolower(clean) # make everything lowecase
 words = strsplit(cleanlow, split=" ")[[1]]
 # Inspect the object we just created. It should be a vector of 232 words.
 # Some ways to inspect and visualize textual data
-sortedwords = sort(table(words)) # counts the words and sorts them
-sortedwords2 = sortedwords[which(nchar(names(sortedwords))>4 ) ] # look up the help files of the commands used here if you'd like to understand how this works exactly
-library("wordcloud", quietly = T) # load the package (need to be done again if you start R again)
-wordcloud(names(sortedwords2), exp(as.numeric(sortedwords2)), min.freq = 0, col=terrain.colors(100)[1:90], scale=c(3,0.2))
+sortedwords2 = sort(table(words)) # counts the words and sorts them
 
+par(mar=c(0,0,0,0))
+wordcloud(names(sortedwords2), (as.numeric(sortedwords2)), min.freq = 0, col=colorRampPalette(c("gray90", "gray70","gray60", "darkred"))(100), scale=c(3,0.1), random.order = F, random.color = F)
+# brewer.pal(5, "YlGnBu")[-c(1:2)]
+par(mar=c(2,2,1,1))
+plot(hclust(as.dist(matrix(runif(100),10,10))), col="black", main="", yaxt="n", ylab="", xlab="", cex=0.6)
+
+g=simplify(graph_from_edgelist(matrix(sample(letters[1:10],30, replace = T),ncol=2),directed = F))
+plot(g, vertex.color="white", vertex.frame.color=c("darkred",rep("darkgray",length(E(g))-1)), vertex.label=NA)
 
 
 ```
 
-```{r, echo=F, message=F, warning=F, out.width = '90%', out.height=2.3, fig.height=2.3}
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
 library("ggplot2", quietly = T)
 library("cowplot",quietly = T, warn.conflicts = F)
 library("ggbeeswarm",quietly = T, warn.conflicts = F)
 # Scatterplot of two numeric variables
-iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species), size=0.7)  + theme_dark() +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
+iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species), size=0.7)  + theme_gray(base_size = 6) +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
 
-iris2 = ggplot(iris, aes(x = Petal.Length, fill = Species)) +
-  geom_density(alpha = 0.7, size=0.3) +  theme_dark() + scale_fill_brewer(palette = "Pastel2") + labs(x="",y="") + theme(legend.position="none")
+iris2 = 
+  ggplot(iris, aes(x = Petal.Length, fill = Species)) +
+  geom_density(alpha = 0.7, size=0.3) +  theme_gray(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none")
 
-iris3 = ggplot(iris, aes(Species,Petal.Length)) + geom_beeswarm(aes(col=Species),groupOnX=T, size=0.7, cex=2)  + geom_boxplot(fill=NA, color=rgb(0,0,0,0.1)) + theme_dark() +  scale_colour_brewer(palette = "Pastel2") + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_blank())
-
-
+iris3 = ggplot(iris, aes(Species,Petal.Length)) + geom_beeswarm(aes(col=Species),groupOnX=T, size=0.9, cex=2.2)  + #+ geom_boxplot(fill=NA, color=rgb(0,0,0,0.1)) + 
+  theme_minimal(base_size = 6) +  scale_colour_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_blank())
 
 plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
 ```
 
-```{r, echo=F, message=F, warning=F, out.width = '90%'}
-par(cex.axis=0.7, mar=c(2,2,1,1), mfrow=c(1,2))
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
 
-library("igraph", quietly = T)  # load the package; this needs to be done once after starting R/RStudio
-# Create an object with some Scottish people (could be a sample in a sociolinguistic study):
-scots=c("Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una")
-nscots = length(scots) # record the number of people in an object
-mates = matrix(sample(0:1,nscots^2,T,prob=c(0.8,0.2)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)) # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
-g = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) # creates a graph object; this need to have igraph loaded to work
-gender = c(rep("m", nscots-9), rep("f", 9)) # create a vector of gender labels for the names
-#plot(g, vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA, vertex.label.cex=0.7, vertex.label.color=ifelse(gender=="m", yes="blue",no="tomato"), vertex.label.dist=0.1, vertex.label.font=2, edge.color=rgb(0,0,0,0.3))
-mfcolors = ifelse(gender=="m", yes="blue",no="tomato")
-# Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
-library(visNetwork, quietly=T, verbose = F)
-scotgraph_v = toVisNetworkData(g) # converts the previous igraph object into a visNetwork object
-scotgraph_v$nodes$color = mfcolors # let's use the same node colors
-scotgraph_v$edges$color = "lightgray"
-# This would create the graph using default settings: visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges)
-#  but let's make it a bit nicer.
-# You may notice that in the visNetwork help files, the examples use the magrittr package's %>% pipe notation. The example below does not in order to keep things simple, but feel free to explore magrittr, it makes writing sequences such as the one below much more elegant.
-v = visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges, height = "500px")
-v = visNodes(v, size = 10,  shadow=T)
-v = visPhysics(v, enable=T, solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -10)) 
-v # calling the visNetwork object plots it. try clicking on the nodes, moving them, and zooming. Pretty neat, no?
+# Scatterplot of two numeric variables
+iris2 = ggplot(iris, aes(x=Petal.Length)) + geom_histogram(binwidth=0.2)  + theme_minimal(base_size = 6)  + labs(x="",y="") + theme(legend.position="none")
+
+
+
+
+iris3 = ggplot(iris, aes( Species, Petal.Length)) + geom_violin(alpha = 0.7, size=0.3, aes(fill = Species)) +  theme_minimal(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none", axis.text.x=element_blank())
+
+# iris1 = ggplot(iris, aes(Petal.Length, y=Sepal.Length)) +  geom_bin2d(bins=10) +
+#   theme_minimal(base_size = 6) + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_text()) + scale_fill_gradient(low="lightgray",high= "black")
+
+iris1 = ggplot(faithfuld, aes(waiting, eruptions)) +
+  geom_raster(aes(fill = density)) +
+  scale_fill_gradientn(colours = gray.colors(100, start = 1, end=0.2)) + 
+  theme_minimal(base_size = 6) + theme(panel.ontop = T) + labs(x="",y="") + theme(legend.position="none") 
+
+plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
 
 ```
 
-```{r, echo=F, message=F, warning=F, out.width = '80%'}
+<div style="text-align: justify"> 
+(also, this website, as well as my [personal website](https://andreskarjus.github.io/), are created using R Markdown, a language and R package for creating documents, slides, books, etc. in html, pdf and other formats, integrating R code and plots; the workshops materials also use R Markdown)
+</div>
+
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
 library("quanteda", quietly=T, warn.conflicts=F) # make sure this is installed and load it; this also includes a dataset
 library("plotly", quietly=T, warn.conflicts=F)
 # A look into the usage of some words across centuries
@@ -143,15 +188,24 @@ words = c("america", "states", "americans", "white", "black",  "dream", "hope", 
 words2 = c("america$", "states", "american", "nation", "white", "black",  "dream", "hope", "great", "happiness",  "business", "dollar","money",  "immigra", "peace", "war", "army", "terror", "god", "lord")
 newmat = round(sapply(words2, function(x) rowSums(termmat_prop[, grep(x, colnames(termmat_prop))])),5)
 
-p = plot_ly(x=words2, y=rownames(newmat), z=newmat, type="heatmap", colors = colorRamp(c("white", "darkorange", "darkred")),showscale = F)
-p = layout(p, margin = list(l=130, b=70), paper_bgcolor=rgb(0.99, 0.98, 0.97))
+p = plot_ly(x=words2, y=rownames(newmat), z=newmat, type="heatmap", colors = colorRamp(c("white", "lightgray", "gray", "darkgray", "black")),showscale = F)
+p = layout(p,yaxis=list(tickfont=list(size=6)), xaxis=list(tickfont=list(size=6)),  margin = list(l=130, b=70), paper_bgcolor=rgb(0.95,0.95,0.95)) %>% config(displayModeBar = F)
 p
 
 
 ```
 
 
-```{r, echo=F,message=F, warning=F}
+```{r, echo=F,message=F, warning=F,out.width = '100%', out.height=600}
+# <div style="float: left; width: 100%;height: 400px;">
+# </div>
+load("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/gl.RData")
+gl %>% config(displayModeBar = F)
+```
+
+
+<div style="float: left; width: 50%; height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=4,  out.width = '100%'}
 # library("raster", quietly = T)
 # uk = getData("GADM", country = "United Kingdom", level = 2) # download UK map (needs the raster package to be loaded)
 # plot(uk, lwd=0.4, border=rgb(0,0,0,0.2)) # plot the UK
@@ -164,34 +218,123 @@ retimes = data.frame(cbind(subj1=c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 8
 p4= plot_ly(type="scatter", data = retimes, mode="none")  %>% 
   add_trace(y=~subj1, mode="lines", name="Subject 1", color=I("darkgray")) %>% 
   add_trace(y=~subj2, mode="lines", name="Subject 2", color=I("darkred")) %>% 
-  layout(yaxis=list(title="Reaction time"), xaxis=list(title="Experiment progress"), showlegend=F)
+  layout(yaxis=list(title="Reaction time"), xaxis=list(title="Experiment progress"), showlegend=F) %>% config(displayModeBar = F)
 
-p2 = plot_ly(x= iris$Petal.Length,y=iris$Sepal.Width, z=iris$Sepal.Length, type="scatter3d",mode="markers",color=iris$Species,main="x") %>% layout(showlegend=F)
+cols=viridis_pal(alpha=1,begin=0.3, end=0.8)(3)
+p2 = plot_ly(x= iris$Petal.Length,y=iris$Sepal.Width, z=iris$Sepal.Length, type="scatter3d",mode="markers",color=iris$Species, colors=cols, opacity=0.4, marker=list(size=7)) %>% layout(showlegend=F) %>% config(displayModeBar = F)
+
+
+  n=100 # number of iterations
+  m1=data.frame(x=rep(1,n), y=rep(1,n))
+  m2=data.frame(x=rep(1,n), y=rep(1,n))
+  for(i in 2:n){
+    s=seq(m1$x[i-1]-3,m1$x[i-1]+3, 0.5); s=s[s>0]
+    m1$x[i]=sample(s,1, prob=abs(s))
+    s=seq(m1$y[i-1]-3,m1$y[i-1]+3, 0.5); s=s[s>0]
+    m1$y[i]=sample(s,1,  prob=abs(s))
+    s=seq(m2$x[i-1]-2,m2$x[i-1]+2, 0.5); s=s[s>0]
+    m2$x[i]=sample(s,1, prob=rev(abs(s-m1$x[i])) )
+    s=seq(m2$y[i-1]-2,m2$y[i-1]+2, 0.5); s=s[s>0]
+    m2$y[i]=sample(s,1, prob=rev(abs(s-m1$y[i])) )
+  }
+  m=cbind(rbind(m1,m2), step=c(1:n,1:n), agent=rep(c("a", "b"), each=n))
+
+
+
 
 suppressWarnings({
 p1 = plot_ly(df, y=~d, x=rep(seq(-1,1,length.out = 100),3), color=~R2, colors=c("dimgray", "darkgreen", "darkred"), hoverinfo="none", frame = ~R2,type = 'scatter', mode = 'markers',showlegend = F) %>%
   layout(yaxis=list(title="")) %>% 
-  animation_button(visible=FALSE) # no need for a play button, since only three frames
+  animation_button(visible=FALSE) %>% config(displayModeBar = F)
 p1
 })
+```
+</div>
+<div style="float: right; width: 50%; height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=4,  out.width = '100%'}
+p12 = plot_ly(m, x=~x, y=~y, type = 'scatter', mode = 'markers', 
+        frame=~step, color=~agent, marker=list(size=20), colors=c(rgb(0,0,0.5,0.8), rgb(0.5,0,0,0.8))) %>% 
+  layout(showlegend = FALSE,yaxis=list(title=""),xaxis=list(title="")) %>% 
+  animation_opts(frame = 200) %>% config(displayModeBar = F)
+#subplot(p1, p12, shareX = F, shareY = F,which_layout = "merge") %>% layout(scene = list(domain = list(x = c(0.6, 1.2), y = c(0,1)))) %>% animation_slider()
+p12
 
+```
+</div>
+<div style="display: inline-block; position: relative; width: 100%;height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=3,  out.width = '100%'}
 subplot(p4, p2) %>% layout(scene = list(domain = list(x = c(0.6, 1.2), y = c(0,1))))
 
 ```
+</div>
 
-(also, this website, as well as my [personal website](https://andreskarjus.github.io/), are created using R Markdown, a language and R package for creating documents, slides, books, etc. in html, pdf and other formats, integrating R code and plots; the workshops materials also use R Markdown)
 
-```{r, echo=F,message=F, warning=F}
+```{r, echo=F,message=F, warning=F, eval=F}
+<div style="float: left; width: 50%; height: 400px;">
 eur = data.frame(country = c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR", "NOR", "ISL"), value = sample(seq(0,5,0.1),30)) # create some data
 
-p3 = plot_geo(eur, color = ~value, colors = c("navy", "goldenrod3")) %>% add_trace(z = ~value, locations = ~country, color = ~value) %>% 
-  layout(geo = list(scope="europe",lonaxis = list(range = c(-10, 28)),lataxis = list(range = c(30, 73)) ), margin=list(l=0,r=0,b=0,t=0))  %>%  
-  colorbar(title = "", thickness=5)
-
-p3 
+plot_geo(eur, color = ~value, colors = c("gray90", "gray40")) %>% add_trace(z = ~value, locations = ~country, color = ~value) %>% 
+  layout(margin=list(b=1,l=1,t=1,r=1, pad=0), geo = list(scope="europe",lonaxis = list(range = c(-10, 28)),lataxis = list(range = c(30, 73)) ), margin=list(l=0,r=0,b=0,t=0))  %>%  hide_colorbar() %>%
+  colorbar(title = "", thickness=5) %>% config(displayModeBar = F)
+#</div>
 ```
 
-```{r, echo=F,message=F, warning=F,out.width = '90%', out.height=600}
-load("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/gl.RData")
-gl
+<div style="display:flex;height:300px">
+<div style="flex:1;padding-right:5px">
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+
+library(visNetwork, quietly=T, verbose = F)
+library("igraph", quietly = T)  
+scots=c("Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una")
+nscots = length(scots) # record the number of people in an object
+mates = matrix(sample(0:1,nscots^2,T,prob=c(0.8,0.2)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)) # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
+g = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) # creates a graph object; this need to have igraph loaded to work
+gender = c(rep("m", nscots-9), rep("f", 9)) # create a vector of gender labels for the names
+#plot(g, vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA, vertex.label.cex=0.7, vertex.label.color=ifelse(gender=="m", yes="blue",no="tomato"), vertex.label.dist=0.1, vertex.label.font=2, edge.color=rgb(0,0,0,0.3))
+mfcolors = ifelse(gender=="m", yes=rgb(0.5,0.5,0.7),no=rgb(0.7,0.5,0.5))
+# Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
+
+scotgraph_v = toVisNetworkData(g) # converts the previous igraph object into a visNetwork object
+scotgraph_v$nodes$color = mfcolors # let's use the same node colors
+scotgraph_v$nodes$frame = "white"
+scotgraph_v$edges$color = "lightgray"
+v = visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges, height = "500px")
+v = visNodes(v, size = 10,  shadow=T, font=list(size = 10))
+v = visPhysics(v, enabled=T, solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -10)) 
+v 
+
 ```
+</div>
+
+<div style="flex:1;padding-left:5px">
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+library(visNetwork, quietly=T, verbose = F)
+
+speeches = data_corpus_inaugural$documents$texts # extract speeches data from the internal object
+speeches = gsub("Washington DC", "DC", speeches) # replace city name to avoid confusion with president Washington (hopefully)
+speechgivers = data_corpus_inaugural$documents$President # names of presidents giving the speech
+presidents = unique(data_corpus_inaugural$documents$President) # presidents (some were elected more than once)
+mentions = matrix(0, ncol=length(presidents), nrow=length(presidents), dimnames=list(presidents, presidents))
+for(president in presidents){
+  foundmentions = grep(president, speeches)
+  mentions[speechgivers[foundmentions], president ] = 1
+}
+
+pgraph = graph_from_adjacency_matrix(mentions, mode="directed") # this uses igraph
+pgraph_v = toVisNetworkData(pgraph )
+v = visNetwork(nodes = pgraph_v$nodes, edges = pgraph_v$edges)
+v = visNodes(v, size = 10,  shadow=T, font=list(size = 25), color="gray")
+v = visIgraphLayout(v, "layout_in_circle", smooth=T)
+v = visEdges(v, arrows = "to",  shadow=T, smooth=list(type="discrete"), selectionWidth=5)
+v = visOptions(v, highlightNearest = list(enabled = T, hover = T, degree=1, labelOnly=F, algorithm="hierarchical"), nodesIdSelection = F)
+v
+```
+</div>
+
+</div>
+
+<br>
+<br>
+
+
+<br>
