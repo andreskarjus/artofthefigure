@@ -1,11 +1,11 @@
 ---
 title: "aRt of the figure: Visualizing your data with R"
-author: Andres Karjus
 output: 
   html_document: 
     toc: yes
     theme: spacelab
 ---
+_[Andres Karjus](http://andreskarjus.github.io)_
 
 <div style="text-align: justify"> 
 
@@ -13,13 +13,13 @@ This functions as a cover page for all the *aRt of the Figure* workshops. So far
 
 Below are links to the various versions of the workshop, with installation instructions and script files.
 
-- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) | If you registred but haven't received an email, please get in touch
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 (more info soon!)
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">Centre for Language Evolution PhD Retreat, January 2019</a> | [Installation Instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html)
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_summer.Rmd">PPLS Writing Centre summer quantitative workshops series 2018</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_summer.html)
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsss.Rmd">SGSSS Summer School 2018 </a>
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush.Rmd">PPLS LEL Spring Retreat 2018 </a>
-- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure.Rmd">PPLS Writing Centre short workshops for 2017-2018</a> (will continue in 2018-2019)
+- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
+- Centre for Language Evolution PhD Retreat, January 2019 |  <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">the script</a>
+- PPLS Writing Centre summer quantitative workshops series 2018
+- SGSSS Summer School 2018
+- PPLS LEL Spring Retreat 2018
+- PPLS Writing Centre short workshops for 2017-2018
 
 Note that if the script opens as a plain text file in your browser, you'll need to right-click it and choose "Save as..."; and make sure the saved file has the `.Rmd` extension, not a `.txt` extension (fix it if needed). 
 <br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). The entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
