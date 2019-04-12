@@ -1,0 +1,475 @@
+---
+title: "Pre-workshop tutorial"
+output: 
+  html_document: 
+    number_sections: yes
+    toc: yes
+---
+<style>
+body .main-container {
+max-width: 1024px;
+}
+pre code.r {
+word-break: normal;
+}
+</style>
+
+
+This document contains: 
+
+- instructions on installing the necessary software for participation in the `Data visualization with R for corpus linguists` workshop and configuring it a bit
+- instructions to get some packages and make sure R Markdown works (very easy, step by step)
+- a link to the .Rmd script file we will be using in the workshop
+- a little exercise to introduce basic R concepts
+
+Importantly, if something went wrong and you could not install the software, please get in touch before the workshop starts so we can try to quickly troubleshoot. We cannot afford to waste any time on issues like installation during the workshop.
+
+# Installing the software
+
+You must have two pieces of (free) software installed on you laptop before coming to the workshop. Bring your laptop with you. The installation process is very simple. Before you start, *please* make sure your operating system is up to date as well (particularly Macs: there are known conflicts between old versions of R and some newer packages, which will manifest if you have a Mac with an old version of the Mac OS, which in turn would lead you to download an old version of R).
+
+## Installing R
+
+First and foremost, you need R. If you **already have R installed, please still update** it to the most recent version (which is done just by downloading the most recent installer and installing). Depending on your operating system, go to:
+
+- https://cran.r-project.org/bin/windows/base/ - for Windows
+- https://cran.r-project.org/bin/macosx/ - for Mac (if your Mac is up to date, you'll want the "R 3.5.3 binary for OS X 10.11 (El Capitan) and higher")
+- https://cran.r-project.org/bin/linux/ - for Linux
+
+Download the installer and install (with default options, just keep clicking Next). Run the R once to see that it works (in Windows, Rgui.exe should appear as a shortcut in the start menu and/or desktop; on a Mac, look for the R application in Finder). It should look something like this, depending on your OS:
+
+![on a Mac](rmac.png)  ![on Windows](rwin.JPG)
+
+Good job. Now close R (if it asks to save the workspace: not necessary). Once you get RStudio, there is no need to look at this ugly interface ever again.
+
+## Installing RStudio
+
+While it is completely fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using. Go to:
+
+- https://www.rstudio.com/products/rstudio/download/#download -> and choose the **installer** depending on your operating system (not the zip/tarball, and not the source code!).
+- UPDATE: if you're using a 32-bit version of Windows, [please download this archived version](http://download1.rstudio.org/RStudio-1.1.463.exe) instead - apparently the newest (April 8th) version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your Windows is not compatible, then this means you have a 32-bit version.
+
+Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).
+
+RStudio is an integrated development environment for R (which is why we had to install that first) - the Console panel on the left is basically the same thing that you saw when you ran "plain" R. But RStudio also features a number of very helpful things that will become apparent in the workshop. RStudio comes with a handy script editor, which we are going to use right away.
+
+## Configuring RStudio output options
+
+Before we do that, we need to quickly change **two** options in RStudio to make it behave in a more useful way for us (fortunately, the RStudio interface is highly customisable).
+
+- Go to _Tools_ -> _Global Options_, choose the _Code_ tab on the left, and tick `Soft-wrap R source file` (this will make using the script editor much easier, by wrapping long lines so you won't have to keep scrolling left and right all the time).
+- Then, again in the Global Options, click on the _R Markdown_ tab on the left, and *untick* (make sure the tick box is empty) the option `Show output inline for all R Markdown documents`. This will disable notebook-style plot previews in the script editor and show plots on their own.
+
+![](softwrap.png)
+
+## Packages and R Markdown
+
+Almost done! We need to make sure your RStudio and certain packages get along so we can use R Markdown and some more advanced plotting tools in the workshop. During this process, RStudio might need to download a few things - make sure you have internet access.
+
+1. Copy-paste this bit of code into the R console in RStudio and press Enter. It should start downloading packages, indicated by some red text telling you it's downloading from such and such url. Read though steps 2-6 while it's doing that. It will take a moment: besides the packages named here, all their dependencies (around 50 in total) will also be downloaded. It will report success/failure in the end.
+```{r, eval=F}
+p=c("magrittr","ggplot2","cowplot","ggbeeswarm","reshape2","RColorBrewer","viridis","plotly","datasauRus","languageR","igraph","visNetwork","wordcloud","quanteda","text2vec","raster","corrplot","rmarkdown"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("Packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+
+```
+Common issues:
+
+- Cannot download: make sure you have internet connection.
+- R asks "Do you want to install from sources the package which needs compilation? (Yes/no/cancel)" type "no" and press enter.
+- Some error about RcppArmadillo: ignore it.
+- Warning "package ... is not available (for R version ...)" - seems you didn't update R, see above.
+- If all else fails, try restarting RStudio and running the command above again; if it still reports installation failures, get in touch with me.
+
+---
+
+2. Now let's make sure R Markdown works. Click on New File  (either in the menu, or white button in the top left corner), and choose "R Markown...". 
+3. At this point, RStudio might ask you to install some packages (although this should have been taken care of in the previous step). If so, just click "Yes" and wait for it to finish.
+3. When this is done, a new window will appear, titled "New R Markdown...". Just click "OK" to create the default document.
+4. A new script file tab should appear in the script editor, probably titled "Untitled.Rmd". It has some example contents. 
+5. Save the new .Rmd file (click on the little blue save icon, give it some name and save).
+6. Now click on the little "Knit" icon (with the blue ball of yarn) on top of the script panel. A new window should appear, containing a simple webpage, titled "Untitled", telling you that "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML..." 
+
+Feel free to close this window now. If all this worked, great! If something did not work here, try restarting RStudio once and redoing the steps. If still no luck, find me beforehand so we can fix this. <br>As the last step, download the script file for the workshop. 
+
+# Download the script file for the workshop before the workshop begins (important!)
+
+- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">Click here to download the .Rmd script file you will be working with in the workshop</a>. 
+- Open the script file in RStudio.
+
+If it downloads as intended, then you should be able to open it with RStudio. <br>
+If it just opens in the browser as plain text when you clicked the link, instead of downloading, try right-clicking (CTRL+click on a Mac) on the link and selecting `Save link as...`). <br>
+If for some reason it got saved as a .txt file instead - apparently that can happen with some browsers: make sure the name of the file ends in `.Rmd` and *not* `.Rmd.txt` - delete the `.txt` suffix if necessary (on Windows, you may need to enable "show file extensions" in the folder options). After that, double-clicking it should open it in RStudio.
+
+Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code there: you will be guided through all the exercises in the workshop (and the workshop will be paced so that everybody can follow along, even if that means skipping some parts).
+
+# Optional pre-workshop intro to R (mandatory if you are new to R)
+
+If you are completely new to R, then you should complete the little exercise below. This is not a test. It's just a quick introduction to how basic R syntax works, so that you would not be completely lost in the workshop). If you have used R a while ago, feel free to do it as well as a refresher. Below is a block of code. What you need to do is select and copy this block of code, and paste it into the RStudio script editor. First create a new script by clicking on the New icon in the top left corner of RStudio (or File->New File) and choose "R Script". 
+
+![](newscript.png)
+
+A blank text file will open above the **Console** panel, titled something like `Untitled1.R`.
+
+Good job! Now copy-paste the code below (the gray box) into the new script file you just created, and follow the instructions therein.
+
+<br>
+```{r, eval=F}
+
+# Start of the exercise. You should be reading this message in the RStudio script editor.
+print("Hello! Put your text cursor on this line (click on the line). Anywhere on the line. Now press CTRL+ENTER (PC) or CMD+ENTER (Mac). Just do it.")
+
+# The command above, when executed (what you just did), printed the text in the console below. Also, this here is a comment. Commented parts of the script (anything after a # ) are not executed.
+# Also, if you've been scrolling left and right in the script window to read all this, turn on text wrapping ASAP: on the menu bar above, go to Tools -> Global Options -> Code (on the left) -> tick "Soft-wrap R source files". Better, right?
+
+# So, print() is a function. Most functions look something like this: 
+#      myfunction(inputs, parameters) 
+# All the inputs to the function go inside the ( ) brackets. In the above case, the text (all text, or "strings", must be within quotes) is the input to the print() function.
+
+# Let's try another function, sum().
+sum(1,10) # cursor on the line, press CTRL+ENTER (or CMD+ENTER on Mac)
+# You should see the output (sum of 1 and 10) in the console. Note that you can also write commands directly in the console, and executing them with ENTER. Try some simple maths: write 2*3+1 in the console below, and press ENTER.
+
+# Important: you can always get help for a function and check its input parameters by executing 
+help(sum)  # put the name of any function in the brackets
+# ...or by searching for the function by name in the Help tab on the right.
+
+# Let's plot something. The command for plotting things is, surprisingly, plot().
+plot(42, main = "Greatest plot in the world") # execute the command; a plot should appear on the right.
+
+# OK, this was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data (a vector of length one), and the second is 'main', which specifies the main title of the plot. 
+# Note that you can make to plot bigger by pressing the 'Zoom' button above the plot panel on the right.
+
+# Let's create some data to play with. We'll use the sample() command, which creates random numbers from a predifined sample. Basically it's like rolling a dice some n times, and recording the results.
+sample(x = 1:6, size = 50, replace = T) # execute this; its output is 50 numbers 
+# If an output is not assigned to some object, it usually just gets printed in the console. It would be easier to work with data, if we saved it in an object. For this, we need to learn assignement, which in R works using the equals = symbol (or the <-, but let's stick with = for simplicity).
+xdata = sample(x = 1:6, size = 50, replace = T)  # what it means: xdata is the name of a (new) object, the equals sign (=) signifies assignement, with the object on the left and the data on the right. In this case, the data is the output of the sample() function. Instead of printing in the console, the output is assigned to the object.
+xdata # execute to inspect: calling an object usually prints its contents into the console below.
+# Let's plot:
+plot(xdata)  # plots data as it is ordered in the object
+hist(xdata, breaks=20, main="Frequency of dice values") # plots a histogram (distribution of values)
+
+# Well done!! This is the end of the pre-workshop exercise Congratulations, you have successfully installed R and RStudio, and have now learned the basics of programming (functions, assignement, parameters, input-output; as well as authoring basic webpages).
+# You have also learned how to use the basic plot() command in R. This will form the basis of the workshop, where we will learn how to recognize ways to plot different kinds of data (not just random dice rolls!), and how to modify the plotting parameters in order to create informative but also visually more pleasing graphs (beyond the plain black-and-white examples like the above). 
+# Best of all, all the code is reusable in the sense that you can easily use the very same commands that we will be working with to plot your own data later on, just by changing the inputs.
+# Also, the "programming" side of things will not get any more complicated than what you did in the last 10 minutes. That is literally all you need - but we will explore how to use these basic skills in various different ways.
+
+```
+
+
+
+<br><br><br><br>
+
+# Sneak peek
+
+_By the way, these are the sort of things you will be easily able to create after participating in the workshop. Below the basic plots are interactive ones, try zooming and moving them._
+
+</div> 
+
+```{r, eval=F, echo=F}
+knitr::knit_exit()
+```
+
+
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=6}
+library(RColorBrewer)
+library(scales)
+library(magrittr)
+library(igraph, quietly = T)
+library(raster)
+library("wordcloud", quietly = T) 
+
+par(cex.axis=0.5, mar=c(2,2,1,1), mfrow=c(3,3), mgp=c(3, .4, 0), fg="gray")
+
+#iriscolors= c(rgb(0.3,0,0.3, 0.5), rgb(0,0,0.6,0.5), rgb(0,0.5,0.8,0.6)) # transparent colors
+iriscolors = c(gray.colors(2, start=0.4, end = 0.6, alpha=0.7), rgb(0.7,0,0,0.6))# %>% alpha(alpha=0.6)
+irispoints = c(15,16,17)  # see help(points) for more
+plot(iris$Sepal.Length, iris$Sepal.Width, 
+     col=iriscolors[iris$Species] , pch=irispoints[iris$Species],
+      xlab="", ylab="")
+grid(col=rgb(0,0,0,0.2), lty=3, lwd=0.5)
+
+boxplot.matrix(matrix(runif(1000),10,10), boxwex=0.5, cex=0.4, xaxt="n", lwd=0.5, lty=1, border=c(rep("black", 6),"darkred",rep("black", 6)) , yaxt="n") 
+axis(2, tck=0.02)
+axis(4, tck=0.02, labels=F)
+
+
+x=rnorm(100); y=x+runif(100,-1,1)
+plot(x~y, pch=20, ylab="", xlab="", col="black")
+points(1, x[which.max(y)], col="darkred", pch=20)
+grid(col=rgb(0,0,0,0.2), lty=1)
+# do the regression analysis:
+linmodel = lm(x~y)
+abline(linmodel, col=rgb(0,0,0,0.3), lwd=4) # abline can handle the output of the lm (linear model) command
+
+
+retime = c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 )
+retimes = rbind(subj1=retime, subj2=sort(rnorm(100, 1,0.3))*runif(100,0.4,0.8), subj3=sort(rnorm(100, 1,0.3))*runif(100,0.9,1.1) ) # rows are subjects, columns are trials
+plot(NA, ylim=c(0,3), xlim=c(0,100), ylab="", xlab=""); grid(lty=3,col=rgb(0,0,0,0.1))
+# create an empty plot beforehand, then add a line per subject ( [1,] indexes the first row, etc)
+cols=brewer.pal(11,"Spectral")[c(5,9,11)]
+lines(retimes[1, ], col="darkred")
+lines(retimes[2, ], col="gray70")
+lines(retimes[3, ], col="gray60")
+
+
+# boubakiki = data.frame(meanings=c(sample(c("big", "small", "medium"),20,T, prob=c(0.8,0.2,0.1)), sample(c("big", "small", "medium"),20,T, prob=c(0.3,0.7,0.2))), words=c(rep("bouba",20), rep("kiki",20)) )
+# bktable = table(boubakiki)
+# mosaicplot(bktable, main="",ylab="", xlab="", col=brewer.pal(11,"Spectral")[c(5,10)])                    # a simple mosaic plot
+
+
+
+# x=matrix(rnorm(100*100,mean = 0.2, 0.2),100,100)
+# y=c( rep(0,10), seq(0,0.9, length.out = 10), seq(0.9,0, length.out = 10), rep(0,70)  )
+# x=x+y
+# x=(t(x)+y)
+# 
+# r <- raster(ncols=100, nrows=100, xmn=0)
+# r[] <- runif(ncell(r), min=500, max=1500)  
+# GaussianKernel <- function(sigma=s, n=d) {
+#           m <- matrix(nc=n, nr=n)
+#             col <- rep(1:n, n)
+#             row <- rep(1:n, each=n)
+#           x <- col - ceiling(n/2)
+#           y <- row - ceiling(n/2)
+#          m[cbind(row, col)] <- 1/(2*pi*sigma^2) * exp(-(x^2+y^2)/(2*sigma^2))
+#         m / sum(m)
+#        }
+# # Create autocorrelated raster using 9x9 Gaussian Kernel with a sigma of 1
+# x<- focal(r, w=GaussianKernel(sigma=1, n=9))
+# image(x, col=colorRampPalette(c("darkred","gray90", "gray70"))(100) ); grid(col=rgb(0,0,0,0.3), lty=1, lwd=1)
+
+mosaicplot(matrix(sample(1:25,25), 5,5), col = gray.colors(5,0.7,0.9), main="")
+
+# library("corrplot", quietly = T)
+# x=matrix(sample(c(0,0.01,0.1,0,-0.2,0.6),4*4, replace = T), 4,4)
+# corrplot(x ,tl.pos="n",diag = F,type = "upper",  col = 
+#            colorRampPalette(c( rgb(0.7,0.7,0.8),"gray95",rgb(0.8,0.7,0.7)))(200))
+
+
+library(rworldmap)
+newmap <- getMap( resolution = "low")
+par(mar=c(2,2,1,1), pty = "m", fg="black")
+plot(newmap, xlim = c(-6, 29), ylim = c(50, 65),  asp = 1, lwd=0.2)
+
+par(mar=c(2,2,1,1), pty = "s", fg="gray")
+
+sometext = "this wordcloud that consisting of words in text it gives an idea of what the text all about wordcloud this is a wordcloud wordcloud words words words words word word word meaning meaning meaning topic topic topic text text texts sentence sentence sentences cloud somewhere here is something said theme color colors idea idea ideas thoughts secrets"
+clean = gsub("[[:punct:]]", "", sometext) # remove punctuation (that weird thing inside the gsub (R's find-and-replace command) is a regular expression; don't ask, it just works)
+cleanlow = tolower(clean) # make everything lowecase
+words = strsplit(cleanlow, split=" ")[[1]]
+# Inspect the object we just created. It should be a vector of 232 words.
+# Some ways to inspect and visualize textual data
+sortedwords2 = sort(table(words)) # counts the words and sorts them
+
+par(mar=c(0,0,0,0))
+wordcloud(names(sortedwords2), (as.numeric(sortedwords2)), min.freq = 0, col=colorRampPalette(c("gray90", "gray70","gray60", "darkred"))(100), scale=c(3,0.1), random.order = F, random.color = F)
+# brewer.pal(5, "YlGnBu")[-c(1:2)]
+par(mar=c(2,2,1,1))
+plot(hclust(as.dist(matrix(runif(100),10,10))), col="black", main="", yaxt="n", ylab="", xlab="", cex=0.6)
+
+g=simplify(graph_from_edgelist(matrix(sample(letters[1:10],30, replace = T),ncol=2),directed = F))
+plot(g, vertex.color="white", vertex.frame.color=c("darkred",rep("darkgray",length(E(g))-1)), vertex.label=NA)
+
+
+```
+
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
+library("ggplot2", quietly = T)
+library("cowplot",quietly = T, warn.conflicts = F)
+library("ggbeeswarm",quietly = T, warn.conflicts = F)
+# Scatterplot of two numeric variables
+iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species), size=0.7)  + theme_gray(base_size = 6) +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
+
+iris2 = 
+  ggplot(iris, aes(x = Petal.Length, fill = Species)) +
+  geom_density(alpha = 0.7, size=0.3) +  theme_gray(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none")
+
+iris3 = ggplot(iris, aes(Species,Petal.Length)) + geom_beeswarm(aes(col=Species),groupOnX=T, size=0.9, cex=2.2)  + #+ geom_boxplot(fill=NA, color=rgb(0,0,0,0.1)) + 
+  theme_minimal(base_size = 6) +  scale_colour_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_blank())
+
+plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
+```
+
+```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
+
+# Scatterplot of two numeric variables
+iris2 = ggplot(iris, aes(x=Petal.Length)) + geom_histogram(binwidth=0.2)  + theme_minimal(base_size = 6)  + labs(x="",y="") + theme(legend.position="none")
+
+
+
+
+iris3 = ggplot(iris, aes( Species, Petal.Length)) + geom_violin(alpha = 0.7, size=0.3, aes(fill = Species)) +  theme_minimal(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none", axis.text.x=element_blank())
+
+# iris1 = ggplot(iris, aes(Petal.Length, y=Sepal.Length)) +  geom_bin2d(bins=10) +
+#   theme_minimal(base_size = 6) + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_text()) + scale_fill_gradient(low="lightgray",high= "black")
+
+iris1 = ggplot(faithfuld, aes(waiting, eruptions)) +
+  geom_raster(aes(fill = density)) +
+  scale_fill_gradientn(colours = gray.colors(100, start = 1, end=0.2)) + 
+  theme_minimal(base_size = 6) + theme(panel.ontop = T) + labs(x="",y="") + theme(legend.position="none") 
+
+plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
+
+```
+
+<div style="text-align: justify"> 
+(also, this website, as well as my [personal website](https://andreskarjus.github.io/), are created using R Markdown, a language and R package for creating documents, slides, books, etc. in html, pdf and other formats, integrating R code and plots; the workshops materials also use R Markdown)
+</div>
+
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+library("quanteda", quietly=T, warn.conflicts=F) # make sure this is installed and load it; this also includes a dataset
+library("plotly", quietly=T, warn.conflicts=F)
+# A look into the usage of some words across centuries
+termmat_prop = dfm_weight(dfm(data_corpus_inaugural, tolower = T, stem=F,remove=stopwords(), remove_punct=T), "prop") # use normalized frequencies
+words = c("america", "states", "americans", "white", "black",  "dream", "hope", "happiness",  "business", "dollars","money",  "immigrants", "peace", "war", "terror")
+
+words2 = c("america$", "states", "american", "nation", "white", "black",  "dream", "hope", "great", "happiness",  "business", "dollar","money",  "immigra", "peace", "war", "army", "terror", "god", "lord")
+newmat = round(sapply(words2, function(x) rowSums(termmat_prop[, grep(x, colnames(termmat_prop))])),5)
+
+p = plot_ly(x=words2, y=rownames(newmat), z=newmat, type="heatmap", colors = colorRamp(c("white", "lightgray", "gray", "darkgray", "black")),showscale = F)
+p = layout(p,yaxis=list(tickfont=list(size=6)), xaxis=list(tickfont=list(size=6)),  margin = list(l=130, b=70), paper_bgcolor=rgb(0.95,0.95,0.95)) %>% config(displayModeBar = F)
+p
+
+
+```
+
+
+```{r, echo=F,message=F, warning=F,out.width = '100%', out.height=600}
+# <div style="float: left; width: 100%;height: 400px;">
+# </div>
+load("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/gl.RData")
+gl %>% config(displayModeBar = F)
+```
+
+
+<div style="float: left; width: 50%; height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=4,  out.width = '100%'}
+# library("raster", quietly = T)
+# uk = getData("GADM", country = "United Kingdom", level = 2) # download UK map (needs the raster package to be loaded)
+# plot(uk, lwd=0.4, border=rgb(0,0,0,0.2)) # plot the UK
+# grid()            # add grid
+
+library(plotly, quietly = T)
+df=data.frame(d=c(runif(100,-1,1)+rnorm(100,0,0.5),sort(runif(100,-0.6,0.6))+rnorm(100,0,0.5), sort(runif(100,-1,1))+rnorm(100, 0, 0.1)), R2=as.factor(c(rep("0",100), rep("0.3",100), rep("0.95",100) )))
+retimes = data.frame(cbind(subj1=c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 ), subj2=sort(rnorm(100, 1,0.3))*runif(100,0.4,0.8), subj3=sort(rnorm(100, 1,0.3))*runif(100,0.9,1.1) ))
+
+p4= plot_ly(type="scatter", data = retimes, mode="none")  %>% 
+  add_trace(y=~subj1, mode="lines", name="Subject 1", color=I("darkgray")) %>% 
+  add_trace(y=~subj2, mode="lines", name="Subject 2", color=I("darkred")) %>% 
+  layout(yaxis=list(title="Reaction time"), xaxis=list(title="Experiment progress"), showlegend=F) %>% config(displayModeBar = F)
+
+cols=viridis_pal(alpha=1,begin=0.3, end=0.8)(3)
+p2 = plot_ly(x= iris$Petal.Length,y=iris$Sepal.Width, z=iris$Sepal.Length, type="scatter3d",mode="markers",color=iris$Species, colors=cols, opacity=0.4, marker=list(size=7)) %>% layout(showlegend=F) %>% config(displayModeBar = F)
+
+
+  n=100 # number of iterations
+  m1=data.frame(x=rep(1,n), y=rep(1,n))
+  m2=data.frame(x=rep(1,n), y=rep(1,n))
+  for(i in 2:n){
+    s=seq(m1$x[i-1]-3,m1$x[i-1]+3, 0.5); s=s[s>0]
+    m1$x[i]=sample(s,1, prob=abs(s))
+    s=seq(m1$y[i-1]-3,m1$y[i-1]+3, 0.5); s=s[s>0]
+    m1$y[i]=sample(s,1,  prob=abs(s))
+    s=seq(m2$x[i-1]-2,m2$x[i-1]+2, 0.5); s=s[s>0]
+    m2$x[i]=sample(s,1, prob=rev(abs(s-m1$x[i])) )
+    s=seq(m2$y[i-1]-2,m2$y[i-1]+2, 0.5); s=s[s>0]
+    m2$y[i]=sample(s,1, prob=rev(abs(s-m1$y[i])) )
+  }
+  m=cbind(rbind(m1,m2), step=c(1:n,1:n), agent=rep(c("a", "b"), each=n))
+
+
+
+
+suppressWarnings({
+p1 = plot_ly(df, y=~d, x=rep(seq(-1,1,length.out = 100),3), color=~R2, colors=c("dimgray", "darkgreen", "darkred"), hoverinfo="none", frame = ~R2,type = 'scatter', mode = 'markers',showlegend = F) %>%
+  layout(yaxis=list(title="")) %>% 
+  animation_button(visible=FALSE) %>% config(displayModeBar = F)
+p1
+})
+```
+</div>
+<div style="float: right; width: 50%; height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=4,  out.width = '100%'}
+p12 = plot_ly(m, x=~x, y=~y, type = 'scatter', mode = 'markers', 
+        frame=~step, color=~agent, marker=list(size=20), colors=c(rgb(0,0,0.5,0.8), rgb(0.5,0,0,0.8))) %>% 
+  layout(showlegend = FALSE,yaxis=list(title=""),xaxis=list(title="")) %>% 
+  animation_opts(frame = 200) %>% config(displayModeBar = F)
+#subplot(p1, p12, shareX = F, shareY = F,which_layout = "merge") %>% layout(scene = list(domain = list(x = c(0.6, 1.2), y = c(0,1)))) %>% animation_slider()
+p12
+
+```
+</div>
+<div style="display: inline-block; position: relative; width: 100%;height: 400px;">
+```{r, echo=F,message=F, warning=F, fig.height=3,  out.width = '100%'}
+subplot(p4, p2) %>% layout(scene = list(domain = list(x = c(0.6, 1.2), y = c(0,1))))
+
+```
+</div>
+
+
+```{r, echo=F,message=F, warning=F, eval=F}
+<div style="float: left; width: 50%; height: 400px;">
+eur = data.frame(country = c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR", "NOR", "ISL"), value = sample(seq(0,5,0.1),30)) # create some data
+
+plot_geo(eur, color = ~value, colors = c("gray90", "gray40")) %>% add_trace(z = ~value, locations = ~country, color = ~value) %>% 
+  layout(margin=list(b=1,l=1,t=1,r=1, pad=0), geo = list(scope="europe",lonaxis = list(range = c(-10, 28)),lataxis = list(range = c(30, 73)) ), margin=list(l=0,r=0,b=0,t=0))  %>%  hide_colorbar() %>%
+  colorbar(title = "", thickness=5) %>% config(displayModeBar = F)
+#</div>
+```
+
+<div style="display:flex;height:300px">
+<div style="flex:1;padding-right:5px">
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+
+library(visNetwork, quietly=T, verbose = F)
+library("igraph", quietly = T)  
+scots=c("Iain","Irvine","James","Muir","Mungo","Owen","Raibert", "Lyall", "Margaret", "Mairi", "Morag", "Murdina","Rhona", "Sorcha", "Thomasina","Una")
+nscots = length(scots) # record the number of people in an object
+mates = matrix(sample(0:1,nscots^2,T,prob=c(0.8,0.2)), ncol=nscots, nrow=nscots, dimnames=list(scots, scots)) # this creates a randomized matrix signifying friendships; no need to think about this too hard for now
+g = graph_from_adjacency_matrix(mates, mode = "undirected", diag=FALSE) # creates a graph object; this need to have igraph loaded to work
+gender = c(rep("m", nscots-9), rep("f", 9)) # create a vector of gender labels for the names
+#plot(g, vertex.size=4, vertex.color="lightgray", vertex.frame.color=NA, vertex.label.cex=0.7, vertex.label.color=ifelse(gender=="m", yes="blue",no="tomato"), vertex.label.dist=0.1, vertex.label.font=2, edge.color=rgb(0,0,0,0.3))
+mfcolors = ifelse(gender=="m", yes=rgb(0.5,0.5,0.7),no=rgb(0.7,0.5,0.5))
+# Let's try something else. Using the same graph data, we'll recreate it using another package, visNetwork, which makes graphs interactable.
+
+scotgraph_v = toVisNetworkData(g) # converts the previous igraph object into a visNetwork object
+scotgraph_v$nodes$color = mfcolors # let's use the same node colors
+scotgraph_v$nodes$frame = "white"
+scotgraph_v$edges$color = "lightgray"
+v = visNetwork(nodes = scotgraph_v$nodes, edges = scotgraph_v$edges, height = "500px")
+v = visNodes(v, size = 10,  shadow=T, font=list(size = 10))
+v = visPhysics(v, enabled=T, solver = "forceAtlas2Based", forceAtlas2Based = list(gravitationalConstant = -10)) 
+v 
+
+```
+</div>
+
+<div style="flex:1;padding-left:5px">
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+library(visNetwork, quietly=T, verbose = F)
+
+speeches = data_corpus_inaugural$documents$texts # extract speeches data from the internal object
+speeches = gsub("Washington DC", "DC", speeches) # replace city name to avoid confusion with president Washington (hopefully)
+speechgivers = data_corpus_inaugural$documents$President # names of presidents giving the speech
+presidents = unique(data_corpus_inaugural$documents$President) # presidents (some were elected more than once)
+mentions = matrix(0, ncol=length(presidents), nrow=length(presidents), dimnames=list(presidents, presidents))
+for(president in presidents){
+  foundmentions = grep(president, speeches)
+  mentions[speechgivers[foundmentions], president ] = 1
+}
+
+pgraph = graph_from_adjacency_matrix(mentions, mode="directed") # this uses igraph
+pgraph_v = toVisNetworkData(pgraph )
+v = visNetwork(nodes = pgraph_v$nodes, edges = pgraph_v$edges)
+v = visNodes(v, size = 10,  shadow=T, font=list(size = 25), color="gray")
+v = visIgraphLayout(v, "layout_in_circle", smooth=T)
+v = visEdges(v, arrows = "to",  shadow=T, smooth=list(type="discrete"), selectionWidth=5)
+v = visOptions(v, highlightNearest = list(enabled = T, hover = T, degree=1, labelOnly=F, algorithm="hierarchical"), nodesIdSelection = F)
+v
+```
+</div>
+
+</div>
+
+<br>
+<br>
+
