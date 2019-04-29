@@ -1,5 +1,5 @@
 ---
-title: "aRt of the figure: Visualizing your data using R"
+title: "aRt of the figure:<br>explore and visualize your data using R"
 output: 
   html_document: 
     toc: yes
@@ -13,9 +13,10 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 
 **Upcoming** (watch this space)
 
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 (more info soon!)
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [overview](http://www.cl2019.org/wp-content/uploads/2019/02/visualizing_data_with_R_cl2019.pdf) | (more info soon!)
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019.
 - Short workshop at the Scots Syntax Atlas Data Hack, content tbd. June 2019.
+- Jupyter Notebooks taster, SGSSS Summer School 2019 (co-teaching; not R; but will include examples from the inter-language plotly package which has been used here a lot, see examples below)
 
 **Past**
 
@@ -38,155 +39,19 @@ Below is a little showcase of the kinds of plots and figures you could learn to 
 
 </div> 
 
-```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=6}
+```{r,echo=F}
+htmltools::includeHTML("plots_fragment.html") 
+```
+
+
+```{r, echo=F, message=F, warning=F, out.width = '100%'}
+library("quanteda", quietly=T, warn.conflicts=F) 
+library("plotly", quietly=T, warn.conflicts=F)
 library(RColorBrewer)
 library(scales)
 library(magrittr)
 library(igraph, quietly = T)
-library(raster)
-library("wordcloud", quietly = T) 
 
-par(cex.axis=0.5, mar=c(2,2,1,1), mfrow=c(3,3), mgp=c(3, .4, 0), fg="gray")
-
-#iriscolors= c(rgb(0.3,0,0.3, 0.5), rgb(0,0,0.6,0.5), rgb(0,0.5,0.8,0.6)) # transparent colors
-iriscolors = c(gray.colors(2, start=0.4, end = 0.6, alpha=0.7), rgb(0.7,0,0,0.6))# %>% alpha(alpha=0.6)
-irispoints = c(15,16,17)  # see help(points) for more
-plot(iris$Sepal.Length, iris$Sepal.Width, 
-     col=iriscolors[iris$Species] , pch=irispoints[iris$Species],
-      xlab="", ylab="")
-grid(col=rgb(0,0,0,0.2), lty=3, lwd=0.5)
-
-boxplot.matrix(matrix(runif(1000),10,10), boxwex=0.5, cex=0.4, xaxt="n", lwd=0.5, lty=1, border=c(rep("black", 6),"darkred",rep("black", 6)) , yaxt="n") 
-axis(2, tck=0.02)
-axis(4, tck=0.02, labels=F)
-
-
-x=rnorm(100); y=x+runif(100,-1,1)
-plot(x~y, pch=20, ylab="", xlab="", col="black")
-points(1, x[which.max(y)], col="darkred", pch=20)
-grid(col=rgb(0,0,0,0.2), lty=1)
-# do the regression analysis:
-linmodel = lm(x~y)
-abline(linmodel, col=rgb(0,0,0,0.3), lwd=4) # abline can handle the output of the lm (linear model) command
-
-
-retime = c(runif(20, 0,0.1), seq(0.1, 2.8,length.out = 80)) *  runif(100, 0.7, 1.1 )
-retimes = rbind(subj1=retime, subj2=sort(rnorm(100, 1,0.3))*runif(100,0.4,0.8), subj3=sort(rnorm(100, 1,0.3))*runif(100,0.9,1.1) ) # rows are subjects, columns are trials
-plot(NA, ylim=c(0,3), xlim=c(0,100), ylab="", xlab=""); grid(lty=3,col=rgb(0,0,0,0.1))
-# create an empty plot beforehand, then add a line per subject ( [1,] indexes the first row, etc)
-cols=brewer.pal(11,"Spectral")[c(5,9,11)]
-lines(retimes[1, ], col="darkred")
-lines(retimes[2, ], col="gray70")
-lines(retimes[3, ], col="gray60")
-
-
-# boubakiki = data.frame(meanings=c(sample(c("big", "small", "medium"),20,T, prob=c(0.8,0.2,0.1)), sample(c("big", "small", "medium"),20,T, prob=c(0.3,0.7,0.2))), words=c(rep("bouba",20), rep("kiki",20)) )
-# bktable = table(boubakiki)
-# mosaicplot(bktable, main="",ylab="", xlab="", col=brewer.pal(11,"Spectral")[c(5,10)])                    # a simple mosaic plot
-
-
-
-# x=matrix(rnorm(100*100,mean = 0.2, 0.2),100,100)
-# y=c( rep(0,10), seq(0,0.9, length.out = 10), seq(0.9,0, length.out = 10), rep(0,70)  )
-# x=x+y
-# x=(t(x)+y)
-# 
-# r <- raster(ncols=100, nrows=100, xmn=0)
-# r[] <- runif(ncell(r), min=500, max=1500)  
-# GaussianKernel <- function(sigma=s, n=d) {
-#           m <- matrix(nc=n, nr=n)
-#             col <- rep(1:n, n)
-#             row <- rep(1:n, each=n)
-#           x <- col - ceiling(n/2)
-#           y <- row - ceiling(n/2)
-#          m[cbind(row, col)] <- 1/(2*pi*sigma^2) * exp(-(x^2+y^2)/(2*sigma^2))
-#         m / sum(m)
-#        }
-# # Create autocorrelated raster using 9x9 Gaussian Kernel with a sigma of 1
-# x<- focal(r, w=GaussianKernel(sigma=1, n=9))
-# image(x, col=colorRampPalette(c("darkred","gray90", "gray70"))(100) ); grid(col=rgb(0,0,0,0.3), lty=1, lwd=1)
-
-mosaicplot(matrix(sample(1:25,25), 5,5), col = gray.colors(5,0.7,0.9), main="")
-
-# library("corrplot", quietly = T)
-# x=matrix(sample(c(0,0.01,0.1,0,-0.2,0.6),4*4, replace = T), 4,4)
-# corrplot(x ,tl.pos="n",diag = F,type = "upper",  col = 
-#            colorRampPalette(c( rgb(0.7,0.7,0.8),"gray95",rgb(0.8,0.7,0.7)))(200))
-
-
-library(rworldmap)
-newmap <- getMap( resolution = "low")
-par(mar=c(2,2,1,1), pty = "m", fg="black")
-plot(newmap, xlim = c(-6, 29), ylim = c(50, 65),  asp = 1, lwd=0.2)
-
-par(mar=c(2,2,1,1), pty = "s", fg="gray")
-
-sometext = "this wordcloud that consisting of words in text it gives an idea of what the text all about wordcloud this is a wordcloud wordcloud words words words words word word word meaning meaning meaning topic topic topic text text texts sentence sentence sentences cloud somewhere here is something said theme color colors idea idea ideas thoughts secrets"
-clean = gsub("[[:punct:]]", "", sometext) # remove punctuation (that weird thing inside the gsub (R's find-and-replace command) is a regular expression; don't ask, it just works)
-cleanlow = tolower(clean) # make everything lowecase
-words = strsplit(cleanlow, split=" ")[[1]]
-# Inspect the object we just created. It should be a vector of 232 words.
-# Some ways to inspect and visualize textual data
-sortedwords2 = sort(table(words)) # counts the words and sorts them
-
-par(mar=c(0,0,0,0))
-wordcloud(names(sortedwords2), (as.numeric(sortedwords2)), min.freq = 0, col=colorRampPalette(c("gray90", "gray70","gray60", "darkred"))(100), scale=c(3,0.1), random.order = F, random.color = F)
-# brewer.pal(5, "YlGnBu")[-c(1:2)]
-par(mar=c(2,2,1,1))
-plot(hclust(as.dist(matrix(runif(100),10,10))), col="black", main="", yaxt="n", ylab="", xlab="", cex=0.6)
-
-g=simplify(graph_from_edgelist(matrix(sample(letters[1:10],30, replace = T),ncol=2),directed = F))
-plot(g, vertex.color="white", vertex.frame.color=c("darkred",rep("darkgray",length(E(g))-1)), vertex.label=NA)
-
-
-```
-
-```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
-library("ggplot2", quietly = T)
-library("cowplot",quietly = T, warn.conflicts = F)
-library("ggbeeswarm",quietly = T, warn.conflicts = F)
-# Scatterplot of two numeric variables
-iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species), size=0.7)  + theme_gray(base_size = 6) +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
-
-iris2 = 
-  ggplot(iris, aes(x = Petal.Length, fill = Species)) +
-  geom_density(alpha = 0.7, size=0.3) +  theme_gray(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none")
-
-iris3 = ggplot(iris, aes(Species,Petal.Length)) + geom_beeswarm(aes(col=Species),groupOnX=T, size=0.9, cex=2.2)  + #+ geom_boxplot(fill=NA, color=rgb(0,0,0,0.1)) + 
-  theme_minimal(base_size = 6) +  scale_colour_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_blank())
-
-plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
-```
-
-```{r, echo=F, message=F, warning=F, out.width = '100%', fig.height=2}
-
-# Scatterplot of two numeric variables
-iris2 = ggplot(iris, aes(x=Petal.Length)) + geom_histogram(binwidth=0.2)  + theme_minimal(base_size = 6)  + labs(x="",y="") + theme(legend.position="none")
-
-
-
-
-iris3 = ggplot(iris, aes( Species, Petal.Length)) + geom_violin(alpha = 0.7, size=0.3, aes(fill = Species)) +  theme_minimal(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none", axis.text.x=element_blank())
-
-# iris1 = ggplot(iris, aes(Petal.Length, y=Sepal.Length)) +  geom_bin2d(bins=10) +
-#   theme_minimal(base_size = 6) + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_text()) + scale_fill_gradient(low="lightgray",high= "black")
-
-iris1 = ggplot(faithfuld, aes(waiting, eruptions)) +
-  geom_raster(aes(fill = density)) +
-  scale_fill_gradientn(colours = gray.colors(100, start = 1, end=0.2)) + 
-  theme_minimal(base_size = 6) + theme(panel.ontop = T) + labs(x="",y="") + theme(legend.position="none") 
-
-plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
-
-```
-
-<div style="text-align: justify"> 
-(also, this website, as well as my [personal website](https://andreskarjus.github.io/), are created using R Markdown, a language and R package for creating documents, slides, books, etc. in html, pdf and other formats, integrating R code and plots; the workshops materials also use R Markdown)
-</div>
-
-```{r, echo=F, message=F, warning=F, out.width = '100%'}
-library("quanteda", quietly=T, warn.conflicts=F) # make sure this is installed and load it; this also includes a dataset
-library("plotly", quietly=T, warn.conflicts=F)
 # A look into the usage of some words across centuries
 termmat_prop = dfm_weight(dfm(data_corpus_inaugural, tolower = T, stem=F,remove=stopwords(), remove_punct=T), "prop") # use normalized frequencies
 words = c("america", "states", "americans", "white", "black",  "dream", "hope", "happiness",  "business", "dollars","money",  "immigrants", "peace", "war", "terror")
@@ -341,6 +206,5 @@ v
 
 <br>
 <br>
-
 
 <br>
