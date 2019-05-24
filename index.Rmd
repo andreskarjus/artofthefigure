@@ -13,6 +13,7 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 
 **Upcoming** (watch this space)
 
+- Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat 2019 to Firbush | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [overview](http://www.cl2019.org/wp-content/uploads/2019/02/visualizing_data_with_R_cl2019.pdf) | (more info soon!)
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019.
 - Short workshop at the Scots Syntax Atlas Data Hack, content tbd. June 2019.
