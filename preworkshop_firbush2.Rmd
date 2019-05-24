@@ -1,0 +1,163 @@
+---
+title: "Pre-workshop tutorial"
+output: 
+  html_document: 
+    number_sections: yes
+    toc: yes
+---
+<style>
+body .main-container {
+max-width: 1024px;
+}
+pre code.r {
+word-break: normal;
+}
+</style>
+
+
+This document contains: 
+
+- instructions on installing the necessary software for participation in the workshop and configuring it a bit
+- instructions to get some packages and make sure R Markdown works (very easy, step by step)
+- a link to the .Rmd script file we will be using in the workshop
+- a little exercise to introduce basic R concepts
+
+Importantly, if something went wrong and you could not install the software, please get in touch before the workshop starts so we can try to quickly troubleshoot. We cannot afford to waste any time on issues like installation during the workshop.
+
+# Installing the software
+
+You must have two pieces of (free) software installed on you laptop before coming to the workshop. Bring your laptop with you. The installation process is very simple. Before you start, *please* make sure your operating system is up to date as well (particularly Macs: there are known conflicts between old versions of R and some newer packages, which will manifest if you have a Mac with an old version of the Mac OS, which in turn would lead you to download an old version of R).
+
+## Installing R
+
+First and foremost, you need R. If you **already have R installed, please still update** it to the most recent version (which is done just by downloading the most recent installer and installing). Depending on your operating system, go to:
+
+- https://cran.r-project.org/bin/windows/base/ - for Windows
+- https://cran.r-project.org/bin/macosx/ - for Mac (if your Mac is up to date, you'll want the "R binary for OS X 10.11 (El Capitan) and higher")
+- https://cran.r-project.org/bin/linux/ - for Linux
+
+Download the installer and install (with default options, just keep clicking Next). Run the R once to see that it works (in Windows, Rgui.exe should appear as a shortcut in the start menu and/or desktop; on a Mac, look for the R application in Finder). It should look something like this, depending on your OS:
+
+![on a Mac](rmac.png)  ![on Windows](rwin.JPG)
+
+Good job. Now close R (if it asks to save the workspace: not necessary). Once you get RStudio, there is no need to look at this ugly interface ever again.
+
+## Installing RStudio
+
+While it is completely fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using. Go to:
+
+- https://www.rstudio.com/products/rstudio/download/#download -> and choose the **installer** depending on your operating system (not the zip/tarball, and not the source code!).
+- UPDATE: if you're using a 32-bit version of Windows, [please download this archived version](http://download1.rstudio.org/RStudio-1.1.463.exe) instead - apparently the newest (April 8th) version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your Windows is not compatible, then this means you have a 32-bit version.
+
+Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).
+
+RStudio is an integrated development environment for R (which is why we had to install that first) - the Console panel on the left is basically the same thing that you saw when you ran "plain" R. But RStudio also features a number of very helpful things that will become apparent in the workshop. RStudio comes with a handy script editor, which we are going to use right away.
+
+## Configuring RStudio output options
+
+Before we do that, we need to quickly change **two** options in RStudio to make it behave in a more useful way for us (fortunately, the RStudio interface is highly customisable).
+
+- Go to _Tools_ -> _Global Options_, choose the _Code_ tab on the left, and tick `Soft-wrap R source file` (this will make using the script editor much easier, by wrapping long lines so you won't have to keep scrolling left and right all the time).
+- Then, again in the Global Options, click on the _R Markdown_ tab on the left, and *untick* (make sure the tick box is empty) the option `Show output inline for all R Markdown documents`. This will disable notebook-style plot previews in the script editor and show plots on their own.
+
+![](softwrap.png)
+
+## Packages and R Markdown
+
+Almost done! We need to make sure your RStudio and certain packages get along so we can use R Markdown and some more advanced plotting tools in the workshop. During this process, RStudio might need to download a few things - make sure you have internet access.
+
+1. Copy-paste this bit of code into the R console in RStudio and press Enter. It should start downloading packages, indicated by some red text telling you it's downloading from such and such url. Read though steps 2-6 while it's doing that. It will take a moment: besides the packages named here, all their dependencies (around 50 in total) will also be downloaded. It will report success/failure in the end.
+```{r, eval=F}
+p=c("magrittr","ggplot2","cowplot","ggbeeswarm","reshape2","RColorBrewer","viridis","plotly","languageR","wordcloud","quanteda","corrplot","rmarkdown"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("Packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+
+```
+Common issues:
+
+- Cannot download: make sure you have internet connection.
+- R asks "Do you want to install from sources the package which needs compilation? (Yes/no/cancel)" type "no" and press enter.
+- Some error about `RcppArmadillo`: ignore it.
+- Warning "package ... is not available (for R version ...)" - seems you didn't update R, see above.
+- If all else fails, try restarting RStudio and running the command above again; if it still reports installation failures, get in touch with me.
+
+---
+
+2. Now let's make sure R Markdown works. Click on New File  (either in the menu, or white button in the top left corner), and choose "R Markown...". 
+3. At this point, RStudio might ask you to install some packages (although this should have been taken care of in the previous step). If so, just click "Yes" and wait for it to finish.
+3. When this is done, a new window will appear, titled "New R Markdown...". Just click "OK" to create the default document.
+4. A new script file tab should appear in the script editor, probably titled "Untitled.Rmd". It has some example contents. 
+5. Save the new .Rmd file (click on the little blue save icon, give it some name and save).
+6. Now click on the little "Knit" icon (with the blue ball of yarn) on top of the script panel. A new window should appear, containing a simple webpage, titled "Untitled", telling you that "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML..." 
+
+Feel free to close this window now. If all this worked, great! If something did not work here, try restarting RStudio once and redoing the steps. If still no luck, find me beforehand so we can fix this. <br>As the last step, download the script file for the workshop. 
+
+# Download the script file for the workshop before the workshop begins (important!)
+
+- <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">Click here to download the .Rmd script file you will be working with in the workshop</a>. 
+- Open the script file in RStudio.
+
+If it downloads as intended, then you should be able to open it with RStudio. <br>
+If it just opens in the browser as plain text when you clicked the link, instead of downloading, try right-clicking (CTRL+click on a Mac) on the link and selecting `Save link as...`). <br>
+If for some reason it got saved as a .txt file instead - apparently that can happen with some browsers: make sure the name of the file ends in `.Rmd` and *not* `.Rmd.txt` - delete the `.txt` suffix if necessary (on Windows, you may need to enable "show file extensions" in the folder options). After that, double-clicking it should open it in RStudio.
+
+Feel free to browse the script beforehand if you'd like, but also don't be intimidated by the amount of code there: you will be guided through all the exercises in the workshop (and the workshop will be paced so that everybody can follow along, even if that means skipping some parts).
+
+# Optional pre-workshop intro to R 
+
+(If you don't know R at all but would like to get a head start)<br>
+It's just a quick introduction to how basic R syntax works, so that you would not be completely lost in the workshop). If you have used R a while ago, feel free to do it as well as a refresher. Below is a block of code. What you need to do is select and copy this block of code, and paste it into the RStudio script editor. First create a new script by clicking on the New icon in the top left corner of RStudio (or File->New File) and choose "R Script". 
+
+![](newscript.png)
+
+A blank text file will open above the **Console** panel, titled something like `Untitled1.R`.
+
+Good job! Now copy-paste the code below (the gray box) into the new script file you just created, and follow the instructions therein.
+
+<br>
+```{r, eval=F}
+
+# Start of the exercise. You should be reading this message in the RStudio script editor.
+print("Hello! Put your text cursor on this line (click on the line). Anywhere on the line. Now press CTRL+ENTER (PC) or CMD+ENTER (Mac). Just do it.")
+
+# The command above, when executed (what you just did), printed the text in the console below. Also, this here is a comment. Commented parts of the script (anything after a # ) are not executed.
+# Also, if you've been scrolling left and right in the script window to read all this, turn on text wrapping ASAP: on the menu bar above, go to Tools -> Global Options -> Code (on the left) -> tick "Soft-wrap R source files". Better, right?
+
+# So, print() is a function. Most functions look something like this: 
+#      myfunction(inputs, parameters) 
+# All the inputs to the function go inside the ( ) brackets. In the above case, the text (all text, or "strings", must be within quotes) is the input to the print() function.
+
+# Let's try another function, sum().
+sum(1,10) # cursor on the line, press CTRL+ENTER (or CMD+ENTER on Mac)
+# You should see the output (sum of 1 and 10) in the console. Note that you can also write commands directly in the console, and executing them with ENTER. Try some simple maths: write 2*3+1 in the console below, and press ENTER.
+
+# Important: you can always get help for a function and check its input parameters by executing 
+help(sum)  # put the name of any function in the brackets
+# ...or by searching for the function by name in the Help tab on the right.
+
+# Let's plot something. The command for plotting things is, surprisingly, plot().
+plot(42, main = "Greatest plot in the world") # execute the command; a plot should appear on the right.
+
+# OK, this was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data (a vector of length one), and the second is 'main', which specifies the main title of the plot. 
+# Note that you can make to plot bigger by pressing the 'Zoom' button above the plot panel on the right.
+
+# Let's create some data to play with. We'll use the sample() command, which creates random numbers from a predifined sample. Basically it's like rolling a dice some n times, and recording the results.
+sample(x = 1:6, size = 50, replace = T) # execute this; its output is 50 numbers 
+# If an output is not assigned to some object, it usually just gets printed in the console. It would be easier to work with data, if we saved it in an object. For this, we need to learn assignement, which in R works using the equals = symbol (or the <-, but let's stick with = for simplicity).
+xdata = sample(x = 1:6, size = 50, replace = T)  # what it means: xdata is the name of a (new) object, the equals sign (=) signifies assignement, with the object on the left and the data on the right. In this case, the data is the output of the sample() function. Instead of printing in the console, the output is assigned to the object.
+xdata # execute to inspect: calling an object usually prints its contents into the console below.
+# Let's plot:
+plot(xdata)  # plots data as it is ordered in the object
+hist(xdata, breaks=20, main="Frequency of dice values") # plots a histogram (distribution of values)
+
+# Well done!! This is the end of the pre-workshop exercise Congratulations, you have successfully installed R and RStudio, and have now learned the basics of programming (functions, assignement, parameters, input-output; as well as authoring basic webpages).
+# You have also learned how to use the basic plot() command in R. This will form the basis of the workshop, where we will learn how to recognize ways to plot different kinds of data (not just random dice rolls!), and how to modify the plotting parameters in order to create informative but also visually more pleasing graphs (beyond the plain black-and-white examples like the above). 
+# Best of all, all the code is reusable in the sense that you can easily use the very same commands that we will be working with to plot your own data later on, just by changing the inputs.
+# Also, the "programming" side of things will not get any more complicated than what you did in the last 10 minutes. That is literally all you need - but we will explore how to use these basic skills in various different ways.
+
+```
+
+
+
+<br><br><br><br>
+
+
+
