@@ -68,7 +68,7 @@ Almost done! We need to make sure your RStudio and certain packages get along so
 
 1. Copy-paste this bit of code into the R console in RStudio and press Enter. It should start downloading packages, indicated by some red text telling you it's downloading from such and such url. Read though steps 2-6 while it's doing that. It will take a moment: besides the packages named here, all their dependencies (around 50 in total) will also be downloaded. It will report success/failure in the end.
 ```{r, eval=F}
-p=c("magrittr","ggplot2","cowplot","ggbeeswarm","reshape2","RColorBrewer","viridis","plotly","languageR","wordcloud","quanteda","corrplot","rmarkdown"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("Packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+p=c("magrittr","ggplot2","cowplot","ggbeeswarm","reshape2","RColorBrewer","viridis","plotly","languageR","wordcloud","quanteda","corrplot","rmarkdown","stringdist"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("Packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
 
 ```
 Common issues:
