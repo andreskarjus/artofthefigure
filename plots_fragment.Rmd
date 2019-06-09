@@ -87,7 +87,7 @@ plot(newmap, xlim = c(-6, 29), ylim = c(50, 65),  asp = 1, lwd=0.2)
 
 par(mar=c(2,2,1,1), pty = "s", fg="gray")
 
-sometext = "this wordcloud that consisting of words in text it gives an idea of what the text all about wordcloud this is a wordcloud wordcloud words words words words word word word meaning meaning meaning topic topic topic text text texts sentence sentence sentences cloud somewhere here is something said theme color colors idea idea ideas thoughts secrets"
+sometext = "this wordcloud letters letters that consisting of words in text it gives an idea of what the text all about this is a  words words words words word word word meaning meaning meaning topic topic topic text text texts sentence sentence sentences cloud somewhere here is something said theme color colors idea idea ideas thoughts secrets"
 clean = gsub("[[:punct:]]", "", sometext) # remove punctuation (that weird thing inside the gsub (R's find-and-replace command) is a regular expression; don't ask, it just works)
 cleanlow = tolower(clean) # make everything lowecase
 words = strsplit(cleanlow, split=" ")[[1]]
@@ -111,15 +111,19 @@ plot(g, vertex.color="white", vertex.frame.color=c("darkred",rep("darkgray",leng
 library("ggplot2", quietly = T)
 library("cowplot",quietly = T, warn.conflicts = F)
 library("ggbeeswarm",quietly = T, warn.conflicts = F)
-# Scatterplot of two numeric variables
-iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species), size=0.7)  + theme_gray(base_size = 6) +  scale_colour_brewer(palette = "Pastel2") + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
+
+iris1 = ggplot(iris, aes(x=Petal.Length, y=Sepal.Length)) + geom_point(aes(col=Species,shape=Species), size=0.7)  + theme_bw(base_size = 6) +  scale_colour_manual(values = c("#67001f", "#bababa","#1a1a1a")) + geom_smooth(method="lm", size=0.5,  aes(col=Species)) + labs(x="",y="") + theme(legend.position="none")
+
 
 iris2 = 
   ggplot(iris, aes(x = Petal.Length, fill = Species)) +
-  geom_density(alpha = 0.7, size=0.3) +  theme_gray(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none")
+  geom_density(alpha = 0.7, size=0.3) +  theme_classic(base_size = 6) + scale_fill_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none")
+#ggplot(iris, aes(x=Petal.Length, fill=Species)) + geom_density(alpha = 0.3, size=0.3) + theme_minimal(base_size = 6)+ scale_fill_brewer(palette = "Set3") + labs(x="",y="") + theme(legend.position="none") + geom_rug(alpha=0.6)
+
+# ggplot(iris, aes(y=Petal.Length, x=Species, color=Species)) + geom_beeswarm(alpha=1, shape=20, cex = 1.9) + theme_minimal(base_size = 6)+ scale_color_brewer( type="qual") + labs(x="",y="") + theme(legend.position="none", axis.text.x = element_blank())
 
 iris3 = ggplot(iris, aes(Species,Petal.Length)) + geom_beeswarm(aes(col=Species),groupOnX=T, size=0.9, cex=2.2)  + #+ geom_boxplot(fill=NA, color=rgb(0,0,0,0.1)) + 
-  theme_minimal(base_size = 6) +  scale_colour_brewer(palette = "Greys") + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_blank())
+  theme_classic(base_size = 6)  +  scale_colour_manual(values=gray.colors(3,end=0.3, start=0.7,)) + labs(x="",y="") + theme(legend.position="none") +  theme(axis.text.x=element_text(colour = "white"))
 
 plot_grid(iris1, iris2, iris3, labels = "",nrow=1)
 ```

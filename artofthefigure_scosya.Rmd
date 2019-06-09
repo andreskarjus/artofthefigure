@@ -1,0 +1,444 @@
+---
+title: "Data exploration and visualisation using R"
+subtitle: "SCOSYA Data Hack, June 2019"
+author: "Andres Karjus, https://andreskarjus.github.io"
+output: html_document
+---
+
+
+
+# Troubleshooting
+This section contains some basic FAQ and tips. It's here at the top so that if you get stuck or confused, you can easily find it.
+
+- Help files. You can always check the parameters of a function by executing `help(functionname)` or `?functionname` or searching for the function by name in the Help tab on the right. Function arguments have names, but names can be omitted if using them in their intended order; they can be looked up in the help files.
+- See the line of text between this window and the console, besides a little yellow square icon? Click this to see the table of contents and jump between sections quickly. You can also use CTRL+F (CMD+F) to search.
+
+## There's a red badge with a white X on the left sidebar, what's that?
+- That's signalling a syntax error on that line; executing that line would also produce an error. Try to fix it if one pops up. Note that the yellow triangles signal warnings - this line will run, but something might be wrong with it. Note that magrittr's placeholders (.) generate warnings, but they can be ignored.
+
+## I ran a piece of code but now there's a "+" sign on the last line of the Console (instead of >), before a blinking cursor, and nothing (or weird stuff) is happening.
+- The "+" indicates the Console is expecting more input. Commonly it means you fogot to close brackets, or have some other typo in the code. Press ESC, fix the code, and start over.
+
+## What were the shortcuts for running code?
+- CTRL+ENTER (PC) or CMD+ENTER (Mac) runs a line and puts the cursor on the next line. ALT+ENTER runs the line but does not advance the cursor.
+- To run a line, the cursor has to be on the line, but it does not have to be in the beginning of the end.
+- You can always copy-paste or write commands to the console and run them separately from a larger code block (or drag-select a command and press ALT+ENTER).
+- You can always use the UP arrow key to go back to previous commands in the console.
+
+## Plots appear in the script window instead of the Plots panel on the right, help!
+Tools -> Global Options -> R Markdown -> untick "Show plots inline..."
+
+## My plotting panel suddently looks weird or axes are hidden
+Run the `dev.off()` command to reset the plotting device (and parameters).
+
+## Error in somefunction(someparameters) : could not find function "somefunction"
+This indicates the package is not loaded. Use the relevant `library()` command to load the package that includes the missing function. There are `library("package")` calls in the beginning of each section that requires them. You really need to load a package once per session, but they are there anyway to keep the script modular for easier revisiting. In general, it's better practice to have library() calls in the head of the script file.
+
+## Error in library("...") : there is no package called '...'
+Either the package is not installed, or you misspelled its name. You should have installed the necessary packages before the start of the workshop. If you did not (indicating by `library()` giving you a "package not found" error), then here are the relevant installation commands.
+```{r, echo=F, eval=F}
+# Do NOT run these unless you are missing the packages! Also if you do, run ONLY the one you need, not all (which might take a while depending on internet speed).
+install.packages("magrittr")    # pipes for R
+install.packages("ggplot")      # an alternative plotting device for R
+install.packages("cowplot")     # ggplot addon
+install.packages("ggbeeswarm")  # ggplot addon
+install.packages("ggstance")    # ggplot addon
+install.packages("reshape2")    # data wrangler for ggplot
+install.packages("RColorBrewer")# nice color palettes  
+install.packages("viridis")     # nice color palettes  
+install.packages("plotly")      # for the interactive plots; plot_ly function
+install.packages("quanteda")    # corpus management and text analysis
+install.packages("rmarkdown")   # for rendering R Markdown documents
+# Note that these in turn have dependencies, ~50 packages in total amongst them, which will also be installed.
+```
+
+---
+
+
+# A little refresher
+
+
+```{r, echo=T, eval=F}
+# This is a code block, distinguishable by the gray shaded background.
+# This is a line of code:
+print( "Hello! Put your text cursor on this line (click on the line). Anywhere on the line. Now press CTRL+ENTER (PC) or CMD+ENTER (Mac). Just do it." )
+
+# The command above, when executed (what you just did), printed the text in the console below. Also, this here is a comment. Commented parts of the script (anything after a # ) are not executed. This R Markdown file has both code blocks (gray background) and regular text (white background).
+```
+
+(Also, if you've been scrolling left and right in the script window to read the code, turn on text wrapping ASAP: on the menu bar above, go to Tools -> Global Options -> Code (tab on the left) -> tick "Soft-wrap R source files")
+
+So, `print()` is a function. Most functions look something like this: 
+
+- `myfunction(inputs, parameters)`
+
+All the inputs to the function go inside the ( ) brackets, separated by commas. In the above case, the text is the input to the `print()` function. All text, or "strings", must be within quotes. Most functions have some output.
+Note that commands may be nested; in this case, the innermost are evaluated first:
+
+- `function2( function1(do, something),   parameters_for_function1 )`
+- function1 is evaluated first, and its output becomes the input for function2
+
+Don't worry if that's all a bit confusing for now. Let's try another function, `sum()`:
+
+```{r basicmath, eval=F}
+
+sum(1,10) # cursor on the line, press CTRL+ENTER (or CMD+ENTER on Mac)
+# You should see the output (sum of 1 and 10) in the console. 
+# Important: you can always get help for a function and check its input parameters by executing 
+help(sum)  # put the name of any function in the brackets
+# ...or by searching for the function by name in the Help tab on the right.
+
+# Exercise. You can also write commands directly in the console, and executing them with ENTER. Try some more simple maths - math in R can also be written using regular math symbols (which are really also functions). Write 2*3+1 in the console below, and press ENTER.
+
+# Let's plot something. The command for plotting is, surprisingly, plot().
+# It (often) automatically adopts to data type (you'll see how soon enough).
+plot(42, main = "The greatest plot in the world") # execute the command; a plot should appear on the right.
+# OK, that was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data (a vector of length one), and the second is 'main', which specifies the main title of the plot. 
+# You can make to plot bigger by pressing the 'Zoom' button above the plot panel on the right.
+
+# Let's create some data to play with. We'll use the sample() command, which creates random numbers from a predifined sample. Basically it's like rolling a dice some n times, and recording the results.
+sample(x = 1:6, size = 50, replace = T) # execute this; its output is 50 numbers 
+
+# Most functions follow this pattern: there's input(s), something is done to the input, and then there's an output. If an output is not assigned to some object, it usually just gets printed in the console. It would be easier to work with data, if we saved it in an object. For this, we need to learn assignement, which in R works using the equals = symbol (or the <-, but let's stick with = for simplicity).
+dice = sample(x = 1:6, size = 50, replace = T)  # what it means: xdata is the name of a (new) object, the equals sign (=) signifies assignement, with the object on the left and the data on the right. In this case, the data is the output of the sample() function. Instead of printing in the console, the output is assigned to the object.
+dice # execute to inspect: calling an object usually prints its contents into the console below.
+# Let's plot:
+hist(dice, breaks=20, main="Frequency of dice values") # plots a histogram (distribution of values)
+plot(dice)               # plots data as it is ordered in the object
+xmean = mean(dice)       # calculate the mean of the 50 dice throws
+abline(h = xmean, lwd=3) # plot the mean as a horizontal line
+
+# Exercise: compare this plot with your neighbor. Do they look the same? Why/why not?
+
+# Exercise: use the sample() function to simulate 25 throws of an 8-sided DnD dice.
+
+```
+
+# Importing data
+
+We'll need some data for the examples. R has a range of functions for importing various types of data. We will pull data from the SCYOSA API (https://scotssyntaxatlas.ac.uk/api/v1/), which offers json and csv formats.
+
+```{r}
+# Let's get all the locations.
+# read.csv can read from local disk as well as the net
+# the "skip" argument skips lines - the first line in the data from the API is a description
+locs = read.csv("http://scotssyntaxatlas.ac.uk/api/v1/csv/locations", skip=1)
+locs[[7]] = NULL # remove column 7, which we won't need for now (there's a lot of data in it)
+
+head(locs)    # use head() to have a look at the first lines of the new dataframe
+summary(locs) # use summary to get an overview of the columns
+# What's in there?
+
+# Let's get the attributes overview data
+att = read.csv("http://scotssyntaxatlas.ac.uk/api/v1/csv/attributes", skip=1)
+# Investigate the new object.
+
+
+# Let's have a look at the column which shorthands for the attributes: att$pname
+att[182:183,] # maybe that's interesting?
+
+# Download the relevant rating data
+a117 = read.csv("http://scotssyntaxatlas.ac.uk/api/v1/csv/attribute/117", skip=1)
+a118 = read.csv("http://scotssyntaxatlas.ac.uk/api/v1/csv/attribute/118", skip=1)
+
+# We'll be using the a177 for the first examples
+dim(a117) # quite a bit of data!
+
+```
+
+
+# ggplot2
+
+We'll be using an alternative plotting package to base graphics, `ggplot2`. It uses a different approach to plotting, and a slightly different syntax. It also comes with default colors and aesthetics which many people find nicer than those of the base `plot()`. A particularly useful feature of `ggplot2` is its extendability (or rather the fact people are eager to extend it), with an ever-growing list of addon-packages on CRAN offering a wider selection of themes and all sorts of visualization types.
+
+## A single continuous variable
+
+```{r}
+library(ggplot2)    # load the package
+library(ggbeeswarm) # a little addon
+
+# ratings for "He got something in his een!"
+ggplot(a117, aes(x=rating)) + 
+  geom_histogram() 
+
+# compare old and young respondents
+ggplot(a117, aes(x=rating, fill=agegroup)) + 
+  geom_bar( width=0.7, position = "dodge")  
+
+# We could also see where the respondents come from, in terms of north and south:
+# (there are probably better ways than latitude to control for areal variation; this is mostly just to explore ggplot a bit more)
+ggplot(a117, aes(y=display_lat, x=0)) + 
+  geom_boxplot()
+
+# Exercise: boxplots are nice and all, but we can try other options as well. Try replacing geom_boxplot() above with geom_violin() or geom_beeswarm() (the latter comes from the ggbeeswarm addon package). You can also add geom_point(shape=95, size=3) to geom_violin() for a rug plot effect.
+
+
+```
+
+
+## Multiple continuous variables
+
+```{r}
+# do the ratings for the "plurals" attributes correlate?
+plurals = merge(a117, a118, by.x=1, by.y=1, suffixes = c(117,118))  # merge the two together into a single dataframe, so we can compare ratings
+dim(plurals) 
+colnames(plurals)
+
+ggplot(plurals, aes(x=rating117, y=rating118)) + 
+  geom_point(alpha=0.5)
+
+# Hmm... this is not a very useful plot though is it now? Could we make it better?
+```
+
+Exercises: make this plot useful
+
+- Since the ratings data is conformed to a few integer values, a scatterplot is hard to read as is. Add the following parameter to geom_point(): position = "jitter"
+- Coloring by groups is doable in base graphics, but even easier with ggplot2. Add ` ccolor=agegroup117 `to the `aes()` above.
+- This is still pretty messy. Add (+) facet_wrap("agegroup117")
+- Remove or move the legend using theme(), specifying the legend.position parameter with value "none", "top", etc.
+- You could replace the axis labels by adding ` + xlab(levels(plurals$atdesc117)[1]) ` and `+ ylab(levels(plurals$atdesc117)[1]) `
+- try adding ` scale_colour_brewer(palette = "Dark2") ` 
+- try adding a theme like ` theme_minimal() `- start typing theme_ and see what RStudio's autocomplete offers.
+
+
+
+```{r}
+# We could also see if variation correlates with longitude or latitude.
+# (again, probably there are better ways to actually quantify areal variation)
+# Let's keep the old and the young separate though.
+library(cowplot) # package to arrange multiple ggplots
+
+plot_grid(nrow=2,
+  ggplot(a117, aes(x=rating, y=display_lng, color=agegroup)) + 
+    geom_point(alpha=0.5, position = position_jitter(width=0.1)) +
+    geom_smooth(method="lm") +
+    facet_wrap("agegroup") + theme_bw() + 
+    ylab("<-west   east->") +
+    xlab('"He got something in his een!"')
+  ,
+  ggplot(a117, aes(x=rating, y=display_lat, color=agegroup)) + 
+  geom_point(alpha=0.5, position = position_jitter(width=0.1)) +
+  geom_smooth(method="lm") +
+  facet_wrap("agegroup") + theme_bw() + 
+  ylab("<-south   north->")
+)
+# Exercise: discuss the plot with your neighbor.
+```
+
+
+
+## Categorical variables
+
+```{r}
+# We can also visualize categorical (countable) data:
+ggplot(a117, aes(x=agegroup)) + 
+  geom_bar()
+# Exercises: 
+# What's in this plot?
+# Change the x value to display_town to see the number of participants per location. Add + coord_flip() to make it a bit more readable.
+
+```
+
+How about putting these values on actual maps though?
+
+
+# Maps
+
+```{r}
+library(ggplot2)
+
+# We could have a look at all the locations covered by the questionnaire (for this question), since we have the coordinates:
+ggplot(locs, aes(x=display_lng, y=display_lat, label=display_town)) + 
+  geom_text(size=2)
+
+# We could also plot all the datapoints we saw earlier according to their location data.
+# Jittering makes the points easier to see.
+ggplot(a117, aes(x=display_lng, y=display_lat, shape=agegroup, color=rating)) + 
+  geom_point( alpha=0.7, position=position_jitter(width = 0.2, height = 0))
+
+# Exercise: add + scale_color_viridis_c() for a more distinctive scale, and add the alpha=0.7 parameter to geom_point to make the points a bit transparent.
+```
+
+But it would be useful to see the actual map as well.
+
+```{r}
+library(rworldmap)
+library(magrittr)
+# We'll fetch a generic map from the rworldmap package
+data("countryExData", envir = environment(), package = "rworldmap")
+uk <- joinCountryData2Map(countryExData, joinCode = "ISO3", nameJoinColumn = "ISO3V10", mapResolution = "low") %>% fortify(mymap) %>% subset(id=="United Kingdom")
+
+# Let's just plot the map first. coord_fixed can be used to limit the map to Scotland.
+ggplot() + 
+  geom_polygon(data=uk, aes(long, lat, group = group), inherit.aes = F) + 
+  coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7))
+
+# Exercise: specify color="black", fill="white" for geom_polygon for a nicer map.
+# add + theme_bw() for a more suitable theme.
+# remove the useless axis labels with:  + theme(axis.title = element_blank())
+
+# Exercise: we could now put the points on the map. Use the map code you just completed, and use the code from earlier that plotted (just the) points by longitude and latitude. 
+# Make a new plot here:
+
+
+
+
+# Hint. If this is hard: you'll want to copy the ggplot with the geom_polygon from above, but specify the following in the main ggplot() data=a117, aes(y=display_lat, x=display_lng). Also add + geom_point() to show the points (after geom_polygon, so the points show up on top)
+
+```
+
+# Interactive plots
+
+But wouldn't it be super nice if we could also hover over the points on the map and get more info on each datapoint, and zoom in to interesting areas?
+
+```{r}
+library(plotly)
+# plotly is a package for making interactive plots. You can construct your plots from scratch using plot_ly(), but you can also convert existing ggplots into interactive plotly plots.
+# You can also make animations, 3D plots, and app-like plots with multiple views using plotly.
+
+# First let's make a basic map. Maybe a different theme this time, just for fun.
+# Save it as an object
+# [this is a placeholder; you'll insert some code here later]
+
+g = ggplot(a117, aes(x=display_lng, y=display_lat, color=rating)) + 
+  geom_polygon(data=uk, aes(long, lat, group = group), inherit.aes = F,fill="black") + 
+  coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7)) +
+  geom_point(alpha=0.8, size=0.7, position=position_jitter(width = 0.1, height = 0)) +
+  scale_color_gradient2(low="#FC8D59",midpoint=3, mid="#FFFFBF", high="#91BFDB",) +
+  theme_dark() + 
+  ggtitle("He got something in his een!") +
+  theme(plot.background = element_rect(fill = "darkgray"), 
+        legend.background = element_rect(fill = "darkgray"),
+        axis.title = element_blank())
+g # call the object to have a look
+
+ggplotly(g) # make it interactive; need the plotly package.
+
+# Zooming by default works by click-dragging a rectangle over the plot; we could also enable mouse-wheel (Mac: double-finger) zooming:
+
+ggplotly(g) %>% config(scrollZoom = TRUE)
+
+# Currently the hover labels display only the latitude and longitude info, and the rating. We could add more to that. See that [ placeholder ] line above? Move this line up there:
+a117$labels = paste(a117$display_town, a117$agegroup, sep = "<br>")
+# Also add the following parameter to the aes() in the main ggplot() call: text=labels
+# Now run the ggplot again, and then ggplotly()
+
+```
+
+
+# Wordclouds
+
+```{r}
+library(quanteda)
+
+sent = att$atdescription # the questionnaire sentences
+# Quick text processing: remove comments, only keep actual sentences, using regex:
+sent = gsub('^[^"]+\"([^"]+)".*', "\\1", sent)
+# (this is a quick hack, not perfect)
+
+# More text processing, using quanteda: lowercase, remove stopwords, punctuation, spaces
+parsed = dfm(sent, 
+             remove = stopwords('english'), 
+             remove_punct = TRUE, tolower = T )
+
+parsed[1:10,1:10] # quick look at the new data structure
+
+# Plot 100 most frequent words in the data:
+textplot_wordcloud(parsed, min_count = 1, color=terrain.colors(100), max_words = 100) 
+
+# We could also visualize the locations; locations with more respondents are bigger:
+textplot_wordcloud(dfm(as.character(a117$display_town)), max_size = 1.5, color=gray.colors(100,start = 0, end = 0.4)) 
+
+```
+
+
+# Let's make a website!
+
+
+It's fairly straightforward to produce html content (websites, slides, posters, books) in R using R Markdown. We'll need to create a new file for this part.
+
+First let's save a plot we made before. When producing an html file from an R Markdown rmd file, functions and objects in the current global environment cannot be accessed. That means that if you'll need to include library() calls in the rmd, as well as load or import data. It often makes sense to deal with data processing in a separate script, save the results as an .RData file, and then just load the RData (using `load("file.RData")`) in the markdown file you intend to knit, instead of doing data cleaning and analysis upon every time you re-knit.
+
+```{r}
+library(ggplot2)
+# Here's a variation of a plot we already looked at before. Instead of saving data and including plotting code in the new file, we can also save the actual ggplot object.
+g = ggplot({a117$rating = as.factor(a117$rating); a117}, aes(x=display_lng, y=display_lat, shape=agegroup, color=rating) ) + 
+  geom_polygon(data=uk, aes(long, lat, group = group), inherit.aes = F, color="gray", fill="white") + 
+  geom_point( alpha=0.7, position=position_jitter(width = 0.15, height = 0)) +
+  coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7)) +
+  annotate("text", x =c(-3.1883, -4.2518, -2.0943,-1.1493), y=c(55.9533, 55.8642, 57.1497,60.1530), label=c("Edinburgh", "Glasgow", "Aberdeen", "Lerwick"), color="black",hjust="left" ) +
+  scale_color_brewer(palette = "Spectral") +
+  theme_bw() +
+  theme(axis.title = element_blank())
+g
+```
+
+Save this plot using this:
+```{r, eval=F}
+save(g, file="test.RData") # this will save the plot within an RData file in your default working directory. You can see where it went by running:
+getwd()
+```
+
+
+Great. Exercise time. Click on the icon with the green plus on a white background in the top left corner, choose "R Markdown...", "Document" will be by default selected on the left, and "HTML" on the right - click "OK" (change the title and author if you want).
+
+Now copy this code block, the entire block, starting from the next line here:
+
+```{r, eval=FALSE, echo=FALSE, message=F, warning=F, fig.width="100%"}
+library(ggplot2, quietly=T)
+load("test.RData") # load the plot object we saved before
+g                  # calling the object will make the plot appear
+```
+
+...end ending on the empty line above this.
+
+
+Go to your new Rmd file, remove the template stuff below the yaml header (that ends with the `---`). Now paste the code block into the new file. 
+Make sure to change eval=FALSE to eval=TRUE so that this block will run. 
+You can also add some text if you want.
+Then click "Knit" (next to the little bar of yarn icon) on the top toolbar. RStudio will ask you to save the new file, just save it in the default working directory, where the RData was saved.
+
+Notably, we could also just save the ggplot as a static image (using `ggsave()`), but this example shows you how to execute R code within an R Markdown file upon knitting to html. You might also want to check out the `flexdashboard` package, which makes it easy to create nice dashboards (you can include hmtlwidgets like plotly), or the `shiny` package for making web apps that users can explore and interact with (this requires a server setup, but demos can be published on shinyapps.io for free).
+
+A couple of examples of things that I've myself used R Markdown for:
+
+- my personal website: https://andreskarjus.github.io
+- the cover page of the aRt of the figure workshops: https://andreskarjus.github.io/artofthefigure
+- the slides in the beginning of this workshop https://andreskarjus.github.io/artofthefigure/intro
+- this recent conference poster: https://andreskarjus.github.io/isle_poster
+- a past seminar talk: https://andreskarjus.github.io/evoforces_cletalk/slides.html
+
+
+
+
+# Appendix: pipes
+
+```{r}
+library(magrittr)
+
+# This bit introduces magrittr's pipe %>% command. It's super useful! Also some packages like plotly, dplyr, networkd3 kind of expect you to use the pipe syntax.
+# The shortcut in RStudio is CTRL-SHIFT-M (or CMD-SHIFT-M). 
+# If you're familiar with Bash pipes: it's the same thing. 
+# If you're interested why the somewhat curious name: https://en.wikipedia.org/wiki/The_Treachery_of_Images
+
+# Exercise. Try it out and discuss the results with your neighbor.
+1:3
+sum(1:3)
+x=1:3
+sum(x)
+1:3 %>% sum()  # same result, and not much difference in spelling it out either
+1:3 %>% sum() %>% rep(times=4)  # what does that do?
+# "." can be used as a placeholder if the input is not the first argument, so the above could also be spelled out as:
+1:3 %>% sum(.) %>% rep(., times=4)  # or
+1:3 %>% sum(.) %>% rep(., 4)        # and it's the same as
+rep(sum(1:3), times=4)
+
+# another example:
+c(1,1,1,2) %>% match(x=2, table=.)  # 
+
+# something longer (take it apart to see how it works):
+"hello" %>% gsub(pattern="h", replacement="H", x=.) %>% paste(., "world")
+
+```
+
+
