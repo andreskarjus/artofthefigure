@@ -159,7 +159,7 @@ library(ggbeeswarm) # a little addon
 
 # ratings for "He got something in his een!"
 ggplot(a117, aes(x=rating)) + 
-  geom_histogram() 
+  geom_bar()
 
 # compare old and young respondents
 ggplot(a117, aes(x=rating, fill=agegroup)) + 
@@ -167,8 +167,12 @@ ggplot(a117, aes(x=rating, fill=agegroup)) +
 
 # We could also see where the respondents come from, in terms of north and south:
 # (there are probably better ways than latitude to control for areal variation; this is mostly just to explore ggplot a bit more)
-ggplot(a117, aes(y=display_lat, x=0)) + 
+ggplot(a117, aes(y=display_lat)) + 
   geom_boxplot()
+
+# same with a histogram:
+ggplot(a117, aes(x=display_lat)) + 
+  geom_histogram()
 
 # Exercise: boxplots are nice and all, but we can try other options as well. Try replacing geom_boxplot() above with geom_violin() or geom_beeswarm() (the latter comes from the ggbeeswarm addon package). You can also add geom_point(shape=95, size=3) to geom_violin() for a rug plot effect.
 
