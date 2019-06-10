@@ -366,7 +366,7 @@ First let's save a plot we made before. When producing an html file from an R Ma
 ```{r}
 library(ggplot2)
 # Here's a variation of a plot we already looked at before. Instead of saving data and including plotting code in the new file, we can also save the actual ggplot object.
-g = ggplot({a117$rating = as.factor(a117$rating); a117}, aes(x=display_lng, y=display_lat, shape=agegroup, color=rating) ) + 
+g = ggplot({a117$rating2 = as.factor(a117$rating); a117}, aes(x=display_lng, y=display_lat, shape=agegroup, color=rating2) ) + 
   geom_polygon(data=uk, aes(long, lat, group = group), inherit.aes = F, color="gray", fill="white") + 
   geom_point( alpha=0.7, position=position_jitter(width = 0.15, height = 0)) +
   coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7)) +
