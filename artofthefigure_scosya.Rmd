@@ -167,16 +167,17 @@ ggplot(a117, aes(x=rating, fill=agegroup)) +
 
 # We could also see where the respondents come from, in terms of north and south:
 # (there are probably better ways than latitude to control for areal variation; this is mostly just to explore ggplot a bit more)
-ggplot(a117, aes(y=display_lat)) + 
-  geom_boxplot()
 
-# same with a histogram:
+# histogram:
 ggplot(a117, aes(x=display_lat)) + 
   geom_histogram()
 
-# Exercise: boxplots are nice and all, but we can try other options as well. Try replacing geom_boxplot() above with geom_violin() or geom_beeswarm() (the latter comes from the ggbeeswarm addon package). You can also add geom_point(shape=95, size=3) to geom_violin() for a rug plot effect.
+# boxplot
+ggplot(a117, aes(y=display_lat)) + 
+  geom_boxplot()
 
-
+# Exercise: boxplots are nice and all, but we can try other options as well. Try replacing geom_boxplot() above with geom_violin() or geom_beeswarm() (the latter comes from the ggbeeswarm addon package; it requires specifying x in aes(), just put in x=0). 
+# You can also add geom_point(shape=95, size=3) to geom_violin() for a rug plot effect.
 ```
 
 
@@ -197,7 +198,7 @@ ggplot(plurals, aes(x=rating117, y=rating118)) +
 Exercises: make this plot useful
 
 - Since the ratings data is conformed to a few integer values, a scatterplot is hard to read as is. Add the following parameter to geom_point(): position = "jitter"
-- Coloring by groups is doable in base graphics, but even easier with ggplot2. Add ` ccolor=agegroup117 `to the `aes()` above.
+- Coloring by groups is doable in base graphics, but even easier with ggplot2. Add ` color=agegroup117 `to the `aes()` above.
 - This is still pretty messy. Add (+) facet_wrap("agegroup117")
 - Remove or move the legend using theme(), specifying the legend.position parameter with value "none", "top", etc.
 - You could replace the axis labels by adding ` + xlab(levels(plurals$atdesc117)[1]) ` and `+ ylab(levels(plurals$atdesc117)[1]) `
@@ -410,7 +411,7 @@ Great. Exercise time. Click on the icon with the green plus on a white backgroun
 
 Now copy this code block, the entire block, starting from the next line here:
 
-```{r, eval=FALSE, echo=FALSE, message=F, warning=F, fig.width="100%"}
+```{r, eval=FALSE, echo=FALSE, message=F, warning=F, out.width="100%"}
 library(ggplot2, quietly=T)
 load("test.RData") # load the plot object we saved before
 g                  # calling the object will make the plot appear
