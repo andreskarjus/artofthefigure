@@ -371,6 +371,7 @@ g = ggplot({a117$rating = as.factor(a117$rating); a117}, aes(x=display_lng, y=di
   geom_point( alpha=0.7, position=position_jitter(width = 0.15, height = 0)) +
   coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7)) +
   annotate("text", x =c(-3.1883, -4.2518, -2.0943,-1.1493), y=c(55.9533, 55.8642, 57.1497,60.1530), label=c("Edinburgh", "Glasgow", "Aberdeen", "Lerwick"), color="black",hjust="left" ) +
+  ggtitle('"He got something in his een!"')+
   scale_color_brewer(palette = "Spectral") +
   theme_bw() +
   theme(axis.title = element_blank())
