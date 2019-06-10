@@ -270,7 +270,7 @@ library(rworldmap)
 library(magrittr)
 # We'll fetch a generic map from the rworldmap package
 data("countryExData", envir = environment(), package = "rworldmap")
-uk <- joinCountryData2Map(countryExData, joinCode = "ISO3", nameJoinColumn = "ISO3V10", mapResolution = "low") %>% fortify(mymap) %>% subset(id=="United Kingdom")
+uk = joinCountryData2Map(countryExData, joinCode = "ISO3", nameJoinColumn = "ISO3V10", mapResolution = "low") %>% fortify(mymap) %>% subset(id=="United Kingdom")
 
 # Let's just plot the map first. coord_fixed can be used to limit the map to Scotland.
 ggplot() + 
