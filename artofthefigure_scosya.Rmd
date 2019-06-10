@@ -329,6 +329,27 @@ a117$labels = paste(a117$display_town, a117$agegroup, sep = "<br>")
 
 ```
 
+If we need to manipulate the data, dplyr comes in handy
+```{r}
+library(dplyr)
+
+a2 = a117 %>% filter(agegroup=="Young") %>%  group_by(display_town) %>% summarize(mean=mean(rating), display_lat=mean(display_lat), display_lng=mean(display_lng))
+
+# This is now a plot of mean ratings among young speakers:
+ggplot(a2, aes(x=display_lng, y=display_lat, color=mean)) + 
+  geom_polygon(data=uk, aes(long, lat, group = group), inherit.aes = F,fill="black") + 
+  coord_fixed(xlim=c(-7.2,-1), ylim = c(55,60.7)) +
+  geom_point(alpha=0.8, size=0.7) +
+  scale_color_gradient2(low="#FC8D59",midpoint=3, mid="#FFFFBF", high="#91BFDB",) +
+  theme_dark() + 
+  ggtitle("He got something in his een!") +
+  theme(plot.background = element_rect(fill = "darkgray"), 
+        legend.background = element_rect(fill = "darkgray"),
+        axis.title = element_blank())
+
+```
+
+
 
 # Wordclouds
 
