@@ -1,0 +1,112 @@
+---
+title: "SCOSYA Data Hack extra scripts"
+author: "Andres Karjus"
+date: "11/06/2019"
+output: html_document
+---
+
+
+```{r, warning=F, message=F}
+# Required packages
+library(dplyr)     # for filter() and pipes
+library(reshape2)  # for melt()
+library(tidyr)     # for separate(); install.packages("tidyr") if necessary 
+library(tibble)    # for rownames_to_column (should have been installed with dplyr)
+```
+
+```{r}
+# Define file path:
+PATH = "pathto/file.csv" # file path to SCOSYAdatahackjudgments.csv file
+```
+
+```{r, echo=F}
+# Define file path:
+PATH = "/Users/pplsuser/Downloads/SCOSYAdatahackjudgments.csv" # file path to SCOSYAdatahackjudgments.csv file
+```
+
+
+# Import data, replacing empty cells with NA, assign unique IDs to people, and convert wide to long format:
+
+```{r}
+coln = read.csv(PATH, header = F, nrows=2, stringsAsFactors = F) %>% rbind(-3:ncol(.)) %>% apply(2,paste, collapse="_"); coln[1:4] = c("FEATURE", "CODE", "EXAMPLE", "GROUP")
+dat_wide = read.csv(PATH, na.strings=c(""), skip=2, header = F, col.names = coln)
+dat_long = melt(dat_wide, measure.vars = 5:ncol(dat_wide), value.name="rating") %>% separate(variable, c("agegroup", "location", "id"),  sep = "_"); rm(coln)
+```
+
+
+```{r}
+# have a look:
+dat_wide[1:4,1:7]
+head(dat_long) 
+```
+
+
+
+# Optional: add coordinates to each data point in dat_long
+To make matching possible, convert spaces and ' into periods (column names can't have spaces, so they get replaces with .)
+
+```{r}
+locs = read.csv("http://scotssyntaxatlas.ac.uk/api/v1/csv/locations", skip=1, stringsAsFactors = F) %>% mutate(display_town=gsub("[' ]",".", display_town))
+dat_long = cbind(
+  dat_long,
+  locs[match(dat_long$location, locs$display_town), c("display_lat", "display_lng")]
+)
+
+head(dat_long) # have a look
+```
+
+
+
+# Examples
+
+## Usage of the long format data
+
+```{r}
+library(ggplot2)
+ggplot(dat_long %>% filter(CODE=="A1"), 
+       aes(y=display_lat, x=display_lng, color=agegroup )) + 
+  geom_point()
+```
+
+
+## Examples of usage of the wide format data
+
+```{r}
+library(plotly)  # for ggplotly()
+distmat = dist(t(dat_wide[ ,-c(1:4)]) ) 
+# dist() calculates euclidean distances between rows, hence the t() transpose
+
+# simple dimension reduction using multidimensional scaling; separating id tags for plotting purposes
+mds = cmdscale(distmat, k=2) %>% as.data.frame() %>% tibble::rownames_to_column("tags") %>% separate("tags", c("agegroup", "location", "id"),  sep = "_") 
+
+{ ggplot(mds, aes(y=V2, x=V1, color=agegroup, group=location)) + 
+    geom_point(size=1, alpha=0.6) + 
+    labs(x="MDS dimension 1", y="MDS dimension 2") +
+    theme_bw()
+  } %>% ggplotly()
+```
+
+Click on legend items to hide/show traces!
+
+
+## Adding longitude info as color
+This just cuts the available longitudes into three equally spaced groups, [-7.29,-5.18] (-5.18,-3.08] (-3.08,-0.975] (but there will be different number of people in each group)
+
+```{r}
+mds$display_lng = 
+  cut(locs[match(mds$location, locs$display_town),  "display_lng"],
+      breaks = 3, include.lowest = T, labels = c("west", "mid", "east")
+      )
+
+{ ggplot(mds, aes(y=V2, x=V1, shape=agegroup, color=display_lng, group=location)) + 
+    geom_point(size=2, alpha=0.7, position="jitter") + 
+    labs(x="MDS dimension 1", y="MDS dimension 2", title="Coloured by longitude (west-east)") +
+    scale_shape_manual(values=c(1,4)) + 
+    scale_color_manual(values=c("navy", "darkgray", "tomato")) +
+    theme_bw()
+} %>% ggplotly()
+```
+
+Click on legend items to hide/show traces!
+
+

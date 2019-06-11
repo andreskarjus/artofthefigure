@@ -14,7 +14,7 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 **Happening right now**
 
 - Data exploration and visualisation using R, at the _**Scots Syntax Atlas Data Hack**_ <br> To download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio. Make sure that you save it as an `.Rmd` file, not a `.txt` file. <br> The installation instructions that were completed beforehand are [here](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html)<br>
-**New for Day 2**: here is an [R script](https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/scosya_dataimport.R) with some more examples of importing the data and converting between wide and long format, plus some bonus plots
+**New for Day 2**: here is an [R script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples of importing the data and converting between wide and long format, plus some bonus plots
 
 **Upcoming** (watch this space)
 
