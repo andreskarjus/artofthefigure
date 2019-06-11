@@ -74,5 +74,5 @@ mds$display_lng =
     scale_color_manual(values=c("navy", "darkgray", "tomato")) +
     theme_bw()
 } %>% ggplotly()
-
+# click on legend to hide traces
 
