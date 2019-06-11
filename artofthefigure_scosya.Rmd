@@ -39,7 +39,7 @@ Either the package is not installed, or you misspelled its name. You should have
 ```{r, echo=F, eval=F}
 # Do NOT run these unless you are missing the packages! Also if you do, run ONLY the one you need, not all (which might take a while depending on internet speed).
 install.packages("magrittr")    # pipes for R
-install.packages("ggplot")      # an alternative plotting device for R
+install.packages("ggplot2")     # an alternative plotting device for R
 install.packages("cowplot")     # ggplot addon
 install.packages("ggbeeswarm")  # ggplot addon
 install.packages("ggstance")    # ggplot addon
