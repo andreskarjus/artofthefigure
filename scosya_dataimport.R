@@ -7,7 +7,7 @@ library(tidyr)     # for separate(); install.packages("tidyr") if necessary
 library(tibble)    # for rownames_to_column (should have been installed with dplyr)
 
 # Define file path:
-PATH = "/Users/pplsuser/Downloads/SCOSYAdatahackjudgments.csv" # file path to SCOSYAdatahackjudgments.csv file
+PATH = "path/to/file.csv" # file path to SCOSYAdatahackjudgments.csv file
 
 
 # Import data, replacing empty cells with NA, assign unique IDs to people, and convert wide to long format:
