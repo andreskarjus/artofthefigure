@@ -11,10 +11,9 @@ _[Andres Karjus](http://andreskarjus.github.io)_
 
 This functions as a cover page for all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
 
-**Happening right now**
+**Happening**
 
-- Data exploration and visualisation using R, at the _**Scots Syntax Atlas Data Hack**_ <br> To download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio. Make sure that you save it as an `.Rmd` file, not a `.txt` file. <br> The installation instructions that were completed beforehand are [here](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html)<br>
-**New for Day 2**: here is an [R script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples of importing the data and converting between wide and long format, plus some bonus plots
+- Visualising Your Data Using R. Workshop at the SGSAH Summer School, June 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsah.html) | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose "Save link as...</a> or "Download linked file...", save the file, and open it using RStudio. Make sure that you save it as an `.Rmd` file, not a `.txt` file.
 
 **Upcoming** (watch this space)
 
@@ -24,6 +23,7 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 
 **Past**
 
+- Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio. Make sure that you save it as an `.Rmd` file, not a `.txt` file | installation instructions are [here](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html) | extra [script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples of importing the data and converting between wide and long format, plus some bonus plots
 - Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, May 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
 - Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
 - Centre for Language Evolution PhD Retreat, January 2019 |  <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">the script</a>
