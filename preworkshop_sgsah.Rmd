@@ -19,11 +19,12 @@ This document contains:
 
 - instructions on installing the necessary software for participation in the workshop and configuring it a bit
 - instructions to get some packages and make sure R Markdown works (very easy, step by step)
+- link to download the script we'll be working with
 - a little optional exercise to introduce basic R concepts
 
 Importantly, if something went wrong and you could not install the software, please get in touch before the workshop starts so we can try to quickly troubleshoot. We cannot afford to waste any time on issues like installation during the workshop.
 
-# Installing the software
+# Install the software
 
 You must have two pieces of (free) software installed on you laptop before coming to the workshop. Bring your laptop with you. The installation process is very simple. Before you start, *please* make sure your operating system is up to date as well (particularly Macs: there are known conflicts between old versions of R and some newer packages, which will manifest if you have a Mac with an old version of the Mac OS, which in turn would lead you to download an old version of R).
 
@@ -65,9 +66,10 @@ Before we do that, we need to quickly change **two** options in RStudio to make 
 
 Almost done! We need to make sure your RStudio and certain packages get along so we can use R Markdown and some more advanced plotting tools in the workshop. During this process, RStudio might need to download a few things - make sure you have internet access.
 
-1. Copy-paste this bit of code into the R console in RStudio and press Enter. It should start downloading packages, indicated by some red text telling you it's downloading from such and such url. Read though steps 2-6 while it's doing that. It will take a moment: besides the packages named here, all their dependencies (around 50 in total) will also be downloaded. It will report success/failure in the end.
+1. Copy-paste this bit of code into the R console in RStudio and press Enter. It should start downloading packages, indicated by some red text telling you it's downloading from such and such url. Read though steps 2-6 while it's doing that. It will take a moment: besides the packages named here, all their numerous dependencies will also be downloaded. It will report success/failure in the end.
 ```{r, eval=F}
-p=c("magrittr","ggplot2","cowplot","ggbeeswarm","reshape2","dplyr","RColorBrewer","viridis","plotly","languageR","quanteda","corrplot","rmarkdown","stringdist","flexdashboard","sf","jsonlite","rworldmap"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("Packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+p=c("ggplot2","ggmosaic","cowplot","ggbeeswarm","ggstance","RColorBrewer","magrittr","reshape2","dplyr","corrplot","plotly","languageR","igraph","visNetwork","quanteda","stringdist","rmarkdown","rworldmap"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("All packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+
 ```
 
 Common issues:
@@ -87,7 +89,12 @@ Common issues:
 5. Save the new .Rmd file (click on the little blue save icon, give it some name and save).
 6. Now click on the little "Knit" icon (with the blue ball of yarn) on top of the script panel. A new window should appear, containing a simple webpage, titled "Untitled", telling you that "This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML..." 
 
-Feel free to close this window now. If all this worked, great! If something did not work here, try restarting RStudio once and redoing the steps. If still no luck, find me beforehand so we can fix this. <br>As the last step, download the script file for the workshop. 
+Feel free to close this window now. If all this worked, great! If something did not work here, try restarting RStudio once and redoing the steps. If still no luck, find me beforehand so we can fix this. 
+
+# Download the script
+
+You will need to ownload a script file for the workshop. Right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose Save link as...</a> (or Download linked file..., or similar) and save the file. Make sure that you save it as an `.Rmd` file, not a `.txt` file: the file on your computer should be named `artofthefigure_sgsah.Rmd`. Open it in RStudio (if RStudio is properly installed, double-clicking it should do it). That's it, you're all set for the workshop. Feel free to have a look around, but don't be intimidated by the amount of code - you will be guided through all of that, step by step.
+
 
 
 # Pre-workshop intro to R 
