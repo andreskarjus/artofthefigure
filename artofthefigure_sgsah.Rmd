@@ -279,17 +279,16 @@ head(workplace)
 ggplot(workplace, aes(x=monolingual)) + 
   geom_bar()
 
-# What if we wanted to compare how responses to these similar questions interact? WIth two numerical vectors, we could use a scatterplot:
-ggplot(workplace, aes(x=monolingual, y=preferfirst, color=age)) + 
+# What if we wanted to compare how responses to these similar questions interact? With two numerical vectors, we could use a scatterplot:
+ggplot(workplace, aes(x=monolingual, y=preferfirst)) + 
   geom_point(alpha=0.8)
 # ...but this is not very useful, is it..?
 ```
 
 Exercise. Make this plot better.
 
-- Since the data is conformed to a few integer values, a scatterplot is hard to read as is. Add the following parameter to geom_point(): ` position_jitter(width=0.2,height=0.2) `
+- Since the data is conformed to a few integer values, a scatterplot is hard to read as is. Add the following parameter to geom_point(): ` position = position_jitter(width=0.2,height=0.2) `
 - Coloring by groups is doable in base graphics, but even easier with ggplot2. Add ` color=age `to the `aes()` above.
-- This is still pretty messy. Add (+) facet_wrap("agegroup117")
 - Remove or move the legend using theme(), specifying the legend.position parameter with value "none", "top", etc.
 - You could replace the axis labels by adding ` + xlab('Agree with "Workplaces should be monolingual"') `, and similarly for ylab().
 - try changing the overall look with ` scale_color_distiller(palette = "Spectral") ` and ` theme_dark() `
@@ -894,11 +893,12 @@ This time we'll need to import the data from the Google sheets. We are going to 
 
 ```{r dataimport, eval=F, echo=T}
 # This line imports the data. We specify that the file has a header (column labels), that quotation marks should not be treated specially, and that columns are separated by a tab.
-setwd(getwd())
+getwd() # this is the default working directory; put the quotes.txt file there
 quotes = read.table(file = "quotes.txt", header=T, quote = "", sep="\t")
 # Lowercase the names:
 quotes$quoting = gsub(" ", "", quotes$quoting) %>%  tolower()
 quotes$quoted  = gsub(" ", "", quotes$quoted)  %>%  tolower()
+quotes$sentiment = tolower(quotes$sentiment)
 # If you get the error "incomplete final line found by readTableHeader on 'quotes.txt'", a quick fix would be to go to the file and press enter at the end of the file to create an empty row.
 
 # Exercise. Check if the data looks ok using head() and summary(). What's the general sentiment?
