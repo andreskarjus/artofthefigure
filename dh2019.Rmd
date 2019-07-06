@@ -2,12 +2,11 @@
 title: "Attractive, Interactive, Ready for the Web:<br>Visualizing Your Data Using R"
 output: 
   html_document: 
-    toc: yes
+    toc: no
     theme: spacelab
 ---
 
 <style type="text/css">
-
 h1.title {
   font-size: 30px;
   margin-top: 90px;
@@ -17,22 +16,25 @@ h1.title {
   padding-left:5px;
   z-index: 100;
 }
-
-
 </style>
 
 
 <img src="top.jpeg" alt = '' style = 'position:absolute; top:0; right:0; padding:0px; width=100%;overflow:hidden;z-index:-1'>
 
-
-<div align="justify" style ='position:relative; background-color: white;padding-top:10px; padding-left:5px;" >
+<div align="justify" style="position:relative; background-color:white; padding-top:10px; padding-left:5px;">
 
 Workshop at *Digital Humanities 2019: "Complexities" ([DH2019](https://dh2019.adho.org/))*<br>
 Organizer: Andres Karjus, University of Edinburgh
 
-[This site will be updated nearer to time with installation instructions and links to download scripts]
+# Pre-workshop setup instructions
 
-## Topic 
+It is vital that all participants complete the steps to install the software and download necessary files before the workshop. 
+We only have half a day, so we can't afford to waste any time on installation issues once the workshop has started.
+
+[Click here](https://andreskarjus.github.io/artofthefigure/preworkshop_dh2019.html) to view and complete the instructions.
+
+
+# Topic 
 
 Digital humanities has brought big data and quantitative analytics into the humanities. Great effort has gone into compiling and curating large corpora and databases in numerous disciplines. However, along with big, complex data comes the question of how to make the information accessible for exploration – to the researcher looking for data, to the reader of an academic paper that has made use of the data, but also to the media or the interested lay person browsing the website of a project. 
 
@@ -43,12 +45,12 @@ At the same time, the web offers a dynamic medium for publishing graphs that cou
 This workshop teaches participants the basics of R, an immensely powerful and flexible language for data analytics and visualization. We will quickly go through just enough of the programming and explorative data analysis basics before diving into a variety of graphs - for numeric, categorical, textual, GIS, and network data, starting with simple static plots and moving on to creating interactive, animatable, multifunctional figures. We will also look into how to embed such app-like plots into a website, teaching materials, or your next conference slides (notably, some journals have already started accepting interactive figures in online publications). We will be making heavy use of modern packages such as plotly, ggplot2, quanteda, visNetwork, and rmarkdown. By the end of the workshop, you will know how to choose a suitable visualization for a given data type, and how to execute it either via traditional static plotting methods or the interactive alternatives. Prior programming experience is not required to participate.
 
 
-## Target audience
+# Target audience
 
 Digital humanities scholars with little to no experience in R and/or interactive data visualization. The workshop would likely still be of interest to people already familiar with R or another programming language, but who wish to learn more about making interactive plots. The number of participants will limited to a small group.
 
 
-## About the organizer
+# About the organizer
 
 I am a PhD student at the Centre for Language Evolution of the University of Edinburgh. My PhD project is focused on language change from an evolutionary perspective. I am developing a model of lexical competition based on data from massive centuries-spanning corpora, utilizing tools from natural language processing to quantify topical fluctuations, semantic change and synonymy effects in addition to frequency change. I am also working on the application of the topical fluctuations model to a variety of cultural-historical datasets. Besides my PhD research, I am involved in teaching statistics to our MSc students, and I’m affiliated part-time with the University of Tartu as a junior researcher in sociolinguistics, working with survey data and agent-based models. In the past four years, I’ve developed and taught various short R-based courses and workshops on data science, corpus linguistics and data visualization for humanities and social sciences audiences. All my materials are open-source (see http://andreskarjus.github.io/artofthefigure). 
 

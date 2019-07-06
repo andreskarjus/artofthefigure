@@ -28,11 +28,14 @@ _[Andres Karjus](http://andreskarjus.github.io)_
 
 This functions as a cover page for all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
 
+**Happening**
+
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
+
 
 **Upcoming** (watch this space)
 
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [overview](http://www.cl2019.org/wp-content/uploads/2019/02/visualizing_data_with_R_cl2019.pdf) | (more info soon!)
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019.
 
 **Past**
 
