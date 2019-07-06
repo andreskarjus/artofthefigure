@@ -1131,7 +1131,7 @@ output:
   html_document: 
     toc: yes
 8. Optional step: upload the html page to your personal website or github. See here for a quick 5-minute step-by-step guide on how to set up a free personal website using Github Pages: https://guides.github.com/features/pages/ 
-Feel free to showcase your newly acquired skills on Twitter ;) - either with a link to an uploaded page or with a few screenshots. Tag @aRtoftheFigure and I'll happily retweet your creations.
+Feel free to showcase your newly acquired skills on Twitter ;) - either with a link to an uploaded page or with a few screenshots.
   
 ---
 
