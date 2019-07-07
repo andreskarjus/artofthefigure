@@ -77,13 +77,14 @@ p=c("ggplot2","ggmosaic","cowplot","ggbeeswarm","ggstance","ggrepel","RColorBrew
 
 ```
 
-Common issues:
+Common issues & troubleshooting:
 
 - Cannot download: make sure you have internet connection.
-- R asks "Do you want to install from sources the package which needs compilation? (Yes/no/cancel)" type "no" and press enter.
+- Prompt with `Do you want to install from sources the package which needs compilation? (Yes/no/cancel)` type "**no**" and press enter.
+- Prompt with `Would you like to create a personal library...` - click yes. Alternatively, if on Windows: run RStudio as administrator (right-click the RStudio icon, choose run as administrator), this will allow it to install packages to the Program Files folder. Second alternative, install Rstudio in a location with write access, i.e. not in Program Files.
 - Some error about `RcppArmadillo`: ignore it.
-- Warning "package ... is not available (for R version ...)" - seems you didn't update R, see above.
-- If all else fails, try restarting RStudio and running the command above again; if it still reports installation failures, get in touch with me.
+- Warning `package ... is not available (for R version ...)` - seems you didn't update R, see above.
+- If all else fails, try restarting RStudio and running the command above again. If it still reports installation failures, get in touch with me, preferably by email (report your operating system, the steps you took and the errors you encountered, e.g. screenshots), or at the very least at the venue before the workshop starts.
 
 ---
 
