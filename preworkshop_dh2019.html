@@ -426,12 +426,24 @@ word-break: normal;
 </div>
 <div id="installing-rstudio" class="section level2">
 <h2><span class="header-section-number">1.2</span> Installing RStudio</h2>
-<p>While it is fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio instead, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using. Go to:</p>
+<p>While it is fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio instead, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using.</p>
 <ul>
-<li><a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a> -&gt; and choose the <strong>installer</strong> depending on your operating system (not the zip/tarball, and not the source code!).</li>
-<li>Important: if you’re using a 32-bit version of Windows, <a href="http://download1.rstudio.org/RStudio-1.1.463.exe">please download this archived version</a> instead - the newest (April 8th) version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your Windows is not compatible, then this means you have 32-bit Windows.</li>
+<li>Go to <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a> -&gt; and choose the <strong>installer</strong> depending on your operating system (not the zip/tarball, and not the source code!).</li>
+<li>Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).</li>
 </ul>
-<p>Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).</p>
+<p>Common issues and troubleshooting:</p>
+<ul>
+<li>If you’re using a 32-bit version of Windows, <a href="http://download1.rstudio.org/RStudio-1.1.463.exe">please download this archived version</a> instead - the newest version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your <em>Windows is not compatible</em>, then this means you have 32-bit Windows.</li>
+<li><strong>If you cannot install RStudio</strong> because your operating system is out of date (e.g. pre-7 Windows or pre-Sierra Mac OS) and you don’t feel like or don’t have the time to upgrade, a solution is to use RStudio Cloud instead in your browser.
+<ul>
+<li>Go to <a href="https://rstudio.cloud" class="uri">https://rstudio.cloud</a> and sign up a free account, or log in with Google or Github.</li>
+<li>Start a new project, run the package installer code block (step 3 below)</li>
+<li>Download the Rmd script file (step 4 below), and upload it to the cloud (see File pane -&gt; Upload in RStudio Cloud)</li>
+<li>Doing these steps allows you to participate without installing RStudio, provided there is decent internet acces at the venue.</li>
+</ul></li>
+<li>Another solution for out-of-date systems is to install an old version use the plain R GUI (choose a suitable version in step 1.1), but it is likely that not all of the packages we will be using would work on an older version.</li>
+</ul>
+<p><br></p>
 <p>RStudio is an integrated development environment for R (which is why we had to install that first) - the Console panel on the left is basically the same thing that you saw when you ran “plain” R. But RStudio also features a number of very helpful things that will become apparent in the workshop. RStudio comes with a handy script editor, which we are going to use right away.</p>
 </div>
 </div>

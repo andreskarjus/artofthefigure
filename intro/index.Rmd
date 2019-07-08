@@ -1,6 +1,6 @@
 ---
-title: "aRt of the figure"
-subtitle: "Visualizing your data using R"
+title: "Visualizing your data using R"
+subtitle: ""
 author: Andres Karjus
 mode  : selfcontained
 framework: impressjs
@@ -9,17 +9,19 @@ framework: impressjs
 
 --- #title0 x:-400 y:1000 scale:7 roty:-2
 
-
+<!--
+library(slidify);slidify("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/intro/index.Rmd")
+-->
 
 --- #title x:-400 y:1000 scale:7 roty:30
 
-<span class="small">_an aRt of the figure workshop_</span>
+<!-- <span class="small">_an aRt of the figure workshop_</span> -->
 
-# **Data<br>visualization<br>using R**
+# **Visualising<br>Your Data<br>Using R**
 
 Andres Karjus
 <br>
-<span class="small">University of Edinburgh<br>andreskarjus.github.io<br>@andreskarjus</span>
+<span class="small">University of Edinburgh<br>andreskarjus.github.io</span><div style="line-height:4px;"><span class="small"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/artofthefigure<br></div></span>
 
 
 
@@ -62,9 +64,17 @@ No more clicking through endless menus and buttons
 <br><br>
 Time is money!
 
+--- # x:1800 y:1800 roty:10
+
+But but I'm not a programmer!
+
+--- # x:1800 y:2700 roty:10
+
+![](programmer.png)
+
 --- # x:1000 y:2700 roty:0
 
-## **But why use R?**
+## **OK so why use R?**
 
 <br>
 <br>

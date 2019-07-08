@@ -49,12 +49,23 @@ Good job. Now close R (if it asks to save the workspace: not necessary). Once yo
 
 ## Installing RStudio
 
-While it is fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio instead, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using. Go to:
+While it is fine to use R from the command line or the bare-bones R interface application, we are going to use RStudio instead, which will make using R a lot easier and less of a hassle. It also has nice support for R Markdown, which we will be using.
 
-- https://www.rstudio.com/products/rstudio/download/#download -> and choose the **installer** depending on your operating system (not the zip/tarball, and not the source code!).
-- Important: if you're using a 32-bit version of Windows, [please download this archived version](http://download1.rstudio.org/RStudio-1.1.463.exe) instead - the newest (April 8th) version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your Windows is not compatible, then this means you have 32-bit Windows.
+- Go to https://www.rstudio.com/products/rstudio/download/#download -> and choose the **installer** depending on your operating system (not the zip/tarball, and not the source code!).
+- Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).
 
-Download and install. Run RStudio (again, look for the shortcut in Start Menu/Finder or the desktop).
+Common issues and troubleshooting:
+
+- If you're using a 32-bit version of Windows, [please download this archived version](http://download1.rstudio.org/RStudio-1.1.463.exe) instead - the newest version of RStudio installer comes only in the 64-bit flavour. If you installed RStudio and get an error upon running RStudio saying that your *Windows is not compatible*, then this means you have 32-bit Windows.
+- **If you cannot install RStudio** because your operating system is out of date (e.g. pre-7 Windows or pre-Sierra Mac OS) and you don't feel like or don't have the time to upgrade, a solution is to use RStudio Cloud instead in your browser.
+    - Go to https://rstudio.cloud and sign up a free account, or log in with Google or Github. 
+    - Start a new project, run the package installer code block (step 3 below)
+    - Download the Rmd script file (step 4 below), and upload it to the cloud (see File pane -> Upload in RStudio Cloud)
+    - Doing these steps allows you to participate without installing RStudio, provided there is decent internet acces at the venue.
+- Another solution for out-of-date systems is to install an old version use the plain R GUI (choose a suitable version in step 1.1), but it is likely that not all of the packages we will be using would work on an older version. 
+
+
+<br>
 
 RStudio is an integrated development environment for R (which is why we had to install that first) - the Console panel on the left is basically the same thing that you saw when you ran "plain" R. But RStudio also features a number of very helpful things that will become apparent in the workshop. RStudio comes with a handy script editor, which we are going to use right away.
 

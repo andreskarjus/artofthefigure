@@ -24,3 +24,8 @@ party
 htmlTable
 devtools
 usethis
+viridisLite
+cowplot
+nortest
+colorspace
+slidify
