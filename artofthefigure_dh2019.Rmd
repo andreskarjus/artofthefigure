@@ -1162,7 +1162,7 @@ Karjus, Andres (2018). aRt of the Figure. GitHub repository, https://github.com/
 Do play around with these things later when you have time, and look into the bonus sections for extras. If you get stuck, Google is your friend; also, check out www.stackoverflow.com - this site is a goldmine of programming (including R) questions and solutions.
 
 Also, if you are looking for consulting on data analysis and visualization or more workshops, take a look at my website https://andreskarjus.github.io/ 
-If you want to stay updated keep an eye on my Twitter @AndresKarjus (for science content) and @aRtoftheFigure (for dataviz and workshop related stuff).
+If you want to stay updated keep an eye on my Twitter @AndresKarjus (for science content) and @aRtofdataviz (for R, dataviz and workshops related stuff).
 
 
 

@@ -2,34 +2,34 @@
 title: "Attractive, Interactive, Ready for the Web:<br>Visualizing Your Data Using R"
 output: 
   html_document: 
-    toc: yes
+    toc: no
     theme: spacelab
 ---
 
 <style type="text/css">
-
 h1.title {
   font-size: 30px;
   margin-top: 90px;
   background-color: white;
-  padding-top: 20px;
+  padding-top: 7px;
   padding-bottom: 10px;
+  padding-left:5px;
   z-index: 100;
 }
-
-
 </style>
 
 
-<img src="clistop.png" alt = '' style = 'position:absolute; top:0; right:0; padding:0px; width=100%;overflow:hidden;z-index:-1'>
+<img src="top.jpeg" alt = '' style = 'position:absolute; top:0; right:0; padding:0px; width=100%;overflow:hidden;z-index:-1'>
 
+<div align="justify" style="position:relative; background-color:white; padding-top:10px; padding-left:5px;">
 
-<div align="justify" style ='position:relative; background-color: white;padding-top:10px" >
+**An International Corpus Linguistics Conference 2019 workshop<br>**
+**Organizer: Andres Karjus, University of Edinburgh**
 
-An International Corpus Linguistics Conference 2019 workshop<br>
-Organizer: Andres Karjus, University of Edinburgh
+## Workshop preparations
 
-[This site will be updated nearer to time with installation instructions and links to download scripts]
+Please follow the instructions [here](https://andreskarjus.github.io/artofthefigure/preworkshop_cl2019.html) to install the software and download necessary files. This is an absolutely necessary prerequisite for attending the workshop - it will be hands-on from the start, and it will not be possible to do much anything without the tools.
+
 
 ## Topic 
 
@@ -55,8 +55,9 @@ I am a PhD student at the Centre for Language Evolution of the University of Edi
 Andres Karjus, MA (linguistics), MSc (artificial intelligence)<br>
 PhD student, University of Edinburgh<br>
 a.karjus(@)sms.ed.ac.uk<br>
-http://andreskarjus.github.io
-<br>
+http://andreskarjus.github.io <br>
+Personal/academic Twitter: @[AndresKarjus](https://twitter.com/AndresKarjus) <br>
+R&dataviz workshops Twitter: @[aRtofdataviz](https://twitter.com/aRtofdataviz) <br>
 <br>
 
 
