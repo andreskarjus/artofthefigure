@@ -24,7 +24,8 @@ h1.title {
 <div align="justify" style="position:relative; background-color:white; padding-top:10px; padding-left:5px;">
 
 **An International Corpus Linguistics Conference 2019 workshop<br>**
-**Organizer: Andres Karjus, University of Edinburgh**
+**Organizer: Andres Karjus, University of Edinburgh**<br>
+Monday 22 July, 13.30, at Main Building Ground Floor, room: Beverton (1.40)
 
 ## Workshop preparations
 
