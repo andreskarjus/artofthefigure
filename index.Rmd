@@ -31,10 +31,10 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 
 **Now**
 
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
 
 **Past**
 
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
 - Visualising Your Data Using R. Workshop at the SGSAH Summer School, June 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsah.html) | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose Save link as...</a> (or Download linked file...), save the file, and open it using RStudio.
 - Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio |   [installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html) | extra [script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples
@@ -90,7 +90,7 @@ p
 ```{r, echo=F,message=F, warning=F,out.width = '100%', out.height=600}
 # <div style="float: left; width: 100%;height: 400px;">
 # </div>
-load("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/gl.RData")
+load("/Users/s1364178/Dropbox/6petamine/artofthefigure_all/gl.RData")
 gl %>% config(displayModeBar = F)
 ```
 
