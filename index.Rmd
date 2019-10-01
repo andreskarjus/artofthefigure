@@ -29,7 +29,9 @@ _[Andres Karjus](http://andreskarjus.github.io)_
 This functions as a cover page for all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
 
 
-**Now**
+**Soon**
+
+- Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
 
 
 **Past**
