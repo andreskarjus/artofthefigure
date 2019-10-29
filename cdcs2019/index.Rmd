@@ -29,9 +29,9 @@ Friday November 1st, 10:00-13:00, Main Library
 
 ## Workshop preparations
 
-Besides registering, the only requirement for participation is bringing your laptop with the necessary software and packages installed.
+Besides registering, the only requirement for participation is bringing your laptop with the necessary software and packages installed. Make sure your battery is full, in case there are not enough sockets in the room. 
 
-**This space will be updated with step-by-step installation instructions nearer to time.**
+[Click here and follow the pre-workshop download&installation instrucions](https://andreskarjus.github.io/artofthefigure/cdcs2019/preworkshop). Unfortunately it will not be possible to participate if you have not done this beforehand (it takes about 5-15 minutes depending on your internet speed, but please do that as soon as possible in case you run into any issues).
 
 
 ## Topic 
