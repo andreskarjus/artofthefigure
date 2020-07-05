@@ -29,22 +29,20 @@ _[Andres Karjus](http://andreskarjus.github.io)_
 This functions as a cover page for all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
 
 
-**Soon**
+**Now**
 
-- 
+-  Visualising Your Data Using R. Online summer session workshop for the University of Edinburgh PPLS Writing Centre. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/ppls_summer2020)
 
-**In the distant future**
-
-- The Summer School of Linguistics, Czech Republic, August 2020
 
 **Past**
 
+- ~~The Summer School of Linguistics, Czech Republic, August 2020~~ invited, but event was corona-cancelled
 - Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
 - Visualising Your Data Using R. Workshop at the SGSAH Summer School, June 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsah.html) | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose Save link as...</a> (or Download linked file...), save the file, and open it using RStudio.
 - Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio |   [installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html) | extra [script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples
-- Jupyter Notebooks taster, SGSSS Summer School 2019 (co-teaching; not R; but included examples from the inter-language plotly package which has been used here a lot, see examples below)
+- Jupyter Notebooks taster, SGSSS Summer School 2019 (co-teaching; not R; but included examples from the inter-language ``plotly`` package which has been used here a lot, see examples below)
 - Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, May 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
 - Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
 - Centre for Language Evolution PhD Retreat, January 2019 |  <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">the script</a>
@@ -61,7 +59,7 @@ Note that if the script opens as a plain text file in your browser, you'll need 
 
 ---
 
-Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from very simple base graphics plots to complex networks, interactive plots and zoomable maps (content depending on the length and focus of a given workshop. <br> Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and past workshops. If you like the materials and would like to invite me to come and teach you and/or your students how to do all this (in an easy-to-learn, efficient and reproducible manner), feel free to get in touch to discuss options.
+Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from simple plots to complex graphs, interactive applets and zoomable maps (content depending on the length and focus of a given workshop). <br> Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and past workshops. If you like the materials and would like to invite me to come and teach you and/or your students how to do all this (in an easy-to-learn, efficient and reproducible manner), feel free to get in touch to discuss options.
 
 </div> 
 
