@@ -31,11 +31,12 @@ This functions as a cover page for all the *aRt of the Figure* workshops. Each i
 
 **Now**
 
--  Visualising Your Data Using R. Online summer session workshop for the University of Edinburgh PPLS Writing Centre. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/ppls_summer2020)
+- Visualising Your Data Using R. Workshop at the Digital Methods in Humanities and Social Sciences Summer School, August 24-27, 2020, University of Tartu. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/tartu2020)
 
 
 **Past**
 
+-  Visualising Your Data Using R. Online summer session workshop for the University of Edinburgh PPLS Writing Centre. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/ppls_summer2020)
 - ~~The Summer School of Linguistics, Czech Republic, August 2020~~ invited, but event was corona-cancelled
 - Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
@@ -58,6 +59,10 @@ Note that if the script opens as a plain text file in your browser, you'll need 
 
 
 ---
+
+```{r, echo=F}
+knitr::knit_exit()
+```
 
 Below is a little showcase of the kinds of plots and figures you could learn to create if you participated in one of the workshops, from simple plots to complex graphs, interactive applets and zoomable maps (content depending on the length and focus of a given workshop). <br> Check [my website](https://andreskarjus.github.io/) for more details on consulting, bookings and past workshops. If you like the materials and would like to invite me to come and teach you and/or your students how to do all this (in an easy-to-learn, efficient and reproducible manner), feel free to get in touch to discuss options.
 
