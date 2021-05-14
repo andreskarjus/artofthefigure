@@ -22,39 +22,52 @@ h1.title {
 
 
 <img src="top.jpeg" alt = '' style = 'position:absolute; top:0; right:0; padding:0px; width=100%;overflow:hidden;z-index:-1'>
-_[Andres Karjus](http://andreskarjus.github.io)_
 
 <div style="text-align: justify"> 
 
 This functions as a cover page and record of all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage. If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
 
+<div style="text-align: right"> 
+-- _Andres Karjus_<br>
+[(personal website)](http://andreskarjus.github.io)<br>
+[(personal/science twitter)](https://twitter.com/AndresKarjus)<br>
+[(dataviz twitter)](https://twitter.com/artofdataviz)<br>
+
+<div style="text-align: justify"> 
+
+Workshops:
 
 **Future**
 
 - Will be teaching in the [Summer School for Digital Methods in Humanities and Social Sciences 2021](https://www.nlib.ee/et/digital-humanities-tallinn-2021), registration will open soon.
 
-**Past**
+**Recent past**
 
 - Gave a dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021).
 - Gave two guest workshops on dataviz in the "Data science and digital humanities" (Andmeteadus ja digihumanitaaria) fall semester course at Tartu University.
--Visualising Your Data Using R. Workshop at the Digital Methods in Humanities and Social Sciences Summer School, August 24-27, 2020, University of Tartu. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/tartu2020)
+- Visualising Your Data Using R. Workshop at the Digital Methods in Humanities and Social Sciences Summer School, August 24-27, 2020, University of Tartu. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/tartu2020)
 -  Visualising Your Data Using R. Online summer session workshop for the University of Edinburgh PPLS Writing Centre. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/ppls_summer2020)
 - ~~The Summer School of Linguistics, Czech Republic, August 2020~~ invited, but event was corona-cancelled
-- Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
-- Visualising Your Data Using R. Workshop at the SGSAH Summer School, June 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsah.html) | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose Save link as...</a> (or Download linked file...), save the file, and open it using RStudio.
-- Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio |   [installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html) | extra [script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples
-- Jupyter Notebooks taster, SGSSS Summer School 2019 (co-teaching; not R; but included examples from the inter-language ``plotly`` package which has been used here a lot, see examples below)
-- Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, May 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
-- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
-- Centre for Language Evolution PhD Retreat, January 2019 |  <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">the script</a>
-- PPLS Writing Centre summer quantitative workshops series 2018
-- SGSSS Summer School 2018
-- PPLS LEL Spring Retreat 2018
-- PPLS Writing Centre short workshops for 2017-2018
 
-Note that if the script opens as a plain text file in your browser, you'll need to right-click it and choose "Save as..." (or "Download linked file..." or similar, depending on browser); and make sure the saved file has the `.Rmd` extension, not a `.txt` extension (fix it if needed). Double-clicking it should open it in RStudio, if that's properly installed.
+**More distant past**
+
+- Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, Wales; July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, The Netherlands; July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
+- Visualising Your Data Using R. Workshop at the SGSAH Summer School, Scotland; June 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_sgsah.html) | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_sgsah.Rmd" download target="_blank">here and choose Save link as...</a> (or Download linked file...), save the file, and open it using RStudio.
+- Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack | to download the script file, right-click (Mac ctrl-click) <a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_scosya.Rmd" download target="_blank">here and choose "Save link as...</a> or similar, save the file, and open it using RStudio |   [installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_scosya.html) | extra [script](https://andreskarjus.github.io/artofthefigure/scosya_dataimport_mds.html) with some more examples
+- Jupyter Notebooks taster, SGSSS Summer School 2019; Scotland (co-teaching; not R; but included examples from the inter-language ``plotly`` package which has been used here a lot, see examples below)
+- Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, Scotland; May 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
+- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
+- Centre for Language Evolution PhD Retreat, Scotland; January 2019 |  <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clephd.Rmd">the script</a>
+- University of Edinburgh PPLS Writing Centre summer quantitative workshops series 2018
+- SGSSS Summer School, Scotland; 2018
+- University of Edinburgh PPLS LEL Spring Retreat 2018
+- University of Edinburgh PPLS Writing Centre short workshops for 2017-2018
+- Teaching in earlier years: courses at the University of Tartu 2014-2016; a workshop at the Academia Salensis summer school, Lithuania 2015.
+
+<br>
+
 <br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). 
 <br>It's all open source: the entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
 
