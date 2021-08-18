@@ -1,0 +1,1115 @@
+---
+title: "Exploring and visualizing your data using R"
+subtitle: "Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences"
+author: Andres Karjus http://andreskarjus.github.com
+output: 
+  html_document: 
+    toc: yes
+    number_sections: no
+editor_options:
+  chunk_output_type: console
+---
+
+
+# Introduction
+
+Hi! Please work through this short intro *before* the workshop on, especially
+the package installation part - work until the line which says 
+*This is the end of the intro* - we'll continue from there on together. 
+If you come prepared, you'll be able to follow the workshop easily; 
+if you don't work through this short intro, your experience will not be very good.
+If you can, I'd recommend doing this just a day or two before the workshop,
+so it's all fresh in your mind :)
+
+This R Markdown worksheet contains both introductions and code blocks. 
+As a quick overview, the intro containts:
+
+1. Instructions on how to change a necessary setting if you haven't yet.
+2. A very short&simple exercise to get you familiar with basic R.
+3. A code block that will install the required packages - please *don't forget to do that*.
+If you don't install the packages, you won't be able to do any of the exercises in the workshop. You might have noticed a message above the script pane saying "Packages required but are not installed" - we'll get to that in a second. But first:
+
+
+## Configure these RStudio options, to make your life about 200% easier
+
+- *Soft Wrap*: this was already in the R installation instructions; if you already 
+enabled the Soft Wrap setting, then you can skip this; if not: on the menu bar up top, 
+go to *Tools* -> *Global Options*, choose the *Code* tab on the left, and tick 
+`Soft-wrap R source files` (i.e. make sure there is a tick mark in the box) 
+(this will make using the script editor much easier, by wrapping long lines so you won't 
+have to keep scrolling left and right all the time). See below for illustration.
+- *Table of contents*: if you have a big enough screen, a nice addition to enable
+would be the document outline which gives you a handy overview of things: in the
+top right corner of this script pane click the little button with 6 bars 
+(second from the right). 
+You can also search the script using CTRL+F (CMD+F on Mac).
+- Troubleshooting option: if at some point RStudio feels sluggish to use,
+try disabling the spellchecker: *Tools* -> *Global Options*, choose the *Spelling* tab 
+on the left, disable the real-time speller.
+
+
+
+# A quick pre-workshop exercise for beginners
+
+This is something you should do before the workshop to get a feel for R coding, so we can move on to the more interesting stuff quicker together. If you've used R before, feel free to skip this and go straight to the package installation part. 
+Also notice how this line here is quite long and without manual line breaks - if you didn't change the Soft Wrap setting above - you'd have to scroll left and right and left and right to be able to read it. If you successfully changed that one setting above, then the text should be nicely wrapped within the script pane, no back and forth scrolling required.
+
+So far you've seen only free-running text. The shaded block below is a code block. RStudio colors it differently than the rest of the document:
+
+```{r}
+# This is a comment, and below it is a line of code:
+print( "Hello! Put your text cursor on this line (click on the line). Anywhere on the line. Now press CTRL+ENTER (PC) or CMD+ENTER (Mac). Just do it." )
+
+# The command above, when executed (what you just did), printed the text in the *console pane* below. Also, this here is a comment - comments start with a # hashtag.
+# Commented parts of the script (anything after a # ) are not executed. Feel free to add your own comments anywhere.
+# This R Markdown file has both code blocks (gray background in the default theme) and regular text (white background).
+# Code blocks start and end with the 3 ``` symbols; make sure you don't delete them.
+# Always write code inside code blocks.
+
+```
+
+Everything outside the code blocks is just regular text. Feel free to also add your own notes anywhere.
+Let's try some more simple functions.
+
+```{r basicmath, eval=F}
+
+sum(1,10) # cursor on the line, press CTRL+ENTER (or CMD+ENTER on Mac)
+# You should see the output (sum of 1 and 10) in the console. 
+# Important: you can always get help for a function and check its input parameters by executing 
+help(sum)  # put the name of any function in the brackets
+# ...or by searching for the function by name in the Help tab on the right.
+
+# Exercise. You can also write commands directly in the console, and executing them with ENTER. Try some more simple maths - math in R can also be written using regular math symbols (which are really also functions). Write 2*3+1 in the console below manually, and press ENTER. You can also go back to previous commands by pressing the up arrow on your keyboard. 
+# Don't skip this, do it.
+
+
+# Now let's plot something. The command for basic plotting is, surprisingly, plot().
+plot(x = 42, main = "The greatest plot in the world") # execute the command; a plot should appear on the right.
+# So that was not very exciting. But notice that a function can have multiple inputs, or arguments. In this case, the first argument is the data for the x axis (here a vector of length one), and the second is 'main', which specifies the main title of the plot. 
+# You can make to plot pop out in a bigger window by pressing the 'Zoom' button above the plot panel on the right.
+
+# Let's plot some 100 random numbers, generated with the rnorm() function.
+hist(x=rnorm(100))               # a histogram
+plot(x=rnorm(100), y=rnorm(100)) # a scatterplot
+
+# Note that in R, spaces and line breaks don't matter in terms of syntax, so I could also do:
+plot(x= rnorm(100) , 
+     y = rnorm( 100)
+     )    
+# ...and it will still work (the values on the plot will of course differ, as we're using random numbers)
+
+# By the way, you can also always search in the script file using CTRL+F (CMD+F on a Mac).
+# If you make a mistake in the script, you can always Undo it (CTRL+Z; or CMD+Z on a Mac).
+
+```
+
+These basic plots don't look exactly amazing. I know - that's why we'll be using packages like ggplot2 and plotly in the workshop that make it easy to produce beautiful colorful wonderful graphs, and we'll see how to make them interactive too.
+
+```{r, assignment, eval=F}
+# Let's try another thing. We'll use the paste() command, which concatenates strings into a single string.
+paste("hello", "world")
+
+# Most functions follow this pattern: there's input(s) and maybe some parameters, separated by commas, something is done to the input, and then there's an output. Here the "input" is the two strings "hello" and "world".
+# If an output is not assigned to some object, it usually just gets printed in the console. It would be easier to work with data, if we saved it in an object. For this, we need to learn assignement, which in R works using the equals = symbol.
+sentence = paste("Hello", "world!")  
+# what it means: "sentence" is the arbitrary name of a (new) object, the equals sign = signifies assignement, with the object on the left and the data on the right 
+# (note that there's two ways of doing assignement, to define objects in R: either with = or <- , we'll be using the = here). 
+
+# In this case, the "data" is the output of the paste() function. Instead of printing in the console, the output is assigned to the object.
+sentence # run this line to inspect: calling an object usually prints its contents into the console below. Try it.
+
+# Let's try assignement one more time; let's create an object with your name. 
+myname = " "    # put your name between the quotes, like this: myname = "Andres"
+# Now run this line: note that the output will depend on what you assigned to myname:
+paste("Hello", myname, "you're doing great!")  
+# This works because paste() concatenates the strings with the value of the object myname.
+
+```
+
+That's the end of the beginners exercise block. Now make sure to do the installation part below, and then you're all done!
+
+
+## *Install the packages now*
+
+Let's get to installing. Think of packages like boxes of ready-made code that somebody else has written, that you won't have to write and can just use. If you get an error while installing, see the troubleshooter below. RStudio now also notifies of missing packages on top of the script pane.
+
+Run the block below - this will take some time, so while it's doing its thing, go back to the course webpage and read through the section 4, the Code Troubleshooting bit. In some cases R will ask for your further input to continue with installation (if so, see the steps below). It will most likely ask you if you'd like to *install packages from source* - if so, click No (or type no if the prompt appears in the Console).
+
+```{r install.packages, eval=F}
+# Run this code block; it should start throwing messages about installing a bunch of stuff in the console. This will take some time but only needs to be done once!
+p=c("tidyverse","ggbeeswarm", "patchwork", "shadowtext", "quanteda","quanteda.textplots","quanteda.textstats", "plotly", "rworldmap", "maps", "gapminder", "visNetwork", "gsbm", "igraph", "umap", "datasauRus","rayshader", "rmarkdown", "knitr"); install.packages(p); x=p%in%rownames(installed.packages());if(all(x)){print("All packages installed successfully!")}else{print(paste("Failed to install:", paste(p[!x]), ", try again and make sure you have internet connection."))};rm(x,p)
+# If it asks "Do you want to install from sources the package which needs compilation?" just click no.
+```
+
+Troubleshooting: if you get an error or confusing prompt when running the above, see here; otherwise don't mind this part:
+
+- "Cannot download...": make sure you're connected to the internet.
+- Prompt with `Do you want to install from sources the package which needs compilation? (Yes/no/cancel)` - type *no* in the Console and press enter (or if it's a box, click the *No button*). Unless you're on a Linux machine (or if binary installation fails), in which case go for yes of course.
+- Prompt with `Would you like to create a personal library...` - click Yes.
+- Prompt with `One or more packages are loaded, restart yes/no/cancel?` - try Yes, but if it occurs again, restart R and click No.
+- Warning `package ... is not available (for R version ...)` - seems you didn't update R, please do that first (by installing the newest R, see the installation instructions again).
+- Some error about `RcppArmadillo`: ignore it.
+- If all else fails, try restarting RStudio and running the command above again. If it still reports installation failures, get in touch with me, preferably by email (report your operating system, the steps you took and the errors you encountered, e.g. screenshots).
+
+
+ ---
+ ---
+ --- 
+
+# This is the end of the intro. 
+
+Thanks for installing everything and preparing your RStudio so that we can go straight to the interesting stuff in the workshop and start learning cool things together.
+
+(Stop here for now, and we'll continue together in the workshop!)
+
+ ---
+ ---
+ ---
+ 
+
+(P.S. If you're tempted to scroll onward and check out the materials beforehand, feel free, but also don't be alarmed by the fairly large number of exercises under each section - this is so that if some people already know some R, they can do those extra ones instead of being bored out of their minds. It's totally ok if you take it slow and only do the first couple exercises under each section during the workshop. But also whenever you feel like you're falling behind, raise a hand.)
+ --- 
+
+
+ 
+
+
+# Welcome to the workshop!
+
+This is where we start together in the live workshop. If you have a little message on top of this window saying packages are missing, please go back to the installation section above and run the package installer script ASAP.
+
+## *Load the packages*
+
+Let's start by loading the required packages. I'll put this right here in the beginning so you won't miss it. Throughout this worksheet, you'll a number of functions and also a few datasets from these packages.
+
+```{r packages, message=F, warning=F, echo=T, eval=T}
+# Load the necessary packages - this needs to be done every time you restart R
+# To run the entire code block here, click the little green triangle > in the top right corner of the code block. Do that now.
+# Or put your cursor on the first line of the code and press CTRL+ENTER (CMD+ENTER)
+
+suppressWarnings(suppressMessages({  # -> Run this! (it might take a moment)
+  library(ggplot2)            # the plotting package
+  library(shadowtext)         # a ggplot2 addon
+  library(ggbeeswarm)         # a ggplot2 addon
+  library(dplyr)              # for data manipulation; provides the %>% pipe
+  library(gapminder)          # provides a dataset we'll need
+  library(plotly)             # interactive plots
+  library(quanteda)           # a corpus pkg & its addons
+  library(quanteda.textplots) #
+  library(quanteda.textstats) #
+  library(umap)               # a dimension reduction package
+  library(rworldmap)          # packages for maps
+  library(maps)               #
+  library(visNetwork)         # packages for networks
+  library(igraph)             #
+  library(datasauRus)         # it's a dinosaur don't ask
+  ggplot(gapminder)+annotate("text",x=0,y=0,label="Welcome!") # a little test
+}))
+```
+
+- If you ran the code, *didn't get any errors in the console*, and a plot saying "Welcome!" appeared on the right, in the Plots pane, then packages loading probably worked. Yay!
+- If you got an error that a *package is not found* and/or the plot did not appear, then you've got something missing; go to the install.packages block above (in the pre-workshop intro) and install. If it's a different error or if the plot did not appear, ask for help.
+
+- (For those who have used R before: you may notice I wrapped the library calls in two functions that suppress messages: that is so that people won't get confused by the "object is masked from package" & "package x was built under R version" warnings)
+- (For those wondering why it's called "library" - think of it as a function that reaches into your library of packages and pulls the ones you want; see the Packages tab on the right if you want to see your whole library)
+
+- By the way, if you haven't tried enabling the document outline/table of contents yet, try doing that now: click on the icon with the 6 little bars, in the top right of this script pane. The sidebar that appears can be resized just like the other panes. If you have a tiny screen it might take up too much space, but otherwise it's pretty useful.
+
+ ---
+ 
+
+## Basic data operations and plots
+
+Let's get down to business.
+```{r basics, eval=F}
+# We will be using the gapminder dataset from the `gapminder` package that we loaded above
+library(gapminder) # this call is just here to remind you that we're using this package
+
+# We can inspect the data using convenient R commands.
+class(gapminder)    # type of the object: it's a "tibble", a kind of dataframe (I know, this probably doesn't help much right now. It's a table of sorts:)
+dim(gapminder)      # dimensions of that table
+summary(gapminder)  # produces an automatic summary of the columns
+head(gapminder)     # prints the first rows
+# In RStudio, you can also have a look at dataframe type objects by clicking on the little "table" icon next to it in the Environment section (top right), or by running this command:
+View(gapminder)
+
+help(gapminder)     # built in datasets often also have help files attached; this one is quite helpful - go have a look what the variables actually stand for, before moving on.
+
+
+gapminder$lifeExp            # the $ is used for accessing (named) columns (or elements in a list)
+mean(gapminder$lifeExp)      # mean life expectancy
+gapminder[ , "lifeExp"]    # this is the other indexing notation for the same thing: [row, column]
+# the "row slot" is left empty here, that means: give me all the rows
+# These commands spit out all the data to the console, up to the print limit.
+
+gapminder[1:6 , c("country", "pop", "year")]  # access two columns and first 6 rows
+# This is how base R works; we can use the Tidyverse package dplyr to do this in a more transparent way:
+gapminder %>% select(country, pop, year) %>% slice(1:6)
+
+# Basic plotting:
+hist(gapminder$lifeExp, breaks=10)
+boxplot(gapminder$lifeExp, ylab="Life expectancy")
+plot(pop ~ lifeExp, data=gapminder)
+grid(col=rgb(0,0,0,0.2), lty=1)
+
+```
+
+While the base plots work just fine in R, you might have noticed the syntax is not the most straightforward, nor are the default looks particularly appealing. We will therefore look into using a better plotting package below instead.
+
+
+ ---
+
+
+# ggplot2
+
+We'll now switch to an alternative plotting package, `ggplot2`. It uses a different approach to plotting, and a slightly different syntax. It also comes with default colors and aesthetics which many people find nicer than those of the base `plot()`. 
+A particularly useful feature of `ggplot2` is its extendability (or rather the fact people are eager to extend it), with an ever-growing list of addon-packages on CRAN with an extended selection of themes and more niche visualization methods.
+We will also look at a few other nifty packages later on.
+
+
+# Scatterplots of two numerical variables
+
+Numerical values include things we can measure on a continuous scale (height, weight, time), things that can be ordered ("rate this on a scale of 1-5"), and things that have been counted (number of participants in an experiment, number of words in a text).
+
+Let's build our first ggplot up layer by layer:
+```{r}
+library(ggplot2)  # we actually already loaded this
+# but I included package loading calls in code blocs where a new package is introduced - so you can keep track which new functions come from which package.
+
+# You can think of ggplot as putting layers of different elements on a canvas:
+ggplot()  # 1. The "empty canvas"; calling this just plots an empty plot
+ggplot(data=gapminder)  # 2. let's add the data argument (but it's still an empty plot, as we have not asked for any variables to be shown)
+
+ggplot(data=gapminder, mapping=aes(x=lifeExp, y=pop)) # 3. Define the x and y axes using aes() 
+# (which stands for "aesthetic mappings") - this makes something show up.
+
+# 4. Now let's add a "geom" - these are layers that plot thnings like points or lines.
+# Layers are "added" using the + operator
+# But also they only work if you use the +, just putting the lines of code under one another won't be enough.
+ggplot(gapminder, aes(x=lifeExp, y=pop))+  # notice the plus
+  geom_point()   
+
+# If provided in the correct order, parameter names can be omitted; so I won't be spelling out the data= part here anymore.
+
+# 4.1. I also want you to get into the habit of putting a NULL in the end of ggplot code blocks: it doesn't do anything (being null), but this extra bit will save you from a certain fairly confusing error which happens if you would accidentally leave a trailing + in the end of a ggplot call. Make sure the NULL is always in the very very end, and never put a "+" after the NULL.
+ggplot(gapminder, aes(x=lifeExp, y=pop))+
+  geom_point()+
+  NULL
+
+# Sanity check: what are we actually looking at? What are the variabels and their relationship?
+
+
+# 5. We can add parameters to the geoms, like color, fill, size, alpha/transparency:
+ggplot(gapminder, aes(x=lifeExp, y=pop))+
+  geom_point(color="blue", size=2, alpha=0.2)+  
+  NULL
+# "blue" is a string (a color name), so use quotes
+
+
+# 6. Let's color the points conditionally by continent instead: 
+# for that, define the coloring variable in the aes() function:
+ggplot(gapminder, aes(x=lifeExp, y=pop, color=continent))+
+  geom_point()+ 
+  NULL
+# Defining variables for color, fill, size and shape automatically generate a legend.
+
+# So explicit color like "blue" or size goes into the geom_point() options; but if you want to color a geom by the values of a variable, do that in the aes(). So aes(color="blue") won't work, but aes(color=continent) works. Only variable names go in the aes(). 
+# We'll also see below how to change the colors of a conditional coloring palette.
+
+
+# 7. The order of things in a ggplot block matters:
+ggplot(gapminder, aes(x=lifeExp, y=pop, color=continent))+
+  geom_point(color="red", size=2)+ 
+  geom_point(color="blue", size=0.5)+ 
+  NULL
+# The little blue points are plotted on top of the bigger red points, because the blue points line is after the "red" points line.
+
+# 8. Let's also try adding a different "theme", a more minimal one; it will replace the default.
+ggplot(gapminder, aes(x=lifeExp, y=pop, color=continent))+
+  geom_point()+
+  theme_minimal()+                # add before before theme()
+  theme(legend.position = "top")+ # add after theme_* if one is present
+  NULL
+# Again, order matters: if using the theme-modifying function theme(), it needs to go after the line that defines the overall theme.
+
+```
+
+
+
+## Exercises 1
+
+This is the same dataset as above, but we're using a subset of the data, just Europe for now (subsetted using the filter() function from the dplyr package). You'll notice that some the exercises have multiple possible solutions - feel free to experiment!
+
+Do the following exercises one by one: do the requested addition or change, and then run the code to see how it looks. If you get an error, it's probably something in the new piece of code you just added or changed. Make sure to only write code inside code blocks, not out here.
+
+Important: when you're done with the last exercise (or the last exercise you finished when the instructor told the class to start uploading solutions), take a screenshot of your plot or use the ` Export > Copy to clipboard ` option above the plot pane, then paste your result here on this common clipboard: 
+https://hackmd.io/@andreskarjus/SkTrzBZgK/edit
+
+If you get an error you can't solve, raise a hand and ask for help. I also set up a troubleshooting clipboard for people doing this online: describe your error there and then ask for assistance over the chat: https://hackmd.io/@andreskarjus/HyaRgdbxY/edit
+
+The exercises:
+
+1. We already tried coloring by continent. Now explore the data by coloring by country or year, and try to intrpret the plot that comes out (discuss with your neighbour if you're sitting together with somebody).
+    - Extra: if coloring by year, try using ` scale_colour_viridis_c() ` instead (scales are added with a + just like geoms).
+    - Extra: there's a lot of points there - either make them a bit smaller by adding ` size=0.7 ` into geom_point(), or make them transparent (` alpha=0.7 `), or change the point shape to an empty circle (` shape=1 `), or all of these options.
+    
+```{r}
+# 
+ggplot(data = gapminder %>% filter(continent=="Europe"), 
+       mapping = aes(
+         x=lifeExp, # life expectancy on the x axis
+         y=pop,     # population on the y axis
+         # add the color variable here:
+         
+         #
+         )) + 
+  # add geoms, scales and themes between here...
+  geom_point(  )+   # modify the points by adding parameters between the ( )
+
+  # ...and here
+  NULL  # while keeping this in the end
+
+```
+
+
+2. Alternatively, try replacing points with text: instead of points, use 
+` geom_text(aes(label=country), size=2, hjust=1) ` here (the hjust argument makes the labels right-aligned, which looks nicer than the default center-alignment).
+    - Probably doesn't make sense to color by country any more, so color by year instead.
+    - Extra: you can also try removing the points by deleting or commenting out the geom_point() line, or making the points either smaller or less transparent.
+    - Extra: try changing the default theme for another one like ` theme_bw() ` (themes are added with a + like other layers)
+    
+```{r}
+# 
+ggplot(data = gapminder %>% filter(continent=="Europe"), 
+       mapping = aes(
+         # define the coloring variable here if you'd like:
+         x=lifeExp, y=pop,
+         
+         #
+         )) + 
+  # add geoms, scales and themes between here...
+  geom_point()+
+
+  # ...and here
+  NULL  # while keeping this in the end
+
+```
+
+More exercises for extra fast people:
+First copy the code from the first exercise to this block:
+```{r}
+
+
+```
+
+- Now color by country and use ` geom_smooth(method="lm", se=F) ` to add regression lines (if you know what regression is)
+- Try removing or moving the legend using ` + theme() `, specifying the legend.position parameter with value "none", "bottom", etc (with quotes). Make sure the theme() layer comes after theme_bw(), theme_minimal() etc, as theme() modifies the options of those.
+- Try labeling with geom text, but so that only the last year (2007) is labelled, by defining the data argument in the geom_text() call, and setting its value to a subset like this: 
+` data=gapminder %>% filter(continent=="Europe", year==2007) `
+- Or use shorter labels: a quick way to do it is to use the substring() function, which you can use right inside the aes() in geom_text() like this: 
+` aes(label=substr(country,1,3)) ` - you can now either remove the points or just make them smaller (e.g. size=0.2).
+- Try more themes and color scales. 
+
+ 
+Finally, copy-paste your plot to https://hackmd.io/@andreskarjus/SkTrzBZgK/edit
+
+
+
+
+## Solution (don't look here!)
+
+don't cheat;)
+
+```{r}
+# These are some possible solutions to the exercises above
+
+# 1.
+ggplot(data = gapminder %>% filter(continent=="Europe"), 
+       mapping = aes(
+         x=lifeExp, # life expectancy on the x axis
+         y=pop,     # population on the y axis
+         color=year
+         )) + 
+  geom_point(size=0.7, alpha=0.7)+  
+  scale_colour_viridis_c()+
+  theme_bw()+
+  NULL
+
+# 2.
+ggplot(data = gapminder %>% filter(continent=="Europe"), 
+       mapping = aes(
+         x=lifeExp, # life expectancy on the x axis
+         y=pop,     # population on the y axis
+         color=year
+         )) + 
+  geom_point(size=0.2)+  
+  geom_text(aes(label=substr(country,1,3)), size=3, hjust=1)+
+  scale_colour_viridis_c()+
+  theme_bw()+
+  NULL
+```
+
+
+ ---
+ 
+
+
+# Time series
+
+Let's take a quick look at plotting time series - data reflecting changes in some variable over time. It's not really fundamentally different from a scatterplot, which we saw earlier, and producing one with ggplot2 is a very similar process. For that one we'll use the gapminder dataset again, but a different subset.
+
+```{r timeseries, eval=T, echo=T}
+# Let's subset the data to only include the Baltics, and save that as a new object which we will call "baltics". Some countries are not part of the main dataset though, but the "unfiltered" version, so we'll subset that instead.
+baltics = gapminder_unfiltered %>% 
+  filter(country %in% c("Estonia", "Latvia", "Lithuania"), year>1990)
+```
+
+
+## Exercises 2
+
+```{r}
+# Make sure you run the baltics = ... code above to subset first, otherwise this won't work.
+# In a time series plot, time is usually on the x-axis. Let's plot life expectancy over time.
+ggplot(baltics, aes(x=year, y=lifeExp  ))+
+  # add layers like geoms, themes and scales between here...
+  geom_point()+
+  
+  # ...and here.
+  NULL
+
+```
+
+- This plot only has points so far. To interpret time series, it would be good to somehow distnguish which points belong to which series. You already know how to color by country, so do that first.
+- But it would be easier to follow though if the points were actually connected; add a ` geom_line() ` layer. Since the countries variable already forms colored groups, ggplot know that lines should be drawn separately for countries as well. Another way to create separate lines (without coloring) would be to just define ` group=country ` in aes().
+- The axes could be nicer though. Add the ` labs(y="Life Expectancy") ` layer (again with the +). You can also add the x and color as additional parameters in labs() to change those, e.g. to capitalize them. Try also adding a ` title ` and choosing a nice descriptive title for your plot.
+
+Extras for fast people:
+
+- The default color palette is ok but sometimes it's nice to change your colors to something that people would easily recognize. In the case of countries, you could use prevalent colors in their flags for example. Add the following layer with these parameters to use a manual color scale: 
+` scale_color_manual(values=c("#0072ce", "#9d2235", "#fdb913") ) ` 
+(these hex codes correspond to the blue, dark red and gold in the flags of these three countries). Also maybe change the theme to theme_bw() or another one with a white background, and move the theme to below the plot (make sure the theme(legend.position="bottom") comes after theme_bw() in the code).
+
+Finally, copy your plot to hackmd.io.
+
+ ---
+
+
+
+# Distributions
+
+In this section, we'll see how to compare distributions of numeric values. Boxplots are a common way of doing that: they display the median (usually dark line), the interquartile range (the box) and the range of the data (the "whiskers" or lines, usually up to 1.5x the interquartile range), with everything outside the "range" being considered "outliers" and plotted as points. Boxplots are not perfect (no distribution plot really is), but they're common, so let's get to know them.
+```{r}
+# Let's create another subset of the gapminder dataset to explore how wealth of countries (as gross domestic product per capita) differs between continents.
+
+y2007 = gapminder %>% filter(year==2007) # Just the last year of the dataset. Make sure to run this line.
+head(y2007)
+
+ggplot(y2007, aes( y=gdpPercap, x=continent))+
+  geom_boxplot()+
+  geom_text(aes(label=country), data=y2007 %>% filter(gdpPercap>37000), hjust=1.1)+
+  
+  NULL
+
+```
+
+## Exercises 3.
+
+- I already added the labels for some of the richest countries. We could also plot each country as a point on this plot. Do so simply by adding the geom_point() layer. Make sure it comes after geom_boxplot. 
+- Since we're adding points, it would also make sense to turn off the outlier points added by boxplot: do so by defining ` outlier.alpha = 0 ` inside geom_boxplot().
+- Some points look like they might be hiding other points. Add the following piece of code inside geom_point() to scatter the points a bit:
+` position=position_jitter(height=0, width=0.05) `
+- Add this parameter - ` varwidth=TRUE ` - into geom_boxplot() to resize the boxes according to the size of the group (here number of countries per continent)
+
+Extra exercises for fast people:
+
+- Try swapping the geom_boxplot() for ` geom_violin()  `. This plots density estimates instead. Or load the additional ggbeeswarm package and play around with geom_beeswarm().
+- Try coloring the points by the value of gdpPercap.
+- Let's try a darker theme. First change the theme to theme_dark(), then choose a more suitable ` fill ` color in geom_boxplot() (colors can be easily defined using common color names or hex codes in quotes). You could also add this to color the area outside the plot as well: 
+` theme(plot.background = element_rect(fill="gray10"), axis.title=element_text(color="white")) `
+- Add a color scale (for the points) that would better match the darker theme (perhaps one of the viridis themes).
+- Figure out a way to keep theme_dark() but remove the useless vertical grid lines from the plot.
+- Figure out (i.e. google) how to add a secondary y axis (hint: it involves specifying scale_y_continuous() with a sec.axis parameter).
+
+- Finally copy your result to hackmd.io.
+
+
+ ---
+ 
+
+# Intermission: how (not) to trick your audience
+
+## Distributions
+
+```{r}
+library(patchwork)  # load this to be able to see the examples on your screen
+# (patchwork is a package that extends ggplot2's "+"-syntax to add entire ggplots to one another, combing them on a single canvas)
+set.seed(1); x2=round(rnorm(400,35,10))+30; x1=round(rnorm(1000,35,10)) # some random data again for the example.
+
+# Question: How likely is it that these two are samples drawn from the same distribution/population, i.e. do they have similar shape and mean?
+ggplot() + aes(x1) + geom_bar(width=1) + theme_gray(base_size=8)+labs(title="Are these samples drawn from the same pop?") +
+ggplot() + aes(x2) + geom_bar(width=1) + theme_gray(base_size=8)+labs(title="\n")
+
+# Let's increase text size a bit:
+ggplot() + aes(x1) + geom_bar(width=1) + theme_gray(base_size=12)+labs(title="Are these samples drawn from the same pop?") +
+ggplot() + aes(x2) + geom_bar(width=1) + theme_gray(base_size=12)+labs(title="\n")
+ 
+# Now let's have another look
+ggplot() + aes(x1) + geom_bar(width=1) + theme_gray(base_size=8)+labs(title="Are these samples drawn from the same pop?")+lims(x=c(0,100),y=c(0,50)) + ggplot() + aes(x2) + geom_bar(width=1) + theme_gray(base_size=8)+labs(title="\n") + lims(x=c(0,100),y=c(0,50))
+
+# The stats, if you're familiar with a KS test:
+ks.test(x1,x2) # Chance that these two samples were drawn from the same population: 0.00000000000000022  
+```
+
+## Different methods for visualizing distributions:
+```{r}
+library(ggbeeswarm) # adds an additional geom for ggplot
+
+set.seed(5);x=c(runif(50,1,160), rnorm(100,60,10), rnorm(100,100,10)) # more random data
+
+# The plot below shows the same data using 2 different methods (histogram and density). 
+# Question: are these data more or less normally distributed?
+ggplot() + aes(x) + geom_histogram(binwidth = 23) +
+ggplot() + aes(x) +  geom_density(adjust = 2)
+
+# Another view, still the exact same data:
+ggplot() + aes(x) + geom_histogram(binwidth = 3) + 
+  ggplot() + aes(x) + geom_density(adjust = 0.3) + geom_rug(color=rgb(0,0,0,0.2)) 
+
+
+# Four different methods, still the same data:
+
+# I'm going to quickly save the theme here so I won't have to repeat the block multiple times:
+thm = theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) 
+
+ggplot() + geom_boxplot(aes(x=0,y=x),width=0.7) + xlim(-1,1) + labs(x="",y="")+thm + ggtitle("histogram") +
+  ggplot() + aes(0,x)+ geom_bar(stat = "summary", fun = "mean", fill="white", color="black") + stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge", width=0.5, size=1) + coord_cartesian(c(-1,1), c(1,150))+ labs(x="",y="") + thm + ggtitle("barplot :(") +
+  ggplot() +  aes(0,x) + geom_violin(adjust=1) +  geom_point(shape=95, size=3, color=rgb(0,0,0,0.2))+ labs(x="",y="")+ thm + ggtitle("density + points") +
+  ggplot() +  geom_beeswarm(aes(0,x), cex = 0.9) + thm + ggtitle("beeswarm") 
+
+```
+
+
+## About axes
+
+```{r}
+# Question: Which of these three time series (1, 2 or 3) is experiencing the biggest, most drastic change over time?
+set.seed(5); d2=data.frame(y=sort(runif(20,3,4))*runif(20, 0.99,1.05), time=1:20)  # more data
+ggplot(d2) + aes(x=time, y=y ) + geom_line(col="orange",size=1.5,alpha=0.8) +ylim(0,5) + labs(title="Series 1",y="",x="days")  +
+  ggplot(d2) + aes(x=time, y=y ) + geom_line(col="red", size=1.8,alpha=0.8) + labs(title="Series 2",y="",x="days") +
+  ggplot(d2) + aes(x=time, y=y ) + geom_line(col="darkblue", size=1.5,alpha=0.8) +ylim(0,20) + labs(title="Series 3",y="",x="days") 
+
+
+```
+
+
+
+## geom_smooth() and the loess curve
+
+Or the one thing people often mess up when using ggplot. Just something to keep in mind.
+```{r}
+d=data.frame(time=1:40, value=c(rlnorm(39,2,0.2),20)) # some random data
+
+# I'm going to glue three plots together here using the patchwork package which extends the syntax of the + to not only add geoms but to add entire ggplots.
+ggplot(d , aes(x=time, y=value)) + geom_point() + geom_smooth(method = "loess", span=0.2) + labs(subtitle = "loess, 0.2") +
+ggplot(d , aes(x=time, y=value)) + geom_point() + geom_smooth(method = "loess", span=1) + labs(subtitle = "loess, 1") +
+ggplot(d , aes(x=time, y=value)) + geom_point() + geom_smooth(method = "lm") + labs(subtitle = "linear fit")
+```
+
+Bottom line, geom_smooth with the "loess" method (which ggplot often automatically chooses as the default) is basically just smoothed local averages, and its shape depends heavily on the arbitrary smoothing parameter, which at low values is very susceptible to outliers (because it's supposed to be).
+
+
+
+## Dinosaurs in the data
+
+It's always a good idea to visualize your data and understand it, before, during and after doing statistical modelling like correlation and regression (but also even "simple" summary statistics like mean and sd). For example, all the datasets shown below have almost the exact same correlation between the x and y variable (-0.06), and the mean is 54.3 for x and 47.8 for y, in all the 13 datasets -- despite them looking and being completely different.
+```{r}
+library(datasauRus)
+ggplot(datasaurus_dozen, aes(x, y))+
+  stat_smooth(method="lm", fullrange = TRUE, xseq = 15:98)+
+  geom_point(size=0.3)+
+  facet_wrap(~dataset)+
+  NULL
+
+# or, as an animation via plotly's ggplotly:
+ggplotly({
+  ggplot(datasaurus_dozen, aes(x, y, frame=dataset))+
+    stat_smooth(method="lm", fullrange = TRUE, xseq = 15:98)+
+    geom_point()
+  }) %>%
+  animation_opts(frame = 2000, transition=300)
+```
+
+
+ ---
+ 
+ 
+
+# Words!
+
+This section shows you how to make word clouds. These are definitely NOT proper tools of scientific data visualization - but can come handy as illustrations once in a while. We'll use quanteda again for this one. We'll use the corpus of US Inaugural Speeches as an example
+
+```{r wordclouds}
+library(quanteda)  # we'll use the corpus and some tools from that package
+library(quanteda.textplots)  # makes wordclouds and such
+
+data_corpus_inaugural %>% substr(1,100) # let's have a quick look at the corpus
+
+# Let's tokenize, clean and lowercase the corpus:
+parsed = 
+  data_corpus_inaugural %>% 
+  tokens(remove_numbers = T, remove_punct = T) %>% # tokenize, clean
+  tokens_tolower() %>%                             # lowercase
+  dfm() %>%                                        # tabulate as a doc-term matrix
+  dfm_remove(c(stopwords('english'), "can", "may", "every")) # remove stopwords like "and", "the"
+
+parsed[1:3,1:7] # quick look at the new data structure, it's a document-term co-occurrence matrix
+
+# The plot: let's compare the first and last speech
+textplot_wordcloud(parsed[1,], min_count = 2, color=terrain.colors(100)) 
+textplot_wordcloud(parsed[59,], min_count = 2, color=terrain.colors(100)) 
+
+# Once you are done with this part, execute this to clear the plotting area parameters; the wordcloud package that quanteda uses internally for this visualization is sometimes a bit wonky and can mess with R's plotting engine:
+dev.off()
+
+```
+
+
+## Something a bit more systematic with words
+
+Using the content of the speeches, we could also map them out in some n-dimensional space. Let's give that a try.
+
+```{r}
+library(umap)       # dimension reduction package we'll be using here
+library(shadowtext) # ggplot addon for shaded labels
+
+# Let's rerun the parsing pipeline, but add a few things
+parsed2 = 
+  data_corpus_inaugural %>% 
+  tokens(remove_numbers = T, remove_punct = T) %>% 
+  tokens_tolower() %>%                             
+  dfm() %>%            
+  dfm_wordstem() %>%  # also stem this time: remove suffixes to get a more compact/comparable lexicon
+  dfm_remove(c(stopwords('english'), 
+               "can", "may", "every", "*ly"), 
+             valuetype="glob") %>%  # also remove -ly adverbs
+  dfm_tfidf() 
+# this also applies TF-IDF weighting to our matrix; this lowers the importance of common words but increases the importance of words which distinguish documents.
+parsed2[1:3, 1:7]  # still the same matrix, but with weights instead of frequencies, and words are stemmed
+
+
+# get 2D coordinates from the UMAP dimension reduction algorithm and add the metadata
+coords =  umap(as.matrix(parsed2))$layout %>% 
+  as.data.frame() %>% 
+  mutate(year = summary(data_corpus_inaugural)$Year,
+         speech=summary(data_corpus_inaugural)$Text
+         )
+
+# Plot:
+ggplot(coords, aes(V1, V2, label=speech, color=year))+
+  geom_point()+
+  geom_text(hjust=-0.1, size=3)+
+  scale_color_viridis_c()+
+  theme_dark()+
+  theme(axis.title=element_blank())+
+  NULL
+
+# We could also plot all the words according to their usage frequencies over time; let's rerun the pipeline once more
+parsed3 = 
+    data_corpus_inaugural %>% 
+  tokens(remove_numbers = T, remove_punct = T) %>% 
+  tokens_tolower() %>%                             
+  dfm() %>%            
+  dfm_wordstem() %>%
+  dfm_remove(c(stopwords('english'), 
+               "can", "may", "every", "*ly"), valuetype="glob") %>% 
+  dfm_trim(min_termfreq = 10) %>%     # exclude very low frequency words
+  dfm_smooth() %>%                    # smoothing, for later log-transform
+  dfm_weight("prop") %>%              # normalize by document (which have different lengths)
+  dfm_weight(scheme="logcount", force=T) %>%   # transform frequencies to log scale
+  t() %>% as.matrix()       # transpose (since we're interested in words this time)
+
+# why the log scaling? because words in a text are not distributed uniformly, but rather according to what's referred to as the Zipf's law- there are always a few very frequent words and a long tail of very infrequent words.
+
+# Let's run another UMAP model (this may take a bit longer)
+coords2 =  umap(parsed3)$layout %>% as.data.frame()
+
+# add the words and years (and some extra info we'll use later;)
+metadata = summary(data_corpus_inaugural)
+coords2 = coords2 %>% 
+  mutate(word=rownames(.)) %>% 
+  mutate(maxvalue = apply(parsed3, 1, max)) %>% 
+  mutate(maxyear = metadata$Year[apply(
+    parsed3, 1, function(x) ifelse(abs(max(x)-min(x))>0.8, which.max(x),NA)
+    )]) %>% 
+  mutate(topspeeches = apply(
+    parsed3, 1, function(x) metadata$Text[head(order(x, decreasing = T),3)] %>% 
+      paste(collapse=", ")  )
+    ) %>% 
+  mutate(topspeeches = paste(word, "\n", topspeeches))
+# the last two calls fetch the year where a given word is the most frequent
+
+# Let's plot: it places words that are frequent in similar years closer
+# we'll use geom_shadowtext from the shadowtext package for shaded labels
+# Dark blue = most common in earlier times, lighter = most frequent year in recent times
+# Light word among dark words: something that was likely used back in the day, and now again
+# Dark gray: words with no particularly outstanding year (set to NA above).
+ggplot(coords2, aes(V1, V2, color=maxyear, label=word))+
+  geom_shadowtext(size=3, bg.color="white")+
+  scale_color_viridis_c(option="E", end = 0.9, na.value = "gray10")+
+  labs(color="most\nfrequent\nin year...")+
+  NULL
+
+# That is a looooot of words though, and quite hard to read. One solution would be to only plot a sample of the words:
+# this groups the data by decades and samples top words from each group,
+# and also sets the size to be the maximum log frequency value of the word, so more important words are highlighted.
+# While we're at it, why not try a different color scheme too.
+ggplot(coords2, aes(V1, V2, color=maxyear, label=word, size=maxvalue))+
+  geom_point( alpha=0.3)+
+  geom_shadowtext(data=coords2 %>% group_by(round(maxyear/10)) %>% sample_n(3), 
+                  hjust=-0.1, bg.color="black")+
+  scale_color_viridis_c(option="E", end = 0.9, na.value = "gray15")+
+  scale_size(guide=F)+
+  labs(color="most\nfrequent\nin year...")+
+  theme_void()+
+  theme(plot.background = element_rect("black"),
+        panel.background = element_rect("black"),
+        legend.text = element_text(color="gray")
+        )+
+  NULL
+
+# Wouldn't it be nice if the plot showed just some labels, but then you could hover with your mouse to see more labels...?
+```
+
+
+
+# Making things interactive
+
+```{r plotly_conversions}
+library(plotly)    # for doing interactive plots
+# plotly can be used to create the same sorts of plots as you've done with the ggplot() function, except interactive. 
+# It can be used to create interactive plots from scratch, or to convert (most) ggplots. 
+
+# Let's re-do the same plot as above, but save it as an object
+g = ggplot(coords2, aes(V1, V2, color=maxyear, label=word, text=topspeeches, size=maxvalue))+
+  geom_point(alpha=0.3)+
+  geom_text(data=coords2 %>% group_by(round(maxyear/10)) %>% sample_n(3), 
+                  hjust=-0.1)+ # plotly doesn't support shadowtext, so using normal geom_text here
+  scale_color_viridis_c(option="E", end = 0.9, name="", na.value = "gray15")+
+  theme_void()+
+  theme(plot.background = element_rect("black"), 
+        panel.background = element_rect("black"), 
+        legend.text = element_text(color="gray")
+        )+
+  NULL
+# note the extra parameter text=topspeeches - this records the top 3 speeches where this word is most frequent, and can be passed on to plotly.
+
+ggplotly(g, tooltip="text") # this is the ggplot -> plotly converter function
+# explore a bit; some light points among dark clouds and vice versa are quite interesting.
+# troubleshooting: on some older computers with certain graphics hardware, this might not display: in that case click the little "show in new window" icon (arrow and box) top right of the plotting area to open in a browser.
+```
+
+
+## Exercises 4
+
+Still remember the gapminder dataset we started with? Your task here is to construct your own interactive plot using that dataset. It's up to you to 
+- subset the data if you want, 
+- choose the variables, 
+- choose variables for coloring/size/shapes if you'd like, 
+- choose the suitable geoms, 
+- edit axis and plot titles if needed (`labs()`), 
+- and style the plot as you wish. 
+
+Finally, convert it to an interactive plotly plot, take a screenshot while hovering with the mouse so a label is visible, and paste it to hackmd.io.
+
+```{r}
+head(gapminder) # have a look to refresh your memory
+hovertext = paste(gapminder)
+
+# Tips:
+# - easy subsetting:
+#   gapminder %>% filter(year > 1990) 
+#   gapminder %>% filter(pop < 100000000) 
+#   gapminder %>% filter(country %in% c("China", "Japan")) 
+#   To include small countries, use the gapminder_unfiltered dataset.
+# - Log scale might make more sense for highly skewed distributions like population:
+#   scale_y_continuous(trans="log10")
+#   (the trans option can also be applied to color and fill scales!)
+#   If you don't like the "scientific" notation of 1e+09 etc, turn it off by running this piece of code in the Console: options(scipen=999)
+
+# A template and some random ideas:
+ggplot(data = gapminder %>% filter(year==2007) ,  
+       mapping = aes(
+         text=country,  # keep this here for ggplotly labels
+         x=lifeExp,     
+         y=gdpPercap, 
+         color=pop
+         )) + 
+  # add geoms, scales and themes between here...
+  geom_point( alpha=0.8  )+   
+  
+  scale_color_viridis_c(option = "E")+
+  
+  labs()+
+  
+  theme_bw()+ # applies a theme with some defaults
+  theme()+    # edits the theme_*
+
+  # ...and here
+  NULL
+
+# Step 2: save the plot as an object (add something like g = ggplot(... in front of the code above, and run it )
+# Step 3: 
+ggplotly(g, tooltip="text")
+
+
+# Extras for fast people:
+# You can easily make more complex hover labels by pasting together multiple columns like this: text=paste(country, "\n population:", pop) - the "\n" there just creates a newline, so the label is more compact.
+
+```
+
+More extra stuff. 
+It's also easy to generate animations in R, either with gganimate (produces gifs out of ggplots) or with plotly. With the latter, the ggplotly command can also produce animations, provided you specify the variable for the "frame" (and "ids") parameter in ggplot, which will then be passed on to plotly (of coure you can construct animations using the native plotly syntax as well, but that syntax is a bit different, so we won't go into that today).
+```{r}
+g = ggplot(gapminder,   # first let's create and save a ggplot
+           aes(gdpPercap, lifeExp, 
+               label=country,
+               color = continent,
+               size = pop,
+               frame = year, ids = country   # these 2 make the animation work!
+               )) +
+  geom_point(alpha=0.5) +    # this stuff should be somewhat familiar by now
+  geom_text(size=2, color="black", alpha=0.3)+
+  scale_x_continuous(limits=c(0,50000))+  # I'll exclude some outliers
+  theme_minimal()+
+  NULL
+
+ggplotly(g) %>% style(textposition = "right")
+
+```
+
+
+ ---
+ 
+ 
+
+# Heatmaps
+
+Sometimes you want to show multiple interactions of multiple variables at the same time. Heatmaps is one way to do it. We'll use the speeches corpus again as an example here. Previously, we used dimension reduction to illustrate how the presidential speeches differ from one another. Here, we're going to visualize all the similarities as one big colorful matrix.
+
+```{r}
+
+# turn the corpus into a doc-term matrix again
+docterm = data_corpus_inaugural %>% tokens(remove_punct = T, remove_symbols = T, remove_numbers = T) %>% dfm(tolower = T) %>% dfm_remove(stopwords()) %>% dfm_wordstem() %>% dfm_tfidf()
+  
+# Let's have a quick look at the tfidf scores matrix:
+docterm[1:5, 1:5]
+
+# Let's calculate the cosine similarity of the texts (speeches), as similarity between the vectors across words
+docsim = textstat_simil(docterm, method="cosine"); diag(docsim)=NA
+
+# This yields a pretty large matrix (n*n documents), which would be pretty hard to comprehend just by staring at it...
+dim(docsim)
+docsim[1:5, 1:5]
+# Let's turn it into a heatmap visualization instead. One extra step though: this is a "wide" format matrix, while ggplot expects data in a "long" format, so let's convert first.
+docsim_long = as.data.frame.table(as.matrix(docsim), responseName = "similarity") # run this first
+
+ggplot(docsim_long, aes(Var1, Var2, fill=similarity)) + 
+  # add things between here...
+  geom_tile() +
+  
+  theme_bw() + 
+  
+  # ...and here.
+  NULL
+
+```
+
+### Exercises 5
+
+Time to make some improvements.
+
+- The default color palette is not contrastive enough here, swap it with ` scale_fill_viridis_c(na.value="white", option=D) ` (feel free to try other viridis options A-E)
+- You can't really see the x axis values; set a better angle by adding: ` theme(axis.text.x = element_text(angle=90,hjust=1,vjust=0.5)) ` - and always make sure theme() comes after commands like theme_bw()
+- Inspect the visualization and discuss it if you're doing this sitting together with somebody. Given that the speeches are in a diachronic order, what is the interpretation that the similarity is higher (lighter colors) near the diagonal, and darker in the opposing top left and bottom right corner? Or find the president whose second term inaugural speech was the most similar to his first term speech in terms of words used.
+
+Extras for fast people:
+
+- The axis titles "Var1" ja "Var2" (which came from the wide to long conversion) are unneccesary here. Find a way to remove them.
+- Make this interactive using ggplotly and produce nice hover labels for it too.
+
+
+
+
+
+ ---
+
+
+# Networks, maps, and more
+
+Mapping is pretty easy too, we can just use ggplot. If doing more advanced mapping, have a look at the sf and leaflet packages. We're plotting a very basic map here, but you could easily import more detailed polygon data to plot e.g. regional, dialectal or historical maps.
+```{r}
+library(rworldmap)  # provides generic world map
+library(maps)       # provides a dataset
+
+# This pulls a simple map of Estonia, and some data on settlements from a global dataset.
+est = joinCountryData2Map(rworldmap::countryExData, joinCode = "ISO3", nameJoinColumn = "ISO3V10", mapResolution = "low") %>% fortify(mymap) %>% subset(id=="Estonia")
+places = maps::world.cities %>% filter(country.etc == "Estonia") %>% arrange(desc(pop))
+
+ggplot(places,   # places is defined as the main dataset, for point and label locations
+       aes(long, lat, 
+           size=pop,   # size and color by population
+           color=pop, 
+           label=name)
+       ) + 
+  geom_polygon(data=est,  # the map is used as data for the polygons
+               aes(long, lat, group = group), inherit.aes = F,
+               color="black", fill="gray98", alpha=0.7) +
+  geom_point()+
+  geom_shadowtext(data=places %>% filter(pop>20000), 
+                  hjust=1.1, vjust=-0.2,size=3, bg.color="white")+
+  scale_size(range=c(0.5,10))+  # scale for the points
+  coord_fixed()+
+  theme_minimal()+
+  theme(legend.position = "none", 
+        axis.title = element_blank())+
+  NULL
+
+```
+
+Or if you'd like to create interactive 3D maps and terrain models, look into the rayshader package. I've copied a little example here, but it won't work unless you got the rayshader and raster packages installed (if you want to give it a try, install and load them later yourself).
+```{r, eval=F}
+library(rayshader)  # package for shaded terrain models
+
+# 2D map:
+map2d = montereybay  %>%
+  sphere_shade(texture = "desert")  %>%
+  add_shadow(ray_shade(montereybay, sunaltitude=20, zscale=50),
+             max_darken=0.1)
+plot_map(map2d)
+
+# 3D map (this may take a moment to render!)
+map3d = montereybay  %>%
+  sphere_shade(texture = "desert") %>%
+  add_shadow(ambient_shade(montereybay), 0) %>%
+  add_shadow(ray_shade(montereybay, zscale = 1, sunaltitude = 89),max_darken=0.7)
+
+plot_3d(map3d, montereybay, 
+        water = TRUE, waterdepth = -90,
+        watercolor="imhof2", waterlinecolor="white", waterlinealpha=0.3,
+        zscale = 50,              # elevation exaggeration
+        fov = 0, theta = 135, zoom = 0.5, phi = 45, 
+        windowsize = c(x=30, y=10, w=1200, h=700), # adjust window size if needed
+        triangulate=T, max_error = 0.1) # lower values = sharper plot (slower!), set triangulate=F to disable optimizer
+
+```
+
+
+There are powerful packages available in R to create and analyze networks, import them from other formats like Gephi, and export both static and interactive graphs. Let's see a quick example, the classic Les Miserables character interaction network.
+```{r}
+library(igraph)     # network stats
+library(visNetwork) # interactive graphs
+library(gsbm)       # just for the dataset
+
+# Prepare and cluster the dataset, the characters in Les Miserables and their interactions
+graph = les_miserables %>% {dimnames(.$A) =list(.$names,.$names);.$A} %>%
+  graph_from_adjacency_matrix(mode="undirected")
+nodes = graph %>% cluster_louvain() %>% igraph::membership() %>% 
+  {data.frame(id=names(.), 
+              label=names(.),
+              font.color="gray",
+              group=as.numeric(.), 
+              size=degree(graph)+1)}
+edges = toVisNetworkData(graph)$edges
+
+# Plot: nodes are people, edges are interactions, colors indicate clusters; this is zoomable, and the nodes can be moved if they overlap:
+visNetwork(nodes = nodes, edges = edges, background="black") %>% 
+  visOptions(highlightNearest = T)
+
+```
+
+
+ ---
+ 
+ ---
+ 
+ ---
+ 
+ ---
+
+
+# The end. Final words on attributions, citing and references.
+
+Before we finish, a word on R and its packages. It's all free open-source software, meaning countless people have invested a lot of their own time into making this possible. If you use R, do cite it in your work (use the handy `citation()` command in R to get an up to date reference, both in plain text and BibTeX). To cite a package, use `citation("package name")`. You are also absolutely welcome to use any piece of code from this workshop, but I would likewise appreciate some acknowledgement of that:)
+
+ ---
+
+Do play around with these exercises later when you have time, and look into the bonus sections below for extras. If you get stuck, Google is your friend; also, check out www.stackoverflow.com - this site is a goldmine of programming (including R) questions and solutions.
+
+Also, if you are looking for consulting on data analysis and visualization, or info on upcoming workshops, take a look at my website https://andreskarjus.github.io/ 
+If you'd like to stay updated keep an eye on my Twitter @AndresKarjus (for science content) and @aRtofdataviz (for R, dataviz and workshops related stuff).
+
+
+
+
+ ---
+ 
+ ---
+ 
+ ---
+
+
+# Appendix. Getting your own data into R and getting plots out of R
+
+Once you get around to working with your own data, you'll need to import it into R to be able to make plots based on it. There are a number of ways of doing that; but also datasets and corpora come in different formats, so unfortunately there's no single magic solution to import everything, you usually need to figure out the format of the data beforehand. Below are some examples.
+
+## Table (csv, Excel, txt) into R, import from file
+
+This is probably the most common use case. If your data is in an Excel file formal (.xls, .xlsx), you are better off saving it as a plain text file (although there are packages to import directly from these formats, as well as from SPSS .sav files). The commands for that are read.table(), read.csv() and read.delim(). They basically all do the same thing, but differ in their default settings. For very large datasets or corpora, you might want to look into `data.table` and its fread() function instead.
+```{r, eval=F, echo=T}
+# an example use case with parameters explained
+mydata = read.table(file="path/to/my/file.txt", # full file path as a string
+                    header=T,      # if the first row contains column names
+                    row.names=1,   # if the 1st (or other) column is row names
+                    sep="\t",      # what character separates columns in the text file*
+                    quote="",      # if there are " or ' marks in any columns, set this to ""
+                    )
+# * "\t" is for tab (default if you save a text file from Excel), "," for csv, " " if space-spearated, etc
+# for more and to check the defaults, see help(read.table)
+# the path can be just a file name, if the file is in the working (R's "default") directory; use getwd() to check where that is, and setwd(full/path/to/folder) to set it (or you can use RStudio's Files tab, click on More)
+# If your file has an encoding other than Latin or UTF-8, specify that using the encoding parameter.
+
+mydata = read.table(file.choose() )   # alternatively: this opens a window to browse for files; specify the other parameters as appropriate (using file paths instead is recommended though)
+```
+
+## Importing from clipboard
+
+There is a simple way to import data from the clipboard. While importing from files is generally a better idea (you can always re-run the code and it will find the data itself), sometimes this is handy, like quickly grabbing a little piece of table from Excel. It differs between OSes:
+```{r, eval=F, echo=T}
+mydata = read.table(file = "clipboard")       # in Windows (add parameters as necessary)
+mydata = read.table(file = pipe("pbpaste"))   # on a Mac (add parameters as necessary)
+```
+
+## Importing text
+
+For text, the `readLines()` command usually works well enough (its output is a character vector, so if the text file has 10 lines, then readLines produces a vector of length 10, where each line is an element in that vector (you could use strsplit() or quanteda's functions to further split it into words. For very large datasets, `fread` from the data.table package is faster.
+If the text is organized neatly in columns (e.g., like the COHA corpus), however, you might still consider read.table(), or tideverse's read_table equivalent.
+A corpus may be encoded using XML - there is the `xml2` package (an improvement on the older `XML` package) for that, but watch out for memory leaks if importing and parsing multiple files (this is a know issue).
+
+## Exporting plots
+
+RStudio has handy options to export plots - click on `Export` on top of the plot panel, and choose the output format. Plots can be exported using R code as well - this is in fact a better approach, since otherwise you would have to click through the Export menus again every time you change your plot and need to re-export. Look into the help files of the `jpeg()` and `pdf()` functions to see how this works. 
+ggplot2 has a handy `ggsave()` function. Interactive plots can be either included in R Markdown based html files, or exported as separate html files (which you can then upload as such, integrate into a website, or plug it in using an iframe).
+
+## Anything else
+
+There are also packages to import and manipulate images, lemmatize text, work with GIS map data, relational databases, data from all sorts of other file formats (like XML, HTML, Google Sheets), scrape websites, do OCR on scanned documents, run stats and machine learning models, and much more. Just google around a bit and you'll surely find what you need.
+
+## Extra: but where can I use my interactive and animated plots?
+
+Well not in (most) journals so far, but they can be used in websites (e.g. project websites, demos) or conference slides, especially easy if you use R Markdown to create those. Try it out: you can knit this very worksheet into an html page with the click of a button (the Knit button on the top toolbar - but this only works if your file is free of errors - watch out for those red x badges on the left toolbar). Or create a new Rmd file from File -> New File -> R Markdown... -> and click OK for the default HTML Document option. Try knitting that - it has some example plots in it; or add a code block that loads the ggplot2 and gapminder packages, and copy a solution of one of your exercises in there.
+
+
+
+---
