@@ -1,5 +1,6 @@
 ---
 title: "Mandatory pre-workshop setup instructions & troubleshooting tips"
+subtitle: "Exploring and visualizing your data using R<br>@ Baltic Summer School of Digital Humanities 2021"
 output: 
   html_document: 
     number_sections: yes
@@ -15,7 +16,10 @@ word-break: normal;
 }
 </style>
 
-**Hello! Please follow these instructions to download and install the necessary software and files.** This will take some time, perhaps around 15-30min, depending on your prior familiarity with software installation and R. 
+<br>
+
+**Welcome to the pre-workshop prep page!**<br>
+Please follow these instructions to download and install the necessary software and files. This will take some time, perhaps around 15-30min, depending on your prior familiarity with software installation and R.<br> 
 Note that it is _not_ enough to have just R and tidyverse installed (which you might have) - you will also need a number of _packages_ and a _worksheet file_, and your R and RStudio should be up to date. The instructions below come with troubleshooting steps - if something seems to be amiss or not working as intended, make sure you've read through everything. Importantly, if something went wrong and you could not install the software, please get in touch before the workshop starts so we can try to quickly troubleshoot ("just watching" in the workshop is not an option, I want to teach you how to actually do some things :)
 
 Good luck! <br>
