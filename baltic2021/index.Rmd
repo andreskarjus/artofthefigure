@@ -89,10 +89,10 @@ Run the RStudio application. We need to change one option to make it behave in a
 # Download the worksheet and install packages
 
 You will need to download this .Rmd script file for the workshop:
-<a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/baltic2021/dataviz_worksheet.zip" download target="_blank">click here</a> to save the file (if it doesn't work, you might need to right click and choose Save As or similar).
+<a href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/baltic2021/dataviz_worksheet.zip" download target="_blank">click here to save the file</a> (if it doesn't work, you might need to right click and choose Save As or similar).
 
-- It is a zipped file: unpack it into a convenient location - there's a single dataviz_worksheet.Rmd file in there (as illustrated below).
-- Double-click the _dataviz_worksheet.Rmd_ file to open it. If RStudio is properly installed, the icon of the file should be a blue badge with the letter "R" in it, and double-clicking the file should open it in RStudio. If clicking it gives you an "Open with..." dialog, just browse for the RStudio application to open it.<br>
+- It is a zipped/compressed file: unpack it into a convenient location - there's a single dataviz_worksheet.Rmd file in there (as illustrated below).
+- Double-click the _dataviz_worksheet.Rmd_ file to open it (make sure you unpacked it first, don't run it from inside the compressed folder). If RStudio is properly installed, the icon of the file should be a blue badge with the letter "R" in it, and double-clicking the file should open it in RStudio. If clicking it gives you an "Open with..." dialog, just browse for the RStudio application to open it.<br>
 ![](../open_rstudio.png){width=500px}<br><br>
 - Follow the instructions in the worksheet file - there's a little exercise for beginners as well as further **package installation instructions** in there. You definitely need to do the installation part before the workshop (if you don't do that, the workshop would be supremely boring for you, as nothing would work). 
 - Leave this webpage open, while you're work through the intro of the worksheet file.
