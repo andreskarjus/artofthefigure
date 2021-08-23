@@ -7,22 +7,26 @@ framework: impressjs
 
 
 
---- #title0 x:-400 y:1000 scale:7 roty:-2
+--- #title0 x:-400 y:1000 scale:8 roty:-2
 
 <!--
-library(slidify);slidify("/Users/pplsuser/Dropbox/6petamine/artofthefigure_all/intro/index.Rmd")
+library(devtools); install_github('ramnathv/slidify'); install_github('ramnathv/slidifyLibraries')
+library(slidify);slidify("/Users/Andres/Dropbox/6petamine/artofthefigure_all/intro/index.Rmd")
 -->
 
 --- #title x:-400 y:1000 scale:7 roty:30
 
 <!-- <span class="small">_an aRt of the figure workshop_</span> -->
 
-# **Visualising<br>Your Data<br>Using R**
+# **Exploring and<br>visualizing<br>your data<br>using R**
 
 Andres Karjus
 <br>
-<span class="small">University of Edinburgh<br>andreskarjus.github.io</span><div style="line-height:4px;"><span class="small"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/artofthefigure<br></div></span>
+<span class="small">CUDAN lab, Tallinn University<br>andreskarjus.github.io<br>@AndresKarjus &nbsp;&nbsp; @aRtofdataviz</span><div style="line-height:4px;"><span class="small"><br></div></span>
 
+<!--
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/artofthefigure<br>
+-->
 
 
 
