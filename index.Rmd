@@ -41,16 +41,13 @@ If you have signed up to one of the workshops, you should have received an email
 
 Workshops:
 
-**Now**
-
-- Exploring and visualizing your data using R, a full-day workshop at the [Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences](https://www.nlib.ee/et/digital-humanities-tallinn-2021) (August 2021). Pre-workshop installation instructions and materials are [here](https://andreskarjus.github.io/artofthefigure/baltic2021).
-
 **Future**
 
-- Will be teaching more dataviz and text analytics in the Cultural Data Analytics II course at Tallinn University in fall 2021.
+- A dataviz workshop and data hackathon, at the Digital Data in Service of Cultural Heritage conference, November 2021.
 
 **Recent past**
 
+- Exploring and visualizing your data using R, a full-day workshop at the [Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences](https://www.nlib.ee/et/digital-humanities-tallinn-2021) (August 2021). Materials [here](https://andreskarjus.github.io/artofthefigure/baltic2021).
 - ~~Tartu Summer School of Semiotics, Semiotic horizons: time, memory and future(s); August 2021~~ invited, but event was corona-cancelled
 - Gave a dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021).
 - Gave two guest workshops on dataviz in the "Data science and digital humanities" (Andmeteadus ja digihumanitaaria) fall semester course at Tartu University.
