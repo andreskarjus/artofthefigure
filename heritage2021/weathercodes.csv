@@ -1,0 +1,318 @@
+schneesturm,code,parent_code,is_leaf,icon_file,cat.de,cat.fr,cat.it,cat.en,cat.ee,enable num,xls
+a,1:,,0,,deskriptive Daten,données descriptives,dati descrittivi,descriptive data,kirjeldavad andmed,0,cat-all-new-26
+aa,1:1:,1:,0,,Witterung,description du temps,descrizione del tempo,weather description,ilma kirjeldus,0,cat-all-new-26
+aaa,1:1:1:,1:1:,0,,Himmelsbedeckung,nébulosité,estensione della nuvolosità,cloud cover,täispilvitus,0,cat-all-new-26
+aaaa,1:1:1:1:,1:1:1:,1,sunny,vorwiegendsonnig,en grande partie ensoleillé,principalmente soleggiato,mainly sunny,peamiselt päikseline,0,cat-all-new-26
+aaab,1:1:1:2:,1:1:1:,1,clouds-partly,wechselnd bewölkt,nuages épars,in parte nuvoloso,partly cloudy,osaliselt pilves,0,cat-all-new-26
+aaac,1:1:1:3:,1:1:1:,1,clouds-overcast,bedeckt,couvert,coperto,overcast,pilvitus,0,cat-all-new-26
+aaad,1:1:1:4:,1:1:1:,1,fog,Nebel,brouillard,nebbia,fog,,0,cat-all-new-26
+aaae,1:1:1:5:,1:1:1:,1,fog,Hochnebel,stratus,nebbia alta,low stratus,madalad kihtpilved,0,cat-all-new-26
+aaaf,1:1:1:6:,1:1:1:,1,aerosol,Höhenrauch,aérosols (volcaniques),aerosol (vulcanico),(volcanic) aerosol,vulkaaniline udu,0,cat-all-new-26
+aaag,1:1:1:7:,1:1:1:,1,fog,Nebel mit Auflösung,brouillard et dissolution,nebbia con dissoluzione,fog which dissipates,hajuv udu,0,cat-all-new-26
+aaah,1:1:1:8:,1:1:1:,1,,Inversion,inversion,inversione,inversion,inversioon,0,cat-all-new-26
+aab,1:1:2:,1:1:,0,,Niederschlag,précipitations,precipitazioni,precipitation,sademed,0,cat-all-new-26
+aaba,1:1:2:1:,1:1:2:,1,rain,Regen,pluie,pioggia,rain,vihm,0,cat-all-new-26
+aabb,1:1:2:2:,1:1:2:,1,rainshowers,Regenschauer,averses,rovesci,rainshowers,hoovihm,0,cat-all-new-26
+aabc,1:1:2:3:,1:1:2:,1,rain-abundant,ergiebiger Niederschlag,pluie abondante,pioggia abbondante,abundant rain,tugev vihm,0,cat-all-new-26
+aabd,1:1:2:4:,1:1:2:,1,rain-varying,veränderlich,temps variable,variabile,variable weather,vahelduv ilm,0,cat-all-new-26
+aabe,1:1:2:5:,1:1:2:,1,snowfall,Schneefall,chute de neige,nevicata,snowfall,lumesadu,0,cat-all-new-26
+aabf,1:1:2:6:,1:1:2:,1,hail,Graupeln,grésil,gragnuola,sleet,lumelörts,0,cat-all-new-26
+aabg,1:1:2:7:,1:1:2:,1,hail,Hagel,grêle,grandine,hail,rahe,0,cat-all-new-26
+aabh,1:1:2:8:,1:1:2:,1,thunderstorm,Gewitter,orage,temporale,thunderstorm,äikesetorm,0,cat-all-new-26
+aabi,1:1:2:9:,1:1:2:,1,dew,Tau,rosée,rugiada,dew,kaste,0,cat-all-new-26
+aabj,1:1:2:10:,1:1:2:,1,rain-red,Wüstenstaub (roter Regen),dépôt de poussières (pluie rouge),polvere del deserto (pioggia rossa),desert dust deposition (red rains),verevihm,0,cat-all-new-26
+aabk,1:1:2:11:,1:1:2:,1,rain-small,wenig Niederschlag,peu de précipitations,precipitazioni sparse,low rainfall,veidi vihma,0,cat-all-new-26
+aabl,1:1:2:12:,1:1:2:,1,rain-no,kein Niederschlag,sans précipitation,assenza di precipitazioni,without precipitation,sademeid ei esinenud,0,cat-all-new-26
+aabm,1:1:2:13:,1:1:2:,1,snowfall-no,kein Schneefall,aucune chute de neige,nessuna nevicata,no snowfall,pole lumesadu,0,cat-all-new-26
+aabn,1:1:2:14:,1:1:2:,1,snowfall-little,wenig Schneefall,rares chutes de neiges,debole nevicata,light snowfall,kerge lumesadu,0,cat-all-new-26
+aac,1:1:3:,1:1:,0,,Lufttemperatur,température de l'air,temperatura dell'aria,air temperature,õhutemperatuur,0,cat-all-new-26
+aaca,1:1:3:1:,1:1:3:,1,warm,warm,chaud,caldo,warm,soe,0,cat-all-new-26
+aacb,1:1:3:2:,1:1:3:,1,warm-p,sehr warm,très chaud,molto caldo,very warm,väga soe,0,cat-all-new-26
+aacc,1:1:3:3:,1:1:3:,1,cold,kalt,froid,freddo,cold,külm,0,cat-all-new-26
+aacd,1:1:3:4:,1:1:3:,1,cold-p,sehr kalt,très froid,molto freddo,very cold,väga külm,0,cat-all-new-26
+aace,1:1:3:5:,1:1:3:,1,frost-hoar,Rauhreif,givre,brina,hoar frost,külm udu,0,cat-all-new-26
+aacf,1:1:3:6:,1:1:3:,1,frost,Frost,gel,gelo,frost,öökülm,0,cat-all-new-26
+aacg,1:1:3:7:,1:1:3:,1,frost-morning,Morgen-Frost,gel matinal,gelo mattutino,morning frost,hommikukülm,0,cat-all-new-26
+aach,1:1:3:8:,1:1:3:,1,frost-no,kein Frost,sans gel,assenza di gelo,no frost,pole öökülma,0,cat-all-new-26
+aaci,1:1:3:9:,1:1:3:,1,seasonal,saisonübliche Bedingungen,conditions saisonnières,condizioni tipiche per la stagione,usual weather conditions,harilikud ilmastikutingimused,0,cat-all-new-26
+aad,1:1:4:,1:1:,0,,Windrichtung,direction du vent,direzione del vento,wind direction,tuulesuund,0,cat-all-new-26
+aada,1:1:4:1:,1:1:4:,1,direction-wind-s,Südwind (föhn),vent du sud (föhn),vento da sud (favonio a Nord delle Alpi),southerly wind (föhn),lõunatuul (föön),0,cat-all-new-26
+aadb,1:1:4:2:,1:1:4:,1,direction-wind-sw,Südwestwind,vent du sud-ouest,vento da sud-ovest,south-westerly wind,edelatuul,0,cat-all-new-26
+aadc,1:1:4:3:,1:1:4:,1,direction-wind-w,Westwind,vent de l'ouest,vento da ovest,westerly wind,läänetuul,0,cat-all-new-26
+aadd,1:1:4:4:,1:1:4:,1,direction-wind-nw,Nordwestwind,vent du nord-ouest,vento da nord-ovest,north-westerly wind,loodetuul,0,cat-all-new-26
+aade,1:1:4:5:,1:1:4:,1,direction-wind-n,Nordwind,vent du nord,vento da nord (favonio a Sud delle Alpi),northerly wind,põhjatuul,0,cat-all-new-26
+aadf,1:1:4:6:,1:1:4:,1,direction-wind-ne,Nordostwind (Bise),vent du nord-est (bise),vento da nord-est (bise),north-easterly wind (bise),kirdetuul,0,cat-all-new-26
+aadg,1:1:4:7:,1:1:4:,1,direction-wind-e,Ostwind,vent de l'est,vento da est,easterly wind,idatuul,0,cat-all-new-26
+aadh,1:1:4:8:,1:1:4:,1,direction-wind-se,Südostwind,vent du sud-est,vento da sud-est,south-easterly wind,kagutuul,0,cat-all-new-26
+aadi,1:1:4:9:,1:1:4:,1,direction-clouds,Herkunftsrichtung der Wolken,direction d'origine des nuages,direzione di provenienza delle nuvole,direction of origin of clouds,valitsev pilvesuund,0,cat-all-new-26
+aae,1:1:5:,1:1:,0,,Windstärke,vitesse du vent,intensità del vento,wind strength,tuule tugevus,0,cat-all-new-26
+aaea,1:1:5:1:,1:1:5:,1,wind-no,windstill,calme,calma,calm,tuulevaikus,0,cat-all-new-26
+aaeb,1:1:5:2:,1:1:5:,1,wind-bf4,mässige Brise (<bf6),brise,vento moderato (< bf 6),moderate breeze (<bf6),keskmine briis,0,cat-all-new-26
+aaec,1:1:5:3:,1:1:5:,1,wind-bf6,"starker Wind (bf6, bf7)",brise forte,"vento forte (bf 6, bf 7)","strong breeze (bf6, bf7)",tugev tuul,0,cat-all-new-26
+aaed,1:1:5:4:,1:1:5:,1,wind-bf8,Sturm (>bf7),tempête,tempesta (> bf 7),storm (>bf7),torm,0,cat-all-new-26
+aaee,1:1:5:5,1:1:5:,1,tornado,Wirbelwind,"tornade, trombe d'eau","tornado, tromba d'acqua","tornado, waterspout",tornaado/vesipüks,0,cat-all-new-26
+aaf,1:1:6:,1:1:,1,report-weather-month,monatliche Witterungsberichte,résumé mensuel du temps,bollettino meteorologico mensile,monthly weather reports,kuu ilmastikuülevaade,0,cat-all-new-26
+ab,1:2:,1:,0,,meteorologisch bedingte Schäden,impacts météorologiques,danni provocati da fenomeni meteorologici,meteorological impacts,ilmastikukahjud,0,cat-all-new-26
+aba,1:2:1:,1:2:,1,impact-storm,Sturmschäden,impact de tempête,danni provocati da una tempesta,storm impact,tormikahjud,0,cat-all-new-26
+abb,1:2:2:,1:2:,1,impact-hail,Hagelschäden,impact de grêle,danni provocati dalla grandine,hail impact,rahekahjud,0,cat-all-new-26
+abc,1:2:3:,1:2:,1,impact-thunderstorm,Gewitterschäden,impact d' orage,danni provocati da un temporale,thunderstorm impact,äikesetormi kahjud,0,cat-all-new-26
+abd,1:2:4:,1:2:,1,flood-storm-surge,Sturmflut,"raz de marée, forte marée",mareggiata,"storm surge, spring tide","tormiuputus, ajuvesi",0,cat-all-new-26
+abe,1:2:5:,1:2:,1,impact-flood,Überschwemmungsschäden,impacts d'inondation,danni provocati da un'inondazione,flood impact,tulvavesi/uputus,0,cat-all-new-26
+abf,1:2:6:,1:2:,1,impact-avalanche,Lawinenschäden,dégâts d'avalanches,danni provocati dalle valanghe,avalanche impacts,laviinikahjud,0,cat-all-new-26
+ac,1:3:,1:,0,,klimatologisch bedingte Schäden,impacts climatologiques,danni provocati da fenomeni climatici,climatological impacts,klimatoloogilised kahjud,0,cat-all-new-26
+aca,1:3:1:,1:3:,1,impact-heat,Hitzeschäden,impact de chaleur,danni provocati dal caldo,heat impact,kuumakahjud,0,cat-all-new-26
+acb,1:3:2:,1:3:,1,impact-frost,Frostschäden,impact de gel,danni provocati dal freddo,frost impact,külmakahjud,0,cat-all-new-26
+acc,1:3:3:,1:3:,1,impact-rain,Nässeschäden,impact de pluie,danni provocati dalla pioggia,rain impact,vihmakahjud,0,cat-all-new-26
+acd,1:3:4:,1:3:,1,impact-drought,Dürre- und Trockenschäden,impact d' aridité,danni provocati dalla siccità,drought impact,põuakahjud,0,cat-all-new-26
+ace,1:3:5:,1:3:,1,impact-snow,Schneeschäden,impact de neige,danni provocati dalla neve,snow impact,lumekahjud,0,cat-all-new-26
+acf,1:3:6:,1:3:,1,impact-ice,,,,,jääkahjud,0,cat-all-new-26
+ad,1:4:,1:,0,,Naturgefahren,risques naturels,pericoli naturali,natural hazards,loodusohud,0,cat-all-new-26
+ada,1:4:1:,1:4:,0,,hydrologische und nivologische Gefahren,risques hydrologiques et nivologiques,pericoli idrologici e nivologici,hydrological and snow-related hazards,hüdroloogilised ja nivoloogilised ohud,0,cat-all-new-26
+adaa,1:4:1:1:,1:4:1:,1,flood,hoher Wasserstand,niveau élevé des eaux,alto livello delle acque,high water level,kõrgveetase,0,cat-all-new-26
+adab,1:4:1:2:,1:4:1:,1,low water,Niedrigwasser,étiage,acqua bassa,low water,madal veetase,0,cat-all-new-26
+adac,1:4:1:3:,1:4:1:,1,avalanche,Lawinen (ohne substantielle Schäden),avalanches (sans dégâts majeures),valanghe (senza effetti dannosi),avalanches (without major impacts),laviinid (ilma suuremate kahjustusteta),0,cat-all-new-26
+adb,1:4:2:,1:4:,0,,geologische und geomorphologische Gefahren,risques géologiques et géomorphologiques,pericoli geologici e geomorfologici,geological and geomorphologic hazards,geoloogilised ja geomorfoloogilised ohud,0,cat-all-new-26
+adba,1:4:2:1:,1:4:2:,1,earthquake,Erdbeben,tremblement de terre,terremoto,earthquake,maavärin,0,cat-all-new-26
+adbb,1:4:2:2:,1:4:2:,1,tsunami,Tsunami,tsunami,tsunami,tsunami,tsunami,0,cat-all-new-26
+adbc,1:4:2:3:,1:4:2:,1,volcano,vulkanische Eruption,éruption volcanique,eruzione vulcanica,volcanic eruption,vulkaanipurse,0,cat-all-new-26
+adbd,1:4:2:4:,1:4:2:,1,landslide,Erdrutsch,glissement de terrain,frana,landslide,maalihe,0,cat-all-new-26
+adbe,1:4:2:5:,1:4:2:,1,landslide,"Berg-, Fels-, Gletschersturz",éboulement de rochers /glacier,"crollo di roccia, crollo di ghiaccio","rockfall, glacier breakup","varing, liustiku murdumine",0,cat-all-new-26
+adbf,1:4:2:6:,1:4:2:,1,fog-dry,trockener (vulkanischer) Nebel,brume sèche (volcanique),nebbia secca (vulcanica),dry (volcanic) fog,kuiv (vulkaaniline) udu,0,cat-all-new-26
+adc,1:4:3:,1:4:,0,,Mikroerreger und Schädlinge,risques biologiques,agenti patogeni microscopici e parassiti,biological hazards,bioloogilised ohud,0,cat-all-new-26
+adca,1:4:3:1:,1:4:3:,1,epidemic,Epidemie,épidémie,epidemia,epidemic disease,epideemia,0,cat-all-new-26
+adcb,1:4:3:2:,1:4:3:,1,epizootic,Tierseuche,épizootie,epizootica,epizootic,loomataud,0,cat-all-new-26
+adcc,1:4:3:3:,1:4:3:,1,fungi,Pflanzenkrankheit,cryptogamie,malattie delle piante,blight,lehemädanik,0,cat-all-new-26
+adcd,1:4:3:4:,1:4:3:,1,animal-pests,tierische Schädlinge,parasites,parassiti,animal pests,loomakahjurid,0,cat-all-new-26
+add,1:4:4:,1:4:,0,,Feuerschäden,incendies,danni provocati dagli incendi,fire hazards,tulekahjud,0,cat-all-new-26
+adda,1:4:4:1:,1:4:4:,1,fire-wild,Waldbrand,incendies de forêt,incendio di bosco,forest fire,metsapõleng,0,cat-all-new-26
+addb,1:4:4:2:,1:4:4:,1,fire-town,"Dorf-, Stadtbrand",incendies de villes ou villages,incendio di borgo,town or village fire,linna või küla põleng,0,cat-all-new-26
+addc,1:4:4:3:,1:4:4:,1,fire,andere Feuerschäden,autres incendies,altri danni provocati da incendi,other fire,muu tulekahju,0,cat-all-new-26
+ae,1:5:,1:5:,0,,atmosphärische Erscheinungen,phénomènes atmosphériques,fenomeni atmosferici,atmospheric phenomena,atmosfäärinähtus,0,cat-all-new-26
+aea,1:5:1:,1:5:1:,1,atmosphere,Nordlicht (aurora borealis),aurore boréale,aurora boreale,northern light (aurora borealis),virmalised,0,cat-all-new-26
+aeb,1:5:2:,1:5:1:,1,atmosphere,andere amosphärische Erscheinungen,autres phénomènes atmosphériques,altri fenomeni atmosferici,other atmosperic phenomena,muu atmosfäärifenomen,0,cat-all-new-26
+af,1:6:,1:,0,,extraterrestrische Erscheinungen,phénomènes extraterrestres,fenomeni extraterrestri,extraterrestrial phenomena,maavälised nähtused,0,cat-all-new-26
+afa,1:6:1:,1:6:,0,,Himmelskörper,corps célestes,corpi celesti,celestial bodies,taevakehad,0,cat-all-new-26
+afaa,1:6:1:1:,1:6:1:,1,comet,Komet,comète,cometa,comet,komeet,0,cat-all-new-26
+afab,1:6:1:2:,1:6:1:,1,moon,andere Himmelskörper,autre corps celeste,altri corpi celesti,other celestial bodies,muud taevakehad,0,cat-all-new-26
+afb,1:6:2:,1:6:,1,solar-eclipse,Sonnenfinsternis,éclipse solaire,eclissi di sole,solar eclipse,päikesevarjutus,0,cat-all-new-26
+afc,1:6:3:,1:6:,1,moon-eclipse,Mondfinsternis,éclipse lunaire,eclissi di luna,moon eclipse,kuuvarjutus,0,cat-all-new-26
+b,2:,,0,,Messreihen und serielle Witterungsdaten,series instrumentales et données meteorologiques quantifiées,serie di misure e dati meteorologici misurati,instrumental measurements and quantified data,mõõteread ja ilmastiku aegread,0,cat-all-new-26
+ba,2:1:,2:,1,measurements-air-pressure,Luftdruck (hPa),pression de l' air (hPa),pressione dell'aria (hPa),air pressure (hPa),õhurõhk,1,cat-all-new-26
+bb,2:2:,2:,0,,Lufttemperatur Messungen (°C),température de l'air (°C),temperatura dell'aria (°C),air temperature measurement (°C),õhutemperatuuri mõõtmised,1,cat-all-new-26
+bba,2:2:1:,2:2:,1,measurements-temp,"Lufttemperatur Mittelwert, (°C)",température moyenne de l''air (°C),temperatura media dell'aria (°C),average air temperature (°C),keskmine õhutemperatuur,1,cat-all-new-26
+bbb,2:2:2:,2:2:,1,measurements-temp,"Lufttemperatur mittleres Maximum, (°C)",température moyenne maximum de l'air (°C),media delle temperature massime dell'aria (°C),average maximum air temperature (°C),keskmine maksimaalne õhutemperatuur,1,cat-all-new-26
+bbc,2:2:3:,2:2:,1,measurements-temp,"Lufttemperatur mittleres Minimum, (°C)",température moyenne minimum de l'air (°C),media delle temperature minime dell'aria (°C),average minimum air temperature (°C),keskmine minimaalne õhutemperatuur,1,cat-all-new-26
+bbd,2:2:4:,2:2:,1,measurements-temp,"Lufttemperatur Maximum, (°C)",température maximum de l'air (°C),temperatura massima dell'aria (°C),maximum air temperature (°C),kõrgeim õhutemperatuur,1,cat-all-new-26
+bbe,2:2:5:,2:2:,1,measurements-temp,"Lufttemperatur Minimum, (°C)",température minimum de l'air (°C),temperatura minima dell'aria (°C),minimum air temperature (°C),madalaim õhutemperatuur,1,cat-all-new-26
+bbf,2:2:6:,2:2:,1,measurements-temp,Lufttemperatur Abweichung vom Mittel 1901-2000 (°C),température de l'air deviation de la moyenne 1901-2000 (°C),temperatura dell aria deviazione della media 1901-2000 (°C),air temperature deviation from mean 1901-2000 (°C),õhutemperatuuri varieeruvus 1901-2000 keskmisest (°C),1,cat-all-new-26
+bc,2:3:,2:,0,,Niederschlag,précipitations,precipitazioni,precipitation,sademed,1,cat-all-new-26
+bca,2:3:1:,2:3:,0,measurements-prec,Niederschlagsmessungen,pluviometrie,pluviometria,precipitation measurement,sademete mõõtmine,1,cat-all-new-26
+bcaa,2:3:1:1:,2:3:1:,1,measurements-prec,Niederschlagssumme (mm),précipitations mesurées (mm),precipitazioni misurate (mm),measured precipitation (mm),mõõdetud sademed (mm),1,cat-all-new-26
+bcab,2:3:1:2:,2:3:1:,1,measurements-prec,Niederschagssumme Prozentsatz des Mittels 1901-2000,précipitations pourcentage de la moyenne 1901-2000,precipitazioni percetuale della media 1901-2000,precipitation percentage of the mean 1901-2000,suhteline sademetehulk 1901-2000 keskmisest,1,cat-all-new-26
+bcb,2:3:2:,2:3:,0,measurements-prec,Anzahl Tage mit Niederschlag,nombre jours avec précipitation,giorni con precipitazioni,days with precipitation,sademetega päevade arv,1,cat-all-new-26
+bcba,2:3:2:1:,2:3:2:,1,measurements-prec,Anzahl Tage mit Niederschlag (>0.3 mm),nombre de jours avec précipitation,giorni con precipitazioni,number of days with precipitation,sademeteta päevade arv,1,cat-all-new-26
+bcbb,2:3:2:2:,2:3:2:,1,measurements-prec,Anzahl Tage mit Niederschlag (quellenspezifisch),nombre de jours avec précipitation (spécifique à la source),giorni con precipitazioni (soglia specifica alla fonte),days with precipitation (source-specific),sademetega päevade arv (allikaspetsiifiline),1,cat-all-new-26
+bcc,2:3:3:,2:3:,1,measurements-prec,Anzahl Tage mit Schneefall,nombre jours avec chute de neige,giorni con nevicate,days with snowfall,lumesajuga päevad,1,cat-all-new-26
+bcd,2:3:4:,2:3:,1,measurements-prec,Anzahl Tage mit Schnebedeckung,nombre jours avec couverture neigeuse,giorni con copertura nevosa,days of snowcover,lumekattega päevad,1,cat-all-new-26
+bd,2:4:,2:,0,,Wasserstand / Abfluss Gewässer,niveau des eaux / débit des cours d'eau,livello d'acqua/deflusso dei corsi d'acqua,water level (stream gauge),veetase/vooluhulk,1,cat-all-new-26
+bda,2:4:1:,2:4:,1,water-gauge-lake,Wasserstand Seen Pegel (m),niveau des lacs fluviomètre (m),livello dei laghi idrometro (m),level of lake gauge (m),järve veetase (m),1,cat-all-new-26
+bdb,2:4:2:,2:4:,1,water-gauge-river,Wasserstand Flüsse Pegel (m),niveau des fleuves fluviomètre (m),livello dei fiumi idrometro (m),level of river gauge (m),jõe veetase (m),1,cat-all-new-26
+bdc,2:4:3:,2:4:,1,water-gauge-river,Abfluss Gewässer (m2/sec),débit cours d'eau (m2/sec),deflusso dei corsi d'acqua (m2/sec),run-off of watercourses (m2/sec),äravool (m2/s),1,cat-all-new-26
+bdd,2:4:4:,2:4:,1,water mark,Hochwassermarke,repère de crues,livello dell'acqua alta (di piena),flood mark,kõrgveetase,1,cat-all-new-26
+bde,2:4:5:,2:4:,1,water mark,Niedrigwassermarke,repère de basses eaux,livello dell'acqua bassa (di magra),low water mark,madalveetase,1,cat-all-new-26
+be,2:5:,2:,0,,Bewölkung,nébulosité,nuvolositá,cloud cover,pilvitus,1,cat-all-new-26
+bea,2:5:1:,2:5:,1,,Anzahl heitere Tage,nombre de jours clairs,numero di giorni calmi,number of clear days,selgete päevade arv,1,cat-all-new-26
+beb,2:5:2:,2:5:,1,,Anzahl bewölkte Tage,nombre de jours nuageux,numero di giorni nuvolosi,number of cloudy days,pilviste päevade arv,1,cat-all-new-26
+bec,2:5:3:,2:5:,1,,Anzahl stark bewölkte Tage,nombre de jours très nuageux,numero di giorni coperti,number of overcast days,tugevalt pilves päevade arv,1,cat-all-new-26
+bed,2:5:4:,2:5:,1,,Anzahl trübe Tage,nombre de jours sombres,numero di giorni chiusi,number of dull days,sombuste päevade arv,1,cat-all-new-26
+bee,2:6:,2:,0,measurements-ice,,,,ice sheet thickness (mm),jääkihi paksus (mm),,
+bef,2:6:1:,2:6:,1,measurements-ice,,,,sea ice sheet thickness (mm),jääkihi paksus (mm),,
+beg,2:6:2:,2:6:,1,measurements-ice,,,,days of permanent ice sheet,jääkihi paksus (mm),,
+c,3:,,0,,biophysische Proxy Daten,données proxy (bio-) physiques,proxi-dati (bio-) fisici,biophysical proxy data,biofüüsilised kaudsed andmed,0,cat-all-new-26
+ca,3:1:,3:,0,,"Phänologie - Wildpflanzen, -tiere",observations phénologiques (espèces sauvages),dati fenologici (specie selvatiche vegetali o animali),phenological data (wild species),"fenoloogia, metsikud taimed ",0,cat-all-new-26
+caa,3:1:1:,3:1:,0,,pflanzenphänologische Daten,observations phénologiques (plantes),osservazioni fenologiche (piante),plant phenological observations,taimefenoloogilised andmed,0,cat-all-new-26
+caaa,3:1:1:1:,3:1:1:,1,flowers,Blumen blühen (d-of-Yr),floraison de fleurs (d-of-Yr),fioritura dei fiori (DOY),flowers bloom (d-of-Yr),lillede õitsemine (p.p.aa),1,cat-all-new-26
+caab,3:1:1:2:,3:1:1:,1,shrubs,Sträucher blühen (d-of-Yr),floraison de buissons (d-of-Yr),fioritura degli arbusti (DOY),shrubs bloom (d-of-Yr),põõsaste õitsemine (p.p.aa),1,cat-all-new-26
+caac,3:1:1:3:,3:1:1:,1,trees,Bäume Blattentfaltung (d-of-Yr),développement des feuilles d'arbres (d-of-Yr),sviluppo delle foglie degli alberi (DOY),tree leaves unfold (d-of-Yr),puude lehteminek  (p.p.aa),1,cat-all-new-26
+caad,3:1:1:4:,3:1:1:,1,leaves-color,Blattverfärbung (d-of-Yr),coloration des feuilles (d-of-Yr),colorazione delle foglie (DOY),leaves turn colors (d-of-Yr),lehtede värvimuutus (p.p.aa),1,cat-all-new-26
+caae,3:1:1:5:,3:1:1:,1,leaves-drop,Blattfall (d-of-Yr),chute des feuilles (d-of-Yr),caduta delle foglie degli alberi (DOY),leaves fall (d-of-Yr),lehtede langemine (p.p.aa),1,cat-all-new-26
+cab,3:1:2:,3:1:,0,,tierphänologische Daten,observations phénologiques (animaux),dati fenologici relativi agli animali,animal phenological data,loomade fenoloogilised andmed,1,cat-all-new-26
+caba,3:1:2:1:,3:1:2:,1,animal-p,Wildtiere zeigen sich verfrüht,observation précoce d'animaux sauvages,avvistamento precoce di animali selvatici,early sighting of wild animals,metsloomade varajane nägemine,1,cat-all-new-26
+cabb,3:1:2:2:,3:1:2:,1,animal-m,Wildtiere zeigen sich verspätet,observation tardive d'animaux sauvages,avvistamento tardivo di animali selvatici,late sighting of wild animals,metsloomade hiline nägemine,1,cat-all-new-26
+cabc,3:1:2:3:,3:1:2:,1,bird,Ankunft von Zugvögeln (d-of-Yr),arrivée des oiseaux migrateurs (d-of-Yr),arrivo di uccelli migratori (d-of-Yr),arrival of migratory birds (d-of-Yr),rändlindude saabumine,1,cat-all-new-26
+cabd,3:1:2:4:,3:1:2:,1,animal,Sichtung von Wildtieren,observation d' animaux sauvages,avvistamento di animali,sighting of animals,loomavaatlused,0,cat-all-new-26
+cabe,3:1:2:5:,3:1:2:,1,animal,Aktivität von Wildtieren,activité d' animaux sauvages,attività di animali selvatici,activity of animals,loomade aktiivus,0,cat-all-new-26
+cb,3:2:,3:,0,,Agrarphänologie,phénologie agraire,fenologia agraria,agricultural phenology,põllumajanduslik fenoloogia,0,cat-all-new-26
+cba,3:2:1:,3:2:,0,,Reben,viticulture,viticoltura,vine cultivation,viinamarjakasvatus,0,cat-all-new-26
+cbaa,3:2:1:1:,3:2:1:,1,grape,Reben Knospen zeigen sich (d-of-Yr),bourgeonnement de la vigne (d-of-Yr),gemmazione della vite (d-of-Yr),vine buds (d-of-Yr),viinamarjataimed lähevad punga (p.p.aa.),1,cat-all-new-26
+cbab,3:2:1:2:,3:2:1:,1,grape,Reben Blätter zeigen sich (d-of-Yr),développement des feuilles de la vigne (d-of-Yr),sviluppo della foglie della vite (d-of-Yr),vine leaves (d-of-Yr),viinamarjataimed lähevad lehte (p.p.aa.),1,cat-all-new-26
+cbac,3:2:1:3:,3:2:1:,1,grape,Reben blühen (d-of-Yr),floraison de la vigne (d-of-Yr),fioritura della vite (d-of-Yr),vine flowers (d-of-Yr),viinamarjataimed õitsevad (p.p.aa.),1,cat-all-new-26
+cbad,3:2:1:4:,3:2:1:,1,grape,Reben verblüht (d-of-Yr),fin de floraison de la vigne (d-of-Yr),fine della fioritura della vite (d-of-Yr),vine blooms end (d-of-Yr),viinamarjataimed on ära õitsenud (p.p.aa.),1,cat-all-new-26
+cbae,3:2:1:5:,3:2:1:,1,grape,erste Trauben (d-of-Yr),grappes visibles (d-of-Yr),primi grappoli (d-of-Yr),first grapes (d-of-Yr),esimesed viinamarjad (p.p.aa.),1,cat-all-new-26
+cbaf,3:2:1:6:,3:2:1:,1,grape,Trauben färben (d-of-Yr),coloration des raisins (d-of-Yr),colorazione delle uve (d-of-Yr),grapes turn red (d-of-Yr),viinamarjad muutuvad punaseks (p.p.aa.),1,cat-all-new-26
+cbag,3:2:1:7:,3:2:1:,1,grape,erste Trauben reif (d-of-Yr),premiers raisins mûrs (d-of-Yr),prime uve mature (d-of-Yr),first ripe grapes (d-of-Yr),esimesed kobarad küpsed (p.p.aa.),1,cat-all-new-26
+cbah,3:2:1:8:,3:2:1:,1,grape,Weinlese beginnt (d-of-Yr),début des vendanges (d-of-Yr),inizio vendemmia (d-of-Yr),grape harvest begins (d-of-Yr),viinamarjakorjamine algab (p.p.aa.),1,cat-all-new-26
+cbai,3:2:1:9:,3:2:1:,1,grape,Weinlese beendet (d-of-Yr),fin des vendanges (d-of-Yr),fine della vendemmia (d-of-Yr),grape harvest ends (d-of-Yr),viinamarjakorjamine lõppeb (p.p.aa.),1,cat-all-new-26
+cbaj,3:2:1:10:,3:2:1:,1,wine-sugar-p,Weinmost - hoher Zuckergehalt,"moût de raisin, teneur en sucre élevée",mosto d'uva ad alto contenuto di zuccheri,grape must high sugar content,viinamarjamahla kõrge suhkrusisaldus,0,cat-all-new-26
+cbak,3:2:1:11:,3:2:1:,1,wine-sugar-e,Weinmost - mittlerer Zuckergehalt,"moût de raisin, teneur en sucre moyenne",mosto d'uva a medio contenuto di zuccheri,grape must average sugar average,viinamarjamahla keskmine suhkrusisaldus,0,cat-all-new-26
+cbal,3:2:1:12:,3:2:1:,1,wine-sugar-m,Weinmost - geringer Zuckergehalt,"moût de raisin, teneur en sucre basse",mosto d'uva a basso contenuto di zuccheri,grape must low sugar content,viinamarjamahla madal suhkrusisaldus,0,cat-all-new-26
+cbam,3:2:1:13:,3:2:1:,1,wine-sugar-am,Weinmost - eher hoher Zuckergehalt,"moût de raisin, teneur en sucre plutôt élevée",mosto d'uva ad altissimo contenuto di zuccheri,grape must very high sugar content,viinamarjamahla väga kõrge suhkrusisaldus,0,cat-all-new-26
+cban,3:2:1:14:,3:2:1:,1,wine-sugar-bm,Weinmost - eher geringer Zuckergehalt,"moût de raisin, teneur en sucre plutôt basse",mosto d'uva a bassissimo contenuto di zuccheri,grape must very low sugar conent,viinamarjamahla väga madal suhkrusisaldus,0,cat-all-new-26
+cbb,3:2:2:,3:2:,0,,Getreide,cultures céréalières,coltura di cereali,grain cultivation,teravili,0,cat-all-new-26
+cbba,3:2:2:1:,3:2:2:,1,grain,Pflügen beginnt (d-of-Yr),début des labours (d-of-Yr),inizio lavori campestri (d-of-Yr),begin of ploughing (d-of-Yr),kevadkünni algus (p.p.aa.),1,cat-all-new-26
+cbbb,3:2:2:2:,3:2:2:,1,grain,Getreide Aussaat (d-of-Yr),ensemencement (d-of-Yr),seminagione del grano (d-of-Yr),grain sowing (d-of-Yr),külvi algus (p.p.aa.),1,cat-all-new-26
+,,,,,,,,grain sowing begins (d-of-Yr),,,
+,,,,,,,,grain sowing ends (d-of-Yr),,,
+cbbc,3:2:2:3:,3:2:2:,1,grain,Getreideähren erste (d-of-Yr),premiers épis (d-of-Yr),prime spighe di grano (d-of-Yr),grain first spikes (d-of-Yr),vilja tärkamine (p.p.aa.),1,cat-all-new-26
+cbbd,3:2:2:4:,3:2:2:,1,grain,Getreide blüht (d-of-Yr),floraison de céréales (d-of-Yr),fioritura del grano (d-of-Yr),grain blooms (d-of-Yr),vilja õitsemine (p.p.aa.),1,cat-all-new-26
+cbbe,3:2:2:5:,3:2:2:,1,grain,Getreide Zehnsteigerung (d-of-Yr),enchères sur les dîmes du grain (d-of-Yr),data dell'asta della decima del grano (d-of-Yr),grain tithe auction dates (d-of-Yr),viljapea loomine (p.p.aa.),1,cat-all-new-26
+cbbf,3:2:2:6:,3:2:2:,1,grain,Getreideernte beginnt (d-of-Yr),début de la récolte du blé (d-of-Yr),inizio della raccolta del grano (d-of-Yr),grain harvest begins (d-of-Yr),viljalõikuse algus (p.p.aa.),1,cat-all-new-26
+cbbg,3:2:2:7:,3:2:2:,1,grain,Getreideernte beendet (d-of-Yr),fin de la récolte du blé (d-of-Yr),fine della raccolta del grano (d-of-Yr),grain harvest ends (d-of-Yr),viljalõikuse lõpp (p.p.aa.),1,cat-all-new-26
+cbbh,3:2:2:8:,3:2:2:,1,crops,Ernte anderer Früchte beginnt (d-of-Yr),début de la récolte d'autres cultures (d-of-Yr),inizio della raccolta di altre coltivazioni (d-of-Yr),harvest of other crops begins (d-of-Yr),muu saagikoristuse algus (p.p.aa.),1,cat-all-new-26
+cbc,3:2:3:,3:2:,0,,Obst,cultures maraîchères,coltivazione di frutta,fruit cultivation,puuvili,0,cat-all-new-26
+cbca,3:2:3:1:,3:2:3:,1,fruit,Obstbäume blühen (d of-Yr),arbres fruitiers en fleurs (d-of-Yr),fioritura di alberi da frutta (d-of-Yr),fruit trees bloom (d-of-Yr),viljapuud õitsevad (p.p.aa.),1,cat-all-new-26
+cbcb,3:2:3:2:,3:2:3:,1,fruit,Obsternte beginnt (d-of-Yr),début de la récolte des fruits (d-of-Yr),inizio della raccolta di frutta (d-of-Yr),fruit harvest begins (d-of-Yr),puuviljakoristamise algus (p.p.aa.),1,cat-all-new-26
+cbd,3:2:4:,3:2:,0,,Weide und Heu,"pâturages, production de foin","pascolo, produzione di fieno",pasture and hay production,karjatamine ja heinategu,0,cat-all-new-26
+cbda,3:2:4:1:,3:2:4:,1,meadow,Weide beginnt (d-of-Yr),début des pâturage (d-of-Yr),inizio del pascolo (d-of-Yr),pasture begins (d-of-Yr),karjalaskmine (p.p.aa.),1,cat-all-new-26
+cbdb,3:2:4:2:,3:2:4:,1,hay,Heuernte beginn (d-of-Yr),début de récolte de foin (d-of-Yr),inizio del raccolto di fieno (1° taglio) (d-of-Yr),hay harvest begins (1st cut) (d-of-Yr),heinategu algab (1. lõikuse päev),1,cat-all-new-26
+cbdc,3:2:4:3:,3:2:4:,1,hay,Emd (Grummet)ernte Beginn (d-of-Yr),début des regains (d-of-Yr),inizio del raccolto di fieno (2° taglio) (d-of-Yr),hay harvest begins (2nd cut) (d-of-Yr),ädalaniitmine algab (1. lõikuse päev),1,cat-all-new-26
+cbdd,3:2:4:4:,3:2:4:,1,meadow,Weide Ende (d-of-Yr),fin des pâturages (d-of-Yr),fine del pascolo (d-of-Yr),pasture ends (d-of-Yr),karjatamishooaja lõpp (p.p.aa.),1,cat-all-new-26
+cbde,3:2:4:5:,3:2:4:,1,meadow,Alpaufzug (d-of-Yr),montée à l' alpage (d-of-Yr),ascesa di bestiame sulle alpi (d-of-Yr),cattle driven to alpine meadows (d-of-Yr),kari aetakse alpiaasadele (p.p.aa.),1,cat-all-new-26
+cbdf,3:2:4:6:,3:2:4:,1,meadow,Alpabfahrt (d-of-Yr),descente des alpages (d-of-Yr),discesa di bestiame dalle alpi (d-of-Yr),cattle driven down from alpine meadows (d-of-Yr),kari aetakse alpiaasadelt alla (p.p.aa.),1,cat-all-new-26
+cbe,3:2:5:,3:2:,0,,Stand der Vegetation,état de la végétation,stato della vegetazione,state of vegetation,taimestikuolud,0,cat-all-new-26
+cbea,3:2:5:1:,3:2:5:,1,leaves-p,Vegetationsvorsprung,vegetation avancée,vegetazione avanzata,vegetation advanced,taimestiku varajane tärkamine,0,cat-all-new-26
+cbeb,3:2:5:2:,3:2:5:,1,leaves-m,Vegetationsrückstand,vegetation tardive,vegetazione tardiva,vegetation delayed,taimestiku hiline tärkamine,0,cat-all-new-26
+cbec,3:2:5:3:,3:2:5:,1,flower-p,Nachblüte (d-of-Yr),deuxième floraison de plantes (d-of-Yr),seconda fioritura di piante (d-of-Yr),second flowering of spring plants (d-of-Yr),järelõitsemine (p.p.aa.),1,cat-all-new-26
+cbed,3:2:5:4:,3:2:5:,1,meadow,Herbstweide lang,pâturage prolongé,pascolo prolungato,prolonged grazing period,karjatamisperioodi pikenemine,0,cat-all-new-26
+cc,3:3:,3:,0,,Eis- und Schneerscheinungen,"glaces, manteau neigeux","ghiaccio, innevamento",snow and ice cover,jää- ja lumeolud,0,cat-all-new-26
+cca,3:3:1:,3:3:,0,,Gletscher,glaciers,ghiacciaio,glaciers,liustikud,0,cat-all-new-26
+ccaa,3:3:1:1:,3:3:1:,1,glacier-p,Gletschervorstoss,avance des glaciers,avanzamento del ghiacciaio,glacier advances,liustiku pealetung,0,cat-all-new-26
+ccab,3:3:1:2:,3:3:1:,1,glacier-m,Gletscherrückschmelze,recul des glaciers,arretramento del ghiacciaio,glacier melts back,liustiku taandumine,0,cat-all-new-26
+ccac,3:3:1:3:,3:3:1:,1,glacier-pencil,Gletscherstand,position des glaciers,posizione della lingue dei ghiacciai,glacier extent,liustiku ulatus,0,cat-all-new-26
+ccb,3:3:2:,3:3:,0,,Eis,glace,ghiaccio,ice,jää,0,cat-all-new-26
+ccba,3:3:2:1:,3:3:2:,1,water-frozen,Eisbedeckung von Gewässern (d-of-Yr),congélation des cours d'eau (d-of-Yr),congelamento dei corsi d'acqua (d-of-Yr),water bodies frozen (d-of-Yr),jääkate veekogudel (p.p.aa.),1,cat-all-new-26
+ccbb,3:3:2:2:,3:3:2:,1,flood-ice-damming,Eisstau - Überschwemmung,débâcle - inondation,inondazione legata ad una diga di ghiaccio,flood - ice damming,jääpais,0,cat-all-new-26
+ccbc,3:3:2:3:,3:3:2:,1,ice-drift,"Treibeis, Eisgang",glaces flottantes,ghiaccio alla deriva,drift ice,triivjää,0,cat-all-new-26
+ccbd,3:3:2:4:,3:3:2:,1,icebergs,Eisberge,icebergs,iceberg,icebergs,jäämäed,0,cat-all-new-26
+ccbe,3:3:2:5:,3:3:2:,1,pack ice,Packeis,banquise,banchisa,pack ice,paakjää,0,cat-all-new-26
+ccbf,3:3:2:6:,3:3:2:,1,ice-melt,Eisaufbruch (d-of-Yr),débâcle (d-of-Yr),fusione del ghiaccio,ice breakup (waterbodies) (d-of-Yr),jääminek (p.p.aa.),1,cat-all-new-26
+ccbg,3:3:2:7:,3:3:2:,1,ice-melt-p,Eisaufbruch verfrüht,débâcle avancé,fusione precoce del ghiaccio,ice breakup early,varajane jääminek (p.p.aa.),0,cat-all-new-26
+ccbh,3:3:2:8:,3:3:2:,1,ice-melt-m,Eisaufbruch verzögert,débâcle tardif,fusione tardiva del ghiaccio,ice breakup late,hiline jääminek (p.p.aa.),0,cat-all-new-26
+ccbi,3:3:2:9:,3:3:2:,1,ice-e,wenig Eis,peu de glace,poco ghiaccio,little ice,vähene jää,0,cat-all-new-26
+ccbj,3:3:2:10:,3:3:2:,1,ice-no,kein Eis,aucune glace,nessun ghiaccio,no ice,jääd pole,0,cat-all-new-26
+ccbk,3:3:2:11:,3:3:2:,1,ice-above-norm,,,,above average ice cover,jääkatte ulatus tavalisest enam,0,cat-all-new-26
+ccbl,3:3:2:12:,3:3:2:,1,coastal-ice,,,,coastal ice,rannikujää,,
+ccc,3:3:3:,3:3:,0,,Schneebedeckung,manteau neigeux,innevamento,snow coverage,lumikate,0,cat-all-new-26
+ccca,3:3:3:1:,3:3:3:,1,snow-fresh-layer,Neuschnee,neige fraîche,neve fresca,fresh snow layer,värske lumi,0,cat-all-new-26
+cccb,3:3:3:2:,3:3:3:,1,snowcover,dauernde Schneebedeckung,couverture neigeuse permanente,innevamento continuo,permanent snowcover,püsiv lumikate,0,cat-all-new-26
+cccc,3:3:3:3:,3:3:3:,1,snow-abundant,grosse Schneemassen,grande masse de neige,grandi quantità di neve,abundant snow,paks lumikate,0,cat-all-new-26
+cccd,3:3:3:4:,3:3:3:,1,snow-fresh-mountains,Neuschnee in höheren Lagen,neige fraîche dans les hauteurs,nevicata in montagna,fresh snow at higher elevations,värske lumi kõrgel,0,cat-all-new-26
+ccce,3:3:3:5:,3:3:3:,1,snow-melt,Schneeschmelze,fonte des neiges,fusione della neve,snowmelt,lumesulamine,0,cat-all-new-26
+cccf,3:3:3:6:,3:3:3:,1,snow-melt-p,Schneeschmelze verfrüht,fonte des neiges avancée,fusione precoce della neve,snowmelt early,varane lumesulamine,0,cat-all-new-26
+cccg,3:3:3:7:,3:3:3:,1,snow-melt-m,Schneeschmelze verspätet,fonte des neiges tardive,fusione tardiva della neve,snowmelt late,hiline lumesulamine,0,cat-all-new-26
+ccch,3:3:3:8:,3:3:3:,1,snow-melt,Schneeschmelze im Gebirge,fonte des neiges en montagne,fusione della neve in montagna,snowmelt in mountains,lumesulamine mägedes,0,cat-all-new-26
+ccci,3:3:3:9:,3:3:3:,1,snow-small,Schnee wenig,couverture neigeuse courte durée,sottile copertura nevosa,little snowcover,vähene lumikate,0,cat-all-new-26
+cccj,3:3:3:10:,3:3:3:,1,snowcover-no,Schneebedeckung keine,aucune couverture neigeuse,nessuna copertura nevosa,no snowcover,puuduv lumikate,0,cat-all-new-26
+ccck,3:3:3:11:,3:3:3:,1,snowc-mount,Einschneien im Gebirge,enneigement en montagne,prima formazione del manto nevoso,beginning of mountain snowcover,lumikatte algus mägedes,0,cat-all-new-26
+cd,3:4:,3:,0,,Baumringdaten,dendroclimatologie,dendroclimatologia,dendroclimatology,dendroklimatoloogia,0,cat-all-new-26
+cda,3:4:1:,3:4:,1,tree-ring,Baumringe - Breite (mm),largeur cernes des arbres (mm),diametro degli anelli degli alberi (mm),tree-ring width (mm),puuringi läbimõõt (mm),1,cat-all-new-26
+cdb,3:4:2:,3:4:,1,tree-ring,Baumringe - maximale Dichte (g/cm3),densité maximale cernes des arbres (bois tardif) (g/cm3),densità degli anelli degli alberi (g/cm3),tree-ring maximum density (g/cm3),puuringi maksimaalne tihedus (g/cm3),1,cat-all-new-26
+ce,3:5:,3:,0,,Prozessionen und Bittgottesdienste,processions et services,rogazioni ed intercessioni,rogations and intercessions,protsessioonid ja palvused,0,cat-all-new-26
+cea,3:5:1:,3:5:,1,rogation,Prozession für Sonne und Wärme,procession pour obtenir le beau temps,rogazione per tempo caldo,rogation for warm weather,protsessioon päikese ja sooja palumiseks,0,cat-all-new-26
+ceb,3:5:2:,3:5:,1,rogation,Prozession für Regen,procession pour la pluie,rogazione per pioggia,rogation for rain,protsessioon vihma palumiseks,0,cat-all-new-26
+cec,3:5:3:,3:5:,1,rogation,Prozession gegen Naturgefahren,procession contre les risques naturels,rogazione contro pericoli naturali,rogation against natural hazards,protsessioon loodusohtude vastu,0,cat-all-new-26
+ced,3:5:4:,3:5:,1,rogation,Prozession gegen Seuchen,procession contre les épidemies,rogazione contro epidemie,rogation against epidemics,protsessioon epideemiate vastu,0,cat-all-new-26
+cee,3:5:5:,3:5:,1,rogation,Prozession gegen Schädlinge,procession contre les parasites,rogazione contro parassiti,rogation against pests,protsessioon kahjurite vastu,0,cat-all-new-26
+d,4:,,0,,Wirtschaftsdaten,données proxy économiques,proxi-dati economici,economic proxy data,majandusandmed,0,cat-all-new-26
+da,4:1:,4:,0,,Agrarproduktion,production agricole,produzione agricola,agricultural production,põllumajanduslik toodang,0,cat-all-new-26
+daa,4:1:1:,4:1:,0,,Getreideernte,production de blé,produzione di grano,grain production,viljasaak,0,cat-all-new-26
+daaa,4:1:1:1:,4:1:1:,1,grain-p,Getreideernte reich,production de blé abondante,produzione abbondante di grano,grain harvest abundant,rikkalik viljasaak,0,cat-all-new-26
+daab,4:1:1:2:,4:1:1:,1,grain-e,Getreideernte durchschnittlich,production de blé moyenne,produzione media di grano,grain harvest average,keskmine viljasaak,0,cat-all-new-26
+daac,4:1:1:3:,4:1:1:,1,grain-m,Getreideernte gering,production de blé faible,produzione scarsa di grano,grain harvest poor,kehv viljasaak,0,cat-all-new-26
+daad,4:1:1:4:,4:1:1:,1,grain-summer-p,Sommergetreideernte reich,production blé de printemps abondante,produzione abbondante di grano primaverile,spring grain harvest abundant,rikkalik kevadine viljasaak ,0,cat-all-new-26
+daae,4:1:1:5:,4:1:1:,1,grain-summer-e,Sommergetreideernte durchschnittlich,production blé de printemps moyenne,produzione media di grano primaverile,spring grain harvest average,keskmine kevadine viljasaak,0,cat-all-new-26
+daaf,4:1:1:6:,4:1:1:,1,grain-summer-m,Sommergetreideernte gering,production blé de printemps faible,produzione scarsa di grano primaverile,spring grain harvest poor,kehv kevadine viljasaak,0,cat-all-new-26
+daag,4:1:1:7:,4:1:1:,1,grain-winter-p,Wintergetreideernte reich,production blé d'hiver abondante,produzione abbondante di grano invernale,winter grain harvest abundant,rikkalik taliviljasaak,0,cat-all-new-26
+daah,4:1:1:8:,4:1:1:,1,grain-winter-e,Wintergetreideernte durchschnittlich,production blé d'hiver moyenne,produzione media di grano invernale,winter grain harvest average,keskmine taliviljasaak,0,cat-all-new-26
+daai,4:1:1:9:,4:1:1:,1,grain-winter-m,Wintergetreideernte gering,production blé d'hiver faible,produzione scarsa di grano invernale,winter grain harvest poor,kehv taliviljasaak,0,cat-all-new-26
+dab,4:1:2:,4:1:,0,,Obsternte,production de fruits,produzione di frutta,fruit production,puuviljasaak,0,cat-all-new-26
+daba,4:1:2:1:,4:1:2:,1,fruits-p,Obsternte reich,production de fruits abondante,produzione abbondante di frutta,fruit production abundant,rikkalik puuviljasaak,0,cat-all-new-26
+dabb,4:1:2:2:,4:1:2:,1,fruits-e,Obsternte durchschnittlich,production de fruits moyenne,produzione media di frutta,fruit production average,keskmine puuviljasaak,0,cat-all-new-26
+dabc,4:1:2:3:,4:1:2:,1,fruits-m,Obsternte gering,production de fruits faible,produzione scarsa di frutta,fruit production poor,kehv puuviljasaak,0,cat-all-new-26
+dac,4:1:3:,4:1:,0,,Molkenproduktion,production de produits laitiers,produzione di latticini,dairy production,piimatoodang,0,cat-all-new-26
+daca,4:1:3:1:,4:1:3:,1,dairy-production-p,Molkenproduktion reich,production de produits laitiers abondante,produzione abbondante di latticini,dairy production abundant,suur piimatoodang,0,cat-all-new-26
+dacb,4:1:3:2:,4:1:3:,1,dairy-production-e,Molkenproduktion durchschnittlich,production de produits laitiers moyenne,produzione media di latticini,dairy production average,keskmine piimatoodang,0,cat-all-new-26
+dacc,4:1:3:3:,4:1:3:,1,dairy-production-m,Molkenproduktion gering,production de produits laitiers faible,produzione scarsa di latticini,dairy production poor,kehv piimatoodang,0,cat-all-new-26
+dad,4:1:4:,4:1:,0,,Weinernte,production de vin,produzione di vino,vine production,veinitoodang,0,cat-all-new-26
+dada,4:1:4:1:,4:1:4:,1,wine-bottle-p,Weinernte reich,production de vin abondante,produzione di vino abbondante,vine production abundant,suur veinitoodang,0,cat-all-new-26
+dadb,4:1:4:2:,4:1:4:,1,wine-bottle-e,Weinernte durchschnittlich,production de vin moyenne,produzione di vino media,vine production average,keskmine veinitoodang,0,cat-all-new-26
+dadc,4:1:4:3:,4:1:4:,1,wine-bottle-m,Weinernte gering,production de vin faible,produzione di vino scarsa,vine production poor,kehv veinitoodang,0,cat-all-new-26
+dadd,4:1:4:4:,4:1:4:,1,wine-bottle-e-p,Weinernte eher gross,production de vin plutôt grande,produzione di vino piuttosto grande,vine production rather large,veinitoodang pigem suur,0,cat-all-new-26
+dade,4:1:4:5:,4:1:4:,1,wine-bottle-e-m,Weinernte eher gering,production de vin plutôt faible,produzione di vino piuttosto scarsa,vine production rather poor,veinitoodang pigem kehv,0,cat-all-new-26
+dadf,4:1:4:6:,4:1:4:,1,wine-bottle-p-p,Weinernte sehr reich,production de vin très abondante,produzione di vino super abbondante,vine production superabundant,veinitoodang ülisuur,0,cat-all-new-26
+dadg,4:1:4:7:,4:1:4:,1,wine-bottle-m-m,Weinernte sehr gering,production de vin très faible,produzione di vino scarsissima,vine production very poor,veinitoodang väga kehv,0,cat-all-new-26
+dae,4:1:5:,4:1:,0,,Fischerei,pêche,pesca,fish catch,kalandus,0,cat-all-new-26
+daea,4:1:5:1:,4:1:5:,1,fish-p,Fischfang reich,pêche abondante,pesca abbondante,fish catch abundant,rikkalik kalasaak,0,cat-all-new-26
+daeb,4:1:5:2:,4:1:5:,1,fish-e,Fischfang durchschnittlch,pêche moyenne,pesca media,fish catches average,keskmine kalasaak,0,cat-all-new-26
+daec,4:1:5:3:,4:1:5:,1,fish-m,Fischfang gering,pêche faible,pesca scarsa,fish catch poor,kehv kalasaak,0,cat-all-new-26
+daf,4:1:6:,4:1:,0,,andere Ernten,autres cultures,altre coltivazioni,other crops,muud viljasaagid,0,cat-all-new-26
+dafa,4:1:6:1:,4:1:6:,1,crop-p,andere Ernten reich,production autres cultures abondante,produzione abbondante di altre coltivazioni,production of other crops abundant,rikkalik muu viljasaak,0,cat-all-new-26
+dafb,4:1:6:2:,4:1:6:,1,crop-e,andere Ernten durchschnittlich,production autres cultures moyenne,produzione media di altre coltivazioni,production of other crops average,keskmine muu viljasaak,0,cat-all-new-26
+dafc,4:1:6:3:,4:1:6:,1,crop-m,andere Ernten gering,production autres cultures faible,produzione scarsa di altre coltivazioni,production of other crops poor,kehv muu viljasaak,0,cat-all-new-26
+dag,4:1:7:,4:1:,0,,Nahrungsproduktion,production d'aliments,produzione alimenti,food production,toidutoodang,0,cat-all-new-26
+daga,4:1:7:1:,4:1:7:,1,food-production-p,fruchtbares Jahr,production d'aliments abondante,produzione abbondante di alimenti,food production abundant,viljarikas aasta,0,cat-all-new-26
+dagb,4:1:7:2:,4:1:7:,1,food-production-e,durchschnittliches Jahr,production d'aliments moyenne,produzione media di alimenti,food production average,keskmiselt viljarikas aasta,0,cat-all-new-26
+dagc,4:1:7:3:,4:1:7:,1,food-production-m,Missjahr,production d'aliments faible,produzione scarsa di alimenti,food production poor,ikaldus,0,cat-all-new-26
+dah,4:1:8:,4:1:,0,,Heuernte,production de foin,produzione di fieno,hay production,heinasaak,0,cat-all-new-26
+daha,4:1:8:1:,4:1:8:,1,hay-p,Heuernte reich,production de foin abondante,produzione abbondante di fieno,hay production abundant,rikkalik heinasaak,0,cat-all-new-26
+dahb,4:1:8:2:,4:1:8:,1,hay-e,Heuernte durchschnittlich,production de foin moyenne,produzione media di fieno,hay production average,keskmine heinasaak,0,cat-all-new-26
+dahc,4:1:8:3:,4:1:8:,1,hay-m,Heuernte gering,production de foin faible,produzione scarsa di fieno,hay production poor,kehv heinasaak,0,cat-all-new-26
+dai,4:1:9:,4:1:,0,,Weiden,pâturages,pascoli e prati,pastures and meadows,karjamaad ja niidud,0,cat-all-new-26
+daia,4:1:9:1:,4:1:9:,1,pasture-p,Weiden grasreich,production des pâturages abondante,pascoli abbondanti,pasture yield abundant,rohurikkad niidud,0,cat-all-new-26
+daib,4:1:9:2:,4:1:9:,1,pasture-e,Weiden durchschnittlich,production des pâturages moyenne,pascoli medi,pasture yield average,keskmiselt rohurikkad niidud,0,cat-all-new-26
+daic,4:1:9:3:,4:1:9:,1,pasture-m,Weiden schlecht,production des pâturages faible,pascoli scarsi,pasture yield poor,kehvad niidud,0,cat-all-new-26
+daj,4:1:10:,4:1:,0,,Futterproduktion,production de fourrages,produzione di foraggi,feed production,söödasaak,0,cat-all-new-26
+daja,4:1:10:1:,4:1:10:,1,hay-p,Futterproduktion reich,production de fourrages abondante,produzione abbondante di foraggi,feed production abundant,rikkalik söödasaak,0,cat-all-new-26
+dajb,4:1:10:2:,4:1:10:,1,hay-e,Futterproduktion durchschnittlich,production de fourrages moyenne,produzione media di foraggi,feed production average,keskmine söödasaak,0,cat-all-new-26
+dajc,4:1:10:3:,4:1:10:,1,hay-m,Futterproduktion schlecht,production de fourrages faible,produzione scarsa di foraggi,feed production poor,kehv söödasaak,0,cat-all-new-26
+dak,4:1:11:,4:1:,1,hay-no,Futtermangel,bestiaux affamés,bestiame affamato,livestock starved,söödapuudus,0,cat-all-new-26
+db,4:2:,4:,0,,Preisbewegungen,mouvement des prix,movimento dei prezzi,price movements,hinnaliikumised,0,cat-all-new-26
+dba,4:2:1:,4:2:,0,,Preise steigen,prix en augmentation,prezzi in aumento,price increases,hinnatõus,0,cat-all-new-26
+dbaa,4:2:1:1:,4:2:1:,1,prices-inc-grain,Getreidepreis steigt,prix du blé en augmentation,prezzi del grano in aumento,grain prices increase,viljahinna tõus,0,cat-all-new-26
+dbab,4:2:1:2:,4:2:1:,1,prices-inc-bread,Brotpreis steigt,prix du pain en augmentation,prezzi del pane in aumento,bread prices increase,leivahinna tõus,0,cat-all-new-26
+dbac,4:2:1:3:,4:2:1:,1,prices-inc-fruits,Obstpreis steigt,prix des fruits en augmentation,prezzi della frutta in aumento,fruit prices increase,puuviljahinna tõus,0,cat-all-new-26
+dbad,4:2:1:4:,4:2:1:,1,prices-inc-dairy,Molkenpreis steigt,prix des produits laitiers en augmentation,prezzi dei latticini in aumento,dairy prices increase,piimahinna tõus,0,cat-all-new-26
+dbae,4:2:1:5:,4:2:1:,1,prices-inc-wine,Weinpreis steigt,prix du vin en augmentation,prezzi del vino in aumento,wine prices increase,veinihinna tõus,0,cat-all-new-26
+dbaf,4:2:1:6:,4:2:1:,1,prices-inc-fish,Fischpreis steigt,prix du poisson en augmentation,prezzi della pesca in aumento,fish prices increase,kalahinna tõus,0,cat-all-new-26
+dbag,4:2:1:7:,4:2:1:,1,prices-inc-food,Nahrungsmittelpreise steigen,prix alimentaires en augmentation,prezzi alimentari in aumento,food prices increase,toiduhinna tõus,0,cat-all-new-26
+dbah,4:2:1:8:,4:2:1:,1,prices-inc-hay,Heupreis steigt,prix du foin en augmentation,prezzi del fieno in aumento,hay prices increase,heinahinna tõus,0,cat-all-new-26
+dbai,4:2:1:9:,4:2:1:,1,prices-inc-cuttle,Viehpreis steigt,prix des bestiaux en augmentation,prezzi del bestiame in aumento,cattle prices increase,kariloomahindade tõus,0,cat-all-new-26
+dbaj,4:2:1:10:,4:2:1:,1,prices-inc-firewood,Brennholzpreis steigt,prix des combustibles en augmentation,prezzi dei combustibili in aumento,firewood prices increase,küttepuude hinna tõus,0,cat-all-new-26
+dbak,4:2:1:11:,4:2:1:,1,prices-inc-other,andere Preise steigen,autres prix en augmentation,altri prezzi in aumento,other prices increase,muu hinnatõus,0,cat-all-new-26
+dbb,4:2:2:,4:2:,0,,Preise sinken,prix en diminution,prezzi in diminuzione,price decreases,hinnalangus,0,cat-all-new-26
+dbba,4:2:2:1:,4:2:2:,1,prices-dec-grain,Getreidepreis sinkt,prix du blé en diminution,prezzi del grano in diminuzione,grain prices decrease,viljahinna langus,0,cat-all-new-26
+dbbb,4:2:2:2:,4:2:2:,1,prices-dec-bread,Brotpreis sinkt,prix du pain en diminution,prezzi del pane in diminuzione,bread prices decrease,leivahinna langus,0,cat-all-new-26
+dbbc,4:2:2:3:,4:2:2:,1,prices-dec-fruits,Obstpreis sinkt,prix des fruits en diminution,prezzi della frutta in diminuzione,fruit prices decrease,puuviljahinna langus,0,cat-all-new-26
+dbbd,4:2:2:4:,4:2:2:,1,prices-dec-dairy,Molkenpreis sinkt,prix des produits laitiers en diminution,prezzi dei latticini in diminuzione,dairy prices decrease,piimahinna langus,0,cat-all-new-26
+dbbe,4:2:2:5:,4:2:2:,1,prices-dec-wine,Weinpreis sinkt,prix du vin en diminution,prezzi del vino in diminuzione,wine prices decrease,veinihinna langus,0,cat-all-new-26
+dbbf,4:2:2:6:,4:2:2:,1,prices-dec-fish,Fischpreis sinkt,prix du poisson en diminution,prezzi della pesca in diminuzione,fish prices decrease,kalahinna langus,0,cat-all-new-26
+dbbg,4:2:2:7:,4:2:2:,1,prices-dec-food,Nahrungsmittelpreise sinken,prix alimentaires en diminution,prezzi alimentari in diminuzione,food prices decrease,toiduhinna langus,0,cat-all-new-26
+dbbh,4:2:2:8:,4:2:2:,1,prices-dec-hay,Heupreis sinkt,prix du foin en diminution,prezzi del fieno in diminuzione,feed/hay prices decrease,heinahinna langus,0,cat-all-new-26
+dbbi,4:2:2:9:,4:2:2:,1,prices-dec-cuttle,Viehpreis sinkt,prix des bestiaux en diminution,prezzi del bestiame in diminuzione,cattle prices decrease,kariloomade hindade langus,0,cat-all-new-26
+dbbj,4:2:2:10:,4:2:2:,1,prices-dec-firewood,Brennholzpreis sinkt,prix des combustibles en diminution,prezzi dei combustibili in diminuzione,firewood prices decrease,küttepuude hinna langus,0,cat-all-new-26
+dbbk,4:2:2:11:,4:2:2:,1,prices-dec-other,andere Preise sinken,autres prix en diminution,altri prezzi in diminuzione,other prices decrease,muu hinnalangus,0,cat-all-new-26
+dc,4:3:,4:,0,prices-numeric,Preisangaben numerisch,indication de prix,indicazione di prezzo numerico,numerical price indication,numbrilised hinnaandmed,1,cat-all-new-26
+e,5:,,0,,soziopolitische Daten,données socio-politiques,dati sociopolitici,sociopolitical data,sotsiopoliitilised andmed,0,cat-all-new-26
+ea,5:1:,5:,1,famine,Hungersnot,famine,carestia,famine,näljahäda,0,cat-all-new-26
+eb,5:2:,5:,1,measures-authorities,obrigkeitliche Massnahmen,mesures de secours des autorités,misure di soccorso delle autorità,relief measures of authorities,võimudepoolsed abinõud,0,cat-all-new-26
+ec,5:3:,5:,1,measures-person,individuelle Massnahmen,mesures de secours des individus,misure di soccorso individuali,relief measures of individuals,individuaalsed abinõud,0,cat-all-new-26
+ed,5:4:,5:,1,food-export,Verbot Nahrungsmittelexporte,défense d'exporter des aliments,proibizione di esportazione di alimenti,food exports,toiduainete ekspordi keeld,0,cat-all-new-26
+ee,5:5:,5:,1,cuttle-no-export,Viehexportverbot,défense d' exporter des bestiaux,proibizione di esportazioni di bestiame,ban on cattle exports,kariloomade ekspordi keeld,0,cat-all-new-26
+ef,5:6:,5:,0,,Verfolgung von Minderheiten,persecution de minorités,persecuzione delle minoranze,persecution of minorities,vähemuste tagakiusamine,0,cat-all-new-26
+efa,5:6:1:,5:6:,1,,Hexen,sorcières-sorciers,persecuzione di streghe,witch hunt,nõiad/nõiajaht,0,cat-all-new-26
+efb,5:6:2:,5:6:,1,,Juden,juifs,persecuzione di ebrei,persecution of Jews,juutide tagakiusamine,0,cat-all-new-26
+efc,5:6:3:,5:6:,1,,andere,autres,persecuzione di altri,persecution of others,teiste tagakiusamine,0,cat-all-new-26
+f,6:,,0,,Indizes,indices,indici,indices,indeksid,1,cat-all-new-26
+fa,6:1:,6:,1,index-temp,Temperaturindex (provisorische Datensynthese),index de température (synthèse provisioire des données),indice della temperatura (sintesi provvisoria di dati),temperature index (provisional data synthesis),temperatuuriindeks (andmete esialgne hinnang),1,cat-all-new-26
+fb,6:2:,6:,1,index-prec,Niederschlagsindex (provisorische Datensynthese),index de précipitation (synthèse provisioire des données),indice delle precipitazioni (sintesi provvisoria di dati),precipitation index (provisional data synthesis),sademeteindeks (andmete esialgne hinnang),1,cat-all-new-26
+z,0:,,0,observation-no,keine Beobachtung,aucune observation,nessuna osservazione,no observation,vaatluseid pole,0,cat-all-new-26
