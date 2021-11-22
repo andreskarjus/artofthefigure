@@ -41,9 +41,9 @@ If you have signed up to one of the workshops, you should have received an email
 
 Workshops:
 
-**Future**
+**Now**
 
-- A dataviz workshop and data hackathon, at the Digital Data in Service of Cultural Heritage conference, November 2021.
+- Hacking Digital Heritage, workshop and hackathon, part of ["Digital Data in Service of Cultural Heritage conference"](https://meremuuseum.ee/workshop2021/), 25 November 2021. Materials and pre-workshop instructions [here](https://andreskarjus.github.io/artofthefigure/heritage2021).
 
 **Recent past**
 
