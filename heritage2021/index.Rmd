@@ -151,6 +151,7 @@ If you were unable to complete one of the steps, please get in touch with me via
 <br>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdK7WFA9iQg76GrOLAaTi0gj0sN2g2K6ygk2Olr3S535c_HAA/viewform?embedded=true" width="620" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <br>
+(if the form doesn't load properly on this page, [click here](https://forms.gle/Txc6xhqz9ZZZtCxa6) to go to the full form)
 
 
 
