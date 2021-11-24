@@ -50,10 +50,12 @@ The installation process only takes a few clicks. But before you start, *please*
 First and foremost, you need R. If you **already have R installed, please still update** it to the most recent version, i.e. `4.1.2`. Updating is done simply by downloading the most recent installer and running it Depending on your operating system, go to:
 
 - [https://cran.r-project.org/bin/windows/base](https://cran.r-project.org/bin/windows/base){target="_blank"} - for Windows
-- [https://cran.r-project.org/bin/macosx](https://cran.r-project.org/bin/macosx){target="_blank"} - for Mac (the first link under "Latest release")
+- [https://cran.r-project.org/bin/macosx](https://cran.r-project.org/bin/macosx){target="_blank"} - for Mac. Pick either the first link under "Latest release" (Inter 64-bit) or the second one (arm64), depending on which CPU you Mac has. If you get an error while installing saying "R for Mac OS (ARM64) cannot be installed on this computer" or similar, then pick the other one.
 - [https://cran.r-project.org/bin/linux](https://cran.r-project.org/bin/linux){target="_blank"} - for Linux
 
-If you have older R and/or RStudio installed, close both applications. Download the new installer and install (with default options, just keep clicking Next). Run R once to check that it works (something like `Rgui.exe` or `R x64.exe` should appear as a shortcut in the start menu and/or desktop; on a Mac, look for the R application in Finder). It should look something like this, depending on your OS:
+
+
+If you have an older R and/or RStudio installed, close both applications. Download the new installer and install (with default options, just keep clicking Next). Run R once to check that it works (something like `Rgui.exe` or `R x64.exe` should appear as a shortcut in the start menu and/or desktop; on a Mac, look for the R application in Finder). It should look something like this, depending on your OS:
 
 ![on a Mac](../rmac.png){width=200px}  ![on Windows](../rwin.JPG){width=200px}
 
