@@ -23,19 +23,42 @@ h1.title {
 
 <img src="top.jpeg" alt = '' style = 'position:absolute; top:0; right:0; padding:0px; width=100%;overflow:hidden;z-index:-1'>
 
+<div style="text-align: right"> 
 <div style="text-align: justify"> 
 
-This here functions as a cover page and record of all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage - ranging from anything between short intros to programming, advanced dataviz and interactive graphs, data wrangling, and text/corpus linguistics. Besides standalone events, venues have included various summer schools, academic retreats, invited lectures, international conferences and hackathons, so far in 5 countries across Europe. All workshops are based on the [R](https://www.r-project.org/) language.
-<br>As a humanities scholar myself, I specialize in helping humanities and social science folks with little to no coding experience get started with programming, which I see as the ultimate transferable skill - infinitely useful both for doing science and for those planning to move to industry, and in general for saving time on repetitive tasks and making one's life easier. 
-<br>The focus of most of the workshops has been on data visualization. Why? Because (1) I believe data visualization is an integral component of doing science, and (2) it's more fun to learn programming when you can immedately see and interpret the results of your first coding attempts (and making pretty plots in R is very easy and intuitive, especially with packages like ggplot2).
 
-If you have signed up to one of the workshops, you should have received an email ahead of time with instructions. If you are here because you signed up but did not get an email, contact the organizers to make sure you are registered.
+:::: {style="display: grid; grid-template-columns: 3fr 1fr; grid-column-gap: 10px;"}
 
-<div style="text-align: right"> 
+::: {}
+
+This here functions as a cover page and record of all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage - ranging from anything between short intros to programming, advanced dataviz and interactive graphs, data wrangling, and text/corpus linguistics. Besides standalone events, venues have included summer schools, academic retreats, invited lectures, and international conferences and hackathons, so far in 5 countries across Europe. All workshops have been based on the [R](https://www.r-project.org/) language.
+
+As a humanities scholar myself, I specialize in helping humanities and social science scholars and others with little to no coding experience get started with **programming - the ultimate transferable skill**, the way I see it - infinitely useful both for doing science and for those planning to move to industry, and in general, for saving time on repetitive tasks and making one's life easier. My day job (which takes most of my time) is being a researcher, currently at the [CUDAN Lab](https://cudan.tlu.ee/), where I use the skills that I teach in my research on a daily basis.
+
+The focus of most of the workshops has been **data visualization**. Why? Because (1) I believe data visualization is an integral component of doing science, and (2) it's more fun to learn programming when you can immedately see and interpret the results of your first coding attempts (and making nice plots in R is very easy and intuitive, especially with packages like ggplot2).
+
+If you have **signed up** to one of the workshops, you should have received an email ahead of time with instructions; if you are here because you signed up but did not get an email, contact me or the organizing party to make sure you are registered. If you're here considering to **invite me to teach or consult** (online of offline), do feel free to get in touch - I'd be happy to discuss tailoring a course, workshop or hackathon to suit the data, needs and interests of yourself and your colleagues or students.
+
+
 -- Andres Karjus, PhD<br>
-[(personal website)](http://andreskarjus.github.io)<br>
-[(personal/science twitter)](https://twitter.com/AndresKarjus)<br>
-[(dataviz twitter)](https://twitter.com/artofdataviz)<br>
+| [email/business inquiries](mailto:datafigureEU@gmail.com) |
+[research website](http://andreskarjus.github.io) |
+[research twitter](https://twitter.com/AndresKarjus) |
+[dataviz twitter](https://twitter.com/artofdataviz) |
+
+:::
+
+::: {}
+```{r, echo=FALSE,out.width="100%", fig.show='hold',fig.align='right', out.extra='style=padding-bottom:15px;padding-top:5px;'}
+knitr::include_graphics(c("img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"))
+``` 
+
+:::
+::::
+
+
+
+<br>
 
 <div style="text-align: justify"> 
 
@@ -45,38 +68,46 @@ Workshops:
 
 - TBA
 
-**Recent past**
+**Recently**
 
 - Hacking Digital Heritage, workshop and hackathon, part of ["Digital Data in Service of Cultural Heritage conference"](https://meremuuseum.ee/workshop2021/), 25 November 2021. Materials and pre-workshop instructions [here](https://andreskarjus.github.io/artofthefigure/heritage2021).
 - Exploring and visualizing your data using R, a full-day workshop at the [Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences](https://www.nlib.ee/et/digital-humanities-tallinn-2021) (August 2021). Materials [here](https://andreskarjus.github.io/artofthefigure/baltic2021).
 - ~~Tartu Summer School of Semiotics, Semiotic horizons; August 2021~~ invited, but event corona-cancelled
-- Gave a dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021).
-- Gave two guest workshops on dataviz in the "Data science and digital humanities" (Andmeteadus ja digihumanitaaria) fall semester course at Tartu University.
+- Dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021).
+
+**2020**
+
+- Two guest workshops on dataviz in the "Data science and digital humanities" (Andmeteadus ja digihumanitaaria) fall semester 2020 course at Tartu University.
 - Visualising Your Data Using R. Workshop at the Digital Methods in Humanities and Social Sciences Summer School, August 24-27, 2020, University of Tartu. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/tartu2020)
 -  Visualising Your Data Using R. Online summer session workshop for the University of Edinburgh PPLS Writing Centre. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/ppls_summer2020)
 - ~~The Summer School of Linguistics, Czech Republic, August 2020~~ invited, but event corona-cancelled
 
-**More distant past**
+**2019**
 
 - Visualising Your Data Using R. Workshop for the Edinburgh CDCS. November 1, 2019 | [More info here](https://andreskarjus.github.io/artofthefigure/cdcs2019)
-- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, Wales; July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the dedicated website with links for downloading the software, and all the scripts.
+- Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the International Corpus Linguistics Conference 2019, Cardiff, Wales; July 2019 | [See here ](https://andreskarjus.github.io/artofthefigure/cl2019) for the pre-workshop setup instructions and downloads.
 - Attractive, Interactive, Ready for the Web: Visualizing Your Data Using R. Workshop at the Digital Humanities 2019 conference, Utrecht, The Netherlands; July 2019. See [here](https://andreskarjus.github.io/artofthefigure/dh2019) for the pre-workshop setup instructions and downloads.
 - Visualising Your Data Using R. Workshop at the SGSAH Summer School, Scotland; June 2019 
 - Data exploration and visualisation using R, at the Scots Syntax Atlas Data Hack
-- Jupyter Notebooks taster, SGSSS Summer School 2019; Scotland (co-teaching; not R; but included examples from the inter-language ``plotly`` package which has been used here a lot, see examples below)
-- Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, Scotland; May 2019 | [Installation instructions](https://andreskarjus.github.io/artofthefigure/preworkshop_firbush2.html)  | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_firbush2.Rmd">script</a>
-- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 | <a download href="https://raw.githubusercontent.com/andreskarjus/artofthefigure/master/artofthefigure_clis.Rmd">download the script</a> | [Installation instructions and preparatory tutorial](https://andreskarjus.github.io/artofthefigure/preworkshop_clis.html) 
+- Jupyter Notebooks taster, SGSSS Summer School 2019; Scotland (co-teaching)
+- Introduction to data exploration and visualization with R. Workshop at the PPLS LEL Spring Retreat to Firbush, Scotland; May 2019 
+- Data visualization with R for corpus linguists, a workshop for Corpus Linguistics in Scotland, 12 April 2019 
 - Centre for Language Evolution PhD Retreat, Scotland; January 2019
+
+**2018**
+
 - University of Edinburgh PPLS Writing Centre summer quantitative workshops series 2018
 - SGSSS Summer School, Scotland; 2018
 - University of Edinburgh PPLS LEL Spring Retreat 2018
-- University of Edinburgh PPLS Writing Centre short workshops for 2017-2018
+
+**More distant past**<br>
+- University of Edinburgh PPLS Writing Centre short intro to R workshops, 2017-2018
 - Teaching in earlier years: courses at the University of Tartu 2014-2016; a workshop at the Academia Salensis summer school, Lithuania 2015.
 
 <br>
 
 <br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). 
-<br>It's all open source: the entire Github repo with additional info can be found [here](https://github.com/andreskarjus/artofthefigure). 
+<br>It's all open source: the entire Github repo is [here](https://github.com/andreskarjus/artofthefigure). 
 
 <br>
 <br>
