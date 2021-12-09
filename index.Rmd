@@ -68,7 +68,7 @@ Workshops:
 
 - TBA
 
-**Recently**
+**2021**
 
 - Hacking Digital Heritage, workshop and hackathon, part of ["Digital Data in Service of Cultural Heritage conference"](https://meremuuseum.ee/workshop2021/), 25 November 2021. Materials and pre-workshop instructions [here](https://andreskarjus.github.io/artofthefigure/heritage2021).
 - Exploring and visualizing your data using R, a full-day workshop at the [Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences](https://www.nlib.ee/et/digital-humanities-tallinn-2021) (August 2021). Materials [here](https://andreskarjus.github.io/artofthefigure/baltic2021).
@@ -100,13 +100,14 @@ Workshops:
 - SGSSS Summer School, Scotland; 2018
 - University of Edinburgh PPLS LEL Spring Retreat 2018
 
-**More distant past**<br>
+**More distant past**
+
 - University of Edinburgh PPLS Writing Centre short intro to R workshops, 2017-2018
-- Teaching in earlier years: courses at the University of Tartu 2014-2016; a workshop at the Academia Salensis summer school, Lithuania 2015.
+- Teaching in earlier years: R and stats teaching at Edinburgh Uni Psychology 2017-2019; programming and NLP courses at the University of Tartu 2014-2016; an R workshop at the Academia Salensis summer school, Lithuania 2015.
 
 <br>
 
-<br>The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). 
+The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). 
 <br>It's all open source: the entire Github repo is [here](https://github.com/andreskarjus/artofthefigure). 
 
 <br>
