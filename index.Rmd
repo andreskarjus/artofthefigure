@@ -37,7 +37,7 @@ As a humanities scholar myself, I specialize in helping humanities and social sc
 
 The focus of most of the workshops has been **data visualization**. Why? Because (1) I believe data visualization is an integral component of doing science, and (2) it's more fun to learn programming when you can immedately see and interpret the results of your first coding attempts (and making nice plots in R is very easy and intuitive, especially with packages like ggplot2).
 
-If you have **signed up** to one of the workshops, you should have received an email ahead of time with instructions; if you are here because you signed up but did not get an email, contact me or the organizing party to make sure you are registered. If you're here considering to **invite me to teach or consult** (online of offline), do feel free to get in touch - I'd be happy to discuss tailoring a course, workshop or hackathon to suit the data, needs and interests of yourself and your colleagues or students.
+If you have **signed up** to one of the workshops, you should have received an email ahead of time with instructions; if you are here because you signed up but did not get an email, contact me or the organizing party to make sure you are registered. If you're here considering to **invite me to teach or consult** (online of offline), do feel free to get in touch to discuss options - if our interests overlap, then I'd be happy to tailor a course, workshop or hackathon to suit the learning needs, data and interests of you and your colleagues or students.
 
 
 -- Andres Karjus, PhD<br>
