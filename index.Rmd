@@ -2,11 +2,22 @@
 title: "aRt of the figure:<br>explore and visualize your data using R"
 output: 
   html_document:
-    toc: yes
+    toc: no
     theme: spacelab
+    includes:
+      in_header: blank.html
 ---
-<style type="text/css">
 
+```{r setup, include=FALSE}
+fileConn <- file("blank.html")
+writeLines('<base target="_blank">', fileConn)
+close(fileConn)
+```
+
+<style type="text/css">
+p {
+  background-color: white;
+}
 h1.title {
   font-size: 30px;
   margin-top: 90px;
@@ -16,8 +27,6 @@ h1.title {
   padding-left:5px;
   z-index: 100;
 }
-
-
 </style>
 
 
@@ -31,13 +40,13 @@ h1.title {
 
 ::: {}
 
-This here functions as a cover page and record of all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage - ranging from anything between short intros to programming, advanced dataviz and interactive graphs, data wrangling, and text/corpus linguistics. Besides standalone events, venues have included summer schools, academic retreats, invited lectures, and international conferences and hackathons, so far in 5 countries across Europe. All workshops have been based on the [R](https://www.r-project.org/) language.
+This here functions as a cover page and record of all the *aRt of the Figure* workshops. Each iteration has had a slightly different structure, length and topic coverage - ranging from anything between short intros to programming, advanced dataviz and interactive graphs, data wrangling, and text/corpus linguistics. Besides standalone events, venues have included summer schools, academic retreats, invited lectures, and international conferences and hackathons, so far in 5 countries across Europe. The workshops have been primarily based on the [R](https://www.r-project.org/) language.
 
 As a humanities scholar myself, I specialize in helping humanities and social science scholars and others with little to no coding experience get started with **programming - the ultimate transferable skill**, the way I see it - infinitely useful both for doing science and for those planning to move to industry, and in general, for saving time on repetitive tasks and making one's life easier. My day job (which takes most of my time) is being a researcher, currently at the [CUDAN Lab](https://cudan.tlu.ee/), where I use the skills that I teach in my research on a daily basis.
 
-The focus of most of the workshops has been **data visualization**. Why? Because (1) I believe data visualization is an integral component of doing science, and (2) it's more fun to learn programming when you can immedately see and interpret the results of your first coding attempts (and making nice plots in R is very easy and intuitive, especially with packages like ggplot2).
+The focus of most of the workshops has been **data visualization**. Why? Because (1) I believe data visualization is an integral component of doing science, and (2) it's more fun to learn programming when you can immedately see and interpret the results of your first coding attempts (and making nice plots in R is very easy and intuitive, especially with packages like ggplot2; see [here](https://www.r-graph-gallery.com/) for inspiration).
 
-If you have **signed up** to one of the workshops, you should have received an email ahead of time with instructions; if you are here because you signed up but did not get an email, contact me or the organizing party to make sure you are registered. If you're here considering to **invite me to teach or consult** (online of offline), do feel free to get in touch to discuss options - if our interests overlap, then I'd be happy to tailor a course, workshop or hackathon to suit the learning needs, data and interests of you and your colleagues or students.
+If you have **signed up** to one of the workshops, you should have received an email ahead of time with instructions; if you are here because you signed up but did not get an email, contact me or the organizing party to make sure you are registered. All materials are also listed below. If you're thinking of **inviting me to teach or consult** (online of offline), see the details below and feel free to get in touch to discuss options.
 
 
 -- Andres Karjus, PhD<br>
@@ -60,13 +69,15 @@ knitr::include_graphics(c("img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5
 
 <br>
 
-<div style="text-align: justify"> 
 
-Workshops:
+
+### Workshops and materials
+
+<div style="text-align: justify"> 
 
 **Future**
 
-- TBA
+- Baltic Summer School of Digital Humanities 2022, Riga, Latvia. More details closer to time.
 
 **2021**
 
@@ -99,18 +110,21 @@ Workshops:
 - University of Edinburgh PPLS Writing Centre summer quantitative workshops series 2018
 - SGSSS Summer School, Scotland; 2018
 - University of Edinburgh PPLS LEL Spring Retreat 2018
-
-**More distant past**
-
 - University of Edinburgh PPLS Writing Centre short intro to R workshops, 2017-2018
-- Teaching in earlier years: R and stats teaching at Edinburgh Uni Psychology 2017-2019; programming and NLP courses at the University of Tartu 2014-2016; an R workshop at the Academia Salensis summer school, Lithuania 2015.
+
+**Other**
+
+- Teaching in earlier years: R and stats teaching/tutoring at Edinburgh Uni Psychology 2017-2019; programming and NLP courses at the University of Tartu 2014-2016
+- R workshop at the Academia Salensis summer school, Lithuania 2015.
+- The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). And it's all open source: the entire Github repo is [here](https://github.com/andreskarjus/artofthefigure). 
 
 <br>
 
-The short intro motivational "why-use-R" slides are [here](https://andreskarjus.github.io/artofthefigure/intro). 
-<br>It's all open source: the entire Github repo is [here](https://github.com/andreskarjus/artofthefigure). 
+### Ordering a custom workshop
 
-<br>
+If our interests overlap, then I'd be happy to tailor a course, workshop or hackathon to suit the learning needs, data and interests of you and your colleagues or students. I occasionally also do data science related consulting. There are a few different options to cover expenses related to the preparation, delivery, and travel in the case of on-site events. If your organization has internal funding for external/guest lecturers and workshops, then I can simply issue a bill for the service (through my PLC consultancy, Datafigure OÜ). If you are an educational institution, then this could be potentially funded through a joint application to Erasmus+. Past workshops have also been funded by combinations of similar programmes and university travel grants. Feel free to get in touch to discuss options.
+
+
 <br>
 
 ```{r, echo=F, fig.width=10, out.width="100%", fig.height=0.7, message=F, warning=F}
