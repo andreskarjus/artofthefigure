@@ -78,13 +78,14 @@ knitr::include_graphics(c("img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5
 **Future**
 
 - Baltic Summer School of Digital Humanities 2022, Riga, Latvia. More details closer to time.
+- Summer School of Linguistics 2022, České Budějovice, Czech Republic. More details closer to time.
 
 **2021**
 
 - Hacking Digital Heritage, workshop and hackathon, part of ["Digital Data in Service of Cultural Heritage conference"](https://meremuuseum.ee/workshop2021/), 25 November 2021. Materials and pre-workshop instructions [here](https://andreskarjus.github.io/artofthefigure/heritage2021).
 - Exploring and visualizing your data using R, a full-day workshop at the [Baltic Summer School of Digital Humanities 2021: Digital Methods in Humanities and Social Sciences](https://www.nlib.ee/et/digital-humanities-tallinn-2021) (August 2021). Materials [here](https://andreskarjus.github.io/artofthefigure/baltic2021).
 - ~~Tartu Summer School of Semiotics, Semiotic horizons; August 2021~~ invited, but event corona-cancelled
-- Dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021).
+- Dataviz and text analytics lecture and workshop in the Cultural Data Analytics I course at Tallinn University (April 2021, 2022).
 
 **2020**
 
