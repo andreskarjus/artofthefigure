@@ -1,4 +1,4 @@
-Year	Authors	Title	Subtitle	ISBN number	Place of publishing	Publisher	Type of document (genre)	Language	Number of pages
+Year	Authors	Title	Subtitle	ISBN	Placeofpublishing	Publisher	Typeofdocument	Language	Numberofpages
 2017	Baeza, Amanda	Brume		9789934518492	Rīga	Grafiskie stāsti	Komiksi	Angļu	112
 2017	Booger, Olive	Nul		9789934518515	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
 2017	Gheluwe, Mathilde Van	Spectacular Vermacular		9789934518539	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
