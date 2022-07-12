@@ -1,0 +1,1121 @@
+Year	Authors	Title	Subtitle	ISBN number	Place of publishing	Publisher	Type of document (genre)	Language	Number of pages
+2017	Baeza, Amanda	Brume		9789934518492	Rīga	Grafiskie stāsti	Komiksi	Angļu	112
+2017	Booger, Olive	Nul		9789934518515	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Gheluwe, Mathilde Van	Spectacular Vermacular		9789934518539	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Lima, Daniel	Sutrama		9789934518430	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Lacko, Martin	Call of Cthulhu		9789934518522	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Pallasvuo, Jaakko	Mirror stage		9789934518560	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Serrao, Catia 	Acquisition		9789934518577	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Kandevica, Līva 	Yellow		9789934518584	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Samplerman	Bad Ball		9789934518591	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Ellsworth, Theo	An exorcism		9789934518546	Rīga	Grafiskie stāsti	Komiksi	Angļu	128
+2017		My little Pony	draudzības spēks; komiksu albums	9789934164033	Rīga	EGMONT LATVIJA	Komiksi	Latviešu	96
+2017	GG	Valley		9789934518621	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Magán, Andrés	A Friend		9789934518638	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Androutsopoulos, Evangelos	Eviction		9789934518645	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Kyle, Patrick	Night Door		9789934518652	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Zlemeša, Zane	Fenix		9789934518669	Rīga	Grafiskie stāsti	Komiksi	Angļu	64
+2017	Samplerman	Fearless Colors		9789934518676	Rīga	Grafiskie stāsti	Komiksi	Angļu	96
+2017	Bulling, Paula; Hoffmann, Nina	Share The Love		9789934518683	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Van Sciver, Noah	His Last Comic		9789934518690	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Niewiadomski, Tomasz	Jonah 2017		9789934518706	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Koch, Aidan	Daughter		9789934518713	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2017	Lohrengel, Hanuka	Pilsētas puķes		9789934149450	Rīga	Johanna Lohrengel	Komiksi	Latviešu	110
+2017		Zina #3	Hungarian women making comics		Rīga	Popper	Komiksi	Angļu	44
+2017	Osho	Tavas dzīves krāsas	meditatīva & transformatīva krāsojamā grāmata	9789934502286	Rīga	SĒTAVA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	88
+2017		25 lietas, kuras ir jāpaveic šajā vasarā	ļauj savai dvēselei lidot		Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	54
+2017		Lūk no kā ir jāatvadās pašattīstībai un personīgai izaugsmei	24 burvju mandalas krāsošanai		Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	52
+2017		Ziedu maģija dārzos un mākslā	1000 ziedlapiņu, ziedu un lapiņu uzlīmes pieaugušajiem, kā arī 30 krāšņi ilustrēti foni	9789934064692	Rīga	Apgāds Zvaigzne ABC	Mākslas albumi	Latviešu	50
+2017		Daugavpils. Cilvēki. Daba			Daugavpils	Tautas fotostudija "Ezerzeme-F"	Mākslas albumi	Latviešu	70
+2017		Ancient relics	[13]		Rīga	Popper	Mākslas albumi	Angļu	184
+2017		Kuldīga baltā kleitā		9789934192357	Kuldīgas novads	Viduskurzemes tūrisma apvienība	Mākslas albumi	Latviešu	128
+2017		Šodiena skatās rītdienā		9789934192258	Daugavpils	Latgales vienotība	Mākslas albumi	Latviešu; Krievu	188
+2017		Salaspils sporta skola	no treniņiem līdz medaļām		Salaspils novads	Salaspils Sporta skola	Mākslas albumi	Latviešu	104
+2017		mantojums		9789934193903	Cēsu novads	Art Cēsis	Mākslas albumi	Latviešu; Angļu	84
+2017		Blocker	[14]		Rīga	Popper	Mākslas albumi	Angļu	184
+2017		Liena Bondare, Vladislavs Grišins, Paulis Liepa, Kate Seržāne, Māris Subačs, Dārta Stafecka	graphics	9789934535428	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu	44
+2017		Sigita Daugule, Jānis Liepiņš	vienā telpā	9789934535413	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu	44
+2017		Forms of silence and emptiness		9789934535468	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	64
+2017	Sanri	Komunikācija ir atslēga	izstāde Daugavpils Marka Rotko centrā no 21.04.2017. līdz 02.07.2017.; izstādes katalogs	9789934535475	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	20
+2017	Arne, Kerija	Par laimes esences recepti			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	16
+2017	Bondare, Liena	Another playground			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	32
+2017	Pavilona, Rasa	Kā izdzīvot			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	12
+2017	Grīnberga, Elīza	Kur Tu noslēpsies?	Enoha E. Vauganta disociatīvās ietekmes diagnostikas tests		Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	32
+2017	Salmanis, Krišs	Roboti nejūt			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	24
+2017	Žagare, Ērika	Stereostils			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	16
+2017	Groševs, Kaspars	Aaaah			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	24
+2017	Pavlovskis, Oskars	No			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	28
+2017	Zlemeša, Zane	New message			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	16
+2017	Upaciers, Klāvs	Zīmējums			Rīga	Popper	Mākslas izstāžu katalogi	Krievu	16
+2017	Kraule, Ieva	Recipe book for the discovering alcoholic			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	24
+2017	Spunde, Līga	Kiberbomzis I			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	24
+2017	Baiba, Baiba	Baiba			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	28
+2017	Grace, Aksel	A guide to finding a husband			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	36
+2017	Lazy Bra	Wank a doodle			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	28
+2017	Čemme, Katrīna	Between shapes			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	26
+2017	Veilands, Oskars	Read less			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	28
+2017	Ratniks, Mārtiņš	Printforms I - XVIII			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	20
+2017		4 in 1	zīns 4 nodaļās		Rīga	Popper	Mākslas izstāžu katalogi	Latviešu	72
+2017	Nagliņa, Ieva	Discarded		9789934535451	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	16
+2017	Tzara, Tristan	Dada manifesto			Rīga	Popper	Mākslas izstāžu katalogi	Angļu	64
+2017		Maija Tabaka un Rietumberlīne und West-Berlin		9789934819742	Rīga	Galerija 21	Mākslas izstāžu katalogi	Latviešu	240
+2017		Mark Rothko 2016	starptautiskais simpozijs	9789934535406	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2017		Likteņdārzs	labdarības izsole Likteņdārza atbalstam; klasiskās mākslas galerija "Antonija", 2016. gada 22. maijs - 2. jūnijs		Rīga	KOKNESES FONDS	Mākslas izstāžu katalogi	Latviešu	40
+2017	Zvejsalnieks, Osvalds	Veltījums pilsētai		9789934149498	Rēzekne	Latgalieši	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	48
+2017		[Latvijas Mākslas akadēmijas Dizaina diplomandu dienas]	2016		Rīga	Latvijas Mākslas akadēmija	Mākslas izstāžu katalogi	Latviešu; Angļu	37
+2017		Latvijas Mākslas akadēmijas Dizaina diplomandu dienas	DDD2017		Rīga	Latvijas Mākslas akadēmija	Mākslas izstāžu katalogi	Latviešu; Angļu	43
+2017	Tillbergs, Oļegs; Filipovičs, Jānis	Divdabis			Rīga	Latvijas Laikmetīgās mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	18
+2017		Baiba Priedīte. Akvareļu sienas (izstādes katalogs)		9789934535499	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	36
+2017		Ināra Petruseviča. Spalva platmalei (izstādes katalogs)		9789934535505	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	36
+2017		Gunārs Krollis. Vienotais laika tarifs (izstādes katalogs)		9789934535512	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	56
+2017	Borgs, Jānis; Groševs, Kaspars	Divdabis			Rīga	Latvijas Laikmetīgās mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	30
+2017	Ieviņš, Atis; Meldere, Inga	Divdabis			Rīga	Latvijas Laikmetīgās mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	18
+2017	Pilkingtons, Maiks	Going Solo	emociju un sajūtu ceļojums; 17. septembris - 23. oktobris, INSIGNIA mākslas galerija koncertzālē "Cēsis"		Cēsu novads	Vidzemes koncertzāle	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2017		Beāte Gjersvolda. Ainava un spēks #3	izstādes katalogs	9789934535529	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2017		Una Gura. Pumpunella	izstādes katalogs	9789934535536	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	20
+2017		Silvija Šmidkena. Vēl arvien...	izstādes katalogs	9789934535543	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2017		I starptautiskais glezniecības plenērs "Valdis Bušs 2017"	plenēra katalogs	9789934535567	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2017		Young Culture			Rīga	Latvijas Laikmetīgās mākslas centrs	Mākslas izstāžu katalogi	Latviešu	28
+2017		Disney princeses	krāso un rotaļājies!	9789934163456	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Elena no Avaloras	krāsojamā grāmata ar uzlīmēm	9789934163517	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		My Little Pony	darbiņu grāmata ar uzlīmēm	9789934163531	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Disney uzdevumu grāmata ar uzlīmēm		9789934163562	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Deisney princeses	galma uzdevumi ar uzlīmēm	9789934163579	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Maša un Lācis	krāsaina diena ar uzlīmēm	9789934163593	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Vinnijs Pūks	sirsnīgās krāsas ar uzlīmēm	9789934163500	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Ledus sirds	rodi mieru un atraisi iztēli!	9789934163548	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	30
+2017		My Little Pony. Equestria girls	rodi mieru un atraisi iztēli!	9789934163555	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Ledus sirds	krāsu virpulī ar uzlīmēm	9789934163586	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Laukos	grāmata ar lodziņiem	9789934065033	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Mājās	grāmata ar lodziņiem	9789934065026	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Es esmu mazs kucēns		9789934163333	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Es esmu mazs kaķēns		9789934163340	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Maša un Lācis	krāso ar ūdeni!	9789934163715	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Littlest PetShop	krāsojam un risinām; ar uzlīmēm	9789934163777	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Vāģi	krāso ar ūdeni!	9789934163722	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Pikiene, Irma	Mazā mārīte pie ūdeņiem		9789934068621	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Pikiene, Irma	Mazā mārīte pļavā		9789934068591	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Pikiene, Irma	Mazā mārīte dārzā		9789934068607	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Pikiene, Irma	Mazā mārīte mežā		9789934068614	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Pūcītes gudrību somiņa	4 gadi	9789934064890	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Zaķēna gudrību somiņa	4/5 gadi	9789934064913	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Cālēna gudrību somiņa	4 gadi	9789934064906	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Pandas gudrību somiņa	4 gadi	9789934064883	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Smurfu Papa	darbošanās grāmata	9789934065484	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Smurfete	darbošanās grāmata	9789934065477	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Vāģi	krāsu darbi	9789934163906	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		My Little Pony	krāso koši!; ar uzlīmēm	9789934163807	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Ledus sirds. Ziemeļblāzmas burvība	Arendelas stāsti; drosmīgais trollis	9789934163685	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Troļļi	līmē līksmi!	9789934163913	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Brīnumu Zemes stāsti ar Princešu uzlīmēm	krāsojam draudzīgi!	9789934163821	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Barbie videospēles varone	uzdevumu grāmata	9789934163791	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Vāģi	krāsojam aši!	9789934163760	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Maša un Lācis	izkrāso stāstus!	9789934163784	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Disney princeses	košās krāsās	9789934163937	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Jautrie dārza iemītnieki	izkrāso un saskaiti!	9789934200649	Rīga	J.L.V.	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Divpadsmit mēneši	izkrāso pats!	9789934200656	Rīga	J.L.V.	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Divpadsmit mēneši	izkrāso pats!		Rīga	JUMAVA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Disney Vāģi	lielā pužļu grāmata	9789934163470	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		My Little Pony	lielā pužļu grāmata	9789934163487	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Maša un Lācis	lielā pužļu grāmata	9789934163494	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Disney Ledus sirds	lielā pužļu grāmata	9789934163463	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Disney Elena no Avaloras	uzdevumu grāmata	9789934163524	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017	Suesa, Anne 	Gadalaiki	lielā bilžu grāmata	9789934539169	Rīga	BaibaBooks	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Mana pirmā ābecīte		9789934068560	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	34
+2017		Mana pirmā matemātika		9789934068553	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Ņau!		9789934066993	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Vau!		9789934067006	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Troļļi	vienmēr ar smaidu!; krāsojamā grāmata ar uzlīmēm	9789934164057	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Laukos	glaudāmgrāmatiņa	9789934065514	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Zoodārzā	glaudāmgrāmatiņa	9789934065491	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Mazulīši	glaudāmgrāmatiņa	9789934065507	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Pūkainīši	glaudāmgrāmatiņa	9789934065521	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017	Putāne, Dace	Burti dārzā	jautra bilžu grāmatiņa ar dzejoļiem un uzdevumiem par dabu un burtiem	9789934192036	Rīga	Rīgas Interešu izglītības metodiskais centrs	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2017		Satiksme	uzdevumi un uzlīmes	9789934067648	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Laukos	uzdevumi un uzlīmes	9789934067655	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017	Sudare, Inese	Praktiskie darbi (uzdevumi)	bērniem no 4 gadiem	9789934192562	Rīga	Inese Sudare	Praktiskā, attīstošā literatūra bērniem	Latviešu	60
+2017	Ridels, Kriss	366 radošas dienas	gadagrāmata	9789934062728	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	378
+2017		Vāģi 3	krāsojamā grāmata	9789934163883	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Vāģi 3	uzdevumu grāmata ar uzlīmēm	9789934163876	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Maša un Lācis	aizraujoši uzdevumi ar uzlīmēm	9789934164200	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Maša un Lācis	gadalaiki krāsās; ar uzlīmēm	9789934164002	Rīga	Egmont Latvija	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Disney Minnie	Krāsojamā grāmata ar uzlīmēm	9789934163975	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Bitīte Maija	krāsojam!	9789934164248	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Barbie	krāso un risini!	9789934164231	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Disney Ledus sirds. Ziemeļblāzmas burvība	uzdevumu grāmata	9789934164163	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Sofija Pirmā	princeses krāso!; ar uzlīmēm	9789934163982	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Disney Princeses	izkrāso stāstus!; ar uzlīmēm	9789934164187	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Auto un moto	krāsojamā grāmata	9789934164347	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Troļļi	krāsojam mandalas!	9789934164354	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Ašais vilcieniņš		9789934163739	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Darbīgā ugunsdzēsēju mašīnīte		9789934163746	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		My Litlle Pony	uzdevumu bloknots; Krāso. Spēlējies. Risini	9789934164156	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	96
+2017		Mana košā un priecīgā pārsteigumu grāmata	48 zīmējumi krāsošanai	9789934163708	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2017		Mans Zoodārzs	izkrāso pats!	9789934210068	Rīga	J.L.V.	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Kukainīt, mans kukainīt!	krāso un pēti!	9789934200588	Rīga	JUMAVA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Vāģi 3	Gāzi grīdā!	9789934163890	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2017		Ko-ko?		9789934070334	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2017		Mū! Mmū-ū-ū!		9789934070341	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2017		Vau, vau!		9789934070358	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2017		Ņau, ņau!		9789934070365	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2017		Automobiļi un motocikli	uzlīmes	9789934068126	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Darba mašīnas	uzlīmes	9789934068102	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Smagie auto	uzlīmes	9789934068119	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Traktori	uzlīmes	9789934068096	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Paw patrol	krāsojam!; ar uzlīmēm	9789934164217	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Paw patrol	uzdevumi; ar uzlīmēm	9789934164224	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Nejaukais Es 3	uzlīmju grāmata	9789934163968	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Nejaukais Es 3	rosīgā grāmata	9789934163951	Rīga	Egmont Latvija	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Auto ABC		9789934164415	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		My little Pony	raksti ar ponijiem!	9789934163647	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		My little Pony	skaiti ar ponijiem!	9789934163630	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017	Casalis, Anna	Skani, mana grāmatiņa!	mana pasaule	9789934067662	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017	Makkenzija, Karina 	Garais ceļojums		9789934870408	Rīga	Latvijas Baptistu draudžu savienības Svētdienskolu apvienība	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Makkenzija, Karina 	Skaistais dārzs		9789934870415	Rīga	Latvijas Baptistu draudžu savienības Svētdienskolu apvienība	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Makkenzija, Karina 	Brīnumainā laiva		9789934870422	Rīga	Latvijas Baptistu draudžu savienības Svētdienskolu apvienība	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Lielās pēdas dēls	uzlīmes; darbošanās grāmata 2	9789934070556	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Lielās pēdas dēls	uzlīmes; darbošanās grāmata 1	9789934070549	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Marvel Spider-Man	izaicinoši uzdevumi	9789934164316	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Marvel Spider-Man	uzlīmju grāmata	9789934164309	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Darbarīki	krāso, spēlējies, mācies	9789934067983	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Virtuvē	krāso, spēlējies, mācies	9789934067990	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Alfabēts		9789934069277	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Lāčuks		9789934163753	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	
+2017		Līmē un krāso ar bebru	palīgs krāsu un formu apguvē	9789934164101	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Līmē un krāso ar zaķi	palīgs krāsu un formu apguvē	9789934164125	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Līmē un krāso ar žirafi	palīgs krāsu un formu apguvē	9789934164118	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Līmē un krāso ar lapsu	palīgs krāsu un formu apguvē	9789934164132	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Manas prāta spēles		9789934164088	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Mana atņemšana		9789934164071	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Mana saskaitīšana		9789934164064	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Mani loģikas uzdevumi		9789934164095	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Sporta auto	līmē uzlīmes un izkrāso!	9789934071027	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Motocikli	līmē uzlīmes un izkrāso!	9789934071010	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Kravas auto	līmē uzlīmes un izkrāso!	9789934070990	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Apvidus auto	līmē uzlīmes un izkrāso!	9789934071003	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Mīļie draugi	uzdevumi un uzlīmes	9789934070730	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Pirmie 200 vārdi latviešu - angļu valodā	uzdevumi un uzlīmes	9789934070723	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017	Ross, Kenijs	Auto grāmata	skanošā grāmata	9789934067242	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Mežā	čibu-čabu grāmatiņa	9789934068546	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Dārzā	čibu-čabu grāmatiņa	9789934068539	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Mana lauku sētas pārsteigumu grāmata	48 zīmējumi krāsošanai	9789934163692	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2017	Gulbe, Evija; Lošina, Linda	Koko un Riko darbošanās grāmata	1	9789934069567	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Man patīk uzlīmes!	krāsas; vairāk nekā 70 uzlīmes	9789934070785	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Man patīk uzlīmes!	jautrās spēles; vairāk nekā 70 uzlīmes	9789934070761	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Mācies zīmēt!	lauku sētas iemītnieki	9789934070747	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Mācies zīmēt!	zoodārza iemītnieki	9789934070754	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Man patīk uzlīmes!	dzīvnieciņi; vairāk nekā 70 uzlīmes	9789934070792	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Man patīk uzlīmes!	uz laukiem!; vairāk nekā 120 uzlīmes	9789934070778	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Dari ar prieku!	Ziemassvētki; 175 uzlīmes un daudz aizraujošu uzdevumu	9789934070808	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017	Gulbe, Evija; Lošina, Linda	Koko un Riko	lasi un meklē atšķirības!	9789934072666	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	31
+2017		Koko un Riko jaunie piedzīvojumi	uzdevumu grāmatiņa	9789934071577	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	31
+2017		Mājas mīluļi	kustīgās bildītes	9789934069598	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Mājās	kustīgās bildītes	9789934069604	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Mazulis	kustīgās bildītes	9789934069611	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017	Milaša, Irina	Skaitļi līdz 5		9789984463650	Rīga	Izdevniecība RaKa	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2017	Milaša, Irina	Skaitļi līdz 10		9789984463681	Rīga	Izdevniecība RaKa	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2017		Lauku sētā	ar lieliem slēptiem attēliem	9789984318318	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		My Little Pony	1000 uzlīmju	9789934164392	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2017		My Little Ponny	krāsojamā grāmata	9789934164286	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		My Little Pony	uzdevumu grāmata	9789934164293	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Minnie	zīmē un līmē	9789934164422	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017	Kavamura, Jajo	Mašīnas	gaisā, ūdenī, uz zemes	9789934069840	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2017	Kavamura, Jajo	Dzīvnieki	gaisā, ūdenī, uz zemes	9789934069857	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2017		Iepazīsti ciparus un mācies skaitīt!		9789934210051	Rīga	J.L.V.	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Grāmata-puzle mazuļiem	kas dzīvo mežā?	9789934070716	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Mazuļa pirmā grāmata - autobusiņš		9789934070839	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Troļļi	laiks priekam!	9789934164521	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Iepazīsti Siguldu! Siguldai 810	krāsojamā grāmatiņa		Siguldas novads	Siguldas novada dome	Praktiskā, attīstošā literatūra bērniem	Latviešu	25
+2017		Brīnumpasaules būtnes	atbrīvo krāsas no tumsas!; attēli no taviem sapņiem - mierīgam prātam	9789934153464	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Vāģi 3	īsts ātrums; vāģu darbnīca	9789934164170	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Klik klak	es mācos krāsas	9789934164330	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Klik klak	es mācos ciparus	9789934164323	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Ķepu patruļas uzdevumi		9789934164620	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Kvā! Kvā!	izkrāso!	9789934164385	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Pēk! Pēk!	izkrāso!	9789934164378	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Ugunsdzēsējs steidz palīgā		9789934066986	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2017		Krāsu ballīte, [Krokodils]		9789934164361	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Pūķis]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Papagailis]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Zirgs]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Delfīns]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Taurenis]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Tīģeris]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Nīlzirgs]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Suns]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Krāsu ballīte, [Kāmis]			Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Zivju dzīve Burtnieka ezerā!	krāso un iepazīsti	9789934193668	Burtnieku novads	Burtnieku novada pašvaldība	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2017	Andersone, Gita; Ikale, Iveta; Putre, Indra	Skanīgā ābece	bildes, burti, vārdi, teikumi	9789934061561	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2017		Aukstās svinības	krāsojamā grāmata; sveicam Annu!	9789934164705	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Jaukie dzīvnieciņi	krāsojamā grāmata	9789934164637	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Paw Patrol	krāso kopā ar ķepu patruļu	9789934164644	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		My Little Pony	Varavīksnes košumā; uzdevumu grāmata	9789934164699	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Vāģi	krāso un brauc!	9789934164682	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Ašais vilcieniņš		9789934069826	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Dziedošā ferma		9789934069833	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2017		Krāsainie pirkstiņdarbi	dārzs	9789934070846	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2017	Vītola, Velga	Latvijas dzīvnieku mazuļi		9789934066818	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2017	Vītola, Velga	Latvijas dzīvnieki ar mazuļiem		9789934066801	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2017	Vītola, Velga	Latvijas putni		9789934066825	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2017		Īpašie auto	krāso, spēlējies, mācies	9789934070983	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017		Uzdevumi, spēles un 2002 uzlīmes		9789934066450	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	56
+2017		Skani, mana grāmatiņa!	lauku sēta	9789934070709	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Koko noslēpums	uzdevumu grāmata	9789934164514	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Koko noslēpums	krāsojamā grāmata	9789934164507	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2017		Sapos savus mīluļus!	uzlīmju prieki	9789934164460	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Mani pirmie vārdi		9789934164453	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Tev ir pienākušas 1243 ziņas	Dzīve pirms interneta. Pēdējā paaudze; ceļvedis vidusskolēniem		Rīga	Latvijas Laikmetīgās mākslas centrs	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2017	Rezenberga, Maija	Kas dzīvo Umbrijas mežā? = Vem bor i Umbra skog? = Chi vive nella foresta Umbra?			Rīga	Maija Rezenberga	Praktiskā, attīstošā literatūra bērniem	Latviešu; Zviedru; Itāļu	28
+2017		Krāsojamā grāmata	lasi, krāso un zini, kad jāzvana 112	9789934146015	Limbažu novads	Limbažu novada pašvaldība	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2017		Bembijs	pužļu grāmata	9789934070945	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Sarkangalvīte	pužļu grāmata	9789934070952	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Sniegbaltīte	pužļu grāmata	9789934070976	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Pelnrušķīte	pužļu grāmata	9789934070969	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017	Vaibravs, Īans; Šeflers, Aksels	Ļoti kutelīga grāmata	ar pārsteigumiem	9789934070907	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2017		Vāģi	zīmē punktu pa punktam	9789934164606	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Ledus sirds	mana krāsojamā grāmata ar uzlīmēm	9789934164613	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Disney Junior	mana krāsojamā grāmata ar uzlīmēm	9789934164651	Rīga	Egmont Latvija	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2017		Rūtiņu pa rūtiņai	krāso kopā ar sunīti!	9789934164712	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Rūtiņu pa rūtiņai	krāso kopā ar lācīti!	9789934164729	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Paw Patrol	Ķepu patruļas krāsas; ar uzlīmēm	9789934164675	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2017		Princeses	Pasaku uzdevumi; ar uzlīmēm	9789934164668	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2017		Izkrāso Latviju		9789934121845	Rīga	Apgāds Mansards	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018	Lielpetere, Agate	As Good as Aladdin			Rīga	Popper	Komiksi	Angļu	32
+2018		Dzīve izskaidrota			Rīga	Popper	Komiksi	Latviešu; Angļu	90
+2018	Konste, Anete; Pētersons, Reinis	The Life of I*	*an introvert Latvian  writer	9789934836046	Ventspils	Starptautiskā Rakstnieku un tulkotāju māja	Komiksi	Angļu	32
+2018	Bernere, Zuzanne Rotraute	Pasaku komikss		9789984236933	Rīga	JĀŅA ROZES apgāds	Komiksi	Latviešu	56
+2018	Díaz, Abraham	Nausea		9789934518744	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Franz, Pedro	Collection		9789934518751	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Lobo, Francisco Sousa	Master Song		9789934518768	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Muradov, Roman	Resident Lover		9789934518775	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Kvam, Erlend Peder	Weekend		9789934518973	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Pita, Mariana	Day Tour		9789934518997	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Krause, Marlene	Maud		9789934581007	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Vītiņa, Lote Vilma	Worms, Clouds, Everything		9789934581014	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2018	Ganmu	Doghair		9789934581021	Rīga	Grafiskie stāsti	Komiksi	Angļu	28
+2018	Fenta	Beyond A Cure		9789934581038	Rīga	Grafiskie stāsti	Komiksi	Angļu	28
+2018	Wang, Inkee	Special K		9789934581045	Rīga	Grafiskie stāsti	Komiksi	Angļu	28
+2018	Cong, Yan	UNIQLO Superman		9789934581052	Rīga	Grafiskie stāsti	Komiksi	Angļu	28
+2018	Dāvidsone, Inese	Hennas maģiskie mākslas zīmējumi	krāso un atraisi savu talantu	9789934864018	Siguldas novads	Henna Guru	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	44
+2018	Dāvidsone, Inese	Hennas mākslas Kamasūtra	krāso un baudi	9789934864001	Siguldas novads	Henna Guru	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	44
+2018		Maģiskās mandalas	krāsojamā grāmata pieaugušajiem	9789934076596	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	64
+2018		Noslēpumainā daba	krāsojamā grāmata pieaugušajiem	9789934076602	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	64
+2018		Ziedi krāsošanai un iedvesmai	40 lieliski botānisko ilustrāciju paraugi	9789934077524	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	72
+2018		Pasmaidi pasaulei	krāsojamā grāmata pieaugušajiem	9789934079313	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	16
+2018		Tauriņa ēna	krāsojamā grāmata pieaugušajiem	9789934079337	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	16
+2018		Saules mandalas	krāsojamā grāmata pieaugušajiem	9789934079481	Rīga	Apgāds Zvaigzne ABC	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	16
+2018		Porcelāns	krāsojamā grāmata maziem un lieliem	9789934566103	Rīga	Rīgas pašvaldības kultūras iestāžu apvienība	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	60
+2018	Eksta, Vika	Dievs. Daba. Darbs		9789934196645	Rīga	Viktorija Eksta	Mākslas albumi	Latviešu; Angļu	72
+2018		Andris Zēgners	Gaismā	9789934535482	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2018		Mark Rothko 2017	starptautiskais glezniecības simpozijs; simpozija katalogs	9789934535574	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2018		Jons Arne Mogstads. Iespējas skaistums	izstādes katalogs	9789934535598	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	36
+2018		Daudz labāk!			Rīga	Popper	Mākslas izstāžu katalogi	Latviešu; Angļu	96
+2018		[54.] mākslas darbu izsole 2018. gada 3. martā			Rīga	Klasiskās Mākslas Galerija	Mākslas izstāžu katalogi	Latviešu	8
+2018		VI starptautiskais Latgales grafikas simpozijs	simpozija katalogs	9789934535635	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	32
+2018		Aleksandra Šļahova	ūdens un krāsas (izstādes katalogs)	9789934535642	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	32
+2018		100 Latvijas mākslā (izstādes katalogs)		9789934535659	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	116
+2018		Latvijas laikmetīgā keramika (izstādes katalogs)		9789934535666	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	36
+2018		Estonian Contemporary Ceramics (izstādes katalogs)		9789934535673	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Angļu; Latviešu; Igauņu	32
+2018		II Latvijas starptautiskā keramikas biennāle (izstādes katalogs)	Martinsona Balva	9789934535680	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	102
+2018	Krastiņa, Sandra	Ekrāns	izstādes katalogs	9789934535697	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	48
+2018	Raude, Maruta	Vienmēr maksimāli	izstādes katalogs	9789934535703	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	28
+2018	Linarte-Ruža, Ilona; Pudāne, Dace	Līdzīgie kodi (izstādes katalogs)		9789934535727	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	34
+2018		VII Starptautiskais Latgales grafikas simpozijs	simpozija katalogs	9789934535734	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	36
+2018		Valdis Bušs 2018	2. Starptautiskais glezniecības plenērs	9789934535741	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Krievu; Latviešu; Angļu	32
+2018		Izabella Krolle. Artērija	izstādes katalogs	9789934535758	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	20
+2018	Zeiļa, Lilija	Traces. Touch. Versatility	izstādes katalogs	9789934535765	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	24
+2018		Māris Čačka. Noteiktie un nenoteikte dialogi	izstādes katalogs	9789934839351	Daugavpils	Mākslu pedagogu apvienība	Mākslas izstāžu katalogi	Latviešu; Angļu	20
+2018		Global Control and Censorship	exhibition; September 13 - October 21, 2018 Riga		Rīga	Jauno mediju kultūras centrs RIX-C	Mākslas izstāžu katalogi	Latviešu; Angļu	46
+2018		Igaunijas simtgade Latvijā	izstādes katalogs	9789934535772	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Igauņu; Angļu	80
+2018		Laukos	pužļu grāmata	9789934071508	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Dzīvnieku mazuļi	pužļu grāmata	9789934071515	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Jautras prāta spēles		9789934074950	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	132
+2018		Veiklie pirkstiņi	kucēns	9789934074974	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Veiklie pirkstiņi	ronis	9789934074981	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Veiklie pirkstiņi	delfīns	9789934074998	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Veiklie pirkstiņi	kumeliņš	9789934075001	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Bumbiere, Daina	Vārdiņš, vārdiņš, teikumiņš	vārdu un teikumu mīklas lasītprasmes apguvei	9789984463742	Rīga	Izdevniecība RaKa	Praktiskā, attīstošā literatūra bērniem	Latviešu	156
+2018		Littlest Pet Shop	aizrautīgai krāsošanai; ar uzlīmēm	9789934164941	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Vāģi	Gatavi sacīkstēm; čempionu krāsojamā grāmata	9789934164965	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	96
+2018		Trusītis Pēterītis	darbošanās grāmata ar uzlīmēm	9789934075155	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Zaķēns Ziķeris	Ārā	9789934075179	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Zaķēns Ziķeris	Diena	9789934075186	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Zaķēns Ziķeris	Ģimene	9789934075193	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Dašāvatāri	krāsojamā grāmata ar stāstiem	9789934575006	Rīga	Gaurāngas bhakti jogas biedrība	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Vinnijs Pūks	Lielā pužļu grāmata	9789934164972	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2018		Mazie pūkainīši		9789934074790	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Jaukie dzīvnieciņi		9789934074806	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Mani pūkainīši		9789934074813	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Mīļie dzīvnieciņi		9789934074820	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Vampirina	krāsojamā grāmata ar uzlīmēm	9789934164989	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Manas krustvārdu un vārdu mīklas	mājas	9789934164996	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Manas krustvārdu un vārdu mīklas	brīvdienas	9789934165009	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Lielā spēļu grāmata visai ģimenei	39 spēles, vārdu mīklas, prāta mežģi	9789934075438	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018		Mīlulīši		9789934075445	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Sofija Pirmā	krāso un rotaļājies	9789934165030	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Mikija klubiņš	krāso un rotaļājies	9789934165047	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Vāģi 3	krāso un rotaļājies	9789934165054	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Krāso!	3+ gadi	9789934165061	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Krāso!	5+ gadi	9789934165078	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Latvija	darbojies ar prieku!	9789934075551	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018	Metcena, Izabella	Mazā skiču pasaule	vairāk kā 40 radošu skiču projektu	9789984319391	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	96
+2018	Hanāčkova, Pavla	Krāsas		9789934154607	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Hanāčkova, Pavla	Cipari		9789934154614	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Hanāčkova, Pavla	Formas		9789934154621	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Disney Princeses	košās krāsās; princešu labā sirds; ar skaistām uzlīmēm	9789934165108	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Paw Patrol	sardzē!; krāsojamā grāmata	9789934165115	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Maša un Lācis	krāso aizrautīgi!	9789934165122	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Minnie	krāso!	9789934165139	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Aukstās svinības	krāso!	9789934165146	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Pūkaiņi un ķepaiņi	krāsojamā grāmata	9789934165153	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Hot Wheels	krāso un domā!	9789934165160	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018	Sanža, Silvija	Ku-kū! Dzīvnieku raksti		9789934164576	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Maša un Lācis	skatuves mākslinieki; krāsojamā grāmata ar uzlīmēm	9789934164767	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Barbie	krāso no sirds	9789934164774	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Maša un Lācis	spēles un uzdevumi	9789934164736	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2018		Paw Patrol	1000 uzlīmju; vairāk nekā 30 uzdevumu!	9789934164446	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2018		Draudzīgie kucēni	krāsojamā grāmata	9789934165177	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Hot Wheels	krāsojamā grāmata	9789934165184	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2018		Plunčāsimies!	lācēns; grāmatiņa rotaļām ūdenī	9789934075698	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Plunčāsimies!	zaķēns; grāmatiņa rotaļām ūdenī	9789934075704	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Piču, paču!	murrr!	9789934075711	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Piču, paču!	pīp, pīp!	9789934075728	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Vingrini rociņu!	3-4 gadi	9789934075742	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Disney Krāsu priekam	ar uzlīmēm	9789934165191	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Maša un Lācis	zīmē punktu pa punktam	9789934165207	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Ziemassvētku darbiņi		9789934165221	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018	Eglīte, Ausma	Rotāsim svētkus!		9789934194788	Rīga	Ausma Eglīte	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Labirintu spēles		9789934073182	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	72
+2018		Auto 123	iepazīsti skaitļus, raksti un krāso!	9789934165238	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Troļļi	krāso ar ūdeni!	9789934164804	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Vinnijs Pūks	Krāsu darbi mazākajiem	9789934165245	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Troļļi	koši un priecīgi; krāsojamā grāmata ar uzlīmēm	9789934164811	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Latvija	lasi, krāso, mini, uzzini; darbošanās grāmata	9789934154850	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Iepazīstam dzīvnieku pasauli	glaudāmgrāmatiņas	9789934076572	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018		Vāģi 3	raksti kopā ar vāģiem; uzdevumu grāmata ABC	9789934164835	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Vāģi 3	skaiti kopā ar vāģiem; uzdevumu grāmata 123	9789934164828	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018	Gulbe, Evija; Lošina, Linda	Koko un Riko darbošanās grāmata	2	9789934076589	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Enchantimals	Krāso ar prieku!	9789934165252	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Enchantimals	krāsojamā grāmata	9789934165269	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Manas mīļlietiņas	pirmā puzle	9789934076671	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2018		Dzīvnieciņi	pirmā puzle	9789934076688	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2018		Skani, mana grāmatiņa!	dzīvnieki	9789934076695	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Izkrāso Liepāju!			Liepāja	Liepājas pilsētas pašvaldības administrācija	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2018		Hot Wheels	ātruma vilinājums; krāsojamais albums	9789934165306	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2018		Krāsojam auto			Rīga	KUMA	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		Disney Vinnijs Pūks	zīmē punktu pa paunktam	9789934165313	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Sofija Pirmā	priecīgās krāsās; ar uzlīmēm	9789934165320	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Dzīvnieki	Izkrāso!	9789934077012	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Pirāti	Izkrāso!	9789934077029	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Princeses	Izkrāso!	9789934077036	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Dzimšanas diena	9789934077043	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Es palīdzu māmiņai	9789934077050	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		101 vārds	atver lodziņus!	9789934077081	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2018		Disney Ledus sirds	krāso kopā ar Olafu; vairāk nekā 20 uzlīmju	9789934165337	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2018		Disney Draudzīgie kucēni	uzdevumu grāmata; ar uzlīmēm	9789934165344	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Krāso un līmē!	no punkta uz punktu; labākie draugi	9789934165399	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Krāso un līmē!	no punkta uz punktu; lauku sētā	9789934165405	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018	Nikolasa, Birgita	Mazā mārīte un viņas draugi	mana glāstāmgrāmatiņa	9789934074691	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Princeses	pasaku valstībā; saliec attēlus!	9789934165412	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Mikija klubiņš	ceļojumā; saliec attēlus!	9789934165429	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Sākam rēķināt	pavisam viegli!	9789934077432	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		100 vārdi	pavisam viegli!	9789934077449	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Vingrinām rociņu	pavisam viegli!	9789934077456	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Mana pasaule	lodziņu grāmata	9789934074318	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Laukos	lodziņu grāmata	9789934074301	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2018		Vārdi	es jau mācos!	9789934077487	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Skaitļi	es jau mācos!	9789934077494	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Dzīvnieki	es jau mācos!	9789934077500	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Manas jaunās krustvārdu mīklas	raksti vārdiņus un meklē līmbildes!	9789934162640	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2018		Manas jaunās vārdu mīklas	raksti vārdiņus un meklē līmbildes!	9789934162657	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2018		Krāsas	es jau mācos!	9789934077531	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		101 vārds	dzīvnieki	9789934074325	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		101 vārds	mājās	9789934074332	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		101 vārds	mana pasaule	9789934074349	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		Jauki dzīvnieciņi		9789934165443	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Meža iemītnieki		9789934165450	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Ērmane, Signe	mani mājdzīvnieki		9789934155048	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Laukos	koka grāmatiņa	9789934077609	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Brauksim!	koka grāmatiņa	9789934077616	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2018		Vinnijs Pūks	Krāsošanas māksla	9789934165474	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Brīnumu zemes stāsti ar princešu mīluļiem	Izkrāso mandalas!	9789934165481	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Paw Patrol	Ķepu patruļas varoņdarbi	9789934165498	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		My Little Pony	Jautrā diena Ponijvilā; krāsojamā grāmata ar uzlīmēm	9789934165504	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		Hot Wheels	Skaitļu virpulī	9789934165511	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Hot Wheels	Burtu lokos	9789934165528	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Dzīvnieki lauku sētā	krāsojamā grāmata	9789934165535	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Zirgu pasaulē	krāsojamā grāmata	9789934165542	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Dzīvnieku mazuļi	kurš te paslēpies?	9789934077661	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Mājas mīluļi	kurš te paslēpies?	9789934077678	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Spider-Man	uzdevumi; ar uzlīmēm	9789934165559	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Minnie	man patīk krāsot	9789934165566	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018	Pikiene, Irma	Zaķēns Ziķeris mācās skaitīt		9789934077869	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Pikiene, Irma	Zaķēns Ziķeris iepazīst krāsas		9789934077876	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018	Pikiene, Irma	Zaķēns Ziķeris atrod draugus		9789934077883	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Man patīk vienradži	aizraujoši uzdevumi	9789934077999	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	44
+2018	Pikiene, Irma	Zaķēns Ziķeris mācās būt vērīgs		9789934078002	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2018		Mani pirmie 100 dzīvnieki		9789934165580	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Mani pirmie 100 braucamrīki		9789934165597	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Enchantimals	sirsnīgi uzdevumi ar uzlīmēm	9789934165603	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Burti	mācies rakstīt!	9789934165610	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Cipari	mācies rakstīt!	9789934165627	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Barbie	Rozā piedzīvojums	9789934165634	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Troļļi	Laiks jautrībai!; krāsojamā grāmata ar uzlīmēm	9789934165641	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Disney Princeses	1001 uzlīme; ar milzīgu sienas līmbildi!	9789934165658	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		Lieliskie 2	uzdevumu grāmata; ar uzlīmēm	9789934164798	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Lieliskie 2	krāsojamā grāmata; ar uzlīmēm	9789934164781	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Paw Patrol	ķepu patruļas piedzīvojumi; trīs aizraujoši stāsti...	9789934164880	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	70
+2018		Jautrās dēkas	grāmata ar uzlīmēm	9789934052309	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018		Aizraujošie piedzīvojumi	grāmata ar uzlīmēm	9789934052316	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018		Mazais princis	darbošanās grāmata ar uzlīmēm	9789934074547	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Mazais princis	darbošanās grāmata ar uzlīmēm	9789934074530	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018	Ērmane, Signe	Mani meža dzīvnieki		9789934155284	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Vāģi	ziemassvētku krāsās; ar uzlīmēm	9789934165689	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Minnie	uzzīmē un nodzēs!	9789934164873	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Vai tu tici vizuļradžiem?		9789934164897	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2018		Princeses	mana krāsojamā grāmata ar uzlīmēm	9789934165733	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Paw Patrol	Kucēnu krāsainie Ziemassvētki	9789934165740	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Draudzīgie kucēni	aizrautīgās krāsās; ar uzlīmēm	9789934165757	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Donalds Daks	krāsojamā grāmata ar uzlīmēm	9789934165764	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2018		Vinnijs Pūks	krāsojamā grāmata ar uzlīmēm	9789934165771	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		Littlest Pet Shop	krāsojamā grāmata	9789934165788	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Troļļi	krāsojamā grāmata	9789934165795	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Enchantimals	izkrāso!	9789934165801	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Paw Patrol	Izsaucam ķepu patruļu!; krāsojamā grāmata	9789934165818	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Princeses	Man patīk krāsot!	9789934165825	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Vāģi	krāso un risini zibenīgi!	9789934165924	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Rāmājana	krāsojamā un aktivitāšu grāmata	9789934575129	Rīga	Gaurāngas bhakti jogas biedrība	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2018		PJ Masks	krāsojamā grāmata ar uzlīmēm	9789934165948	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Vāģi	uzdevumi trasē; ar uzlīmēm	9789934165962	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2018		Meklē un atrodi!	lielā atloku grāmata	9789934160783	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	33
+2018		Pārvērt ūdeni krāsās!	jautrie kukainīši	9789934079832	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Pārvērt ūdeni krāsās!	svētkus gaidot	9789934079849	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018	Bērziņa, Una	Latvijas dzīvnieki	krāsojamā grāmata	9789984970479	Rīga	Latvijas Dabas muzejs	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2018		Izkrāso Tutas lietas		9789934197130	Rīga	picture house	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		PJ Masks	iepazīsimies!; uzdevumu grāmata	9789934166204	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Saule brauca debesīs	krāsojamā grāmata pēc Rozes Stiebras filmas motīviem	9789934155819	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Mana fejas uzlīmju rokassomiņa		9789984311005	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Mana modernā uzlīmju ģērbšanās grāmata		9789984311128	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2018		No punkta uz punktu	mana milzu uzlīmju aktivitāšu grāmata	9789984311241	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	72
+2018		1001 lieta, kas jāsameklē		9789984311364	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2018		Izkrāso Preiļus			Preiļu novads	Preiļu novada dome	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2018		Darīsim kopā!	izkrāso pats!	9789934572036	Rīga	LIEGRA	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2018		Pavizināsimies!	izkrāso pats!; ar 16 uzlīmēm	9789934572043	Rīga	LIEGRA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Šerloka stāsti tavai drošībai	krāsojamā grāmata		Rīga	Slimību profilakses un kontroles centrs	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Sapņu mežs	izkrāso pats!	9789934572173	Rīga	LIEGRA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Tiekamies laukos!	izkrāso pats!; + 18 latviešu tautas mīklas	9789934572180	Rīga	LIEGRA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2018		Es mācos zīmēt dzīvniekus		9789934077425	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2019		Sea Unites	2018; izstādes katalogs	9789934194450	Jūrmala	JŪRMALAS DIZAINS	Mākslas izstāžu katalogi	Latviešu; Angļu	58
+2019		Latviešu tautasdziesmas	spēlēsim, dziedāsim!	9789934075513	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2019		Mīļdzīvnieki		9789934076084	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Meža dzīvnieki		9789934076091	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Mājdzīvnieki		9789934076107	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Trīs sivēntiņi	6 puzles	9789934076404	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Vilks un septiņi kazlēni	6 puzles	9789934076411	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Ansītis un Grietiņa		9789934076428	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Kur manas mājas?	saliec pusītes!	9789934076459	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2019		Kur mans ēdiens?	saliec pusītes!	9789934076466	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2019		Skaitīsim līdz 10	saliec pusītes!	9789934076473	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	18
+2019		My Little Pony	Krāsošanas māksla; mandalas	9789934165276	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Sapņu tērpi princesēm		9789934077593	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Auto un moto	manas mašīnas	9789934077821	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Īpašie auto	manas mašīnas	9789934077838	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Darba mašīnas	manas mašīnas	9789934077845	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Traktori	manas mašīnas	9789934077852	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Gadalaiki	kustīgās bildītes	9789934077890	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Mežā	kustīgās bildītes	9789934077906	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Dzīvnieku mājoklīši	atver lodziņus un ieskaties	9789934078347	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		My Little Pony	uzzīmē un nodzēs!	9789934165665	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Rūtiņu pa rūtiņai	Krāso kopā ar dinozauru	9789934165696	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Kucēns un draugi	mums patīk mācīties!	9789934078743	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Kaķēns un draugi	mums patīk mācīties!	9789934078750	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Vinnijs Pūks	100 pirmie vārdi	9789934165726	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2019		Raibā pasaule	grāmata - puzle mazuļiem	9789934078934	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Krāsainā pasaule	grāmata - puzle mazuļiem	9789934078941	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Pretstati	spēlējies un iepazīsti!	9789934078958	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Krāsas	spēlējies un iepazīsti!	9789934078965	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Skaitļi	spēlējies un iepazīsti!	9789934078972	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Dzīvnieki	pēlējies un iepazīsti!	9789934078989	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Princeses	Krāsojamais albums	9789934165832	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	50
+2019		Ledus sirds	1001 uzlīme	9789934165849	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	56
+2019		Disney Pixar	1001 uzlīme	9789934165856	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	56
+2019		Lauvas sardze	Rotaļas ar uzlīmēm; braši uzdevumi	9789934165863	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Sofija Pirmā	Rotaļas ar uzlīmēm; karaliski uzdevumi	9789934165870	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Peppa Pig	Mana mamma	9789934165900	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Peppa Pig	Mans tētis	9789934165917	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Kas patīk kaķēnam?		9789934165931	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Vāģi 3	Trases izaicinājums; saliec attēlus	9789934165979	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019	Andersone, Gita	Koko un Riko pēta skaitļus	uzlīmes un uzdevumi	9789934079382	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019	Andersone, Gita	Koko un Riko pēta burtus	uzlīmes un uzdevumi	9789934079399	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Minecraft	piedzīvojumi ūdeņos; uzlīmju grāmata	9789934165986	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	56
+2019		Mašīnu grāmatiņa	mana grabuļgrāmatiņa	9789934079467	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Lācēna grāmatiņa	mana grabuļgrāmatiņa	9789934079474	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Kas patīk pīlēnam?		9789934165993	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Mani mīļie dzīvnieki		9789934079566	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Dzīvnieki	zīmētprieks	9789934079573	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2019		Figūras	zīmētprieks	9789934079580	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2019		Meža dzīvnieki		9789934079634	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Pūkainie trusīši	mana uzlīmju grāmata	9789934166051	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Jaukie zirdziņi	mana uzlīmju grāmata	9789934166068	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Iekļauties kustībā	izstāde Latvijas Mākslas akadēmijā 2018. gada oktobrī	9789934541353	Rīga	Latvijas Mākslas akadēmija	Mākslas izstāžu katalogi	Latviešu; Franču	40
+2019		Littlest Pet Shop	krāso ar ūdeni!; tev vajag tikai ūdeni un otu	9789934166112	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Dosimies ceļā!		9789934079856	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Ciemos lauku sētā		9789934079863	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Mani mīļie dzīvnieciņi		9789934079870	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Manas jaukās rotaļlietas		9789934079887	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Rekur es!	zumm zumm zumm	9789934079894	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Rekur es!	bēē bēē	9789934079900	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Rekur es!	lidu lidu	9789934079917	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Rekur es!	ņau ņau	9789934079924	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Krāso!	pelēns	9789934079931	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Krāso!	kaķēns	9789934079948	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Krāso!	lācēns	9789934079955	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Krāso!	kucēns	9789934079962	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Paw Patrol	kucēni palīdz lauku darbos; izkrāso stāstu!	9789934166129	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Tik aizraujoši!	spēlējies un mācies! Jautri uzdevumi; pīlēni	9789934079993	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Tik aizraujoši!	spēlējies un mācies! Jautri uzdevumi; kaķēns	9789934080005	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Tik aizraujoši!	spēlējies un mācies! Jautri uzdevumi; ezītis	9789934080012	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Tik aizraujoši!	spēlējies un mācies! Jautri uzdevumi; kucēns	9789934080029	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		My Little Pony	spēles un uzdevumi; 100 uzlīmju	9789934166167	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2019		Peppa Pig	krāso ar ūdeni!; tev vajag tikai ūdeni un otu	9789934166174	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Kid-E-Cats	krāso ar ūdeni!; tev vajag tikai ūdeni un otu	9789934166181	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Aiziet!	es krāsoju un līmēju uzlīmes	9789934080302	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Pie mums laukos	es krāsoju un līmēju uzlīmes	9789934080319	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Dzīvnieki	es krāsoju un līmēju uzlīmes	9789934080326	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Pirmie vārdiņi	es krāsoju un līmēju uzlīmes	9789934080333	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Marvel Spider-Man	1000 uzlīmju	9789934166198	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019		Super! Krāsas	2+	9789934080388	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019		Super! Krāsas	3+	9789934080395	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019		Peppa Pig	Krāsas; mana pirmā grāmatiņa	9789934166211	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		My Little Pony	aizrautīgai krāsošanai; ar uzlīmēm	9789934166228	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Rūtiņu pa rūtiņai	Krāso kopā ar tukānu	9789934166235	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Ledus sirds	Mācies ar prieku! 123	9789934166259	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Ledus sirds	Mācies ar prieku! ABC	9789934166266	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Kuģītis	mācies skaitīt!	9789934166273	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Auto	mācies figūras!	9789934166280	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Mājdzīvnieki	iepazīsti un izkrāso; 6	9789934080586	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Paw Patrol	Mana pirmā pužļu grāmata	9789934166327	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019	Osho	Tavas dzīves krāsas	Meditatīva & transformatīva krāsojamā grāmata	9789934502323	Salacgrīvas novads	SĒTAVA	Praktiskā, attīstošā literatūra bērniem	Latviešu	166
+2019		Kid-E-Cats	trīs kaķēni; krāsojamā grāmata	9789934166334	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Mežā	skani, mana grāmatiņa!	9789934080630	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		V Starptautiskais tekstila un šķiedru mākslas simpozijs	simpozija katalogs	9789934535826	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	36
+2019		Sapos džungļu dzīvniekus!	uzlīmju prieki	9789934166341	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Sapos lauku dzīvniekus!	uzlīmju prieki	9789934166358	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Enchantimals	priecīgi uzdevumi; ar uzlīmēm	9789934166402	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Dzīvnieku pasaule	uzlīmes un uzdevumi (kārbā 4 grāmatas)	9789934080920	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2019		Saliec pusītes!	Mācies rotaļājoties!	9789934080975	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Jēzus piedzimšanas stāsts	mana mazā stāsta kastīte	9789984834894	Rīga	LATVIJAS BĪBELES BIEDRĪBA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Mans mazais Noas šķirsts		9789984834900	Rīga	LATVIJAS BĪBELES BIEDRĪBA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Paw Patrol	Kucēni glābj zoslēnu	9789934166419	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Barbie	rozā prieki; krāsojamā grāmata	9789934166426	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Maša un Lācis	jautrie piedzīvojumi; krāsojamā grāmata	9789934166433	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Runājošie suņi	pēc Edmunda Jansona animācijas filmas "Jēkabs, Mimmi un runājošie suņi" motīviem	9789934574238	Rīga	Liels un mazs	Komiksi	Latviešu	64
+2019		Mašīnas un citi braucamie	mana bilžu vārdnīciņa	9789934081125	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2019		Laukos	mana bilžu vārdnīciņa	9789934081132	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	26
+2019	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Zoodārzā	9789934081149	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Spēlēsimies	9789934081156	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Dzīvnieki	mana atmiņas grāmata	9789984311609	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	22
+2019		Higiēnas ABC	krāsojamā uzdevumu grāmata pirmsskolas un sākumskolas vecuma bērniem		Rīga	Slimību profilakses un kontroles centrs	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Troļļi	Krāsošanas māksla	9789934166488	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Estonian Red Cross 100	24.02.-19.05.	9789934582172	Priekuļu novads	Sava grāmata	Mākslas izstāžu katalogi	Angļu; Igauņu; Krievu	32
+2019		PJ Masks	lai piedzīvojums sākas!; krāso koši!	9789934166501	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Peppa Pig	krāsojam!	9789934166518	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Kid-E-Cats	trīs kaķēni; zīmē un krāso!	9789934166525	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Littlest Pet Shop	spēles un uzdevumi tavam priekam!; 100 uzlīmes	9789934166532	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Hot Wheels	Krāsojam!	9789934166549	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019	Vīslandere, Juja; Nūrdkvists, Svens	Mūmamma svin Vārnas dzimšanas dienu		9789934081439	Rīga	Apgāds Zvaigzne ABC	Komiksi	Latviešu	52
+2019		Aizraujošā zīmējumu grāmata		9789934155994	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Pasakainā zīmējumu grāmata		9789934156007	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Vienradži	krāsojamais albums	9789934166556	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	96
+2019		Prāta spēles priekam	5-6 gadi	9789934081590	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	66
+2019		Prāta spēles priekam	6-7 gadi	9789934081606	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	66
+2019		Arī es krāsoju 5	krāsojamā grāmatiņa pašiem mazākajiem		Rīga	KUMA	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Kid-E-Cats	trīs kaķēni; skaitīsim!	9789934166563	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Peppa Pig	Dosimies ceļā!; uzdevumu grāmata ar uzlīmēm	9789934166570	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Peppa Pig	Vasaras līksmība; uzdevumu grāmata ar uzlīmēm	9789934166587	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Laimdota no Bārtas novada	Kurzeme; papīra lelles	9789934882715	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2019		Rīdziniece Laima	Vidzeme; papīra lelles	9789934882722	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2019		Ieva no Nīcas novada	Kurzeme; papīra lelles	9789934882739	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	11
+2019		Līga no Cesvaines novada	Vidzeme; papīra lelles	9789934882746	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2019		Austra no Sēlijas	Sēlija; papīra lelles	9789934882753	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Anna no Latgales	Latgale; papīra lelles	9789934882760	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2019		Kristīne no Zemgales	Zemgale; papīra lelles	9789934882777	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	13
+2019		Rīdzinieks Jānis	Vidzeme; papīra lelles	9789934882784	Garkalnes novads	Brangi	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Košā pasaule	zīmē ar pirkstiem	9789934081620	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Pie mums laukos	zīmē ar pirkstiem	9789934081637	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Princeses	Lielā krāsojamā grāmata	9789934166594	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019		Paw Patrol	Ķepu patruļa steidz palīgā; krāsojamais albums	9789934166617	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019		Transformers Cyberverse	Krāsojamā grāmata ar uzlīmēm	9789934166631	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Pārvērt ūdeni krāsās!	Rotaļāsimies!	9789934081835	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Pārvērt ūdeni krāsās!	Zoodārzā	9789934081842	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Barbie	Krāso un domā!	9789934166648	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Barbie	Meiteņu pasaule; krāsojamā grāmata ar uzlīmēm	9789934166655	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Disney	Krāsojam!	9789934166662	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Fancy Nancy Clancy	Krāsojamā grāmata ar uzlīmēm	9789934166679	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Littlest Pet Shop	mana krāsojamā grāmata ar uzlīmēm	9789934166686	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Maša un Lācis	Izkrāso pēc cipariem!	9789934166693	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		My Little Pony	mana krāsojamā grāmata ar uzlīmēm	9789934166709	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Vāģi	Uzvar krāsas	9789934166716	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Rotaļlietu stāsts 4	krāsojamā grāmata ar uzlīmēm	9789934166730	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Rotaļlietu stāsts 4	uzdevumu grāmata ar uzlīmēm	9789934166747	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Karalis Lauva	krāsojamā grāmata	9789934166754	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Krāsojamā grāmata	krāso un priecājies kopā ar Balticovo		Iecavas novads	Balticovo, AS	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2019		Laukos	plunčāsimies!; grāmatiņa rotaļām ūdenī	9789934082047	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Dzīvnieciņi	plunčāsimies!; grāmatiņa rotaļām ūdenī	9789934082054	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Vingrini rociņu!	4 - 5 gadi	9789934082061	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	34
+2019		Laukos	prieks krāsot un līmēt	9789934166761	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Parkā	prieks krāsot un līmēt	9789934166778	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		1000 uzlīmes ar dzīvniekiem		9789934082092	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	128
+2019		Ledus sirds	Krāsojam priecīgi!	9789934166792	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Fancy Nancy Clancy	uzdevumu grāmata ar uzlīmēm	9789934166808	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Vārdiņi	dūdulītim	9789934082177	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Kikerigū!	dūdulītim	9789934082184	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019	Socal, Alice	Junior		9789934581083	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Puiupo, Paula	Maunder		9789934581090	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Kikuchi, Hironori	House to House		9789934581106	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Lukošus, Rebeka	Oops		9789934581113	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019		Es redzu dabu kā krāsu: Džilianas Eiresas glezniecība	1972.-1983. g.; izstādes katalogs	9789934535833	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	20
+2019		Draudzīgie kucēni	mana krāsojamā grāmata ar uzlīmēm	9789934166815	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Princeses	priecīgi uzdevumi	9789934166822	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Maša un Lācis	es mācos skaitīt	9789934166839	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		No sirds uz sirdi	putniņš; mācies skaitīt no 1 līdz 10	9789934166846	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		No sirds uz sirdi	pīlīte; mācies skaitīt no 1 līdz 10	9789934166853	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		No sirds uz sirdi	zilonēns; mācies skaitīt no 1 līdz 20	9789934166860	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Miers un spriedze	Latgales reģiona mākslinieku konkursa izstāde; izstādes katalogs	9789934535857	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	84
+2019	Radiča, Marta	Karaliste	izstādes katalogs	9789934535864	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	24
+2019	Karšai, Žofja	Soli pa solim	izstādes katalogs	9789934535871	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu	24
+2019	Ērmane, Signe; Šteinberga, Ināra	Skaitam un krāsojam!		9789934559204	Rīga	IZDEVNIECĪBA ANNELE	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		PJ Masks	svētki jau klāt!	9789934166907	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	50
+2019		tu tu		9789934198274	Ventspils	AGFIN	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Brauksim!	mazuļa grāmatiņa	9789934082900	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Laukos	mazuļa grāmatiņa	9789934082917	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Dzīvnieki	mazuļa grāmatiņa	9789934082924	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Es mācos runāt	mazuļa grāmatiņa	9789934082931	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019	Čačka, Māris	Māris Čačka. Dialogi. Paralēles. Dimensija	izstādes katalogs	9789934535888	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	32
+2019	Trumpe, Ilze	Tev viņa patiks		9789934585081	Rīga	Mansards	Komiksi	Latviešu	96
+2019		Ziemassvētku rotājumi	izņem, saloki, izkrāso un rotaļājies	9789934166914	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Es [mīlu] vienradžus		9789934166921	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Hot Wheels	ekstrēmās sacīkstes; krāsojamā grāmata ar uzlīmēm	9789934166976	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Zvēru somiņa	rokdarbi, krāsošana, mīklas, uzlīmes	9789934156366	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	76
+2019		Kasāmgrāmata Vienradži		9789934083358	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	44
+2019		Mani košie darbiņi (vardīte)	uzdevumi, izkrāsojami attēli un uzlīmes	9789934083402	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Mani košie darbiņi (lidmašīna)	uzdevumi, izkrāsojami attēli un uzlīmes	9789934083419	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Mani košie darbiņi (pīlēns)	uzdevumi, izkrāsojami attēli un uzlīmes	9789934083426	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Mani košie darbiņi (auto)	uzdevumi, izkrāsojami attēli un uzlīmes	9789934083433	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Manas mašīnas		9789934083464	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Mani dzīvnieciņi		9789934083471	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Sveiks, mazulīt!	mana pasaule; dūdulītim	9789934083488	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Sveiks, mazulīt!	dzīvnieki; dūdulītim	9789934083495	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Murr modes nams	Zvaigznes	9789934083501	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Murr modes nams	Draudzeņu diena	9789934083518	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Spider-man	Krāsojamais albums	9789934167041	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	80
+2019	Priedīte, Baiba	Acumirkļi	izstādes katalogs	9789934535895	Daugavpils	Daugavpils Marka Rotko mākslas centrs	Mākslas izstāžu katalogi	Latviešu; Angļu; Krievu	36
+2019		PJ Masks	kļūsti par varoni!; krāsojamā grāmata ar uzlīmēm	9789934167058	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Paw Patrol	Spēks slēpjas komandā; ar uzlīmēm	9789934167102	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Dzīvnieki lauku sētā	savieno punktiņus!	9789934083846	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Transports	savieno punktiņus!	9789934083853	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Princeses	krāso	9789934167119	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Pirāti	krāso	9789934167126	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Troļļi	krāsojamā grāmata	9789934167164	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Kur ir vienradzis?		9789934083914	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Zirgi	uzdevumu grāmata; krāso un risini!	9789934167188	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Vienradzīte Elza un viņas draugi	krrāso!	9789934167195	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Lieli un mazi braucamrīki	izkrāso!	9789934167201	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Maša un Lācis	Aizraujoši uzdevumi	9789934167218	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Peppa Pig	Atrodi cepuri!; uzlīmju grāmata	9789934167263	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Peppa Pig	Jautrās brīvdienas; uzdevumu grāmata ar uzlīmēm	9789934167270	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	20
+2019		Pirmie vārdi	es mācos!; atloku grāmatiņa	9789934167287	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019		Dzīvnieki	es mācos!; atloku grāmatiņa	9789934167294	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Bērnudārzā	9789934084003	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Miljons kaķu	burvīgi ķepaiņi mierpilnai krāsošanai	9789934167317	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2019		Miljons vienradžu	fantastiskas būtnes mierpilnai krāsošanai	9789934167324	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	64
+2019	Peners, Bernds	Daudz mazi kustīgi dzīvnieki	mana pirmā pirkstiņspēļu grāmata	9789984312446	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019	Kesela, Karola fon	Četri dzīvnieki mežā	mana puzles grāmata	9789984312088	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Ziemassvētki	9789934084225	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Ledus sirds II	krāsojamā grāmata	9789934167348	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Ledus sirds II	Uzdevumu grāmata	9789934167355	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Barbie	krāso un priecājies!; ar uzlīmēm	9789934167362	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019	Moldane, Iluta	Mazulis krāso dzīvniekus		9789934559211	Rīga	IZDEVNIECĪBA ANNELE	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Ripulīši lipulīši	mums arī vajag!; dodamies iepirkties	9789934156700	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Ripulīši lipulīši	mēs arī gribam!; metamies piedzīvojumos	9789934156717	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Ripulīši lipulīši	mēs arī varam!; svinēsim dzimšanas dienu	9789934156724	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Ripulīši lipulīši	mēs arī protam!; jautri blēņojamies	9789934156731	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Lote, Roze un pazudušie pūķi	prāto un krāso!	9789934084539	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2019	Powerpaola	I Couldn't Stop		9789934581137	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Carré, Lilli	Open Molar		9789934581144	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Mihailova, Liāna	Neverending Race		9789934581151	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019	Hooyman, Kevin	Elemental Stars		9789934581168	Rīga	Grafiskie stāsti	Komiksi	Angļu	24
+2019		sapņo, ceri... un Tev viss izdosies	daiļrades bloknots iedvesmai un motivācijai		Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	40
+2019		Minecraft krāsošanai			Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	50
+2019		Pieradini savu pūķi			Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	44
+2019		Burvju pasaule ar Jūsu mīļākajiem mājdzīvniekiem un zvēriem			Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	50
+2019		Zudusī dinozauru pasaule	izpēti un izkrāso		Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	52
+2019		Mandalas Radošai meditācijai un enerģijas līdzsvarošanai			Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	96
+2019		Mandalas Radošai meditācijai un enerģijas līdzsvarošanai			Rīga	RAFFA	Krāsojamās grāmatas pieaugušajiem, mandalas	Latviešu	96
+2019		Ledus sirds	Lielā krāsojamā grāmata	9789934167409	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	96
+2019		Kur ir Šons?	auniņa Šona piedzīvojumi	9789934084782	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Saposies ballītei!	uzlīmju grāmata	9789934074608	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Saposies modes skatei!	uzlīmju grāmata	9789934074615	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	48
+2019		Karalis Lauva	Uzdevumu grāmata	9789934167416	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Princeses	Romantiskās krāsas	9789934167423	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	36
+2019		Ziema	dzīvnieki dabā	9789934085000	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Vasara	dzīvnieki dabā	9789934085017	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Rudens	dzīvnieki dabā	9789934085024	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Pavasaris	dzīvnieki dabā	9789934085031	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Enchantimals	Krāso un domā	9789934167515	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Atbildīgs mazais liepājnieks	krāsojamā grāmata pirmklasniekiem		Liepāja	Liepājas pilsētas pašvaldības administrācija	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Mazie liepājnieki drošībā	krāsojamā grāmata pirmklasniekiem		Liepāja	Liepājas pilsētas pašvaldības administrācija	Praktiskā, attīstošā literatūra bērniem	Latviešu	28
+2019		Dzīvnieku grāmata pašiem mazākajiem		9789934167577	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	12
+2019		Barbie	Sapņo! Tici! Sasniedz!; lielā krāsojamā un uzdevumu grāmata	9789934167584	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2019		My Little Pony	Krāso ar prieku!	9789934167591	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Peppa Pig	Košās krāsas	9789934167607	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Minnie	Pušķi un krāsas	9789934167614	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Draudzīgie kucēni	Jautrās krāsas	9789934167621	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Aniņa ar Miķelīti apceļo suitu zemi	krāsojamā grāmatiņa	9789934199660	Alsungas novads	Suitu kultūras mantojums	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Hot Wheels	Trauksimies trasē; krāsojamā un uzdevumu grāmata	9789934167638	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	40
+2019	Rozentāle, Līga	Apsveic Latviju!	uzdevumu un radošo darbu grāmata	9789934157004	Rīga	LATVIJAS MEDIJI	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Kika Mika iet uz zooloģisko dārzu	jautri uzdevumi bērniem	9789934085611	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Nekārtības rūķītis ceļo droši		9789934085628	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Nekārtības rūķītis saudzē dabu		9789934085635	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	32
+2019		Krāso kopā ar Kiku Miku		9789934085642	Rīga	Apgāds Zvaigzne ABC	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2019		Jauks stāstiņš mazajām rociņām	(lāčuks)	9789984312804	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Jautrs stāstiņš mazajām rociņām	(kucēns)	9789984312927	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	10
+2019		Paw Patrol	Mācies ciparus!	9789934167690	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Paw Patrol	Mācies alfabētu!	9789934167706	Rīga	EGMONT LATVIJA	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Meklē lietas!	priecīgus Ziemassvētkus!	9789984313764	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	24
+2019		Zemnieku sētā	mana puzles grāmata	9789984313283	Rīga	MADRIS	Praktiskā, attīstošā literatūra bērniem	Latviešu	14
+2019	Barisa, Unda	Jānis Daliņš		9789934191367	Valmiera	Valmieras Pārgaujas sākumskola	Komiksi	Latviešu	12
+2019		Ugunsdzēsējs glābējs Guntiņš uz ceļa			Rīga	Valsts ugunsdzēsības un glābšanas dienests	Praktiskā, attīstošā literatūra bērniem	Latviešu	8
+2019		Ugunsdzēsēju glābēju drauga lapsēna Guņa padomi "Kā pasargāt sevi un izglābties ugunsgrēkā?"	uzzini un izkrāso		Rīga	JCI Latvia	Praktiskā, attīstošā literatūra bērniem	Latviešu	16
+2020		Lupatiņu māja	interaktīva uzdevumu grāmata	9789934574078	Rīga	Liels un mazs	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Manas pirmās krāsas		9789934166938	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Mani pirmie skaitļi		9789934166945	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Mani pirmie pretstati		9789934166952	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Manas pirmās figūras		9789934166969	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Pirmā krāsu grāmatiņa		9789934167133	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	22
+2020		Dinozauri		9789934167386	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Dārzā		9789934167430	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Lietas, kas kustas		9789934167447	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Mācos rotaļājoties	Dzīvnieki	9789934085499	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	7
+2020		Mācos rotaļājoties	Vārdiņi	9789934085505	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	7
+2020	Lauka, Arita; Eglīte, Inese; Buboviča, Jana	Didaktisko materiālu komplekts	pirmsskolas un sākumskolas vecuma bērniem latviešu valodas apguvei	9789984829661	Rīga	Latviešu valodas aģentūra	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	1 kārba
+2020		Peppa Pig	Pirmie vārdi; mana pirmā grāmatiņa	9789934167775	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Paw Patrol	Cipari; mana pirmā grāmatiņa	9789934167782	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Kas patīk trusītim?		9789934167881	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Pirmā tikšanās	mājas mīluļi	9789934167911	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Pirmā tikšanās	dzīvnieki laukos	9789934167980	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Krāsosim vienradžus, ziedus un putnus	krāsu kaleidoskops	9789934086229	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020	Ļenasa, Anna	Krāsu mošķis		9789934157462	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	42
+2020		Vai pazīsti?	Pulkstenis	9789934086342	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Vai pazīsti?	Krāsas	9789934086359	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020		Krāsas		9789934086502	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	22
+2020		Burtiņi		9789934086519	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	22
+2020		Mācies vārdiņus!		9789934086632	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Iepazīsti dzīvniekus!		9789934086649	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Skani, mana grāmatiņa!	pasaules dzīvnieki	9789934086670	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020		Mana mazā bibliotēka	pirmie vārdi (8 grāmatas)	9789934086687	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Mana mazā bibliotēka	viss ap mani (kārbā 8 grāmatas)	9789934086779	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Jūras dzelmē	atver un ieskaties!	9789934086861	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Dārzā	atver un ieskaties!	9789934086878	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Cālīts skaita līdz 5		9789934086984	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020	Garnett, Jaye	Mūū	atver un izpēti!; lodziņu grāmata	9789934168192	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Skaitļi		9789934087387	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	22
+2020		Laukumi		9789934087394	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	22
+2020	Vokere, Miranda	Svešzemju dzīvnieki	glaudāmgrāmatiņa	9789934087561	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020	Hīla, Sūzija	Brīnumainie vienradži	glaudāmgrāmatiņa	9789934087578	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Pārtika	kustīgās bildītes	9789934087707	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Mans ķermenis	kustīgās bildītes	9789934087714	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Labirinti	pavisam viegli!	9789934087738	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Dzīvnieki	atrodi un mācies!	9789934168291	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Braucamie	atrodi un mācies!	9789934168307	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		100 dzīvnieki	es mācos runāt	9789934088070	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	30
+2020		100 vārdi	es mācos runāt	9789934088087	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	30
+2020		Vau, vau!	glaudāmgrāmatiņa	9789934088094	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Ņau, ņau!	glaudāmgrāmatiņa	9789934088100	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Peppa Pig	Mana pirmā pužļu grāmata	9789934168444	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Ķipara akadēmija	Darbošanās un uzdevumu grāmatiņas; kompetenču pieeja pirmsskolas izglītībā (kārbā 10 grāmatas)	9789934088292	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	148
+2020	Vanaga, Agnese	Mazo latvju pirmie vārdi		9789934088339	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020		ABeCe	mana pirmā burtu grāmata	9789934088520	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Pelītes Paulas bilžu vārdnīca		9789934168741	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020		Orķestris lai skan!		9789934089350	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		KU-KŪ!		9789934168888	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Labākie draugi	saliec attēlus!	9789934089862	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Krāsainie pirkstiņdarbi	suņi un kaķi	9789934090349	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020		Ķipara akadēmija	Darbošanās un uzdevumu grāmatiņas	9789934090639	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	136
+2020	Putniņa, Hanele Zane	Katalogs			Rīga	Hanele Zane Putniņa	MĀKSLAS KATALOGI	Latviešu	86
+2020	Putniņa, Hanele Zane	Catalogue			Rīga	Hanele Zane Putniņa	MĀKSLAS KATALOGI	Angļu	86
+2020	Rūšifte, Kristina	Visi skaitās		9789934574504	Rīga	Liels un mazs	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	60
+2020	Vanaga, Anete	colour away. dream away. love away...		9789934232336	Rīga	Anete Vanaga	KRĀSOJAMĀS GRĀMATAS PIEAUGUŠAJIEM, MANDALAS	Angļu; Latviešu	96
+2020	Mielava, Iveta; Mielava, Marta Laima	Alfabēts atbrauc ar auto		9789934895715	Rīga	UPE TUVIEM UN TĀLIEM	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	68
+2020	Erne, Andrea	Ko darām ziemā?		9789984315447	Rīga	MADRIS	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020	Zlemeša, Zane	New New Message	2nd. edition		Rīga	Popper	MĀKSLAS KATALOGI	Angļu	28
+2020		Cipariņi	izkrāso pats!	9789934572401	Rīga	LIEGRA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Studio Pets	Mīļi un pūkaini	9789934166983	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Studio Pets	Jauki un draudzīgi	9789934166990	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Sāksim krāsot!	Man ir 2 gadi	9789934083525	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	48
+2020		Sāksim krāsot!	Man ir 3 gadi	9789934083532	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	48
+2020		Sāksim krāsot!	Man ir 4 gadi	9789934083549	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	48
+2020		Sāksim krāsot!	Man ir 5 gadi	9789934083556	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	48
+2020		Zvēri un abru taisītājs	izkrāso pats!	9789934572418	Rīga	LIEGRA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Kid-E-Cats	Trīs kaķēni; 100 uzlīmju	9789934167171	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Draudzīgie kucēni	Rotaļas ar krāsām	9789934167454	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Minnie	Krāsojamā grāmata ar uzlīmēm	9789934167461	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	38
+2020		Maša un Lācis	Aizrautīgai krāsošanai	9789934167478	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Ledus sirds II	Maģiskās krāsas; ar uzlīmēm	9789934167485	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Ledus sirds II	Burvju uzdevumi	9789934167492	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Pelnrušķīte	krāsojamā grāmata	9789934167508	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		My Little Pony	Risini aizrautīgi	9789934167539	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		My Little Pony	Mirdzošās krāsās	9789934167546	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Maša un Lācis	Risini aizrautīgi	9789934167553	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Minecraft	Dzīvnieki; uzlīmju grāmata	9789934167560	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	56
+2020		Uz priekšu	krāsojamā grāmata ar uzlīmēm	9789934167645	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Top Wing	Krāso ar ūdeni!	9789934167669	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Barbie	Krāsu burvība	9789934167676	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Vienradži	Krāsojamā grāmata	9789934085468	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Vienradži	Izkrāso koši!	9789934085475	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Vienradži	Izkrāso!	9789934085482	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Runcis zābakos	krāsojamā grāmata	9789934157103	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Hot Wheels	Krāsu līkločos	9789934167713	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Littlest Pet Shop	Krāso koši!	9789934167720	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020	Dmuchovskiene, Rasa	Satiksme	gaisā, ūdenī, uz sauszemes	9789934085871	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020	Dmuchovskiene, Rasa	Mūzikas instrumenti	taustiņisntrumenri, stīgu instrumenti, pūšaminstrumenti, sitaminstrumenti	9789934085888	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Vienradži	Grāmata ar uzlīmēm	9789934085895	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Grigorijs Mihejevs	piemiņa; izstādes katalogs	9789934889202	Daugavpils	Daugavpils Novadpētniecības un mākslas muzejs	MĀKSLAS KATALOGI	Latviešu; Krievu	100
+2020		Vienradži	krāsojamā grāmata ar uzlīmēm; vairāk nekā 50 uzlīmju	9789934167737	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	42
+2020		Peppa Pig	Lielā krāsojamā grāmata	9789934167744	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Barbie	Lielā krāsojamā grāmata	9789934167751	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Lielā krāsojamā grāmata		9789934167768	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Vienradži saldumu karalistē	krāsojamā grāmatiņa	9789934085925	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Vienradži un princese	uz varavīksnes loka; krāsojamā grāmatiņa	9789934085932	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Vāģi 2	Izkrāso sacīkstes	9789934167805	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Man patīk zirgi		9789934085963	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Man patīk truši		9789934085970	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Man patīk suņi		9789934085987	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Man patīk kaķi		9789934085994	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Krāso!	Koala	9789934086007	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Krāso!	Kaķis	9789934086014	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Krāso!	Cālis	9789934086021	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Krāso!	Varde	9789934086038	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Raibu raibā grāmatiņa	Astoņkājis	9789934086045	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Raibu raibā grāmatiņa	Lama	9789934086052	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Raibu raibā grāmatiņa	Kaķis	9789934086069	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Raibu raibā grāmatiņa	Varde	9789934086076	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Vienradži un lamas	krāsojamā grāmatiņa	9789934086090	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Prasmēm un priekam	Dārzā	9789934086120	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Prasmēm un priekam	Uz laukiem!	9789934086137	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Savieno skaitļus, līmē un krāso!	1-10; ar uzlīmēm	9789934167812	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Savieno skaitļus, līmē un krāso!	1-20; ar uzlīmēm	9789934167829	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Savieno skaitļus, līmē un krāso!	1-30; ar uzlīmēm	9789934167836	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Savieno skaitļus, līmē un krāso!	1-40; ar uzlīmēm	9789934167843	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Krāso ar ūdeni!	Kuģītis	9789934167850	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Krāso ar ūdeni!	Raķete	9789934167867	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Maša un Lācis	Dārgumu medības; meklē un atrodi!	9789934167874	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020	Panters, Rasels	Alise Brīnumzemē	stāsts bildēs; pēc Lūisa Kerola grāmtas motīviem	9789934086151	Rīga	Apgāds Zvaigzne ABC	KOMIKSI	Latviešu	104
+2020		Peppa Pig	Lēkāsim! Hop! Hop!; uzdevumu grāmata ar uzlīmēm	9789934167898	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Peppa Pig	Cūciņu rotaļas; uzdevumu grāmata ar uzlīmēm	9789934167904	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Mana uzlīmju grāmata	mīļie kaķēni	9789934167928	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Rotaļīgie sunīši	mana uzlīmju grāmata	9789934167935	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Prieks mācīties!	skaitīšana	9789934167942	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Prieks mācīties!	figūras un krāsas	9789934167959	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Prieks mācīties!	pretstati	9789934167966	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Prieks mācīties!	rakstīšana	9789934167973	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Top Wing	Krāsojamā grāmata	9789934167997	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Top Wing	Uzdevumu grāmata	9789934168000	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020	Bumblauskiene, Ilona	Mammas un mazuļi mežā		9789934157479	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020	Bumblauskiene, Ilona	Mammas un mazuļi zoodārzā		9789934157486	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020	Bumblauskiene, Ilona	Mammas un mazuļi mājās		9789934157493	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020	Bumblauskiene, Ilona	Mammas un mazuļi eksotiskās valstīs		9789934157509	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	14
+2020		PJ Masks	Krāsu prieks	9789934168024	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020		VIII Starptautiskais Latgales grafikas simpozijs	simpozija katalogs	9789934594021	Daugavpils	Daugavpils Marka Rotko mākslas centrs	MĀKSLAS KATALOGI	Latviešu; Angļu	36
+2020	Katz, Keren	Chapter Two		9789934581199	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Chihoi	The Book Fight		9789934581205	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Harukichi	Hero		9789934581212	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Rūrāns, Roberts	(extra) Ordinary		9789934581229	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020		Runci, runci!	krāso kopā ar Margaritu Stārasti	9789934086496	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		My Little Pony	Mozaīkas; līmē un krāso!	9789934168031	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Krāso ar ūdeni!	Vakarā mežā	9789934086656	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Krāso ar ūdeni!	Vakarā mājās	9789934086663	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Princeses	500 uzlīmes	9789934168055	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Ledus sirds II	500 uzlīmes	9789934168062	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020	Brasliņš, Normunds	Déjà vu	[izstādes katalogs]	9789934884467	Rīga	Aminori	MĀKSLAS KATALOGI	Latviešu	48
+2020		Troļļi 2	Pasaules turneja; krāsojamā grāmata	9789934168086	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Troļļi 2	Pasaules turneja; uzdevumu grāmata	9789934168093	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Trusītis Pēterītis 2	Mazais bēglis; darbošanās grāmata ar uzlīmēm	9789934086908	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Trusītis Pēterītis 2	Mazais bēglis; krāsojamā darbošanās grāmata	9789934086915	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	40
+2020		Lielā krāsojamā grāmata		9789934086991	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	208
+2020		PJ Masks. Izkrāso varoņus maskās!	ar uzlīmēm	9789934168178	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Jūgendstila mode	krāsojamā grāmata	9789934566158	Rīga	Rīgas pašvaldības kultūras iestāžu apvienība	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Ziemassvētki	darbošanās grāmata	9789934087189	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Psalmi	krāsojamā grāmata	9789934592027	Rīga	LATVIJAS BĪBELES BIEDRĪBA	KRĀSOJAMĀS GRĀMATAS PIEAUGUŠAJIEM, MANDALAS	Latviešu	32
+2020		Minecraft	Elle un pasaules gals; uzlīmju grāmata	9789934168208	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	56
+2020		Flamings	vannas grāmata	9789934168215	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Pūcīte	vannas grāmata	9789934168222	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	8
+2020		Troļļi 2	600 uzlīmes	9789934168253	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	56
+2020		Pārvērt ūdeni krāsās!	Veikalā	9789934087547	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Pārvērt ūdeni krāsās!	Ceļā	9789934087554	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Delia Maxim. Redzamības virskārta	izstādes katalogs	9789934594076	Daugavpils	Daugavpils Marka Rotko mākslas centrs	MĀKSLAS KATALOGI	Latviešu; Angļu	28
+2020		Amēlija un vienradzis		9789934087684	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Dinozauri un vulkāns		9789934087691	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	10
+2020		Murr modes nams	modes metropoles	9789934087745	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Murr modes nams	modeles brīvdienās	9789934087752	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Pasaule, ko izkrāsot		9789934891700	Jelgavas novads	DROŠI un KOŠI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	46
+2020		Troļļi 2	100 uzlīmju	9789934168314	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Troļļi 2	Krāso un līmē	9789934168321	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Hot Wheels	Ātruma pavēlnieki; krāsojamais albums	9789934168345	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	40
+2020		Vinnijs Pūks	Krāso un līmē!	9789934168352	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Paw Patrol	Steidzam palīgā!; krāsojamā grāmata	9789934168369	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ledus sirds II	Izkrāso!	9789934168376	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Maša un Lācis	Krāsojam no sirds	9789934168383	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Trīs kaķēni	Krāso ar prieku!	9789934168390	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020	Panters, Rasels	Trīs musketieri	stāsts bildēs; pēc Aleksandra Dimā romāna motīviem	9789934088025	Rīga	Apgāds Zvaigzne ABC	KOMIKSI	Latviešu	104
+2020		Barbie	Krāso un līmē!	9789934168413	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Paw Patrol	Izkrāso kucēnus!	9789934168420	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Maša un Lācis	jautri uzdevumi; ar uzlīmēm	9789934168437	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	18
+2020		Mana krāsojamā uzdevumu grāmata		9789934088193	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	124
+2020		Transformers	izkrāso un līmē!	9789934168451	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Enchantimals	burvju meža krāsas; ar uzlīmēm	9789934168468	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020	Ūle, Inga	Krāsojamā grāmatiņa Mīlasputniņi		9789934892608	Ķekavas novads	Inga Ūle	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020	Ūle, Inga	Coloring Book Lovebirds		9789934892615	Ķekavas novads	Inga Ūle	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Angļu	16
+2020		Princeses	lielā krāsošana	9789934168482	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Esi apburoša!	Krāso stilīgi!	9789934168499	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Mans sākums ir manas beigas	Sjao Ciņa māksla; 2020. gada 31. jūlijs - 25. oktobris	9789934594083	Daugavpils	Daugavpils Marka Rotko mākslas centrs	MĀKSLAS KATALOGI	Latviešu; Krievu; Angļu; Ķīniešu	100
+2020		IX Starptautiskais Latgales grafikas simpozijs	simpozija katalogs	9789934594090	Daugavpils	Daugavpils Marka Rotko mākslas centrs	MĀKSLAS KATALOGI	Latviešu; Angļu	44
+2020		Maša un Lācis	Es mācos rakstīt	9789934168505	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Maša un Lācis	lielā krāsojamā grāmata	9789934168512	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		My Little Pony	Sapos savu poniju!; uzlīmju grāmata	9789934168529	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	30
+2020		Vāģi 3	Komandas krāsas; ar uzlīmēm	9789934168536	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Ledus sirds II	Krāsu burvība; ar uzlīmēm	9789934168543	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Princeses	Brīnišķīgi uzdevumi	9789934168550	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Sirsnīgās krāsās	ar uzlīmēm	9789934168567	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Littlest Pet Shop	Rotaļīgās krāsas; ar uzlīmēm	9789934168574	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Mikijs un draugi	krāsojamā grāmata; ar uzlīmēm	9789934168581	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Dzīvnieki	krāsojamā grāmata; ar uzlīmēm	9789934168598	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Ledus sirds 2	Karaliski uzdevumi	9789934168611	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020	Hetamoé	Violent Delights		9789934581243	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Zutis, Mārtiņš	Crime at Babel		9789934581250	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Estrela, Joana	Eglė and the Snake		9789934581267	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020	Bell, Marc	Banal Complications		9789934581274	Rīga	Grafiskie stāsti	KOMIKSI	Angļu	24
+2020		Ledus sirds II	uzzīmē un nodzēs!	9789934168628	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ķepu patruļa	uzzīmē un nodzēs!	9789934168635	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Peppa Pig	Pirmie skaitļi; uzzīmē un nodzēs!	9789934168642	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ķepu patruļa	lielā krāsošana	9789934168659	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	80
+2020		Arī es krāsoju 6	krāsojamā grāmatiņa pašiem mazākajiem		Rīga	KUMA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	
+2020		Arī es krāsoju 7	krāsojamā grāmatiņa pašiem mazākajiem		Rīga	KUMA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	
+2020		Apburtais mežs	zīmējumu grāmata	9789934157769	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020	Benša, Katarīna	Burvju pasaule	zīmējumu grāmata	9789934157776	Rīga	LATVIJAS MEDIJI	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Mandalas	Nature with quotes	9789934231124	Rīga	Gita Gžibovska	KRĀSOJAMĀS GRĀMATAS PIEAUGUŠAJIEM, MANDALAS	Angļu	62
+2020		Dzimšanas diena	krāsojamā grāmata ar uzlīmēm	9789934089060	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Karaļvalsts	krāsojamā grāmata ar uzlīmēm	9789934089077	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Vienradži un lamas	krāsojamā grāmata	9789934089084	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Automobiļi	krāsojamā grāmata	9789934089091	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Vienradži	krāso un līmē!	9789934089107	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Vienradži	krāso un līmē!	9789934089114	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Disney	Krāsojamā grāmata ar Ziemassvētku darbiņiem	9789934168758	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	60
+2020		Muris un Ņuris	Draudzēsimies!	9789934089206	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Uzveic vīrusus	9789934089213	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020	Kalna, Baiba	Muižu dāmu stāsti	kā Tiņģeres muižas Marianna Spāres muižas Balto dāmu satika; krāsojamā grāmata	9789934513442	Talsu novads	Aleksandra Pelēča lasītava	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Lauku sētā	mani darbiņi	9789934168796	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Džungļos	mani darbiņi	9789934168802	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Satiksme	tipu-tapu!	9789934089497	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Uz laukiem!	tipu-tapu!	9789934089503	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020	Dmuchovskiene, Rasa	Zaķēns Ziķeris	Kā es jūtos	9789934089510	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Mani pirmie uzdevumi (lokomotīve)		9789934089671	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Mani pirmie uzdevumi (sēne)		9789934089688	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Mani pirmie uzdevumi (pīle)		9789934089695	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Mani pirmie uzdevumi (mēness)		9789934089701	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Es mācos izkrāsot un līmēt uzlīmes (puķe)		9789934089718	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Es mācos izkrāsot un līmēt uzlīmes (pūce)		9789934089725	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Es mācos izkrāsot un līmēt uzlīmes (bungas)		9789934089732	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Es mācos izkrāsot un līmēt uzlīmes (raķete)		9789934089749	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Miljons pūču	spārnotie draugi mierpilnai krāsošanai	9789934168826	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020		Ziemassvētku uzdevumi un krāsas		9789934168833	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020		Auto	lieli attēli krāsošanai	9789934168840	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	96
+2020		Bruņurupucis	lieli attēli krāsošanai	9789934168857	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	96
+2020		Taurenis	izkrāso pēc cipariem; mazie mākslinieki	9789934168864	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Lauvēns	izkrāso pēc cipariem; mazie mākslinieki	9789934168871	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Pārvērt ūdeni krāsās!	Dzimšanas diena	9789934089756	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Pārvērt ūdeni krāsās!	Brīvdienas	9789934089763	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ķepu patruļa	Operācija - krāsas!	9789934168918	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Marina Veilande	izstāde Ģederta Eliasa Jelgavas vēstures un mākslas muzejā 10.07.-16.08.2020.	9789934231384	Rīga	Arnis Veilands	MĀKSLAS KATALOGI	Latviešu	18
+2020		Dzīvnieki laukos	līmē uzlīmes, izkrāso un mācies!	9789934090196	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Jūras iemītnieki	līmē uzlīmes, izkrāso un mācies!	9789934090202	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Svešzemju dzīvnieki	līmē uzlīmes, izkrāso un mācies!	9789934090219	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Mājas mīluļi	līmē uzlīmes, izkrāso un mācies!	9789934090226	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020	Bruksa, Felisitija	Daba	pirmā uzlīmju grāmata	9789934090356	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Power Rangers	Uzdevumi ar uzlīmēm	9789934168949	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	36
+2020		Laumiņas un viņu neparastie draugi	krāsojamā grāmata	9789934090875	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		WOWzītes	WOW villa; krāsojamā grāmata	9789934090882	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020	Bacevičiene, Neringa	Es tava lellīte. Dieniņa		9789934090899	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	20
+2020		Troļļi 2	Muzikālās krāsas	9789934168956	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	64
+2020		Princeses	Krāsu priekam	9789934168963	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Vāģi	jautrie skaitļi	9789934168970	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ledus sirds	jautrie skaitļi	9789934168987	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Vinnijs Pūks	krāsoju un mācos	9789934168994	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Ledus sirds 2	brīnumainās krāsas	9789934169007	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Vāģi 3	Spraigās krāsas	9789934169014	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Peppa Pig	izkrāso ziemu!	9789934169021	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		My Little Pony	Krāso pēc parauga!	9789934169045	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Transformers Cyberverse	Krāso pēc parauga!	9789934169052	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Peppa Pig	Krāsot ir jautri!	9789934169069	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Barbie	krāsojam!	9789934169076	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Hot Wheels	krāsojamā grāmata	9789934169083	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Vāģi 3	krāso un sacenties!	9789934169090	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		Vesels mazais liepājnieks	krāsojamā grāmata pirmklasniekiem		Liepāja	Liepājas pilsētas pašvaldības administrācija	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		My Little Pony	Sirsnīgas krāsas	9789934169106	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	28
+2020		Muris un Ņuris	ēdam!	9789934091322	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Murr modes nams	dizaineru grāmata. Pilsētā	9789934091339	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020	Staka, Agija	Vienradži		9789934091681	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020		Maša un Lācis	prieks krāsot!	9789934169175	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020		VKN KAS 2019			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	60
+2020		Freaks of "KKC"			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	26
+2020	Iranzo-Lauriņš, Lukas Amors	"Pagrabs"			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	24
+2020	Dūka, Madara	"Ilzenes"			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Briģe, Digne	"Kastīšu-mapīšu vācēju kultūra"			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	16
+2020	Zabludovska, Jana	Zoo			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	16
+2020	Rizkova, Tatjana	Parallel			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	12
+2020	Bukeiko, Paula	Helmvts video			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Ēķe, Sigita	Caurums			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	22
+2020	Albiņš, Uģis	[Formas]			Rīga	Popper	MĀKSLAS KATALOGI	Latviešu	28
+2020	Āva, Georgs Harijs	Latvija 84			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Pavilona, Rasa	Suvenīrs			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Ēķe, Sigita	Bold Transperent Hello			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	14
+2020		Nac Nac			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	16
+2020	Freimanis, Kristaps	Kautkur starp pelehko klusumu un Böhlderaju			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	15
+2020	Ozola, Kate Rasa	Transmute			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	16
+2020	Jegorova, Baiba	Tas, kas ir pa rokai			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Ozola, Kate Rasa	Ju Ha			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Kurševa, Maija	Rīgas sadzīves, komunālo pakalpojumu u.c. darbnīcas			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Krajeviča, Alise	sk.			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Krajeviča, Alise	101112B			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Zvirbule, Karlīna Marta	The Best of WC & ZLS			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Martinsons, Artūrs	[Bez nosaukuma]			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	12
+2020	Jegorova, Baiba	Skudriņas čaklkājītes			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	14
+2020	Freimanis, Kristaps	Aptuveni			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	56
+2020		PJ Masks	varonīgās krāsas	9789934169274	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	24
+2020	Grīnberga, Anete	melnā grāmata			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	24
+2020	Gredzena, Beāte	Darbotiesgribas			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	26
+2020	Deinate, Elīna	I Want That Flower In My Hand			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	16
+2020	Švābe, Kristiāna	My Lovely Strange Colouring Book			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	12
+2020		Delicate Care			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	144
+2020	Zabludovska, Jana	You're a Sunflower, Summer, Girl!			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	132
+2020	Briģe, Digne	Peļķu bridējs			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Deinate, Elīna	Die, Die in My Eye			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	144
+2020	Muzikante, Elīza	Ļotene			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Švābe, Kristiāna	The Bottled Up Emotions			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	144
+2020	Muzikante, Elīza	Maisiņš vaig?			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Martinsons, Artūrs	Frizieris			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	136
+2020	Dūka, Madara	Jo mums rūp katrs klients!			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Briģe, Digne	Pasmaidi			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Martinsons, Artūrs	Zvērests			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Grīnberga, Anete	Childhood Horrors			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	148
+2020	Švābe, Kristiāna	Akmens. Šķēres. Papīrīts	viens, divi, trīs		Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	144
+2020	Dūka, Madara	Dāmu pirkstiņi			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Latviešu	142
+2020	Grīnberga, Anete	Tree of Life			Rīga	Latvijas Mākslas akadēmija	MĀKSLAS KATALOGI	Angļu	146
+2020		Paw Patrol	risini un līmē!	9789934169281	Rīga	EGMONT LATVIJA	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	32
+2020		Murr Modes nams	atrakciju parkā	9789934092060	Rīga	Apgāds Zvaigzne ABC	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	12
+2020		Princeses un viņu brīnumainie draugi	krāsojamā grāmata	9789934092121	Rīga	Apgāds Zvaigzne ABC	MĀKSLAS KATALOGI	Latviešu	16
+2020		Jūgendstila pastkartes	krāsojamā grāmata	9789934566196	Rīga	Rīgas pašvaldības kultūras iestāžu apvienība	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	16
+2020	Ditke, Laura	Es esmu	mandalu krāsojamā dienasgrāmata	9789934232312	Liepāja	Laura Ditke	KRĀSOJAMĀS GRĀMATAS PIEAUGUŠAJIEM, MANDALAS	Latviešu	104
+2020		Lasi, raksti, krāso!		9789934590238	Rīga	Izdevniecība Avots	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	68
+2020	Vītols, Kārlis	Dad			Rīga	Studija Kokles	KOMIKSI	Angļu	16
+2020		Izkrāso savu Mazsalacu!			Mazsalacas novads	Mazsalacas novada pašvaldība	PRAKTISKĀ, ATTĪSTOŠĀ LITERATŪRA BĒRNIEM	Latviešu	40
