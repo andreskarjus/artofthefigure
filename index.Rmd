@@ -75,9 +75,9 @@ knitr::include_graphics(c("img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5
 
 <div style="text-align: justify"> 
 
-**Future**
+**2022**
 
-- Baltic Summer School of Digital Humanities 2022, Riga, Latvia. More details closer to time.
+- Basics of R for data visualization and working with large multilingual datasets - 2 workshops at the Baltic Summer School of Digital Humanities 2022, Riga, Latvia, 26-27.07. [Setup instructions and materials here](https://andreskarjus.github.io/artofthefigure/riga2022/)
 - Summer School of Linguistics 2022, České Budějovice, Czech Republic. More details closer to time.
 
 **2021**
